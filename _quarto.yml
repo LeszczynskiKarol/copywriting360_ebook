@@ -14,6 +14,12 @@ book:
       chapters:
         - chapters/01-wprowadzenie.qmd
         - chapters/02-psychologia-perswazji.qmd
+        - chapters/03-badanie-grupy-docelowej.qmd
+        - chapters/04-naglowki.qmd
+        - chapters/05-lead-pierwszy-akapit.qmd
+        - chapters/06-struktura-body-copy.qmd
+        - chapters/07-wezwanie-do-dzialania.qmd
+        - chapters/08-copywriting-dla-kanalow.qmd
 
   page-navigation: true
 

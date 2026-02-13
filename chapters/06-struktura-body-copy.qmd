@@ -1,0 +1,449 @@
+---
+title: "Struktura i body copy"
+subtitle: "Jak prowadzić czytelnika od początku do końca"
+---
+
+```{=latex}
+\chapteropener{Ludzie nie czytają tekstów w internecie --- skanują je. Twoje zadanie to sprawić, żeby skanowanie prowadziło do czytania.\\--- Jakob Nielsen}
+```
+
+Nagłówek przyciągnął uwagę. Lead wciągnął czytelnika. Teraz musisz go przeprowadzić przez cały tekst --- aż do wezwania do działania.
+
+To najtrudniejsza część copywritingu.
+
+W tym rozdziale poznasz sprawdzone formuły strukturyzowania tekstu, techniki formatowania dla „skanuących" czytelników oraz sposoby na utrzymanie uwagi przez cały tekst --- nieważne, czy ma 500 czy 5000 słów.
+
+## Dlaczego struktura ma znaczenie?
+
+Badania Nielsen Norman Group pokazują, że użytkownicy czytają zaledwie **20-28% tekstu** na stronie internetowej. Średni czas spędzony na stronie przed podjęciem decyzji o pozostaniu lub wyjściu to **15 sekund**.
+
+```{=latex}
+\stathighlight{20\%}{tekstu faktycznie czytają użytkownicy online (Nielsen Norman Group)}
+```
+
+Co to oznacza dla copywritera?
+
+- Twój tekst musi być **skanowalny** --- nawet jeśli ktoś przeczyta tylko nagłówki i wypunktowania, powinien zrozumieć główny przekaz
+- Struktura musi być **logiczna** --- czytelnik musi wiedzieć, gdzie jest i dokąd zmierza
+- Każdy element musi **prowadzić do następnego** --- pamiętasz śliską zjeżdżalnię?
+
+```{=latex}
+\decoline
+```
+
+## Formuły strukturyzowania tekstu
+
+Copywriterzy przez dekady wypracowali sprawdzone formuły organizacji tekstu. To nie są sztywne szablony --- to **mapy myślenia**, które pomagają ułożyć argumenty w najbardziej przekonujący sposób.
+
+### Formuła AIDA
+
+Najstarsza i najbardziej znana formuła copywritingu. Stworzona około 1900 roku przez E. St. Elmo Lewisa.
+
+```{=latex}
+\begin{formula}{AIDA}
+\textbf{A}ttention (Uwaga) --- Przyciągnij uwagę nagłówkiem lub otwarciem\\
+\textbf{I}nterest (Zainteresowanie) --- Wzbudź ciekawość, pokaż, że rozumiesz problem\\
+\textbf{D}esire (Pragnienie) --- Stwórz emocjonalne pragnienie rozwiązania\\
+\textbf{A}ction (Działanie) --- Wezwij do konkretnego działania
+\end{formula}
+```
+
+**Kiedy używać:** Landing page, reklamy, emaile sprzedażowe, teksty dla zimnego ruchu (ludzi, którzy nie znają jeszcze Twojej marki).
+
+```{=latex}
+\begin{przyklad}{AIDA w praktyce --- kurs online}
+\textbf{Attention:} „Czy wiesz, że 90\% copywriterów zarabia mniej niż mogłoby?"
+
+\textbf{Interest:} „Problem nie leży w talencie ani doświadczeniu. Większość copywriterów nigdy nie nauczyła się systemu, który zamienia słowa w pieniądze. Piszą intuicyjnie --- i intuicyjnie tracą klientów."
+
+\textbf{Desire:} „Wyobraź sobie, że otwierasz laptop i dokładnie wiesz, jak napisać tekst, który sprzedaje. Bez zgadywania. Bez bloku twórczego. Po prostu otwierasz sprawdzoną formułę i piszesz. W 90 dni możesz opanować system, który pozwoli Ci podwoić stawki."
+
+\textbf{Action:} „Dołącz do Copywriting 360° dziś i zacznij pisać teksty, które konwertują. Pierwsze 7 dni za darmo."
+\end{przyklad}
+```
+
+### Formuła PAS
+
+Uważana przez legendę copywritingu Dana Kennedy'ego za „najbardziej niezawodną formułę sprzedaży w historii".
+
+```{=latex}
+\begin{formula}{PAS}
+\textbf{P}roblem --- Zidentyfikuj i nazwij problem czytelnika\\
+\textbf{A}gitate (Pogłęb) --- Pogłęb ból, pokaż konsekwencje nierozwiązania problemu\\
+\textbf{S}olution (Rozwiązanie) --- Przedstaw swoje rozwiązanie
+\end{formula}
+```
+
+**Kiedy używać:** Krótkie teksty (posty social media, emaile, reklamy), teksty dla odbiorców świadomych problemu.
+
+```{=latex}
+\begin{przyklad}{PAS w praktyce --- usługa SEO}
+\textbf{Problem:} „Twoja strona jest niewidoczna w Google. Potencjalni klienci Cię nie znajdują."
+
+\textbf{Agitate:} „Każdego dnia tracisz dziesiątki zapytań ofertowych, które trafiają do konkurencji. Twoi rywale z pierwszej strony Google zbierają klientów, którzy powinni być Twoi. A z każdym miesiącem przepaść się powiększa."
+
+\textbf{Solution:} „Nasza usługa SEO wyniesie Twoją stronę na pierwszą stronę Google w 90 dni --- albo nie płacisz."
+\end{przyklad}
+```
+
+```{=latex}
+\begin{wskazowka}
+PAS to formuła oparta na bólu. Działa, bo ludzie są silniej motywowani unikaniem straty niż osiąganiem zysku (awersja do straty). Ale używaj z umiarem --- zbyt agresywne „pogłębianie bólu" może zrazić czytelnika.
+\end{wskazowka}
+```
+
+### Formuła BAB (Before-After-Bridge)
+
+Pokazuje transformację --- stan przed i po --- a następnie przedstawia most (Twój produkt/usługę).
+
+```{=latex}
+\begin{formula}{BAB}
+\textbf{B}efore (Przed) --- Opisz obecną, niekomfortową sytuację czytelnika\\
+\textbf{A}fter (Po) --- Namaluj obraz idealnej przyszłości\\
+\textbf{B}ridge (Most) --- Pokaż, jak Twój produkt prowadzi z „przed" do „po"
+\end{formula}
+```
+
+**Kiedy używać:** Teksty transformacyjne, case studies, historie sukcesu, produkty zmieniające życie.
+
+```{=latex}
+\begin{przyklad}{BAB w praktyce --- aplikacja do produktywności}
+\textbf{Before:} „Kończysz każdy dzień z uczuciem, że nic nie zrobiłeś. Lista zadań rośnie, deadline'y gonią, a Ty pracujesz po 10 godzin i wciąż nie nadążasz."
+
+\textbf{After:} „Wyobraź sobie, że kończysz pracę o 17:00 z poczuciem spełnienia. Wszystkie ważne zadania zrobione. Zero zaległości. Wieczór wolny dla rodziny."
+
+\textbf{Bridge:} „TaskFlow to aplikacja, która zmienia chaos w system. 15 minut planowania rano = 3 godziny zaoszczędzonego czasu dziennie. Dołącz do 50 000 użytkowników, którzy odzyskali kontrolę nad swoim czasem."
+\end{przyklad}
+```
+
+### Formuła FAB
+
+Idealna do opisywania produktów i usług. Przekształca suche cechy w emocjonalne korzyści.
+
+```{=latex}
+\begin{formula}{FAB}
+\textbf{F}eature (Cecha) --- Co produkt MA lub ROBI\\
+\textbf{A}dvantage (Zaleta) --- Dlaczego ta cecha jest lepsza od alternatyw\\
+\textbf{B}enefit (Korzyść) --- Co to oznacza dla KLIENTA
+\end{formula}
+```
+
+**Kiedy używać:** Opisy produktów, strony z cechami, porównania, body copy po AIDA/PAS.
+
+```{=latex}
+\begin{przyklad}{FAB w praktyce --- laptop}
+\textbf{Feature:} „Bateria 20 godzin"
+
+\textbf{Advantage:} „Dwa razy dłużej niż standardowe laptopy biznesowe"
+
+\textbf{Benefit:} „Pracujesz przez cały lot transatlantycki bez szukania gniazdka. Spotkania, prezentacje, praca w kawiarni --- bez stresu, że bateria padnie w najgorszym momencie."
+\end{przyklad}
+```
+
+```{=latex}
+\begin{wazne}
+Błąd nr 1 copywriterów: zatrzymują się na cechach. „Nasz produkt ma X, Y, Z." Klient nie kupuje cech --- kupuje to, co cechy dla niego ZROBIĄ. Zawsze dochodź do korzyści.
+\end{wazne}
+```
+
+### Formuła 4P
+
+Sprawdzona struktura dla stron sprzedażowych i landing page.
+
+```{=latex}
+\begin{formula}{4P}
+\textbf{P}romise (Obietnica) --- Co klient OTRZYMA\\
+\textbf{P}icture (Obraz) --- Namaluj wizję życia po zakupie\\
+\textbf{P}roof (Dowód) --- Udowodnij, że obietnica jest realna\\
+\textbf{P}ush (Pchnięcie) --- Wezwij do działania
+\end{formula}
+```
+
+**Kiedy używać:** Landing page, strony sprzedażowe, oferty.
+
+### Łączenie formuł (Hybrydy)
+
+Profesjonalni copywriterzy rzadko używają jednej formuły. Łączą je w hybrydowe struktury.
+
+**Przykład hybrydy PAS + FAB + AIDA:**
+
+1. **PAS** (hook) --- Problem i pogłębienie w nagłówku i pierwszych akapitach
+2. **FAB** (body) --- Przedstawienie rozwiązania z cechami, zaletami i korzyściami
+3. **AIDA** (close) --- Desire (testimoniale, wizja) + Action (CTA)
+
+```{=latex}
+\decoline
+```
+
+## Formatowanie dla „skanuących" czytelników
+
+Większość czytelników online nie czyta --- skanuje. Badania eye-tracking pokazują, że skanują w kształcie litery **F**: dwa poziome pasy u góry strony, potem pionowy pas w dół lewej strony.
+
+```{=latex}
+\begin{pojecie}{F-Pattern (wzorzec F)}
+Użytkownicy skanują strony internetowe w kształcie litery F --- najpierw poziomo u góry, potem nieco niżej poziomo, a następnie pionowo w dół lewej strony. Dlatego najważniejsze informacje powinny znajdować się u góry i po lewej stronie.
+\end{pojecie}
+```
+
+### Nagłówki i śródtytuły
+
+Nagłówki (H1, H2, H3...) to **szkielet** Twojego tekstu. Czytelnik skanujący powinien zrozumieć główny przekaz czytając **tylko nagłówki**.
+
+**Zasady skutecznych śródtytułów:**
+
+- **Mówią, o czym jest sekcja** --- nie bądź tajemniczy
+- **Zawierają korzyść** --- „Jak zaoszczędzić 10 godzin tygodniowo" zamiast „O oszczędzaniu czasu"
+- **Są krótkie** --- 4-8 słów, nigdy nie powinny przechodzić do drugiej linii
+- **Tworzą logiczny flow** --- czytane po kolei opowiadają historię
+
+```{=latex}
+\begin{wskazowka}
+\textbf{Test nagłówków:} Przeczytaj tylko nagłówki swojego tekstu. Czy ktoś, kto przeczyta wyłącznie je, zrozumie Twój główny przekaz i korzyści? Jeśli nie --- przepisz nagłówki.
+\end{wskazowka}
+```
+
+### Krótkie akapity
+
+W druku akapit ma 5-7 zdań. W internecie? **2-4 zdania maksymalnie**.
+
+Długie bloki tekstu to „ściany tekstu" (walls of text) --- sygnał dla mózgu: „to wymaga wysiłku". Krótkie akapity mówią: „to jest łatwe do przyswojenia".
+
+**Zasady:**
+
+- Jeden akapit = jedna myśl
+- Maksymalnie 3-4 zdania na akapit
+- Po każdych 300 słowach --- śródtytuł
+- Biała przestrzeń to Twój przyjaciel
+
+### Listy i wypunktowania
+
+Listy to **magnes dla oka**. Sygnalizują: „tu jest seria punktów, łatwych do przyswojenia".
+
+**Kiedy używać list:**
+
+- Serie kroków lub instrukcji (numerowane)
+- Zbiory cech lub korzyści (punktowane)
+- Podsumowania kluczowych informacji
+- Wszystko, co ma 3+ elementów
+
+**Zasady skutecznych list:**
+
+- Równoległa struktura --- każdy punkt zaczyna się od tego samego typu słowa (czasownik, rzeczownik)
+- Podobna długość punktów --- wizualna spójność
+- 5-7 punktów optimum (zgodnie z zasadą Millera o pojemności pamięci roboczej)
+- Najważniejsze punkty na początku i na końcu (efekt pierwszeństwa i świeżości)
+
+### Wyróżnienia (bold, italic)
+
+Wyróżnienia tworzą „skanowalny szkielet" --- czytelnik przeskakuje wzrokiem po pogrubionych frazach i rozumie sedno.
+
+**Zasada:** Po napisaniu tekstu wróć i pogrub tylko te frazy, które --- przeczytane po kolei --- opowiadają całą historię.
+
+```{=latex}
+\begin{uwaga}
+Nie pogrubiaj wszystkiego. Jeśli wszystko jest ważne, nic nie jest ważne. Maksymalnie 10-15\% tekstu powinno być pogrubione.
+\end{uwaga}
+```
+
+### Callouts i boxy
+
+Wyróżnione bloki tekstu (jak te w tym podręczniku) przyciągają uwagę i sygnalizują: „to jest szczególnie ważne".
+
+**Używaj do:**
+
+- Definicji i pojęć
+- Wskazówek i ostrzeżeń
+- Cytatów i statystyk
+- Podsumowań kluczowych punktów
+
+```{=latex}
+\decoline
+```
+
+## Przejścia i flow tekstu
+
+Każde zdanie musi prowadzić do następnego. Każdy akapit musi prowadzić do następnego. To jest esencja „śliskiej zjeżdżalni".
+
+### Słowa przejściowe (Transition Words)
+
+Słowa przejściowe to **klej** między zdaniami i akapitami. Pokazują czytelnikowi relację między ideami.
+
+**Kategorie słów przejściowych:**
+
+**Dodawanie:** i, także, ponadto, co więcej, dodatkowo, oprócz tego
+
+**Kontrast:** ale, jednak, z drugiej strony, natomiast, mimo to, w przeciwieństwie do
+
+**Przyczyna i skutek:** dlatego, w rezultacie, w konsekwencji, ponieważ, zatem
+
+**Przykład:** na przykład, to znaczy, innymi słowy, konkretnie, ilustrując
+
+**Podsumowanie:** podsumowując, w skrócie, krótko mówiąc, ostatecznie, w konkluzji
+
+**Sekwencja:** po pierwsze, następnie, potem, w końcu, na zakończenie
+
+```{=latex}
+\begin{wskazowka}
+Yoast SEO zaleca, żeby minimum \textbf{30\% zdań} zawierało słowa przejściowe. To dobry benchmark dla tekstów online.
+\end{wskazowka}
+```
+
+### Technika „bucket brigades" (przypomnienie)
+
+Bucket brigades to krótkie frazy, które „podają" uwagę czytelnika z jednego akapitu do następnego.
+
+**Przykłady:**
+
+- Oto dlaczego...
+- Ale to nie wszystko...
+- I tu jest najlepsza część...
+- Pozwól, że wyjaśnię...
+- Brzmi znajomo?
+
+**Gdzie umieszczać:**
+
+- Na początku akapitów (po śródtytule)
+- Przed kluczowymi informacjami
+- Gdy zmieniasz temat lub kierunek
+- Gdy tekst staje się gęsty lub techniczny
+
+### Technika „Open Loops" (Otwarte pętle)
+
+Otwarta pętla to obietnica informacji, którą dostarczysz później. Ludzki mózg **nienawidzi** niedokończonych historii --- to efekt Zeigarnik.
+
+**Przykłady:**
+
+- „Za chwilę pokażę Ci technikę, która zmieniła moje podejście do nagłówków..."
+- „(Ale o tym za moment.)"
+- „Wrócimy do tego w sekcji o CTA."
+- „Jest jeden element, o którym jeszcze nie wspomniałem..."
+
+```{=latex}
+\begin{pojecie}{Efekt Zeigarnik}
+Ludzie pamiętają niedokończone lub przerwane zadania lepiej niż zadania ukończone. Otwarte pętle wykorzystują ten efekt --- czytelnik musi czytać dalej, żeby „zamknąć" pętlę.
+\end{pojecie}
+```
+
+```{=latex}
+\decoline
+```
+
+## Struktura długiego tekstu (long-form copy)
+
+Długie teksty sprzedażowe, artykuły pillar content i ebooki wymagają szczególnej uwagi do struktury.
+
+### Zasada „odwróconej piramidy"
+
+Najważniejsze informacje na górze, szczegóły na dole. Czytelnik, który przeczyta tylko początek, powinien poznać sedno.
+
+```{=latex}
+\begin{formula}{Odwrócona piramida}
+\textbf{Górna część:} Najważniejsza informacja, główna korzyść, kluczowy wniosek\\
+\textbf{Środek:} Szczegóły, dowody, rozwinięcie argumentów\\
+\textbf{Dół:} Kontekst, tło, informacje uzupełniające
+\end{formula}
+```
+
+### Podsumowania (TL;DR)
+
+Dla długich tekstów dodawaj podsumowania na początku lub na końcu sekcji. Skanujący czytelnik je przeczyta i zdecyduje, czy warto zagłębić się w szczegóły.
+
+### Wizualne przerwy
+
+W długim tekście co 300-500 słów dodawaj element „resetujący" uwagę:
+
+- Śródtytuł
+- Obraz lub grafika
+- Lista wypunktowana
+- Cytat lub callout
+- Krótki, 1-zdaniowy akapit
+
+### Struktura sekcji w długim tekście
+
+Każda sekcja długiego tekstu powinna mieć własną mini-strukturę:
+
+1. **Śródtytuł** --- zapowiada temat sekcji
+2. **Hook** --- pierwsze zdanie wciąga w sekcję
+3. **Body** --- rozwinięcie tematu
+4. **Transition** --- przejście do następnej sekcji
+
+```{=latex}
+\decoline
+```
+
+## Checklist struktury i body copy
+
+Przed publikacją sprawdź swój tekst według tej listy:
+
+**Struktura:**
+
+- [ ] Tekst ma jasną formułę (AIDA, PAS, BAB lub hybryda)
+- [ ] Nagłówki czytane same opowiadają całą historię
+- [ ] Każda sekcja ma jeden główny temat
+- [ ] Przejścia między sekcjami są płynne
+
+**Formatowanie:**
+
+- [ ] Akapity mają maksymalnie 3-4 zdania
+- [ ] Listy używane tam, gdzie jest 3+ elementów
+- [ ] Pogrubienia tworzą „skanowalny szkielet"
+- [ ] Śródtytuł co maksymalnie 300 słów
+
+**Flow:**
+
+- [ ] Minimum 30% zdań zawiera słowa przejściowe
+- [ ] Bucket brigades rozmieszczone co 2-3 akapity
+- [ ] Tekst prowadzi czytelnika logicznie od początku do końca
+- [ ] Każde zdanie daje powód, żeby przeczytać następne
+
+**Długi tekst (jeśli dotyczy):**
+
+- [ ] Podsumowania dla długich sekcji
+- [ ] Wizualne przerwy co 300-500 słów
+- [ ] Najważniejsze informacje na górze (odwrócona piramida)
+
+```{=latex}
+\decoline
+```
+
+```{=latex}
+\begin{cwiczenie}{Przepisz tekst używając formuły}
+Wybierz krótki tekst reklamowy lub opis produktu (może być Twój lub znaleziony online).
+
+\textbf{Część 1: Analiza (10 min)}
+\begin{enumerate}
+  \item Zidentyfikuj, czy tekst używa jakiejś formuły (AIDA, PAS, BAB, FAB)?
+  \item Zaznacz słowa przejściowe
+  \item Oceń formatowanie (akapity, listy, wyróżnienia)
+\end{enumerate}
+
+\textbf{Część 2: Przepisanie (20 min)}
+
+Przepisz tekst używając formuły PAS + FAB:
+\begin{itemize}
+  \item Problem (1-2 zdania)
+  \item Agitate (2-3 zdania)
+  \item Solution + FAB (cecha → zaleta → korzyść dla 3 głównych cech)
+\end{itemize}
+
+\textbf{Część 3: Formatowanie (10 min)}
+\begin{enumerate}
+  \item Podziel na krótkie akapity (max 3 zdania)
+  \item Dodaj 1-2 listy wypunktowane
+  \item Pogrub kluczowe frazy
+  \item Dodaj 2-3 bucket brigades
+\end{enumerate}
+
+\textbf{Czas:} 40 minut
+\end{cwiczenie}
+```
+
+```{=latex}
+\takeaway{Struktura to szkielet przekonującego tekstu. Używaj sprawdzonych formuł (AIDA, PAS, BAB, FAB) jako map myślenia. Formatuj dla skanujących czytelników: krótkie akapity, listy, wyróżnienia, częste śródtytuły. Utrzymuj flow słowami przejściowymi i bucket brigades. Pamiętaj: 80\% czytelników skanuje --- Twoja struktura musi działać nawet dla tych, którzy nie przeczytają każdego słowa.}
+```
+
+W następnym rozdziale zajmiemy się **wezwaniem do działania (CTA)** --- elementem, który zamienia czytelników w klientów.
+
+```{=latex}
+\decoline
+```

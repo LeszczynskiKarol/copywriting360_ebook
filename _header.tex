@@ -1,10 +1,7 @@
 % ============================================================
-% COPYWRITING 360° - Professional Header
+% COPYWRITING 360 - Header BEZ FontAwesome
 % ============================================================
 
-% ------------------------------------------------------------
-% COLORS
-% ------------------------------------------------------------
 \usepackage{xcolor}
 
 \definecolor{primaryblue}{HTML}{1a73e8}
@@ -29,12 +26,8 @@
 \definecolor{exercisebg}{HTML}{e3f2fd}
 \definecolor{exerciseborder}{HTML}{1976d2}
 
-% ------------------------------------------------------------
-% PACKAGES
-% ------------------------------------------------------------
 \usepackage{tcolorbox}
 \tcbuselibrary{skins,breakable}
-\usepackage{fontawesome5}
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{float}
@@ -45,9 +38,7 @@
 \usepackage[normalem]{ulem}
 \usetikzlibrary{positioning}
 
-% ------------------------------------------------------------
-% CHAPTER & SECTION STYLING
-% ------------------------------------------------------------
+% CHAPTERS
 \titleformat{\chapter}[display]
   {\normalfont\huge\bfseries\color{primarydark}}
   {\flushright\fontsize{72}{72}\selectfont\textcolor{primaryblue!30}{\thechapter}}
@@ -68,14 +59,20 @@
 
 \titlespacing*{\chapter}{0pt}{30pt}{20pt}
 
-% ------------------------------------------------------------
-% HEADERS & FOOTERS
-% ------------------------------------------------------------
+\titleformat{\paragraph}[runin]
+  {\normalfont\normalsize\bfseries\color{primaryblue}}
+  {}
+  {0em}
+  {}
+  [.]
+\titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1em}
+
+% HEADERS FOOTERS
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[LE,RO]{\small\color{textmuted}\leftmark}
 \fancyfoot[LE,RO]{\bfseries\color{primaryblue}\thepage}
-\fancyfoot[RE,LO]{\small\color{textmuted}Copywriting 360°}
+\fancyfoot[RE,LO]{\small\color{textmuted}Copywriting 360}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0pt}
 
@@ -85,11 +82,7 @@
   \renewcommand{\headrulewidth}{0pt}
 }
 
-% ------------------------------------------------------------
-% CUSTOM BOXES
-% ------------------------------------------------------------
-
-% Quote box
+% BOXES - bez FontAwesome
 \newtcolorbox{cytat}{
   enhanced,
   breakable,
@@ -102,7 +95,6 @@
   fontupper=\itshape\large
 }
 
-% Tip box
 \newtcolorbox{wskazowka}{
   enhanced,
   breakable,
@@ -112,14 +104,13 @@
   borderline west={4pt}{0pt}{tipborder},
   sharp corners,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{tipborder}\faLightbulb[regular]\ \ WSKAZÓWKA},
+  title={\color{tipborder}WSKAZOWKA},
   fonttitle=\bfseries,
   coltitle=tipborder,
   attach boxed title to top left={yshift=-2mm, xshift=5mm},
   boxed title style={colback=tipbg, boxrule=0pt}
 }
 
-% Warning box
 \newtcolorbox{uwaga}{
   enhanced,
   breakable,
@@ -129,14 +120,13 @@
   borderline west={4pt}{0pt}{warningborder},
   sharp corners,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{warningborder}\faExclamationTriangle\ \ UWAGA},
+  title={\color{warningborder}UWAGA},
   fonttitle=\bfseries,
   coltitle=warningborder,
   attach boxed title to top left={yshift=-2mm, xshift=5mm},
   boxed title style={colback=warningbg, boxrule=0pt}
 }
 
-% Important box
 \newtcolorbox{wazne}{
   enhanced,
   breakable,
@@ -146,14 +136,13 @@
   borderline west={4pt}{0pt}{importantborder},
   sharp corners,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{importantborder}\faExclamationCircle\ \ WAŻNE},
+  title={\color{importantborder}WAZNE},
   fonttitle=\bfseries,
   coltitle=importantborder,
   attach boxed title to top left={yshift=-2mm, xshift=5mm},
   boxed title style={colback=importantbg, boxrule=0pt}
 }
 
-% Exercise box
 \newtcolorbox{cwiczenie}[1]{
   enhanced,
   breakable,
@@ -162,14 +151,13 @@
   boxrule=1pt,
   arc=5pt,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{white}\faEdit\ \ ĆWICZENIE: #1},
+  title={\color{white}CWICZENIE: #1},
   fonttitle=\bfseries,
   coltitle=white,
   attach boxed title to top left={yshift=-3mm, xshift=5mm},
   boxed title style={colback=exerciseborder, arc=3pt}
 }
 
-% Concept box
 \newtcolorbox{pojecie}[1]{
   enhanced,
   breakable,
@@ -178,14 +166,13 @@
   boxrule=2pt,
   arc=0pt,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{white}\faKey\ \ #1},
+  title={\color{white}#1},
   fonttitle=\bfseries,
   coltitle=white,
   attach boxed title to top left={yshift=-3mm, xshift=5mm},
   boxed title style={colback=primarydark, arc=2pt}
 }
 
-% Formula box
 \newtcolorbox{formula}[1]{
   enhanced,
   colback=white,
@@ -193,14 +180,13 @@
   boxrule=2pt,
   arc=8pt,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{white}\faMagic\ \ FORMUŁA: #1},
+  title={\color{white}FORMULA: #1},
   fonttitle=\bfseries,
   coltitle=white,
   attach boxed title to top center={yshift=-3mm},
   boxed title style={colback=accentpurple, arc=5pt}
 }
 
-% Example box
 \newtcolorbox{przyklad}[1]{
   enhanced,
   breakable,
@@ -209,28 +195,22 @@
   boxrule=1pt,
   arc=0pt,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{white}\faFileAlt\ \ PRZYKŁAD: #1},
+  title={\color{white}PRZYKLAD: #1},
   fonttitle=\bfseries,
   coltitle=white,
   attach boxed title to top left={yshift=-3mm, xshift=5mm},
   boxed title style={colback=primaryblue, arc=2pt}
 }
 
-% ------------------------------------------------------------
-% LIST STYLING
-% ------------------------------------------------------------
-\setlist[itemize,1]{label=\textcolor{primaryblue}{\faChevronRight}, leftmargin=*, itemsep=4pt}
-\setlist[itemize,2]{label=\textcolor{primaryblue}{\faAngleRight}, leftmargin=*, itemsep=2pt}
+% LISTS
+\setlist[itemize,1]{label=\textcolor{primaryblue}{--}, leftmargin=*, itemsep=4pt}
+\setlist[itemize,2]{label=\textcolor{primaryblue}{-}, leftmargin=*, itemsep=2pt}
 \setlist[enumerate,1]{label=\textcolor{primaryblue}{\bfseries\arabic*.}, leftmargin=*, itemsep=4pt}
 
 \newlist{checklist}{itemize}{1}
-\setlist[checklist]{label=\textcolor{accentgreen}{\faCheckSquare}, leftmargin=*, itemsep=4pt}
+\setlist[checklist]{label=\textcolor{accentgreen}{$\checkmark$}, leftmargin=*, itemsep=4pt}
 
-% ------------------------------------------------------------
-% SPECIAL COMMANDS
-% ------------------------------------------------------------
-
-% Chapter opener quote
+% COMMANDS
 \newcommand{\chapteropener}[1]{%
   \begin{center}
     \large\itshape\color{textmuted}#1
@@ -238,16 +218,12 @@
   \vspace{1em}
 }
 
-% Decorative line
 \newcommand{\decoline}{%
   \begin{center}
-    \textcolor{bordergray}{\rule{0.25\textwidth}{0.5pt}}%
-    \quad\textcolor{primaryblue}{\faFeather}\quad%
-    \textcolor{bordergray}{\rule{0.25\textwidth}{0.5pt}}
+    \textcolor{bordergray}{\rule{0.3\textwidth}{0.5pt}}
   \end{center}
 }
 
-% Key takeaway
 \newcommand{\takeaway}[1]{%
   \begin{tcolorbox}[
     enhanced,
@@ -258,12 +234,11 @@
     sharp corners,
     left=15pt, right=15pt, top=10pt, bottom=10pt
   ]
-    \textbf{\color{accentgreen}\faCheckCircle\ \ KLUCZOWY WNIOSEK:}\\[5pt]
+    \textbf{\color{accentgreen}KLUCZOWY WNIOSEK:}\\[5pt]
     #1
   \end{tcolorbox}
 }
 
-% Stat highlight
 \newcommand{\stathighlight}[2]{%
   \begin{center}
     \begin{tcolorbox}[
@@ -281,7 +256,6 @@
   \end{center}
 }
 
-% Before/After comparison
 \newcommand{\beforeafter}[2]{%
   \begin{tcolorbox}[
     enhanced,
@@ -294,15 +268,12 @@
     arc=5pt,
     left=10pt, right=10pt, top=10pt, bottom=10pt
   ]
-    \textbf{\color{accentred}\faTimesCircle\ \ PRZED}\\[6pt]
+    \textbf{\color{accentred}PRZED:}\\[6pt]
     \small #1
     \tcblower
-    \textbf{\color{accentgreen}\faCheckCircle\ \ PO}\\[6pt]
+    \textbf{\color{accentgreen}PO:}\\[6pt]
     \small #2
   \end{tcolorbox}
 }
 
-% ------------------------------------------------------------
-% TABLE STYLING
-% ------------------------------------------------------------
 \renewcommand{\arraystretch}{1.3}

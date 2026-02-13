@@ -1,0 +1,613 @@
+---
+title: "Copywriting dla różnych kanałów"
+subtitle: "Email, social media, landing page i więcej"
+---
+
+```{=latex}
+\chapteropener{Dobry copywriter wie, jak dostosować przekaz do kanału, nie tracąc głosu marki.\\--- Rachael Goulet, Sprout Social}
+```
+
+To, co działa na landing page, niekoniecznie zadziała w emailu. To, co przyciąga uwagę na LinkedIn, może zostać zignorowane na Instagramie. Każdy kanał ma swoje zasady, ograniczenia i oczekiwania odbiorców.
+
+W tym rozdziale poznasz specyfikę copywritingu dla najważniejszych kanałów marketingowych --- od emaili, przez social media, po landing page. Nauczysz się dostosowywać przekaz do medium, nie tracąc spójności marki.
+
+## Dlaczego kanał ma znaczenie?
+
+Każdy kanał komunikacji ma:
+
+- **Inne ograniczenia techniczne** --- limity znaków, format wyświetlania
+- **Inne oczekiwania odbiorców** --- co i jak chcą konsumować
+- **Inny kontekst** --- gdzie i kiedy czytają treść
+- **Inną relację z marką** --- zimny ruch vs. lojalni subskrybenci
+
+```{=latex}
+\begin{wazne}
+Kopiowanie tego samego tekstu na wszystkie kanały to błąd początkujących. Każdy kanał wymaga adaptacji --- nie tylko skrócenia czy wydłużenia, ale przemyślenia całego podejścia.
+\end{wazne}
+```
+
+Dobry copywriter opanowuje **głos marki** (który pozostaje spójny) i **ton przekazu** (który dostosowuje do kanału).
+
+```{=latex}
+\decoline
+```
+
+## Email marketing
+
+Email pozostaje jednym z najbardziej dochodowych kanałów marketingowych --- ROI wynosi średnio **42 USD na każdy wydany 1 USD**. Ale sukces emaila zależy od tego, czy w ogóle zostanie otwarty.
+
+### Temat emaila (Subject Line)
+
+Temat to nagłówek emaila --- od niego zależy, czy odbiorca w ogóle przeczyta resztę.
+
+```{=latex}
+\stathighlight{47\%}{odbiorców decyduje o otwarciu emaila wyłącznie na podstawie tematu}
+```
+
+**Statystyki, które musisz znać:**
+
+- **69%** odbiorców oznacza email jako spam na podstawie samego tematu
+- Tematy z **personalizacją** (imię odbiorcy) mają 29% wyższy open rate
+- Tematy z **liczbami** mają 57% wyższy open rate
+- Tematy z **emoji** mają do 56% wyższy open rate (ale używaj z umiarem)
+- Optymalna długość: **30-50 znaków** (max 7 słów)
+
+**Formuły skutecznych tematów:**
+
+1. **Personalizacja + korzyść:**
+   - „Karol, Twój przewodnik po copywritingu czeka"
+   
+2. **Pytanie:**
+   - „Czy popełniasz ten błąd w nagłówkach?"
+   
+3. **Liczba + obietnica:**
+   - „5 technik, które podwoiły moje konwersje"
+   
+4. **Pilność (jeśli prawdziwa):**
+   - „Ostatnie 24h: -50% na wszystkie kursy"
+   
+5. **Ciekawość:**
+   - „To zmieniło moje podejście do pisania..."
+
+```{=latex}
+\begin{wskazowka}
+Testuj A/B swoje tematy. Napisz 3-5 wersji dla każdego emaila i sprawdź, która działa najlepiej. Nawet drobne zmiany mogą dramatycznie wpłynąć na open rate.
+\end{wskazowka}
+```
+
+### Preheader (tekst podglądu)
+
+Preheader to tekst wyświetlany obok tematu w skrzynce odbiorczej. To Twoja druga szansa na przekonanie do otwarcia.
+
+**Zasady:**
+
+- Optymalna długość: **85-100 znaków**
+- Rozwijaj obietnicę z tematu, nie powtarzaj jej
+- Dodaj element intrygi lub korzyści
+- Emaile z preheaderem mają o **7% wyższy** open rate
+
+### Treść emaila
+
+Po otwarciu --- utrzymaj uwagę i doprowadź do kliknięcia.
+
+**Struktura skutecznego emaila:**
+
+1. **Personalizowane powitanie** --- „Cześć Karol" > „Szanowny Kliencie"
+2. **Hook w pierwszym zdaniu** --- od razu do rzeczy
+3. **Główna treść** --- krótkie akapity, jedna myśl
+4. **Jedno główne CTA** --- jasne i widoczne
+5. **PS (opcjonalnie)** --- często najczęściej czytana część emaila
+
+**Best practices:**
+
+- **Spójność** z tematem --- jeśli temat obiecuje X, email musi dostarczyć X (30% wypisów z powodu niespójności!)
+- **Personalizacja** --- 28,57% wzrost CTR w spersonalizowanych emailach
+- **Krótkie akapity** --- 2-3 zdania maksymalnie
+- **Jeden główny CTA** --- maksymalnie dwa
+- **Skanowalna struktura** --- nagłówki, wypunktowania, wyróżnienia
+
+```{=latex}
+\begin{przyklad}{Struktura emaila sprzedażowego}
+\textbf{Temat:} Karol, 3 błędy które kosztują Cię klientów
+
+\textbf{Preheader:} (i jak je naprawić w 10 minut)
+
+\textbf{Treść:}
+
+Cześć Karol,
+
+Czy wiesz, że 73\% landing page traci konwersje przez jeden prosty błąd?
+
+[Hook --- problem, który odbiorca rozpoznaje]
+
+Przeanalizowałem 50 stron moich klientów i znalazłem 3 powtarzające się błędy:
+
+1. Zbyt wiele CTA (rozprasza uwagę)
+2. Nagłówek o firmie, nie o kliencie
+3. Brak dowodu społecznego
+
+[Treść --- wartość, konkretne informacje]
+
+Stworzyłem krótki przewodnik, który pokazuje jak naprawić każdy z nich --- z przykładami przed i po.
+
+\textbf{[Pobierz darmowy przewodnik]}
+
+[CTA --- jasne, z korzyścią]
+
+PS: Jeden z moich klientów zwiększył konwersje o 34\% poprawiając tylko punkt nr 2.
+
+[PS --- dodatkowy dowód/motywacja]
+\end{przyklad}
+```
+
+### Typy emaili i ich specyfika
+
+| Typ emaila | Cel | Kluczowe elementy |
+|------------|-----|-------------------|
+| Welcome | Onboarding | Wartość od razu, co dalej |
+| Newsletter | Edukacja, relacja | Wartość > promocja |
+| Promocyjny | Sprzedaż | Pilność, korzyść, CTA |
+| Abandoned cart | Odzyskanie | Reminder, incentive |
+| Survey | Feedback | Krótki, jasny cel |
+
+```{=latex}
+\decoline
+```
+
+## Social media
+
+Social media to rozmowa, nie wykład. Copywriting tutaj musi być konwersacyjny, angażujący i dopasowany do specyfiki platformy.
+
+### Uniwersalne zasady social media copy
+
+**1. Hook w pierwszym zdaniu**
+
+Na social media pierwsze zdanie decyduje, czy ktoś kliknie „więcej" lub przewinie dalej.
+
+```{=latex}
+\begin{wskazowka}
+Instagram pokazuje tylko pierwsze 125 znaków przed „więcej''. LinkedIn --- około 140. Twój hook musi zmieścić się w tym limicie i zmusić do kliknięcia.
+\end{wskazowka}
+```
+
+**2. Pisz jak mówisz**
+
+Social media to nie miejsce na korporacyjny żargon. Pisz tak, jakbyś rozmawiał z przyjacielem (ale profesjonalnie).
+
+**3. Jeden post = jeden główny przekaz**
+
+Nie próbuj powiedzieć wszystkiego w jednym poście. Skup się na jednej myśli, jednym CTA.
+
+**4. Mieszaj typy CTA**
+
+Nie każdy post musi sprzedawać. Mieszaj:
+- Edukacyjne („Zapisz ten post")
+- Angażujące („Co myślisz? Napisz w komentarzu")
+- Sprzedażowe („Link w bio")
+
+**5. Wykorzystuj FOMO**
+
+Strach przed przegapieniem działa szczególnie dobrze w social media --- gdzie treści są ulotne.
+
+### LinkedIn
+
+LinkedIn to platforma profesjonalna, ale coraz bardziej osobista. Użytkownicy szukają wartościowych treści branżowych i autentycznych historii.
+
+**Specyfika:**
+
+- Limit: **3000 znaków** (posty), artykuły bez limitu
+- Publiczność: profesjonaliści, decydenci B2B
+- Ton: profesjonalny, ale ludzki
+- Długie posty działają (jeśli są wartościowe)
+
+**Co działa na LinkedIn:**
+
+- **Osobiste historie** z profesjonalną lekcją
+- **Listy i poradniki** (konkretna wartość)
+- **Kontrowersyjne opinie** (przemyślane, nie trolling)
+- **Case studies** i wyniki
+- **Behind the scenes** z pracy
+
+**Struktura posta LinkedIn:**
+
+```
+[HOOK --- mocne pierwsze zdanie]
+
+[Pusta linia]
+
+[Historia lub kontekst --- krótkie akapity, każdy 1-2 zdania]
+
+[Pusta linia]
+
+[Główna lekcja lub wartość]
+
+[Pusta linia]
+
+[CTA lub pytanie do dyskusji]
+```
+
+```{=latex}
+\begin{przyklad}{Post LinkedIn}
+Straciłem klienta wartego 50 000 zł.
+
+Przez jeden email.
+
+Wysłałem ofertę bez personalizacji. Skopiowałem szablon. Nie sprawdziłem nawet, czy imię jest poprawne.
+
+Klient odpowiedział: „Widzę, że jesteśmy dla Was jednym z wielu. Dziękujemy, ale nie."
+
+To była najdroższa lekcja w mojej karierze.
+
+Od tamtej pory:
+→ Każda oferta jest pisana od zera
+→ Zaczynam od researchu firmy klienta
+→ Personalizuję nie tylko imię, ale cały przekaz
+
+Jeden email może zbudować relację.
+Lub ją zniszczyć.
+
+Co było Waszą najdroższą lekcją w sprzedaży?
+\end{przyklad}
+```
+
+### Instagram
+
+Instagram to platforma wizualna, ale caption (podpis) ma ogromne znaczenie dla zaangażowania.
+
+**Specyfika:**
+
+- Limit: **2200 znaków** (widoczne ~125 przed „więcej")
+- Publiczność: młodsza, wizualna, mobilna
+- Ton: casual, autentyczny, emocjonalny
+- Hashtagi: 3-5 dobrze dobranych > 30 przypadkowych
+
+**Co działa na Instagramie:**
+
+- **Storytelling** --- osobiste historie
+- **Mikro-porady** --- jedna konkretna wskazówka
+- **Pytania** --- angażują w komentarze
+- **Kontrowersje** --- „Unpopular opinion: ..."
+- **Behind the scenes** --- autentyczność
+
+**Struktura caption Instagram:**
+
+```
+[HOOK --- mocne pierwsze zdanie, max 125 znaków]
+
+[Pusta linia]
+
+[Historia lub treść --- krótkie zdania, emoji opcjonalnie]
+
+[Pusta linia]
+
+[CTA --- zapisz, skomentuj, kliknij link w bio]
+
+[Pusta linia]
+
+[Hashtagi --- na końcu lub w pierwszym komentarzu]
+```
+
+### Facebook
+
+Facebook to platforma o największym zasięgu wiekowym, ale algorytm premiuje zaangażowanie.
+
+**Specyfika:**
+
+- Limit: **63 206 znaków** (ale krótsze działają lepiej)
+- Publiczność: szeroka, 35+ dominuje
+- Ton: konwersacyjny, wspólnotowy
+- Grupy > strony firmowe
+
+**Co działa na Facebooku:**
+
+- **Posty generujące dyskusję** (pytania, kontrowersje)
+- **Storytelling** --- dłuższe formy działają
+- **Wideo i live** --- algorytm je preferuje
+- **Posty w grupach** --- większe zasięgi niż strony
+
+### X (Twitter)
+
+Platforma szybkich myśli i dyskusji.
+
+**Specyfika:**
+
+- Limit: **280 znaków** (do 25 000 dla premium)
+- Publiczność: news junkies, influencerzy, branże tech/media
+- Ton: zwięzły, dowcipny, na czasie
+- Wątki (threads) dla dłuższych treści
+
+**Co działa na X:**
+
+- **Hot takes** --- szybkie, ostre opinie
+- **Wątki edukacyjne** --- rozbij temat na tweety
+- **Odpowiedzi na trendy** --- wykorzystuj to, co aktualne
+- **Cytaty i fragmenty** --- łatwe do udostępnienia
+
+```{=latex}
+\decoline
+```
+
+## Landing page
+
+Landing page to strona z jednym celem --- konwersją. Każdy element musi prowadzić do tego celu.
+
+### Struktura landing page
+
+**1. Hero section (above the fold)**
+
+- **Nagłówek** --- główna obietnica/korzyść
+- **Podtytuł** --- rozwinięcie lub jak to osiągniesz
+- **CTA** --- pierwsze wezwanie do działania
+- **Obraz/wideo** --- wizualizacja produktu lub rezultatu
+
+**2. Problem**
+
+- Nazwij ból czytelnika
+- Pokaż, że rozumiesz jego sytuację
+- Pogłęb konsekwencje nierozwiązania
+
+**3. Rozwiązanie**
+
+- Przedstaw swój produkt/usługę jako rozwiązanie
+- Skup się na korzyściach, nie cechach
+- FAB: cecha → zaleta → korzyść
+
+**4. Dowody**
+
+- Testimoniale (z imieniem, zdjęciem, konkretnymi wynikami)
+- Case studies
+- Liczby i statystyki
+- Logo klientów
+
+**5. Oferta**
+
+- Co dokładnie otrzymuje klient
+- Cena (jeśli podajesz)
+- Bonusy
+- Gwarancja / redukcja ryzyka
+
+**6. CTA (finalne)**
+
+- Powtórzenie głównego wezwania
+- Element pilności (jeśli prawdziwy)
+
+### Best practices landing page
+
+**Jeden cel = jedno CTA**
+
+Nie rozpraszaj uwagi. Usuń menu nawigacyjne, linki wychodzące, wszystko co odciąga od głównego celu.
+
+**Skanowalna struktura**
+
+- Nagłówki co 300-500 słów
+- Krótkie akapity (2-4 zdania)
+- Wypunktowania dla cech/korzyści
+- Wyróżnienia (bold) dla kluczowych fraz
+
+**Social proof**
+
+Ludzie ufają innym ludziom. Testimoniale z konkretnymi wynikami („Zwiększyłem sprzedaż o 47%") działają lepiej niż ogólne pochwały („Świetna usługa!").
+
+**Redukcja ryzyka**
+
+Każdy zakup to ryzyko. Zmniejsz je:
+- Gwarancja zwrotu pieniędzy
+- Darmowy okres próbny
+- „Bez zobowiązań"
+- FAQ odpowiadające na obiekcje
+
+```{=latex}
+\begin{wazne}
+70\% wzrost konwersji gdy CTA znajduje się na końcu opisu produktu (po przedstawieniu wartości). Nie proś o działanie, zanim nie przekonasz.
+\end{wazne}
+```
+
+```{=latex}
+\decoline
+```
+
+## Strony produktowe (e-commerce)
+
+Strony produktowe to specyficzny rodzaj landing page --- ich celem jest sprzedaż konkretnego produktu.
+
+### Elementy opisu produktu
+
+**1. Tytuł produktu**
+
+Jasny, opisowy, z kluczowymi słowami.
+
+**2. Krótki opis (above the fold)**
+
+2-3 zdania wyjaśniające, czym jest produkt i dla kogo. Główna korzyść.
+
+**3. Cechy → Korzyści**
+
+Nie tylko „co ma", ale „co to znaczy dla klienta".
+
+```{=latex}
+\begin{przyklad}{Cecha vs. korzyść}
+\textbf{Słabo:} „Bateria 5000 mAh"
+
+\textbf{Lepiej:} „Bateria 5000 mAh --- cały dzień intensywnego użytkowania bez ładowania"
+
+\textbf{Najlepiej:} „Zapomnij o ładowarce. Bateria 5000 mAh wytrzyma cały dzień pracy, streamowania i grania --- bez stresu o procenty."
+\end{przyklad}
+```
+
+**4. Social proof**
+
+- Oceny i recenzje
+- Liczba sprzedanych sztuk
+- „Bestseller" / „Wybór klientów"
+
+**5. Informacje praktyczne**
+
+- Cena (jasna, bez ukrytych kosztów)
+- Dostępność
+- Czas i koszt dostawy
+- Polityka zwrotów
+
+**6. CTA**
+
+- „Dodaj do koszyka" (główny)
+- „Kup teraz" (szybka ścieżka)
+
+```{=latex}
+\decoline
+```
+
+## Reklamy (Ads)
+
+Reklamy mają sekundy na przyciągnięcie uwagi i przekonanie do kliknięcia.
+
+### Facebook/Instagram Ads
+
+**Struktura:**
+
+1. **Hook** (pierwsze zdanie) --- zatrzymaj scrollowanie
+2. **Problem lub obietnica** --- dlaczego to ważne
+3. **Rozwiązanie** --- co oferujesz
+4. **CTA** --- co ma zrobić
+
+**Formaty tekstu:**
+
+- **Krótki (1-2 zdania)** --- dla świadomych odbiorców
+- **Średni (3-5 zdań)** --- dla budowania zainteresowania
+- **Długi (storytelling)** --- dla zimnego ruchu, edukacji
+
+### Google Ads
+
+Ograniczenia wymuszają zwięzłość:
+- Nagłówek: max 30 znaków (x3)
+- Opis: max 90 znaków (x2)
+
+**Zasady:**
+
+- Keyword w nagłówku
+- Korzyść, nie cecha
+- CTA w opisie
+- Liczby i konkretne dane
+
+```{=latex}
+\begin{przyklad}{Google Ad}
+\textbf{Nagłówek 1:} Kurs Copywritingu Online
+\textbf{Nagłówek 2:} Naucz się pisać teksty, które sprzedają
+\textbf{Nagłówek 3:} Dołącz do 5000+ absolwentów
+
+\textbf{Opis 1:} Praktyczny kurs od podstaw do zaawansowanych technik. 30 dni gwarancji zwrotu.
+\textbf{Opis 2:} Zacznij już dziś i podwój swoje konwersje. Sprawdź program kursu.
+\end{przyklad}
+```
+
+```{=latex}
+\decoline
+```
+
+## Dostosowanie głosu marki do kanału
+
+Głos marki pozostaje spójny --- ton się dostosowuje.
+
+**Głos marki** = osobowość (np. ekspert, przyjaciel, mentor)
+**Ton** = nastrój dopasowany do kontekstu (formalny, casualowy, pilny)
+
+```{=latex}
+\begin{przyklad}{Ten sam głos, różny ton}
+\textbf{Głos marki:} Ekspert, pomocny, bezpośredni
+
+\textbf{Email (profesjonalny):}
+„Przygotowałem dla Ciebie analizę 5 najczęstszych błędów w nagłówkach. Zobacz, który popełniasz najczęściej."
+
+\textbf{Instagram (casualowy):}
+„Te 5 błędów w nagłówkach? Popełniałem je wszystkie. 🤦 Sprawdź, czy Ty też (swipe →)"
+
+\textbf{LinkedIn (profesjonalny, osobisty):}
+„Po przeanalizowaniu 500+ nagłówków moich klientów, znalazłem 5 powtarzających się błędów. Oto one:"
+\end{przyklad}
+```
+
+```{=latex}
+\decoline
+```
+
+## Checklist: Copywriting dla różnych kanałów
+
+**Email:**
+
+- [ ] Temat < 50 znaków, z hookiem
+- [ ] Preheader rozszerza obietnicę tematu
+- [ ] Personalizacja (imię, kontekst)
+- [ ] Krótkie akapity, jeden główny CTA
+- [ ] Spójność tematu z treścią
+
+**Social media:**
+
+- [ ] Hook w pierwszych 125 znakach
+- [ ] Dostosowany do specyfiki platformy
+- [ ] Konwersacyjny ton
+- [ ] Jedno główne przesłanie
+- [ ] CTA dopasowane do platformy
+
+**Landing page:**
+
+- [ ] Jeden cel, jedno główne CTA
+- [ ] Korzyści > cechy
+- [ ] Social proof (testimoniale, liczby)
+- [ ] Redukcja ryzyka (gwarancja, FAQ)
+- [ ] Skanowalna struktura
+
+**Reklamy:**
+
+- [ ] Hook w pierwszym zdaniu
+- [ ] Korzyść jasno zakomunikowana
+- [ ] CTA
+- [ ] Spójność z landing page
+
+```{=latex}
+\decoline
+```
+
+```{=latex}
+\begin{cwiczenie}{Adaptacja przekazu na 3 kanały}
+Wybierz produkt lub usługę (może być Twoja lub fikcyjna).
+
+\textbf{Część 1: Zdefiniuj przekaz (5 min)}
+
+Odpowiedz na pytania:
+\begin{itemize}
+  \item Jaka jest główna korzyść produktu?
+  \item Jaki problem rozwiązuje?
+  \item Dla kogo jest przeznaczony?
+\end{itemize}
+
+\textbf{Część 2: Napisz dla 3 kanałów (20 min)}
+
+Na podstawie tego samego przekazu napisz:
+
+\begin{enumerate}
+  \item \textbf{Temat emaila + pierwsze 3 zdania} (zachęta do otwarcia i przeczytania)
+  \item \textbf{Post na LinkedIn} (max 500 znaków, profesjonalny ton)
+  \item \textbf{Caption na Instagram} (max 300 znaków, casualowy ton, z CTA)
+\end{enumerate}
+
+\textbf{Część 3: Porównaj (5 min)}
+
+Przeczytaj wszystkie trzy wersje. Sprawdź:
+\begin{itemize}
+  \item Czy główny przekaz jest spójny?
+  \item Czy ton jest dostosowany do kanału?
+  \item Czy każda wersja ma odpowiedni hook i CTA?
+\end{itemize}
+
+\textbf{Czas:} 30 minut
+\end{cwiczenie}
+```
+
+```{=latex}
+\takeaway{Każdy kanał wymaga dostosowania --- nie tylko długości, ale całego podejścia. Email to personalizacja i wartość w skrzynce. Social media to rozmowa i szybki hook. Landing page to jeden cel i przekonywanie do konwersji. Zachowuj spójny głos marki, dostosowując ton do kanału. Pamiętaj: kopiowanie tego samego tekstu wszędzie to stracona szansa na maksymalizację wyników w każdym kanale.}
+```
+
+W następnej części kursu zajmiemy się **zaawansowanymi technikami** --- storytellingiem, copywritingiem SEO i pisaniem długich form sprzedażowych.
+
+```{=latex}
+\decoline
+```
