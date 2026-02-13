@@ -1,0 +1,59 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Copywriting 360°"
+  subtitle: "Od Psychologii do Konwersji"
+  author: "Karol Leszczyński"
+  date: "2026"
+
+  chapters:
+    - index.qmd
+    - part: "CZĘŚĆ I: FUNDAMENTY"
+      chapters:
+        - chapters/01-wprowadzenie.qmd
+        - chapters/02-psychologia-perswazji.qmd
+
+  page-navigation: true
+
+format:
+  pdf:
+    documentclass: scrbook
+    classoption:
+      - twoside
+      - openright
+      - 11pt
+      - DIV=12
+      - BCOR=12mm
+    papersize: a4
+
+    include-in-header: _header.tex
+    include-before-body: _frontmatter.tex
+
+    pdf-engine: xelatex
+
+    # Fonts - comment out if not installed
+    mainfont: "Libertinus Serif"
+    sansfont: "Fira Sans"
+    monofont: "Fira Code"
+
+    fontsize: 11pt
+    linestretch: 1.15
+
+    geometry:
+      - top=25mm
+      - bottom=25mm
+      - inner=25mm
+      - outer=20mm
+
+    toc: true
+    toc-depth: 3
+    toc-title: "Spis treści"
+
+    number-sections: true
+    number-depth: 3
+
+    keep-tex: true
+
+lang: pl

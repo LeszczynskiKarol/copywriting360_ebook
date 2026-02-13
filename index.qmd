@@ -1,0 +1,75 @@
+---
+title: "Copywriting 360°"
+subtitle: "Od Psychologii do Konwersji"
+---
+
+# Przedmowa {.unnumbered}
+
+Trzymasz w rękach efekt ponad 15 lat doświadczenia w marketingu cyfrowym, copywritingu i budowaniu biznesów online. To nie jest kolejny zbiór "sztuczek" i "hacków" — to kompleksowy system myślenia o komunikacji perswazyjnej.
+
+## Dla kogo jest ta książka?
+
+Ta książka jest dla Ciebie, jeśli:
+
+- Prowadzisz biznes i chcesz pisać teksty, które sprzedają
+- Jesteś marketerem, który chce podnieść skuteczność kampanii
+- Chcesz zostać copywriterem i zarabiać na pisaniu
+- Tworzysz content i chcesz, żeby prowadził do działania
+- Interesujesz się psychologią perswazji i jej zastosowaniami
+
+## Jak korzystać z tej książki?
+
+**Dla początkujących:** Przerabiaj rozdziały po kolei. Każdy buduje na poprzednim.
+
+**Dla średnio zaawansowanych:** Możesz przeskakiwać do interesujących Cię tematów, ale wracaj do fundamentów, gdy poczujesz braki.
+
+**Dla zaawansowanych:** Użyj tej książki jako reference — wracaj do konkretnych technik i formuł przy projektach.
+
+## Oznaczenia w książce
+
+W całej książce znajdziesz specjalne bloki, które wyróżniają różne typy treści:
+
+```{=latex}
+\begin{wskazowka}
+Wskazówki to praktyczne porady, które możesz zastosować natychmiast.
+\end{wskazowka}
+```
+
+```{=latex}
+\begin{uwaga}
+Uwagi zwracają uwagę na częste błędy lub pułapki.
+\end{uwaga}
+```
+
+```{=latex}
+\begin{wazne}
+Bloki "Ważne" podkreślają kluczowe informacje, których nie możesz pominąć.
+\end{wazne}
+```
+
+```{=latex}
+\begin{pojecie}{Nazwa pojęcia}
+Definicje kluczowych pojęć, które musisz znać.
+\end{pojecie}
+```
+
+```{=latex}
+\begin{formula}{Nazwa formuły}
+Gotowe do użycia formuły i szablony copywriterskie.
+\end{formula}
+```
+
+```{=latex}
+\begin{cwiczenie}{Nazwa ćwiczenia}
+Praktyczne zadania do wykonania. Nie pomijaj ich — 70\% nauki to praktyka!
+\end{cwiczenie}
+```
+
+## Podziękowania {.unnumbered}
+
+Dziękuję wszystkim klientom, którzy przez lata pozwalali mi testować, błądzić i doskonalić techniki opisane w tej książce. Dziękuję też Tobie, Czytelniku — bez Twojego zaufania ta praca nie miałaby sensu.
+
+Do dzieła!
+
+*Karol Leszczyński*  
+*Luty 2026*

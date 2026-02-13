@@ -1,0 +1,974 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  11pt,
+  a4paper,
+  twoside,
+  openright,
+  11pt,
+  DIV=12,
+  BCOR=12mm]{scrbook}
+
+\usepackage{amsmath,amssymb}
+\usepackage{setspace}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+    \setmainfont[]{Libertinus Serif}
+    \setsansfont[]{Fira Sans}
+    \setmonofont[]{Fira Code}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[top=25mm,bottom=25mm,inner=25mm,outer=20mm]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{3}
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+% ============================================================
+% COPYWRITING 360° - Professional Header
+% ============================================================
+
+% ------------------------------------------------------------
+% COLORS
+% ------------------------------------------------------------
+\usepackage{xcolor}
+
+\definecolor{primaryblue}{HTML}{1a73e8}
+\definecolor{primarydark}{HTML}{0d47a1}
+\definecolor{primarylight}{HTML}{e3f2fd}
+\definecolor{accentgreen}{HTML}{00c853}
+\definecolor{accentred}{HTML}{d50000}
+\definecolor{accentpurple}{HTML}{7c4dff}
+\definecolor{accentorange}{HTML}{ff6d00}
+\definecolor{textdark}{HTML}{212121}
+\definecolor{textmuted}{HTML}{757575}
+\definecolor{backgroundgray}{HTML}{f5f5f5}
+\definecolor{bordergray}{HTML}{e0e0e0}
+\definecolor{quotebg}{HTML}{fff8e1}
+\definecolor{quoteborder}{HTML}{ffab00}
+\definecolor{tipbg}{HTML}{e8f5e9}
+\definecolor{tipborder}{HTML}{4caf50}
+\definecolor{warningbg}{HTML}{fff3e0}
+\definecolor{warningborder}{HTML}{ff9800}
+\definecolor{importantbg}{HTML}{fce4ec}
+\definecolor{importantborder}{HTML}{e91e63}
+\definecolor{exercisebg}{HTML}{e3f2fd}
+\definecolor{exerciseborder}{HTML}{1976d2}
+
+% ------------------------------------------------------------
+% PACKAGES
+% ------------------------------------------------------------
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{fontawesome5}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+% ------------------------------------------------------------
+% CHAPTER & SECTION STYLING
+% ------------------------------------------------------------
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\color{primarydark}}
+  {\flushright\fontsize{72}{72}\selectfont\textcolor{primaryblue!30}{\thechapter}}
+  {-20pt}
+  {\Huge}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{primarydark}}
+  {\textcolor{primaryblue}{\thesection}}
+  {1em}
+  {}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{textdark}}
+  {\textcolor{primaryblue}{\thesubsection}}
+  {0.75em}
+  {}
+
+\titlespacing*{\chapter}{0pt}{30pt}{20pt}
+
+% ------------------------------------------------------------
+% HEADERS & FOOTERS
+% ------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\small\color{textmuted}\leftmark}
+\fancyfoot[LE,RO]{\bfseries\color{primaryblue}\thepage}
+\fancyfoot[RE,LO]{\small\color{textmuted}Copywriting 360°}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[C]{\bfseries\color{primaryblue}\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% ------------------------------------------------------------
+% CUSTOM BOXES
+% ------------------------------------------------------------
+
+% Quote box
+\newtcolorbox{cytat}{
+  enhanced,
+  breakable,
+  colback=quotebg,
+  colframe=quoteborder,
+  boxrule=0pt,
+  borderline west={4pt}{0pt}{quoteborder},
+  sharp corners,
+  left=15pt, right=15pt, top=12pt, bottom=12pt,
+  fontupper=\itshape\large
+}
+
+% Tip box
+\newtcolorbox{wskazowka}{
+  enhanced,
+  breakable,
+  colback=tipbg,
+  colframe=tipborder,
+  boxrule=0pt,
+  borderline west={4pt}{0pt}{tipborder},
+  sharp corners,
+  left=15pt, right=15pt, top=12pt, bottom=12pt,
+  title={\color{tipborder}\faLightbulb[regular]\ \ WSKAZÓWKA},
+  fonttitle=\bfseries,
+  coltitle=tipborder,
+  attach boxed title to top left={yshift=-2mm, xshift=5mm},
+  boxed title style={colback=tipbg, boxrule=0pt}
+}
+
+% Warning box
+\newtcolorbox{uwaga}{
+  enhanced,
+  breakable,
+  colback=warningbg,
+  colframe=warningborder,
+  boxrule=0pt,
+  borderline west={4pt}{0pt}{warningborder},
+  sharp corners,
+  left=15pt, right=15pt, top=12pt, bottom=12pt,
+  title={\color{warningborder}\faExclamationTriangle\ \ UWAGA},
+  fonttitle=\bfseries,
+  coltitle=warningborder,
+  attach boxed title to top left={yshift=-2mm, xshift=5mm},
+  boxed title style={colback=warningbg, boxrule=0pt}
+}
+
+% Important box
+\newtcolorbox{wazne}{
+  enhanced,
+  breakable,
+  colback=importantbg,
+  colframe=importantborder,
+  boxrule=0pt,
+  borderline west={4pt}{0pt}{importantborder},
+  sharp corners,
+  left=15pt, right=15pt, top=12pt, bottom=12pt,
+  title={\color{importantborder}\faExclamationCircle\ \ WAŻNE},
+  fonttitle=\bfseries,
+  coltitle=importantborder,
+  attach boxed title to top left={yshift=-2mm, xshift=5mm},
+  boxed title style={colback=importantbg, boxrule=0pt}
+}
+
+% Exercise box
+\newtcolorbox{cwiczenie}[1]{
+  enhanced,
+  breakable,
+  colback=exercisebg,
+  colframe=exerciseborder,
+  boxrule=1pt,
+  arc=5pt,
+  left=15pt, right=15pt, top=12pt, bottom=12pt,
+  title={\color{white}\faEdit\ \ ĆWICZENIE: #1},
+  fonttitle=\bfseries,
+  coltitle=white,
+  attach boxed title to top left={yshift=-3mm, xshift=5mm},
+  boxed title style={colback=exerciseborder, arc=3pt}
+}
+
+% Concept box
+\newtcolorbox{pojecie}[1]{
+  enhanced,
+  breakable,
+  colback=primarylight,
+  colframe=primarydark,
+  boxrule=2pt,
+  arc=0pt,
+  left=15pt, right=15pt, top=12pt, bottom=12pt,
+  title={\color{white}\faKey\ \ #1},
+  fonttitle=\bfseries,
+  coltitle=white,
+  attach boxed title to top left={yshift=-3mm, xshift=5mm},
+  boxed title style={colback=primarydark, arc=2pt}
+}
+
+% Formula box
+\newtcolorbox{formula}[1]{
+  enhanced,
+  colback=white,
+  colframe=accentpurple,
+  boxrule=2pt,
+  arc=8pt,
+  left=15pt, right=15pt, top=12pt, bottom=12pt,
+  title={\color{white}\faMagic\ \ FORMUŁA: #1},
+  fonttitle=\bfseries,
+  coltitle=white,
+  attach boxed title to top center={yshift=-3mm},
+  boxed title style={colback=accentpurple, arc=5pt}
+}
+
+% Example box
+\newtcolorbox{przyklad}[1]{
+  enhanced,
+  breakable,
+  colback=backgroundgray,
+  colframe=primaryblue,
+  boxrule=1pt,
+  arc=0pt,
+  left=15pt, right=15pt, top=12pt, bottom=12pt,
+  title={\color{white}\faFileAlt\ \ PRZYKŁAD: #1},
+  fonttitle=\bfseries,
+  coltitle=white,
+  attach boxed title to top left={yshift=-3mm, xshift=5mm},
+  boxed title style={colback=primaryblue, arc=2pt}
+}
+
+% ------------------------------------------------------------
+% LIST STYLING
+% ------------------------------------------------------------
+\setlist[itemize,1]{label=\textcolor{primaryblue}{\faChevronRight}, leftmargin=*, itemsep=4pt}
+\setlist[itemize,2]{label=\textcolor{primaryblue}{\faAngleRight}, leftmargin=*, itemsep=2pt}
+\setlist[enumerate,1]{label=\textcolor{primaryblue}{\bfseries\arabic*.}, leftmargin=*, itemsep=4pt}
+
+\newlist{checklist}{itemize}{1}
+\setlist[checklist]{label=\textcolor{accentgreen}{\faCheckSquare}, leftmargin=*, itemsep=4pt}
+
+% ------------------------------------------------------------
+% SPECIAL COMMANDS
+% ------------------------------------------------------------
+
+% Chapter opener quote
+\newcommand{\chapteropener}[1]{%
+  \begin{center}
+    \large\itshape\color{textmuted}#1
+  \end{center}
+  \vspace{1em}
+}
+
+% Decorative line
+\newcommand{\decoline}{%
+  \begin{center}
+    \textcolor{bordergray}{\rule{0.25\textwidth}{0.5pt}}%
+    \quad\textcolor{primaryblue}{\faFeather}\quad%
+    \textcolor{bordergray}{\rule{0.25\textwidth}{0.5pt}}
+  \end{center}
+}
+
+% Key takeaway
+\newcommand{\takeaway}[1]{%
+  \begin{tcolorbox}[
+    enhanced,
+    colback=accentgreen!10,
+    colframe=accentgreen,
+    boxrule=0pt,
+    borderline south={3pt}{0pt}{accentgreen},
+    sharp corners,
+    left=15pt, right=15pt, top=10pt, bottom=10pt
+  ]
+    \textbf{\color{accentgreen}\faCheckCircle\ \ KLUCZOWY WNIOSEK:}\\[5pt]
+    #1
+  \end{tcolorbox}
+}
+
+% Stat highlight
+\newcommand{\stathighlight}[2]{%
+  \begin{center}
+    \begin{tcolorbox}[
+      enhanced,
+      colback=primarylight,
+      colframe=primaryblue,
+      boxrule=1pt,
+      arc=5pt,
+      width=0.6\textwidth,
+      halign=center
+    ]
+      {\fontsize{36}{40}\selectfont\bfseries\color{primarydark}#1}\\[5pt]
+      {\color{textmuted}#2}
+    \end{tcolorbox}
+  \end{center}
+}
+
+% Before/After comparison
+\newcommand{\beforeafter}[2]{%
+  \begin{tcolorbox}[
+    enhanced,
+    sidebyside,
+    sidebyside align=top,
+    lefthand width=0.47\textwidth,
+    colback=white,
+    colframe=bordergray,
+    boxrule=0.5pt,
+    arc=5pt,
+    left=10pt, right=10pt, top=10pt, bottom=10pt
+  ]
+    \textbf{\color{accentred}\faTimesCircle\ \ PRZED}\\[6pt]
+    \small #1
+    \tcblower
+    \textbf{\color{accentgreen}\faCheckCircle\ \ PO}\\[6pt]
+    \small #2
+  \end{tcolorbox}
+}
+
+% ------------------------------------------------------------
+% TABLE STYLING
+% ------------------------------------------------------------
+\renewcommand{\arraystretch}{1.3}
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Spis treści}
+\else
+  \newcommand\contentsname{Spis treści}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Spis rycin}
+\else
+  \newcommand\listfigurename{Spis rycin}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Spis tabel}
+\else
+  \newcommand\listtablename{Spis tabel}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Rysunek}
+\else
+  \newcommand\figurename{Rysunek}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Tabela}
+\else
+  \newcommand\tablename{Tabela}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Wykaz}
+\newcommand*\listoflistings{\listof{codelisting}{Spis wykazów}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{polish}
+\ifPDFTeX
+\else
+\babelfont{rm}[]{Libertinus Serif}
+\fi
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Copywriting 360°},
+  pdfauthor={Karol Leszczyński},
+  pdflang={pl},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Copywriting 360°}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Od Psychologii do Konwersji}
+\author{Karol Leszczyński}
+\date{2026-01-01}
+
+\begin{document}
+\frontmatter
+\maketitle
+
+% ============================================================
+% TITLE PAGE
+% ============================================================
+\thispagestyle{empty}
+\begin{center}
+\vspace*{4cm}
+
+{\fontsize{48}{52}\selectfont\bfseries\color{primarydark}Copywriting 360°}
+
+\vspace{0.5cm}
+
+{\LARGE\color{textmuted}Od Psychologii do Konwersji}
+
+\vspace{3cm}
+
+{\Large Karol Leszczyński}
+
+\vspace{4cm}
+
+\begin{minipage}{0.7\textwidth}
+\centering
+{\large\color{primaryblue}Kompletny przewodnik po sztuce copywritingu}
+
+\vspace{1cm}
+
+\color{textmuted}
+Psychologia perswazji \textbullet\ Formuły i techniki\\[8pt]
+Landing pages \textbullet\ Email marketing \textbullet\ Social media\\[8pt]
+AI w copywritingu \textbullet\ Budowanie biznesu
+\end{minipage}
+
+\vfill
+
+{\color{textmuted}Wydanie I \textbullet\ 2026}
+
+\vspace{0.5cm}
+
+{\color{primaryblue}\rule{0.3\textwidth}{2pt}}
+
+\end{center}
+\cleardoublepage
+
+% ============================================================
+% COPYRIGHT PAGE
+% ============================================================
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+\small\color{textmuted}
+
+\textbf{Copywriting 360°}\\
+Od Psychologii do Konwersji
+
+\vspace{1.5cm}
+
+Copyright © 2026 Karol Leszczyński\\
+Wszelkie prawa zastrzeżone.
+
+\vspace{1.5cm}
+
+Wydanie I
+
+\vspace{2cm}
+
+{\color{primaryblue}\rule{0.15\textwidth}{0.5pt}}
+
+\vspace{1.5cm}
+
+kontakt@kurscopywritingu.pl\\
+www.kurscopywritingu.pl
+
+\end{center}
+\vspace*{\fill}
+\cleardoublepage
+
+% ============================================================
+% DEDICATION
+% ============================================================
+\thispagestyle{empty}
+\vspace*{0.3\textheight}
+\begin{center}
+\large\itshape\color{textmuted}
+Dla wszystkich, którzy wierzą,\\
+że słowa mogą zmieniać świat.
+\end{center}
+\vspace*{\fill}
+\cleardoublepage
+
+\renewcommand*\contentsname{Spis treści}
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+
+\setstretch{1.15}
+\mainmatter
+\bookmarksetup{startatroot}
+
+\chapter{Copywriting 360°}\label{copywriting-360}
+
+Od Psychologii do Konwersji
+
+\hfill\break
+
+\bookmarksetup{startatroot}
+
+\chapter*{Przedmowa}\label{przedmowa}
+\addcontentsline{toc}{chapter}{Przedmowa}
+
+\markboth{Przedmowa}{Przedmowa}
+
+Trzymasz w rękach efekt ponad 15 lat doświadczenia w marketingu
+cyfrowym, copywritingu i budowaniu biznesów online. To nie jest kolejny
+zbiór ``sztuczek'' i ``hacków'' --- to kompleksowy system myślenia o
+komunikacji perswazyjnej.
+
+\section{Dla kogo jest ta
+książka?}\label{dla-kogo-jest-ta-ksiux105ux17cka}
+
+Ta książka jest dla Ciebie, jeśli:
+
+\begin{itemize}
+\tightlist
+\item
+  Prowadzisz biznes i chcesz pisać teksty, które sprzedają
+\item
+  Jesteś marketerem, który chce podnieść skuteczność kampanii
+\item
+  Chcesz zostać copywriterem i zarabiać na pisaniu
+\item
+  Tworzysz content i chcesz, żeby prowadził do działania
+\item
+  Interesujesz się psychologią perswazji i jej zastosowaniami
+\end{itemize}
+
+\section{Jak korzystać z tej
+książki?}\label{jak-korzystaux107-z-tej-ksiux105ux17cki}
+
+\textbf{Dla początkujących:} Przerabiaj rozdziały po kolei. Każdy buduje
+na poprzednim.
+
+\textbf{Dla średnio zaawansowanych:} Możesz przeskakiwać do
+interesujących Cię tematów, ale wracaj do fundamentów, gdy poczujesz
+braki.
+
+\textbf{Dla zaawansowanych:} Użyj tej książki jako reference --- wracaj
+do konkretnych technik i formuł przy projektach.
+
+\section{Oznaczenia w książce}\label{oznaczenia-w-ksiux105ux17cce}
+
+W całej książce znajdziesz specjalne bloki, które wyróżniają różne typy
+treści:
+
+\begin{wskazowka}
+Wskazówki to praktyczne porady, które możesz zastosować natychmiast.
+\end{wskazowka}
+
+\begin{uwaga}
+Uwagi zwracają uwagę na częste błędy lub pułapki.
+\end{uwaga}
+
+\begin{wazne}
+Bloki "Ważne" podkreślają kluczowe informacje, których nie możesz pominąć.
+\end{wazne}
+
+\begin{pojecie}{Nazwa pojęcia}
+Definicje kluczowych pojęć, które musisz znać.
+\end{pojecie}
+
+\begin{formula}{Nazwa formuły}
+Gotowe do użycia formuły i szablony copywriterskie.
+\end{formula}
+
+\begin{cwiczenie}{Nazwa ćwiczenia}
+Praktyczne zadania do wykonania. Nie pomijaj ich — 70\% nauki to praktyka!
+\end{cwiczenie}
+
+\section*{Podziękowania}\label{podziux119kowania}
+\addcontentsline{toc}{section}{Podziękowania}
+
+\markright{Podziękowania}
+
+Dziękuję wszystkim klientom, którzy przez lata pozwalali mi testować,
+błądzić i doskonalić techniki opisane w tej książce. Dziękuję też Tobie,
+Czytelniku --- bez Twojego zaufania ta praca nie miałaby sensu.
+
+Do dzieła!
+
+\emph{Karol Leszczyński}\\
+\emph{Luty 2026}
+
+\part{CZĘŚĆ I: FUNDAMENTY}
+
+\chapter{Czym naprawdę jest
+copywriting}\label{czym-naprawdux119-jest-copywriting}
+
+I dlaczego zmieni Twoje podejście do biznesu
+
+\hfill\break
+
+\chapteropener{W świecie przesyconym treścią, słowa są Twoją supermocą.\\Naucz się ich używać.}
+
+\textbf{Każdego dnia jesteś bombardowany tysiącami komunikatów
+marketingowych.} Reklamy w social mediach, emaile, billboardy, strony
+internetowe, opakowania produktów --- wszędzie ktoś próbuje zwrócić
+Twoją uwagę i przekonać Cię do działania. Większość tych komunikatów
+przepływa przez Twoją świadomość bez śladu. Ale niektóre\ldots{}
+niektóre zatrzymują Cię w miejscu. Zmuszają do przeczytania. I
+działania.
+
+To nie magia. To \textbf{copywriting}.
+
+\begin{cytat}
+Nie sprzedajesz produktu. Sprzedajesz lepszą wersję klienta, którą może dzięki Twojemu produktowi stać.
+
+\hfill--- Donald Miller, autor \textit{Building a StoryBrand}
+\end{cytat}
+
+\section{Definicja, która zmienia
+wszystko}\label{definicja-ktuxf3ra-zmienia-wszystko}
+
+Zanim zagłębimy się w techniki, musimy ustalić, czym właściwie jest
+copywriting. I tutaj pierwsza niespodzianka --- definicja, którą
+znajdziesz w większości miejsc, jest niekompletna.
+
+\begin{pojecie}{Copywriting}
+\textbf{Copywriting} to sztuka i nauka pisania tekstów, które skłaniają odbiorcę do podjęcia określonego działania --- przy jednoczesnym budowaniu relacji i zaufania.
+
+\medskip
+Kluczowe elementy:
+\begin{itemize}
+  \item \textbf{Sztuka} --- kreatywność, storytelling, emocje
+  \item \textbf{Nauka} --- psychologia, testowanie, dane  
+  \item \textbf{Działanie} --- konkretny, mierzalny cel
+  \item \textbf{Relacja} --- długoterminowe zaufanie, nie manipulacja
+\end{itemize}
+\end{pojecie}
+
+Zwróć uwagę na ostatni punkt. Wielu copywriterów popełnia błąd,
+skupiając się wyłącznie na krótkoterminowej konwersji. Tymczasem
+prawdziwy copywriting buduje marki, które przetrwają dekady.
+
+\decoline
+
+\section{Copywriting a inne formy
+pisania}\label{copywriting-a-inne-formy-pisania}
+
+Często słyszę pytanie: ``Czym różni się copywriting od content
+writingu?'' To fundamentalne rozróżnienie, które musisz zrozumieć.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1600}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2600}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3400}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2400}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Aspekt
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Copywriting
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Content Writing
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+UX Writing
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Cel} & Konwersja & Edukacja & Użyteczność \\
+\textbf{Horyzont} & Natychmiastowy & Długoterminowy & Momentalny \\
+\textbf{Ton} & Perswazyjny & Informacyjny & Neutralny \\
+\textbf{Długość} & 3 słowa -- 20 stron & 500--5000+ słów & 1--50 słów \\
+\textbf{Przykłady} & Reklamy, landing pages & Blog, poradniki &
+Przyciski, komunikaty \\
+\end{longtable}
+
+\begin{wskazowka}
+Granice między tymi formami zacierają się. Najlepsi specjaliści potrafią płynnie przechodzić między nimi. Artykuł blogowy może mieć elementy copywritingu (CTA), a landing page może edukować. Traktuj te kategorie jako spektrum, nie sztywne podziały.
+\end{wskazowka}
+
+\section{Krótka historia
+copywritingu}\label{kruxf3tka-historia-copywritingu}
+
+\subsection{Era pionierów (1900--1950)}\label{era-pionieruxf3w-19001950}
+
+Claude Hopkins, David Ogilvy, John Caples --- ci pionierzy ustanowili
+fundamenty, które używamy do dziś. Co ciekawe, większość ich zasad
+powstała zanim istniał internet, a mimo to doskonale sprawdzają się w
+erze cyfrowej.
+
+\begin{cytat}
+Reklama to sprzedaż w druku. Traktuj ją jak handlowca, który odwiedza tysiące klientów jednocześnie.
+
+\hfill--- Claude Hopkins, \textit{Scientific Advertising} (1923)
+\end{cytat}
+
+\subsection{Era direct response
+(1950--1990)}\label{era-direct-response-19501990}
+
+To złoty wiek direct mail --- długich listów sprzedażowych, które
+generowały miliony dolarów. Gary Halbert, Dan Kennedy, Eugene Schwartz
+udoskonalili techniki perswazji do poziomu niemal naukowej precyzji.
+
+\stathighlight{30:1}{Legendarny list Halberta przyniósł 30 mln USD przy inwestycji 1 mln USD}
+
+\subsection{Era digitalna
+(1990--obecnie)}\label{era-digitalna-1990obecnie}
+
+Internet nie zmienił fundamentów copywritingu --- zmienił kanały
+dystrybucji i możliwości testowania. Dziś możesz w ciągu godziny
+przetestować 10 wersji nagłówka i dowiedzieć się, która działa lepiej.
+To rewolucja w szybkości iteracji.
+
+\begin{wazne}
+Nie daj się zwieść: mimo AI i automatyzacji, podstawy copywritingu --- psychologia, struktura, jasność przekazu --- pozostają niezmienne. Narzędzia się zmieniają, ludzie nie.
+\end{wazne}
+
+\decoline
+
+\section{Anatomia konwersji}\label{anatomia-konwersji}
+
+Zanim napiszesz pierwsze słowo, musisz zrozumieć, co właściwie próbujesz
+osiągnąć. W copywritingu wszystko sprowadza się do \textbf{konwersji}.
+
+\begin{pojecie}{Konwersja}
+\textbf{Konwersja} to moment, w którym odbiorca Twojego komunikatu wykonuje pożądane działanie --- kliknięcie, zapis, zakup, telefon, pobranie.
+
+\medskip
+\textbf{Ważne:} Konwersja to NIE zawsze sprzedaż. Zależy od etapu ścieżki klienta i celu komunikatu.
+\end{pojecie}
+
+\subsection{Mikro vs.~makro konwersje}\label{mikro-vs.-makro-konwersje}
+
+\textbf{Makro konwersja} to główny cel biznesowy --- np. zakup produktu
+za 997 zł.
+
+\textbf{Mikro konwersje} to mniejsze kroki prowadzące do makro
+konwersji:
+
+\begin{itemize}
+\tightlist
+\item
+  Kliknięcie w reklamę
+\item
+  Zapis na newsletter\\
+\item
+  Pobranie lead magneta
+\item
+  Otwarcie emaila
+\item
+  Dodanie do koszyka
+\end{itemize}
+
+Każda mikro konwersja wymaga osobnego ``copy'' --- emaila, przycisku,
+strony. Dobry copywriter myśli o całej ścieżce, nie tylko o końcowym
+kroku.
+
+\section{Co czyni copy skutecznym?}\label{co-czyni-copy-skutecznym}
+
+Po przeanalizowaniu setek kampanii, mogę wyodrębnić \textbf{5 cech},
+które wyróżniają copy generujące wyniki:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Jasność ponad wszystko} --- Odbiorca musi zrozumieć przekaz w
+  3 sekundy
+\item
+  \textbf{Korzyść, nie cecha} --- „Oszczędzisz 10 godzin tygodniowo'',
+  nie „Automatyzacja procesów''
+\item
+  \textbf{Emocja + logika} --- Emocja przekonuje, logika usprawiedliwia
+  decyzję
+\item
+  \textbf{Konkretność} --- „37\% więcej konwersji'', nie „więcej
+  konwersji''
+\item
+  \textbf{Wezwanie do działania} --- Jasne, jednoznaczne, pilne
+\end{enumerate}
+
+\begin{beforeafter}
+{Nasza innowacyjna platforma oferuje kompleksowe rozwiązania w zakresie automatyzacji procesów biznesowych, umożliwiając przedsiębiorstwom osiągnięcie przewagi konkurencyjnej na dynamicznie zmieniającym się rynku.}
+{Zaoszczędź 10 godzin tygodniowo dzięki automatyzacji faktur. Dołącz do 2,347 firm, które już to zrobiły. Sprawdź demo →}
+\end{beforeafter}
+
+\section{Mity o copywritingu}\label{mity-o-copywritingu}
+
+Zanim przejdziemy dalej, rozprawmy się z kilkoma szkodliwymi mitami:
+
+\begin{uwaga}
+\textbf{MIT 1: "Copywriting to manipulacja"}
+
+Manipulacja to świadome wprowadzanie w błąd dla własnej korzyści. Etyczny copywriting to jasne komunikowanie wartości produktu osobom, które naprawdę mogą z niego skorzystać. Różnica jest fundamentalna.
+
+\medskip
+\textbf{MIT 2: "Trzeba być urodzonym pisarzem"}
+
+Copywriting to umiejętność --- można się jej nauczyć. Najlepsi copywriterzy to często byli inżynierowie, sprzedawcy, psychologowie. Liczy się zrozumienie ludzi, nie talent literacki.
+
+\medskip
+\textbf{MIT 3: "AI zastąpi copywriterów"}
+
+AI to narzędzie, jak kalkulator dla matematyka. Może przyspieszyć pracę, ale strategia, empatia i zrozumienie kontekstu pozostają domeną człowieka. Więcej o tym w Module 19.
+\end{uwaga}
+
+\decoline
+
+\section{Struktura tego kursu}\label{struktura-tego-kursu}
+
+Ten kurs jest podzielony na \textbf{6 części}, które prowadzą Cię od
+fundamentów do zaawansowanych technik:
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+Część & Nazwa & Zakres \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+I & FUNDAMENTY & Psychologia, research, poziomy świadomości \\
+II & TECHNIKI & Nagłówki, formuły, storytelling, obiekcje \\
+III & FORMATY & Landing pages, email, social, e-commerce, B2B, UX \\
+IV & AI I NARZĘDZIA & Prompt engineering, toolkit, testowanie \\
+V & BIZNES & Portfolio, wycena, pozyskiwanie klientów \\
+VI & PROJEKT & Capstone z feedbackiem \\
+\end{longtable}
+
+\begin{wskazowka}
+Nie musisz przerabiać kursu linearnie. Jeśli jesteś doświadczonym marketerem, możesz zacząć od Części III (formaty). Jeśli chcesz szybko pozyskać klientów --- skocz do Części V. Wracaj do wcześniejszych modułów, gdy poczujesz, że brakuje Ci fundamentów.
+\end{wskazowka}
+
+\section{Jak maksymalnie wykorzystać ten
+kurs}\label{jak-maksymalnie-wykorzystaux107-ten-kurs}
+
+\begin{checklist}
+  \item \textbf{Rób ćwiczenia} --- 70\% nauki to praktyka, nie teoria
+  \item \textbf{Zbieraj swipe file} --- Zapisuj przykłady dobrego copy
+  \item \textbf{Analizuj codziennie} --- Patrz na reklamy przez pryzmat technik z kursu
+  \item \textbf{Pisz codziennie} --- Nawet 15 minut dziennie robi różnicę
+  \item \textbf{Szukaj feedbacku} --- Pokaż swoje copy innym
+\end{checklist}
+
+\decoline
+
+\begin{cwiczenie}{Audyt własnego copy}
+Zanim przejdziesz dalej, wykonaj pierwszą analizę:
+
+\begin{enumerate}
+  \item Znajdź jedno \textbf{własne} copy (email, post, strona) lub copy \textbf{konkurenta}
+  \item Przeczytaj je na głos --- gdzie się potykasz? Co brzmi nienaturalnie?
+  \item Odpowiedz na pytania:
+  \begin{itemize}
+    \item Czy w 3 sekundy wiem, o co chodzi?
+    \item Czy jest jasna korzyść dla mnie?
+    \item Czy wiem, co mam zrobić dalej?
+  \end{itemize}
+  \item Zapisz 3 rzeczy do poprawy
+\end{enumerate}
+
+\textbf{Czas:} 15--20 minut
+\end{cwiczenie}
+
+\takeaway{Copywriting to umiejętność łącząca psychologię, kreatywność i strategię. Nie jest manipulacją --- jest jasną komunikacją wartości. I jak każda umiejętność, można się go nauczyć poprzez systematyczną praktykę i analizę.}
+
+W następnym rozdziale zanurzymy się w \textbf{psychologię perswazji} ---
+naukowy fundament, który sprawi, że Twoje copy będzie działać nie przez
+przypadek, ale przez głębokie zrozumienie, jak ludzki mózg podejmuje
+decyzje.
+
+\decoline
+
+
+\backmatter
+
+
+\end{document}
