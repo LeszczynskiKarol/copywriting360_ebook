@@ -1,0 +1,560 @@
+---
+title: "Copywriting SEO"
+subtitle: "Pisanie dla ludzi i wyszukiwarek"
+---
+
+```{=latex}
+\chapteropener{SEO bez copywritingu to samochód bez kierowcy. Copywriting bez SEO to kierowca bez samochodu.\\--- Rand Fishkin, założyciel Moz}
+```
+
+SEO generuje **1000% więcej ruchu** niż organiczne social media. To potężny kanał pozyskiwania klientów --- ale tylko wtedy, gdy Twoje treści są zarówno zoptymalizowane pod wyszukiwarki, jak i przekonujące dla czytelników.
+
+W tym rozdziale poznasz fundamenty SEO copywritingu --- jak pisać teksty, które Google kocha, a ludzie chcą czytać, udostępniać i na ich podstawie podejmować działania.
+
+## Czym jest SEO copywriting?
+
+**SEO copywriting** to sztuka tworzenia treści, które:
+
+1. **Rankują wysoko** w wynikach wyszukiwania (optymalizacja pod algorytmy)
+2. **Angażują czytelników** i przekonują do działania (copywriting)
+
+To nie są dwa oddzielne zadania --- to jedno zintegrowane podejście.
+
+```{=latex}
+\begin{wazne}
+Tradycyjny copywriting skupia się na perswazji. SEO copywriting dodaje optymalizację pod słowa kluczowe, strukturę i sygnały jakości dla wyszukiwarek. Ale najważniejsza zasada pozostaje ta sama: piszesz dla ludzi, nie dla robotów.
+\end{wazne}
+```
+
+**Dlaczego to ważne?**
+
+- Najlepszy tekst sprzedażowy jest bezużyteczny, jeśli nikt go nie znajdzie
+- Wysoka pozycja w Google jest bezużyteczna, jeśli tekst nie konwertuje
+- SEO copywriting łączy oba światy
+
+```{=latex}
+\decoline
+```
+
+## E-E-A-T: Fundament jakości w oczach Google
+
+Google ocenia jakość treści według wytycznych **E-E-A-T**:
+
+```{=latex}
+\begin{formula}{E-E-A-T (Google Quality Guidelines)}
+\textbf{Experience} --- Doświadczenie: Czy autor ma praktyczne doświadczenie z tematem?\\
+\textbf{Expertise} --- Ekspertyza: Czy autor ma wiedzę specjalistyczną?\\
+\textbf{Authoritativeness} --- Autorytet: Czy źródło jest uznawane w branży?\\
+\textbf{Trustworthiness} --- Wiarygodność: Czy strona i treść są godne zaufania?
+\end{formula}
+```
+
+**Jak demonstrować E-E-A-T w treściach?**
+
+- **Experience:** Opisuj własne doświadczenia, case studies, wyniki
+- **Expertise:** Pokazuj kwalifikacje, cytuj badania, podawaj dane
+- **Authoritativeness:** Linkuj do autorytatywnych źródeł, zdobywaj backlinki
+- **Trustworthiness:** Aktualizuj treści, podawaj źródła, zachowuj transparentność
+
+```{=latex}
+\begin{wskazowka}
+E-E-A-T jest szczególnie ważne w branżach YMYL (Your Money, Your Life) --- finanse, zdrowie, prawo. Ale nawet w innych branżach sygnały autorytetu i wiarygodności pomagają rankować wyżej.
+\end{wskazowka}
+```
+
+```{=latex}
+\decoline
+```
+
+## Search Intent: Zrozum, czego szuka użytkownik
+
+**Search Intent** (intencja wyszukiwania) to powód, dla którego ktoś wpisuje zapytanie w Google. Zrozumienie intencji jest kluczowe --- jeśli Twoja treść nie odpowiada na to, czego szuka użytkownik, Google jej nie pokaże.
+
+### 4 typy intencji wyszukiwania
+
+| Typ | Cel użytkownika | Przykłady zapytań | Typ treści |
+|-----|-----------------|-------------------|------------|
+| **Informacyjna** | Chce się czegoś dowiedzieć | „jak napisać nagłówek", „co to jest copywriting" | Poradniki, artykuły, FAQ |
+| **Nawigacyjna** | Szuka konkretnej strony | „Allegro logowanie", „Netflix cennik" | Strona główna, podstrony |
+| **Komercyjna** | Porównuje opcje przed zakupem | „najlepsze kursy copywritingu", „iPhone vs Samsung" | Porównania, recenzje, rankingi |
+| **Transakcyjna** | Chce kupić / wykonać akcję | „kup kurs copywritingu", „zamów pizzę online" | Strony produktowe, landing page |
+
+```{=latex}
+\stathighlight{99\%}{zapytań w Google można zakwalifikować do jednego z 4 typów intencji (Backlinko)}
+```
+
+### Jak określić intencję?
+
+**1. Przeanalizuj SERP (wyniki wyszukiwania)**
+
+Wpisz słowo kluczowe w Google i zobacz, co się pojawia:
+- Poradniki i artykuły → intencja informacyjna
+- Strony produktowe → intencja transakcyjna
+- Porównania i recenzje → intencja komercyjna
+
+**2. Zwróć uwagę na modyfikatory**
+
+- Informacyjne: „jak", „co to", „dlaczego", „przewodnik"
+- Transakcyjne: „kup", „cena", „zamów", „tani"
+- Komercyjne: „najlepszy", „top 10", „vs", „porównanie", „opinie"
+
+```{=latex}
+\begin{przyklad}{Dopasowanie treści do intencji}
+\textbf{Zapytanie:} ``jak napisać nagłówek''
+
+\textbf{Intencja:} Informacyjna
+
+\textbf{Oczekiwana treść:} Poradnik z technikami, przykładami, formułami
+
+\textbf{NIE:} Strona sprzedażowa kursu copywritingu (intencja transakcyjna)
+
+\textbf{Zapytanie:} ``kurs copywritingu cena''
+
+\textbf{Intencja:} Transakcyjna/komercyjna
+
+\textbf{Oczekiwana treść:} Strona z cennikiem, ofertą
+
+\textbf{NIE:} Artykuł o tym, czym jest copywriting (intencja informacyjna)
+\end{przyklad}
+```
+
+```{=latex}
+\decoline
+```
+
+## Słowa kluczowe: Podstawy badania
+
+### Typy słów kluczowych
+
+**Head keywords (główne):**
+- Krótkie (1-2 słowa): „copywriting", „nagłówki"
+- Wysoka konkurencja, wysoki wolumen
+- Trudne do wypozycjonowania
+
+**Long-tail keywords (długi ogon):**
+- Dłuższe (3+ słowa): „jak napisać nagłówek sprzedażowy"
+- Niższa konkurencja, niższy wolumen
+- Łatwiejsze do wypozycjonowania, wyższa konwersja
+
+```{=latex}
+\begin{wskazowka}
+Dla nowych stron i blogów skup się na long-tail keywords. Łatwiej się pozycjonują, a użytkownicy są bardziej precyzyjni w tym, czego szukają --- co oznacza wyższą konwersję.
+\end{wskazowka}
+```
+
+### Gdzie szukać słów kluczowych?
+
+**Narzędzia:**
+- Google Keyword Planner (darmowy)
+- Ubersuggest (freemium)
+- Ahrefs, Semrush (płatne, profesjonalne)
+- AnswerThePublic (pytania użytkowników)
+
+**Inne źródła:**
+- Podpowiedzi Google (autouzupełnianie)
+- „People Also Ask" w wynikach Google
+- Fora i grupy branżowe
+- Recenzje konkurencji
+
+### Metryki do analizy
+
+| Metryka | Co oznacza | Na co zwracać uwagę |
+|---------|------------|---------------------|
+| **Search Volume** | Liczba wyszukiwań miesięcznie | Wyższy = więcej potencjalnego ruchu |
+| **Keyword Difficulty** | Trudność wypozycjonowania | Niższy = łatwiejsze rankowanie |
+| **CPC** | Koszt kliknięcia w reklamach | Wyższy = większa wartość komercyjna |
+
+```{=latex}
+\decoline
+```
+
+## Optymalizacja on-page: Gdzie umieszczać słowa kluczowe
+
+### 1. Tytuł strony (Title Tag)
+
+Najważniejszy element on-page SEO. Wyświetla się w wynikach wyszukiwania.
+
+**Zasady:**
+- Główne słowo kluczowe na początku
+- Max **60 znaków** (dłuższe są obcinane)
+- Zachęcający do kliknięcia (jak nagłówek)
+
+```{=latex}
+\begin{przyklad}{Title tag}
+\textbf{Słowo kluczowe:} copywriting dla początkujących
+
+\textbf{Słaby:} ``Nasz blog o pisaniu | Firma XYZ''
+
+\textbf{Dobry:} ``Copywriting dla początkujących: Kompletny przewodnik 2026''
+\end{przyklad}
+```
+
+### 2. Meta description
+
+Opis wyświetlany pod tytułem w wynikach wyszukiwania. Nie wpływa bezpośrednio na ranking, ale wpływa na **CTR** (click-through rate).
+
+**Zasady:**
+- Max **160 znaków**
+- Słowo kluczowe (Google je pogrubia)
+- Zachęta do kliknięcia + CTA
+- Unikalna dla każdej strony
+
+```{=latex}
+\begin{przyklad}{Meta description}
+``Naucz się copywritingu od podstaw. Poznaj sprawdzone techniki pisania tekstów, które sprzedają. Darmowy przewodnik z przykładami. Czytaj teraz!''
+\end{przyklad}
+```
+
+### 3. Nagłówki (H1, H2, H3...)
+
+Struktura nagłówków pomaga Google zrozumieć hierarchię treści.
+
+**Zasady:**
+- **H1** --- jeden na stronie, główne słowo kluczowe
+- **H2** --- główne sekcje, słowa kluczowe i warianty
+- **H3** --- podsekcje
+
+```{=latex}
+\begin{przyklad}{Struktura nagłówków}
+\textbf{H1:} Copywriting dla początkujących: Kompletny przewodnik
+
+\textbf{H2:} Co to jest copywriting?
+
+\textbf{H2:} Podstawowe techniki copywritingu
+\hspace{1cm}\textbf{H3:} Formuła AIDA
+\hspace{1cm}\textbf{H3:} Pisanie nagłówków
+
+\textbf{H2:} Jak zacząć karierę copywritera
+\end{przyklad}
+```
+
+### 4. Pierwsze 100 słów
+
+Google przywiązuje wagę do początku tekstu. Umieść główne słowo kluczowe w pierwszym akapicie (najlepiej w pierwszym zdaniu).
+
+### 5. Treść (Body Copy)
+
+**Zasady:**
+- Słowo kluczowe **2-5 razy** (zależnie od długości)
+- Naturalne użycie --- nie „keyword stuffing"
+- Warianty i synonimy (LSI keywords)
+- Słowo kluczowe w ostatnim akapicie
+
+```{=latex}
+\begin{uwaga}
+``Keyword density'' (gęstość słów kluczowych) to przestarzała koncepcja. Google rozumie kontekst i synonimy. Pisz naturalnie, nie licz procentów.
+\end{uwaga}
+```
+
+### 6. URL
+
+Krótki, opisowy, ze słowem kluczowym.
+
+**Dobry:** `example.com/copywriting-dla-poczatkujacych`
+
+**Zły:** `example.com/p=12345` lub `example.com/artykul-o-bardzo-dlugim-tytule-ktory-zawiera-wszystkie-slowa`
+
+### 7. Obrazy
+
+- **Nazwa pliku:** `copywriting-naglowek.jpg` (nie `IMG_4532.jpg`)
+- **Alt text:** Opis obrazu ze słowem kluczowym (jeśli pasuje)
+- **Kompresja:** Szybkość ładowania wpływa na SEO
+
+### 8. Linki wewnętrzne
+
+Linkuj do innych stron na swojej witrynie z odpowiednim anchor textem (tekstem linku).
+
+```{=latex}
+\begin{przyklad}{Linki wewnętrzne}
+``Więcej o pisaniu nagłówków znajdziesz w naszym \textit{przewodniku po formułach copywriterskich}.''
+
+Anchor text = ``przewodniku po formułach copywriterskich'' → linkuje do odpowiedniej strony
+\end{przyklad}
+```
+
+```{=latex}
+\decoline
+```
+
+## Pisanie treści SEO: Praktyczne techniki
+
+### Zasada: Najpierw ludzie, potem optymalizacja
+
+Najskuteczniejsze podejście w 2025:
+
+1. **Napisz** angażujący tekst dla czytelnika
+2. **Zoptymalizuj** --- dodaj słowa kluczowe w strategicznych miejscach
+3. **Sprawdź** --- przeczytaj na głos, czy brzmi naturalnie
+
+```{=latex}
+\begin{wazne}
+Pisanie ``dla robotów'' daje sztywny, nieczytelny tekst. Google coraz lepiej rozpoznaje jakość --- i nagradza treści pisane dla ludzi.
+\end{wazne}
+```
+
+### Technika APP (Brian Dean, Backlinko)
+
+Metoda na utrzymanie czytelnika na stronie (ważny sygnał UX dla Google).
+
+```{=latex}
+\begin{formula}{Metoda APP}
+\textbf{Agree} --- Zgadzam się: Zacznij od stwierdzenia, z którym czytelnik się zgodzi\\
+\textbf{Promise} --- Obietnica: Obiecaj, co zyska czytając dalej\\
+\textbf{Preview} --- Zapowiedź: Pokaż, czego się dowie
+\end{formula}
+```
+
+```{=latex}
+\begin{przyklad}{Metoda APP w praktyce}
+\textbf{Agree:} ``Pisanie nagłówków to jedno z najtrudniejszych zadań copywritera.''
+
+\textbf{Promise:} ``W tym przewodniku pokażę Ci 12 sprawdzonych formuł, które działają w każdej branży.''
+
+\textbf{Preview:} ``Poznasz techniki używane przez Davida Ogilvy'ego, formułę 4U i konkretne przykłady z polskiego rynku.''
+\end{przyklad}
+```
+
+### Bucket Brigades
+
+Krótkie frazy, które utrzymują czytelnika zaangażowanego i zmniejszają bounce rate.
+
+**Przykłady:**
+- „Ale to nie wszystko..."
+- „Oto dlaczego:"
+- „Spójrz na to:"
+- „Brzmi znajomo?"
+- „Najlepsza część?"
+- „Pomyśl o tym:"
+
+Umieszczaj je co kilka akapitów, szczególnie tam, gdzie czytelnik mógłby się zniechęcić.
+
+### Skanowalna struktura
+
+**Elementy:**
+- Krótkie akapity (2-4 zdania)
+- Nagłówki co 300-500 słów
+- Wypunktowania i listy
+- Pogrubienia kluczowych fraz
+- Obrazy i grafiki
+- Białe przestrzenie
+
+### Długość treści
+
+**Zasada:** Długość powinna odpowiadać intencji i tematowi.
+
+- Prosty temat → krótka treść (500-800 słów)
+- Kompleksowy przewodnik → długa treść (2000-4000 słów)
+
+```{=latex}
+\begin{wskazowka}
+Sprawdź, ile słów mają artykuły na pierwszej stronie Google dla Twojego słowa kluczowego. To dobry benchmark --- nie musisz pisać więcej, ale powinieneś pokryć temat równie dobrze.
+\end{wskazowka}
+```
+
+```{=latex}
+\decoline
+```
+
+## Sygnały UX: Co Google mierzy
+
+Google ocenia jakość treści na podstawie tego, jak użytkownicy z nią wchodzą w interakcję:
+
+### Bounce Rate (współczynnik odrzuceń)
+
+Procent użytkowników, którzy opuszczają stronę bez interakcji.
+
+**Jak zmniejszyć:**
+- Dopasuj treść do intencji wyszukiwania
+- Angażujący wstęp (APP)
+- Skanowalna struktura
+- Bucket brigades
+
+### Time on Page (czas na stronie)
+
+Im dłużej użytkownik zostaje, tym lepszy sygnał dla Google.
+
+**Jak zwiększyć:**
+- Wartościowa, dogłębna treść
+- Multimedia (wideo, infografiki)
+- Interaktywne elementy
+- Wewnętrzne linki do powiązanych treści
+
+### Pogo-sticking
+
+Kiedy użytkownik klika wynik, wraca do SERP i klika inny wynik --- sygnał, że pierwsza strona nie spełniła oczekiwań.
+
+**Jak unikać:**
+- Odpowiedz na pytanie od razu (nie ukrywaj odpowiedzi)
+- Dopasuj treść do intencji
+- Szybki czas ładowania strony
+
+```{=latex}
+\decoline
+```
+
+## Aktualizacja treści
+
+Google preferuje świeże, aktualne treści. Regularna aktualizacja może znacząco poprawić pozycje.
+
+**Co aktualizować:**
+- Nieaktualne dane i statystyki
+- Martwe linki
+- Przestarzałe informacje
+- Nowe sekcje odpowiadające na pytania użytkowników
+
+**Jak często:**
+- Kluczowe treści: co 6-12 miesięcy
+- Dynamiczne tematy: częściej
+- Evergreen content: co 12-18 miesięcy
+
+```{=latex}
+\begin{wskazowka}
+Po aktualizacji zmień datę publikacji na aktualną. Google to widzi i może dać boost w rankingach.
+\end{wskazowka}
+```
+
+```{=latex}
+\decoline
+```
+
+## LSI Keywords i semantyczne SEO
+
+**LSI (Latent Semantic Indexing)** to słowa i frazy powiązane tematycznie z głównym słowem kluczowym.
+
+Dla „copywriting" LSI keywords mogą obejmować:
+- Pisanie tekstów
+- Perswazja
+- Nagłówki
+- Call to action
+- Konwersja
+- Treści marketingowe
+
+```{=latex}
+\begin{wazne}
+Google używa semantycznego zrozumienia treści. Nie wystarczy powtarzać głównego słowa kluczowego --- musisz pokryć temat kompleksowo, używając powiązanych pojęć.
+\end{wazne}
+```
+
+**Gdzie znaleźć LSI keywords:**
+- „Podobne wyszukiwania" na dole strony Google
+- „People Also Ask"
+- Narzędzia: LSIGraph, Also Asked
+- Analiza konkurencji
+
+```{=latex}
+\decoline
+```
+
+## Checklist SEO Copywriting
+
+**Przed pisaniem:**
+
+- [ ] Zbadane słowo kluczowe i jego warianty
+- [ ] Przeanalizowana intencja wyszukiwania
+- [ ] Sprawdzona konkurencja (top 10 w Google)
+- [ ] Określona struktura treści
+
+**Podczas pisania:**
+
+- [ ] Angażujący wstęp (metoda APP)
+- [ ] Naturalne użycie słów kluczowych
+- [ ] Skanowalna struktura (nagłówki, akapity, listy)
+- [ ] Bucket brigades co kilka akapitów
+- [ ] LSI keywords i synonimy
+- [ ] Linki wewnętrzne
+
+**Optymalizacja:**
+
+- [ ] Title tag (max 60 znaków, słowo kluczowe na początku)
+- [ ] Meta description (max 160 znaków, zachęta + CTA)
+- [ ] H1 ze słowem kluczowym
+- [ ] H2/H3 z wariantami słów kluczowych
+- [ ] Słowo kluczowe w pierwszych 100 słowach
+- [ ] URL zoptymalizowany
+- [ ] Obrazy z alt textem
+- [ ] Słowo kluczowe w ostatnim akapicie
+
+**Po publikacji:**
+
+- [ ] Sprawdzony czas ładowania strony
+- [ ] Wersja mobilna działa poprawnie
+- [ ] Zaplanowana aktualizacja (6-12 miesięcy)
+
+```{=latex}
+\decoline
+```
+
+## Błędy w SEO copywritingu
+
+### 1. Keyword stuffing
+
+Nadmierne użycie słów kluczowych. Google to penalizuje, czytelnicy to nienawidzą.
+
+### 2. Ignorowanie intencji
+
+Pisanie treści, która nie odpowiada na to, czego szuka użytkownik.
+
+### 3. Pisanie dla robotów
+
+Sztywny, nienaturalny tekst pełen słów kluczowych, ale bez wartości dla czytelnika.
+
+### 4. Brak struktury
+
+Ściany tekstu bez nagłówków, akapitów, list. Użytkownicy uciekają.
+
+### 5. Kopiowanie konkurencji
+
+Google nagradza unikalne treści. Przepisywanie tego, co już jest w top 10, nie wystarczy.
+
+### 6. Zaniedbywanie aktualizacji
+
+Stare treści z nieaktualnymi danymi tracą pozycje.
+
+### 7. Optymalizacja bez copywritingu
+
+Tekst może być perfekcyjnie zoptymalizowany, ale jeśli nie przekonuje --- nie konwertuje.
+
+```{=latex}
+\decoline
+```
+
+```{=latex}
+\begin{cwiczenie}{Zoptymalizuj istniejący tekst}
+Weź dowolny artykuł (swój lub z internetu) i zoptymalizuj go pod SEO.
+
+\textbf{Część 1: Analiza (10 min)}
+
+\begin{enumerate}
+  \item Określ główne słowo kluczowe
+  \item Sprawdź intencję wyszukiwania (wpisz w Google, zobacz wyniki)
+  \item Znajdź 5 LSI keywords (podpowiedzi Google, People Also Ask)
+\end{enumerate}
+
+\textbf{Część 2: Optymalizacja (20 min)}
+
+\begin{enumerate}
+  \item Napisz nowy title tag (max 60 znaków)
+  \item Napisz meta description (max 160 znaków)
+  \item Dodaj/popraw nagłówki H2 ze słowami kluczowymi
+  \item Dodaj słowo kluczowe w pierwszym i ostatnim akapicie
+  \item Wstaw 3 bucket brigades
+  \item Dodaj 2-3 linki wewnętrzne
+\end{enumerate}
+
+\textbf{Część 3: Weryfikacja (5 min)}
+
+Przeczytaj tekst na głos. Czy brzmi naturalnie? Czy słowa kluczowe nie są wymuszone?
+
+\textbf{Czas:} 35 minut
+\end{cwiczenie}
+```
+
+```{=latex}
+\takeaway{SEO copywriting to pisanie dla ludzi z uwzględnieniem wyszukiwarek --- nie odwrotnie. Zrozum intencję wyszukiwania (informacyjna, nawigacyjna, komercyjna, transakcyjna) i dopasuj do niej treść. Optymalizuj strategiczne elementy: title tag, meta description, nagłówki, pierwsze 100 słów, URL, obrazy. Używaj technik utrzymujących czytelnika: metoda APP, bucket brigades, skanowalna struktura. Pamiętaj o E-E-A-T --- Google nagradza doświadczenie, ekspertyzę, autorytet i wiarygodność. Aktualizuj treści co 6-12 miesięcy. I najważniejsze: pisz wartościowe treści, które ludzie chcą czytać --- to najlepsza strategia SEO.}
+```
+
+W następnym rozdziale zajmiemy się **długimi formami sprzedażowymi** --- jak pisać sales pages, które przekonują nawet sceptycznych czytelników.
+
+```{=latex}
+\decoline
+```

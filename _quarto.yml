@@ -10,16 +10,19 @@ book:
 
   chapters:
     - index.qmd
-    - part: "CZĘŚĆ I: FUNDAMENTY"
-      chapters:
-        - chapters/01-wprowadzenie.qmd
-        - chapters/02-psychologia-perswazji.qmd
-        - chapters/03-badanie-grupy-docelowej.qmd
-        - chapters/04-naglowki.qmd
-        - chapters/05-lead-pierwszy-akapit.qmd
-        - chapters/06-struktura-body-copy.qmd
-        - chapters/07-wezwanie-do-dzialania.qmd
-        - chapters/08-copywriting-dla-kanalow.qmd
+    - chapters/01-wprowadzenie.qmd
+    - chapters/02-psychologia-perswazji.qmd
+    - chapters/03-badanie-grupy-docelowej.qmd
+    - chapters/04-naglowki.qmd
+    - chapters/05-lead-pierwszy-akapit.qmd
+    - chapters/06-struktura-body-copy.qmd
+    - chapters/07-wezwanie-do-dzialania.qmd
+    - chapters/08-copywriting-dla-kanalow.qmd
+    - chapters/09-storytelling.qmd
+    - chapters/10-seo-copywriting.qmd
+    - chapters/11-dlugie-formy-sprzedazowe.qmd
+    - chapters/12-copywriting-ecommerce.qmd
+    - chapters/13-copywriting-b2b.qmd
 
   page-navigation: true
 
@@ -44,7 +47,7 @@ format:
     sansfont: "Fira Sans"
     monofont: "Fira Code"
 
-    fontsize: 11pt
+    fontsize: 12pt
     linestretch: 1.15
 
     geometry:
