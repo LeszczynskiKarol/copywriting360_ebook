@@ -4,7 +4,7 @@ project:
 
 book:
   title: "Copywriting 360°"
-  subtitle: "Od Psychologii do Konwersji"
+  subtitle: "Od psychologii do konwersji"
   author: "Karol Leszczyński"
   date: "2026"
 
@@ -17,12 +17,15 @@ book:
     - chapters/05-lead-pierwszy-akapit.qmd
     - chapters/06-struktura-body-copy.qmd
     - chapters/07-wezwanie-do-dzialania.qmd
-    - chapters/08-copywriting-dla-kanalow.qmd
-    - chapters/09-storytelling.qmd
-    - chapters/10-seo-copywriting.qmd
-    - chapters/11-dlugie-formy-sprzedazowe.qmd
-    - chapters/12-copywriting-ecommerce.qmd
-    - chapters/13-copywriting-b2b.qmd
+    - chapters/08-edycja-redakcja-korekta.qmd
+    - chapters/09-copywriting-dla-kanalow.qmd
+    - chapters/10-storytelling.qmd
+    - chapters/11-seo-copywriting.qmd
+    - chapters/12-dlugie-formy-sprzedazowe.qmd
+    - chapters/13-copywriting-ecommerce.qmd
+    - chapters/14-copywriting-b2b.qmd
+    - chapters/15-kariera-copywritera.qmd
+    - chapters/16-ai-w-copywritingu.qmd
 
   page-navigation: true
 
@@ -32,17 +35,15 @@ format:
     classoption:
       - twoside
       - openright
-      - 11pt
+      - 12pt
       - DIV=12
       - BCOR=12mm
     papersize: a4
 
     include-in-header: _header.tex
-    include-before-body: _frontmatter.tex
 
     pdf-engine: xelatex
 
-    # Fonts - comment out if not installed
     mainfont: "Libertinus Serif"
     sansfont: "Fira Sans"
     monofont: "Fira Code"
@@ -57,12 +58,20 @@ format:
       - outer=20mm
 
     toc: true
-    toc-depth: 3
+    toc-depth: 2
     toc-title: "Spis treści"
 
     number-sections: true
-    number-depth: 3
+    number-depth: 2
 
     keep-tex: true
+    include-before-body:
+      text: |
+        \pagenumbering{gobble}
+        \pagecolor{deepnavy}
+        \includepdf[pages=1]{cover.pdf}
+        \pagecolor{white}
+        \null\thispagestyle{empty}\clearpage
+        \input{_frontmatter.tex}
 
 lang: pl

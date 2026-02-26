@@ -1,9 +1,11 @@
 % ============================================================
 % COPYWRITING 360 - Header BEZ FontAwesome
 % ============================================================
-
+\AtBeginDocument{\let\maketitle\relax}
 \usepackage{xcolor}
-
+\usepackage{pdfpages}
+\setcounter{secnumdepth}{1}          
+\KOMAoptions{numbers=endperiod}      
 \definecolor{primaryblue}{HTML}{1a73e8}
 \definecolor{primarydark}{HTML}{0d47a1}
 \definecolor{primarylight}{HTML}{e3f2fd}
@@ -25,6 +27,8 @@
 \definecolor{importantborder}{HTML}{e91e63}
 \definecolor{exercisebg}{HTML}{e3f2fd}
 \definecolor{exerciseborder}{HTML}{1976d2}
+\definecolor{deepnavy}{HTML}{0a1628}
+\definecolor{accentcyan}{HTML}{00b8d4}
 
 \usepackage{tcolorbox}
 \tcbuselibrary{skins,breakable}
@@ -47,13 +51,13 @@
 
 \titleformat{\section}
   {\normalfont\Large\bfseries\color{primarydark}}
-  {\textcolor{primaryblue}{\thesection}}
+  {\textcolor{primaryblue}{\thesection.}}
   {1em}
   {}
 
 \titleformat{\subsection}
   {\normalfont\large\bfseries\color{textdark}}
-  {\textcolor{primaryblue}{\thesubsection}}
+  {\textcolor{primaryblue}{\thesubsection.}}
   {0.75em}
   {}
 
@@ -104,7 +108,7 @@
   borderline west={4pt}{0pt}{tipborder},
   sharp corners,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{tipborder}WSKAZOWKA},
+  title={\color{tipborder}WSKAZÓWKA},
   fonttitle=\bfseries,
   coltitle=tipborder,
   attach boxed title to top left={yshift=-2mm, xshift=5mm},
@@ -136,7 +140,7 @@
   borderline west={4pt}{0pt}{importantborder},
   sharp corners,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{importantborder}WAZNE},
+  title={\color{importantborder}WAŻNE},
   fonttitle=\bfseries,
   coltitle=importantborder,
   attach boxed title to top left={yshift=-2mm, xshift=5mm},
@@ -151,7 +155,7 @@
   boxrule=1pt,
   arc=5pt,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{white}CWICZENIE: #1},
+  title={\color{white}ĆWICZENIE. #1},
   fonttitle=\bfseries,
   coltitle=white,
   attach boxed title to top left={yshift=-3mm, xshift=5mm},
@@ -180,7 +184,7 @@
   boxrule=2pt,
   arc=8pt,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{white}FORMULA: #1},
+  title={\color{white}FORMUŁA. #1},
   fonttitle=\bfseries,
   coltitle=white,
   attach boxed title to top center={yshift=-3mm},
@@ -195,7 +199,7 @@
   boxrule=1pt,
   arc=0pt,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{white}PRZYKLAD: #1},
+  title={\color{white}PRZYKłAD. #1},
   fonttitle=\bfseries,
   coltitle=white,
   attach boxed title to top left={yshift=-3mm, xshift=5mm},
@@ -203,8 +207,16 @@
 }
 
 % LISTS
-\setlist[itemize,1]{label=\textcolor{primaryblue}{--}, leftmargin=*, itemsep=4pt}
-\setlist[itemize,2]{label=\textcolor{primaryblue}{-}, leftmargin=*, itemsep=2pt}
+\newcommand{\bulleticon}{%
+  \tikz[baseline=-0.6ex]{
+    \fill[primaryblue!15] circle (0.7ex);
+    \fill[primaryblue] circle (0.3ex);
+  }%
+}
+\setlist[itemize,1]{
+  label=\bulleticon,
+  leftmargin=2em, itemsep=6pt, parsep=2pt
+}
 \setlist[enumerate,1]{label=\textcolor{primaryblue}{\bfseries\arabic*.}, leftmargin=*, itemsep=4pt}
 
 \newlist{checklist}{itemize}{1}

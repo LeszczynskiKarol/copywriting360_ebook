@@ -4,10 +4,10 @@ subtitle: "I dlaczego zmieni Twoje podejście do biznesu"
 ---
 
 ```{=latex}
-\chapteropener{W świecie przesyconym treścią, słowa są Twoją supermocą.\\Naucz się ich używać.}
+\chapteropener{W świecie przesyconym treścią słowa są Twoją supermocą.\\Naucz się ich używać.}
 ```
 
-**Każdego dnia jesteś bombardowany tysiącami komunikatów marketingowych.** Reklamy w social mediach, emaile, billboardy, strony internetowe, opakowania produktów — wszędzie ktoś próbuje zwrócić Twoją uwagę i przekonać Cię do działania. Większość tych komunikatów przepływa przez Twoją świadomość bez śladu. Ale niektóre... niektóre zatrzymują Cię w miejscu. Zmuszają do przeczytania. I działania.
+**Każdego dnia bombardują Cię tysiące komunikatów marketingowych.** Reklamy w social mediach, emaile, billboardy, strony internetowe, opakowania produktów — wszędzie ktoś próbuje zwrócić Twoją uwagę i przekonać Cię do działania. Większość tych komunikatów przepływa przez Twoją świadomość bez śladu. Ale niektóre... niektóre zatrzymują Cię w miejscu. Zmuszają do przeczytania. I działania.
 
 To nie magia. To **copywriting**.
 
@@ -46,19 +46,19 @@ Zwróć uwagę na ostatni punkt. Wielu copywriterów popełnia błąd, skupiają
 
 ## Copywriting a inne formy pisania
 
-Często słyszę pytanie: "Czym różni się copywriting od content writingu?" To fundamentalne rozróżnienie, które musisz zrozumieć.
+Często słyszę pytanie: „Czym różni się copywriting od content writingu?”. To fundamentalne rozróżnienie, które musisz zrozumieć.
 
 | Aspekt | Copywriting | Content Writing | UX Writing |
 |--------|-------------|-----------------|------------|
 | **Cel** | Konwersja | Edukacja | Użyteczność |
-| **Horyzont** | Natychmiastowy | Długoterminowy | Momentalny |
+| **Horyzont** | Natychmiastowy | Długoterminowy | Natcyhmiastowy |
 | **Ton** | Perswazyjny | Informacyjny | Neutralny |
-| **Długość** | 3 słowa – 20 stron | 500–5000+ słów | 1–50 słów |
+| **Długość** | 3 słowa – kilkadziesiąt stron | 500–5000+ słów | 1–50 słów |
 | **Przykłady** | Reklamy, landing pages | Blog, poradniki | Przyciski, komunikaty |
 
 ```{=latex}
 \begin{wskazowka}
-Granice między tymi formami zacierają się. Najlepsi specjaliści potrafią płynnie przechodzić między nimi. Artykuł blogowy może mieć elementy copywritingu (CTA), a landing page może edukować. Traktuj te kategorie jako spektrum, nie sztywne podziały.
+Granice między tymi formami się zacierają. Najlepsi specjaliści potrafią płynnie przechodzić między nimi. Artykuł blogowy może mieć elementy copywritingu (CTA), a landing page może edukować. Traktuj te kategorie jako spektrum, nie sztywne podziały.
 \end{wskazowka}
 ```
 
@@ -66,7 +66,7 @@ Granice między tymi formami zacierają się. Najlepsi specjaliści potrafią p�
 
 ### Era pionierów (1900–1950)
 
-Claude Hopkins, David Ogilvy, John Caples — ci pionierzy ustanowili fundamenty, które używamy do dziś. Co ciekawe, większość ich zasad powstała zanim istniał internet, a mimo to doskonale sprawdzają się w erze cyfrowej.
+Claude Hopkins, David Ogilvy, John Caples — ci pionierzy skonstruowali fundamenty używane do dziś. Co ciekawe, większość z nich zasad powstała, zanim istniał internet, a mimo to doskonale sprawdzają się w erze cyfrowej.
 
 ```{=latex}
 \begin{cytat}
@@ -81,7 +81,7 @@ Reklama to sprzedaż w druku. Traktuj ją jak handlowca, który odwiedza tysiąc
 To złoty wiek direct mail — długich listów sprzedażowych, które generowały miliony dolarów. Gary Halbert, Dan Kennedy, Eugene Schwartz udoskonalili techniki perswazji do poziomu niemal naukowej precyzji.
 
 ```{=latex}
-\stathighlight{30:1}{Legendarny list Halberta przyniósł 30 mln USD przy inwestycji 1 mln USD}
+\stathighlight{30:1}{Legendarny list Halberta przyniósł \mbox{30 mln USD} przy inwestycji 1 mln USD}
 ```
 
 ### Era digitalna (1990–obecnie)
@@ -90,7 +90,7 @@ Internet nie zmienił fundamentów copywritingu — zmienił kanały dystrybucji
 
 ```{=latex}
 \begin{wazne}
-Nie daj się zwieść: mimo AI i automatyzacji, podstawy copywritingu --- psychologia, struktura, jasność przekazu --- pozostają niezmienne. Narzędzia się zmieniają, ludzie nie.
+Nie daj się zwieść: mimo AI i automatyzacji podstawy copywritingu --- psychologia, struktura, jasność przekazu --- pozostają niezmienne. Narzędzia się zmieniają, ludzie nie.
 \end{wazne}
 ```
 
@@ -100,7 +100,7 @@ Nie daj się zwieść: mimo AI i automatyzacji, podstawy copywritingu --- psycho
 
 ## Anatomia konwersji
 
-Zanim napiszesz pierwsze słowo, musisz zrozumieć, co właściwie próbujesz osiągnąć. W copywritingu wszystko sprowadza się do **konwersji**.
+Zanim napiszesz pierwsze słowo, zrozum, co właściwie próbujesz osiągnąć. W copywritingu wszystko sprowadza się do **konwersji**.
 
 ```{=latex}
 \begin{pojecie}{Konwersja}
@@ -115,15 +115,9 @@ Zanim napiszesz pierwsze słowo, musisz zrozumieć, co właściwie próbujesz os
 
 **Makro konwersja** to główny cel biznesowy — np. zakup produktu za 997 zł.
 
-**Mikro konwersje** to mniejsze kroki prowadzące do makro konwersji:
+**Mikro konwersje** to mniejsze kroki prowadzące do makro konwersji, np. kliknięcie w reklamę, zapis na newsletter, pobranie lead magneta, otwarcie emaila, dodanie do koszyka.
 
-- Kliknięcie w reklamę
-- Zapis na newsletter  
-- Pobranie lead magneta
-- Otwarcie emaila
-- Dodanie do koszyka
-
-Każda mikro konwersja wymaga osobnego "copy" — emaila, przycisku, strony. Dobry copywriter myśli o całej ścieżce, nie tylko o końcowym kroku.
+Każda mikro konwersja wymaga osobnego „copy” — emaila, przycisku, strony. Dobry copywriter myśli o całej ścieżce, nie tylko o końcowym kroku.
 
 ## Co czyni copy skutecznym?
 
@@ -148,19 +142,19 @@ Zanim przejdziemy dalej, rozprawmy się z kilkoma szkodliwymi mitami:
 
 ```{=latex}
 \begin{uwaga}
-\textbf{MIT 1: "Copywriting to manipulacja"}
+\textbf{MIT 1: „Copywriting to manipulacja”}
 
-Manipulacja to świadome wprowadzanie w błąd dla własnej korzyści. Etyczny copywriting to jasne komunikowanie wartości produktu osobom, które naprawdę mogą z niego skorzystać. Różnica jest fundamentalna.
-
-\medskip
-\textbf{MIT 2: "Trzeba być urodzonym pisarzem"}
-
-Copywriting to umiejętność --- można się jej nauczyć. Najlepsi copywriterzy to często byli inżynierowie, sprzedawcy, psychologowie. Liczy się zrozumienie ludzi, nie talent literacki.
+Manipulacja polega na świadomym wprowadzaniu w błąd dla własnej korzyści. Etyczny copywriting to jasne komunikowanie wartości produktu osobom, które naprawdę mogą z niego skorzystać. Różnica jest fundamentalna.
 
 \medskip
-\textbf{MIT 3: "AI zastąpi copywriterów"}
+\textbf{MIT 2: „Trzeba być urodzonym pisarzem”}
 
-AI to narzędzie, jak kalkulator dla matematyka. Może przyspieszyć pracę, ale strategia, empatia i zrozumienie kontekstu pozostają domeną człowieka. Więcej o tym w Module 19.
+Copywriting jest umiejętnością --- można się jej nauczyć. Najlepsi copywriterzy to często byli inżynierowie, sprzedawcy, psychologowie. Liczy się zrozumienie ludzi, nie talent literacki.
+
+\medskip
+\textbf{MIT 3: „AI zastąpi copywriterów”}
+
+AI to narzędzie, jak kalkulator dla matematyka. Może przyspieszyć pracę, ale strategia, empatia i zrozumienie kontekstu pozostają domeną człowieka. Więcej o tym w rozdziale nr 19.
 \end{uwaga}
 ```
 
@@ -168,34 +162,15 @@ AI to narzędzie, jak kalkulator dla matematyka. Może przyspieszyć pracę, ale
 \decoline
 ```
 
-## Struktura tego kursu
-
-Ten kurs jest podzielony na **6 części**, które prowadzą Cię od fundamentów do zaawansowanych technik:
-
-| Część | Nazwa | Zakres |
-|-------|-------|--------|
-| I | FUNDAMENTY | Psychologia, research, poziomy świadomości |
-| II | TECHNIKI | Nagłówki, formuły, storytelling, obiekcje |
-| III | FORMATY | Landing pages, email, social, e-commerce, B2B, UX |
-| IV | AI I NARZĘDZIA | Prompt engineering, toolkit, testowanie |
-| V | BIZNES | Portfolio, wycena, pozyskiwanie klientów |
-| VI | PROJEKT | Capstone z feedbackiem |
-
-```{=latex}
-\begin{wskazowka}
-Nie musisz przerabiać kursu linearnie. Jeśli jesteś doświadczonym marketerem, możesz zacząć od Części III (formaty). Jeśli chcesz szybko pozyskać klientów --- skocz do Części V. Wracaj do wcześniejszych modułów, gdy poczujesz, że brakuje Ci fundamentów.
-\end{wskazowka}
-```
-
-## Jak maksymalnie wykorzystać ten kurs
+## Jak maksymalnie wykorzystać ten ebook
 
 ```{=latex}
 \begin{checklist}
   \item \textbf{Rób ćwiczenia} --- 70\% nauki to praktyka, nie teoria
-  \item \textbf{Zbieraj swipe file} --- Zapisuj przykłady dobrego copy
-  \item \textbf{Analizuj codziennie} --- Patrz na reklamy przez pryzmat technik z kursu
-  \item \textbf{Pisz codziennie} --- Nawet 15 minut dziennie robi różnicę
-  \item \textbf{Szukaj feedbacku} --- Pokaż swoje copy innym
+  \item \textbf{Zbieraj swipe file} --- zapisuj przykłady dobrego copy
+  \item \textbf{Analizuj codziennie} --- patrz na reklamy przez pryzmat technik z kursu
+  \item \textbf{Pisz codziennie} --- nawet 15 minut dziennie robi różnicę
+  \item \textbf{Zbieraj informacje zwrotne od klientów i czytelników} --- pokazuj innym swoje copy
 \end{checklist}
 ```
 
@@ -224,10 +199,10 @@ Zanim przejdziesz dalej, wykonaj pierwszą analizę:
 ```
 
 ```{=latex}
-\takeaway{Copywriting to umiejętność łącząca psychologię, kreatywność i strategię. Nie jest manipulacją --- jest jasną komunikacją wartości. I jak każda umiejętność, można się go nauczyć poprzez systematyczną praktykę i analizę.}
+\takeaway{Copywriting to umiejętność łącząca psychologię, kreatywność i strategię. Nie jest manipulacją --- jest jasną komunikacją wartości. I jak każdej umiejętności, można się jej nauczyć poprzez systematyczną praktykę i analizę.}
 ```
 
-W następnym rozdziale zanurzymy się w **psychologię perswazji** — naukowy fundament, który sprawi, że Twoje copy będzie działać nie przez przypadek, ale przez głębokie zrozumienie, jak ludzki mózg podejmuje decyzje.
+W następnym rozdziale zanurzymy się w **psychologię perswazji** — naukowy fundament, który sprawi, że Twoje copy będzie działać nie przez przypadek, ale przez głębokie zrozumienie mechanizmów rządzących ludzkim mózgiem.
 
 ```{=latex}
 \decoline

@@ -1,11 +1,6 @@
----
-title: "Copywriting 360°"
-subtitle: "Od Psychologii do Konwersji"
----
-
 # Przedmowa {.unnumbered}
 
-Trzymasz w rękach efekt ponad 15 lat doświadczenia w marketingu cyfrowym, copywritingu i budowaniu biznesów online. To nie jest kolejny zbiór "sztuczek" i "hacków" — to kompleksowy system myślenia o komunikacji perswazyjnej.
+Trzymasz w rękach efekt ponad 15 lat doświadczenia w marketingu cyfrowym, copywritingu i budowaniu biznesów online. To nie jest kolejny zbiór „sztuczek" i „hacków" — to kompleksowy system myślenia o komunikacji perswazyjnej.
 
 ## Dla kogo jest ta książka?
 
@@ -19,11 +14,11 @@ Ta książka jest dla Ciebie, jeśli:
 
 ## Jak korzystać z tej książki?
 
-**Dla początkujących:** Przerabiaj rozdziały po kolei. Każdy buduje na poprzednim.
+**Dla początkujących.** Przerabiaj rozdziały po kolei. Każdy buduje inne kompetencje.
 
-**Dla średnio zaawansowanych:** Możesz przeskakiwać do interesujących Cię tematów, ale wracaj do fundamentów, gdy poczujesz braki.
+**Dla średnio zaawansowanych.** Możesz przeskakiwać do interesujących Cię tematów, ale wracaj do fundamentów, gdy poczujesz braki.
 
-**Dla zaawansowanych:** Użyj tej książki jako reference — wracaj do konkretnych technik i formuł przy projektach.
+**Dla zaawansowanych.** Użyj tej książki jako inspirację — wracaj do konkretnych technik i formuł przy projektach.
 
 ## Oznaczenia w książce
 
@@ -43,7 +38,7 @@ Uwagi zwracają uwagę na częste błędy lub pułapki.
 
 ```{=latex}
 \begin{wazne}
-Bloki "Ważne" podkreślają kluczowe informacje, których nie możesz pominąć.
+Bloki „Ważne" podkreślają kluczowe informacje, których nie możesz pominąć.
 \end{wazne}
 ```
 
@@ -71,5 +66,5 @@ Dziękuję wszystkim klientom, którzy przez lata pozwalali mi testować, błąd
 
 Do dzieła!
 
-*Karol Leszczyński*  
+*Karol Leszczyński*
 *Luty 2026*

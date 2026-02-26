@@ -3,10 +3,6 @@ title: "Copywriting dla e-commerce"
 subtitle: "Opisy produktów, strony kategorii i optymalizacja konwersji"
 ---
 
-```{=latex}
-\chapteropener{Ludzie nie kupują produktów. Kupują lepsze wersje siebie.\\--- Samuel Hulick}
-```
-
 W e-commerce Twoje słowa to jedyny sprzedawca. Klient nie może dotknąć produktu, przymierzyć go, ani zadać pytania ekspedientowi. Wszystko, co ma, to zdjęcia i tekst.
 
 70% koszyków zakupowych jest porzucanych przed finalizacją zamówienia. 48% klientów rezygnuje z powodu ukrytych kosztów wysyłki. 26% --- bo sklep wymaga założenia konta. Ale wiele porzuceń wynika z czegoś prostszego: **klient nie był przekonany, że produkt jest wart swojej ceny**.

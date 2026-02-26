@@ -1,6 +1,6 @@
 ---
 title: "Badanie grupy docelowej"
-subtitle: "Poznaj swojego klienta lepiej niż on sam siebie zna"
+subtitle: "Poznaj swojego klienta lepiej, niż on sam siebie zna"
 ---
 
 ```{=latex}
@@ -12,7 +12,7 @@ Najlepsze techniki copywritingu są bezużyteczne, jeśli nie wiesz, do kogo mó
 Ten rozdział nauczy Cię, jak przeprowadzić badanie grupy docelowej, stworzyć buyer personę i zbierać Voice of Customer --- czyli słowa, których Twoi klienci faktycznie używają. To wiedza, która sprawi, że Twoje copy będzie brzmiało jak rozmowa z przyjacielem, nie jak reklama.
 
 ```{=latex}
-\stathighlight{2-5x}{wzrost skuteczności stron stosujących buyer persony}
+\stathighlight{2-5 x}{wzrost skuteczności stron stosujących buyer persony}
 ```
 
 ## Dlaczego badanie grupy docelowej jest kluczowe?
@@ -31,15 +31,15 @@ Badanie grupy docelowej to \textbf{nie} opcjonalny dodatek. To fundament, bez kt
 
 ### Korzyści z dogłębnego poznania odbiorcy
 
-**Wiesz, jakim językiem mówić** --- Twoi klienci mają swój żargon, swoje określenia, swoje metafory. Gdy używasz ich słów, brzmisz jak „swój".
+**Wiesz, jakim językiem mówić.** Twoi klienci mają swój żargon, swoje określenia, swoje metafory. Gdy używasz ich słów, brzmisz jak „swój".
 
-**Trafiasz w prawdziwe problemy** --- Nie zgadujesz, co boli klientów. Wiesz to z pierwszej ręki.
+**Trafiasz w prawdziwe problemy.** Nie zgadujesz, co boli klientów. Wiesz to z pierwszej ręki.
 
-**Tworzysz treści, które rezonują** --- Copy przestaje być „reklamą", a staje się rozmową, która trafia prosto w serce.
+**Tworzysz treści, które rezonują.** Copy przestaje być „reklamą", a staje się rozmową, która trafia prosto w serce.
 
-**Oszczędzasz czas i pieniądze** --- Zamiast testować dziesiątki wariantów na oślep, zaczynasz od mocnej pozycji.
+**Oszczędzasz czas i pieniądze.** Zamiast testować dziesiątki wariantów na oślep, zaczynasz od mocnej pozycji.
 
-**Budujesz autorytet** --- Gdy klient czuje, że go rozumiesz, automatycznie Ci ufa.
+**Budujesz autorytet.** Gdy klient czuje, że go rozumiesz, automatycznie Ci ufa.
 
 ```{=latex}
 \begin{cytat}
@@ -51,9 +51,9 @@ Gdy używasz słów swoich klientów, wydajesz się czytać w ich myślach. Bo f
 \decoline
 ```
 
-## Demografia vs. Psychografia
+## Demografia vs. psychografia
 
-Większość marketerów zna demografię. Niewielu rozumie psychografię. A to właśnie psychografia jest kluczem do skutecznego copywritingu.
+Większość marketerów zna demografię. Niewielu rozumie psychografię. A to właśnie psychografia jest fundamentem skutecznego copywritingu.
 
 ```{=latex}
 \begin{pojecie}{Demografia}
@@ -96,25 +96,25 @@ Demografia mówi Ci, \textbf{gdzie} szukać klientów (jakie kanały, jakie medi
 \end{wskazowka}
 ```
 
-### Kluczowe elementy psychografii
+### Istotne elementy psychografii
 
-**Wartości** --- Co jest dla nich ważne? Rodzina, kariera, wolność, bezpieczeństwo, przygoda?
+**Wartości.** Co jest dla nich ważne? Rodzina, kariera, wolność, bezpieczeństwo, przygoda?
 
-**Przekonania** --- W co wierzą? Jakie mają poglądy na temat Twojej branży?
+**Przekonania.** W co wierzą? Jakie mają poglądy na temat Twojej branży?
 
-**Lęki i frustracje** --- Co ich budzi w nocy? Czego się boją? Co ich irytuje?
+**Lęki i frustracje.** Co ich budzi w nocy? Czego się boją? Co ich irytuje?
 
-**Aspiracje i marzenia** --- Kim chcą się stać? Jak wyobrażają sobie sukces?
+**Aspiracje i marzenia.** Kim chcą się stać? Jak wyobrażają sobie sukces?
 
-**Styl życia** --- Jak spędzają czas? Jakie mają nawyki? Gdzie bywają?
+**Styl życia.** Jak spędzają czas? Jakie mają nawyki? Gdzie bywają?
 
-**Osobowość** --- Introwertycy czy ekstrawertycy? Analityczni czy impulsywni?
+**Osobowość.** Introwertycy czy ekstrawertycy? Analityczni czy impulsywni?
 
 ```{=latex}
 \decoline
 ```
 
-## Buyer Persona: Twój idealny klient
+## Buyer Persona. Twój idealny klient
 
 Buyer persona to fikcyjna postać reprezentująca Twojego idealnego klienta. To nie jest prawdziwa osoba, ale **kompozyt** oparty na realnych danych i badaniach.
 
@@ -209,7 +209,7 @@ Lepiej mieć \textbf{jedną dogłębnie zbadaną personę} niż pięć powierzch
 
 ### Negative Persona
 
-Równie ważne jak wiedzieć, do kogo piszesz, jest wiedzieć, do kogo **nie** piszesz.
+Równie ważna jak świadomość, do kogo piszesz, jest wiedza, do kogo **nie** piszesz.
 
 Negative persona to profil osoby, która:
 
@@ -223,7 +223,7 @@ Identyfikacja negative persony oszczędza czas i zasoby marketingowe.
 \decoline
 ```
 
-## Voice of Customer (VoC): Głos klienta
+## Voice of Customer (VoC). Głos klienta
 
 Voice of Customer to proces zbierania dokładnych słów, fraz i wyrażeń, których używają Twoi klienci. To **najcenniejszy surowiec** dla copywritera.
 
@@ -256,7 +256,7 @@ Nagłówek z VoC (zaczerpnięty dosłownie z recenzji książki o uzależnieniac
 
 ### 4 metody zbierania VoC
 
-### 1. Review Mining (eksploracja recenzji)
+### 1. Sprawdzanie recenzji
 
 Najbardziej dostępna metoda --- analizujesz publiczne recenzje i komentarze.
 
@@ -333,7 +333,7 @@ Dobre do zbierania danych od większej grupy, gdy wywiady nie są możliwe.
 - „Jakie rozwiązania już próbowałeś? Co nie zadziałało i dlaczego?"
 - „Co prawie powstrzymało Cię od [zakupu/zapisania się]?"
 
-### 4. Social Listening
+### 4. Monitoring mediów społecznościowych
 
 Monitorowanie rozmów w mediach społecznościowych i na forach.
 
@@ -360,7 +360,7 @@ Monitorowanie rozmów w mediach społecznościowych i na forach.
 
 Zebrałeś dziesiątki cytatów, komentarzy, odpowiedzi z ankiet. Co teraz?
 
-### Krok 1: Stwórz arkusz kategoryzacji
+### Krok 1. Stwórz arkusz kategoryzacji
 
 Utwórz arkusz z kolumnami:
 
@@ -372,14 +372,14 @@ Utwórz arkusz z kolumnami:
 | Język/Frazy | „To jest mega frustrujące" |
 | Momenty decyzji | „Zdecydowałem się, gdy..." |
 
-### Krok 2: Szukaj wzorców
+### Krok 2. Szukaj wzorców
 
 - Które problemy powtarzają się najczęściej?
 - Jakie słowa pojawiają się wielokrotnie?
 - Jakie emocje dominują?
 - Jakie obiekcje są powszechne?
 
-### Krok 3: Identyfikuj „sticky quotes"
+### Krok 3. Identyfikuj „sticky quotes"
 
 To cytaty, które:
 
@@ -470,7 +470,7 @@ Nie zbieraj danych w nieskończoność. Zbierz wystarczająco, przeanalizuj dog�
 - **Otter.ai** --- automatyczna transkrypcja
 - **Calendly** --- umawianie wywiadów
 
-### Do review mining
+### Do zbierania recenzji
 
 - **Amazon** (recenzje książek i produktów)
 - **G2/Capterra** (recenzje software'u)
@@ -482,9 +482,9 @@ Nie zbieraj danych w nieskończoność. Zbierz wystarczająco, przeanalizuj dog�
 
 ```{=latex}
 \begin{cwiczenie}{Stwórz buyer personę}
-Wybierz produkt lub usługę (może być Twoja lub hipotetyczna) i przeprowadź mini-badanie:
+Wybierz produkt lub usługę (może być Twoja lub hipotetyczna) i przeprowadź mini badanie:
 
-\textbf{Część 1: Review Mining (30 min)}
+\textbf{Część 1. Zbieranie recenzji (30 min)}
 \begin{enumerate}
   \item Znajdź 3 źródła recenzji (Amazon, fora, Facebook)
   \item Przeczytaj minimum 20 recenzji
@@ -492,17 +492,17 @@ Wybierz produkt lub usługę (może być Twoja lub hipotetyczna) i przeprowadź 
   \item Zidentyfikuj 3 powtarzające się problemy
 \end{enumerate}
 
-\textbf{Część 2: Buyer Persona (30 min)}
+\textbf{Część 2. Buyer Persona (30 min)}
 \begin{enumerate}
   \item Na podstawie zebranych danych stwórz personę
   \item Nadaj jej imię i demografię
   \item Opisz cele, frustracje, obiekcje
-  \item Dodaj 2-3 cytaty z review mining
+  \item Dodaj 2-3 cytaty z zebranych recenzji
 \end{enumerate}
 
-\textbf{Część 3: Zastosowanie (15 min)}
+\textbf{Część 3. Zastosowanie (15 min)}
 \begin{enumerate}
-  \item Napisz nagłówek używając języka persony
+  \item Napisz nagłówek, używając języka persony
   \item Napisz 3-zdaniowy lead adresujący główny problem
 \end{enumerate}
 
@@ -511,7 +511,7 @@ Wybierz produkt lub usługę (może być Twoja lub hipotetyczna) i przeprowadź 
 ```
 
 ```{=latex}
-\takeaway{Badanie grupy docelowej to fundament skutecznego copywritingu. Demografia mówi Ci KIM jest klient, psychografia --- DLACZEGO kupuje. Buyer persona daje Ci konkretną osobę, do której piszesz. Voice of Customer dostarcza dokładnych słów, które trafiają prosto w serce odbiorcy. Nie zgaduj --- badaj. Nie zakładaj --- pytaj. Nie pisz do wszystkich --- pisz do jednej konkretnej osoby.}
+\takeaway{Badanie grupy docelowej to fundament skutecznego copywritingu. Demografia mówi Ci, KIM jest klient, psychografia --- DLACZEGO kupuje. Buyer persona daje Ci konkretną osobę, do której piszesz. Voice of Customer dostarcza dokładnych słów, które trafiają prosto w serce odbiorcy. Nie zgaduj --- badaj. Nie zakładaj --- pytaj. Nie pisz do wszystkich --- pisz do jednej konkretnej osoby.}
 ```
 
 W następnym rozdziale zajmiemy się **pisaniem nagłówków** --- pierwszym i najważniejszym elementem każdego tekstu. Bo nawet najlepsze badania są bezużyteczne, jeśli nagłówek nie zatrzyma czytelnika.

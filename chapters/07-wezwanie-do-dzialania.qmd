@@ -13,7 +13,7 @@ Wezwanie do działania --- Call to Action --- to most między zainteresowaniem a
 
 I to właśnie na CTA większość copywriterów traci konwersje.
 
-W tym rozdziale poznasz psychologię stojącą za skutecznym CTA, sprawdzone formuły pisania przycisków i linków, które klikają, oraz błędy, które sabotują Twoje wyniki.
+W tym rozdziale poznasz psychologię stojącą za skutecznym CTA, sprawdzone formuły pisania przycisków i linków, które klikają, a także błędy, które sabotują Twoje wyniki.
 
 ## Czym jest CTA i dlaczego jest tak ważne?
 
@@ -38,7 +38,7 @@ Bez jasnego CTA czytelnik:
 \stathighlight{202\%}{o tyle lepiej konwertują spersonalizowane CTA vs. generyczne (HubSpot)}
 ```
 
-Badania pokazują, że nawet drobne zmiany w CTA mogą dramatycznie wpłynąć na wyniki. PartnerStack zwiększył konwersję o **111%** zmieniając tekst z „Book A Demo" na „Get Started". Zmiana trzech słów może podwoić Twoje wyniki.
+Badania pokazują, że nawet drobne zmiany w CTA mogą dramatycznie wpłynąć na wyniki. PartnerStack zwiększył konwersję o **111%**, zmieniając tekst z „Book A Demo" na „Get Started". Zmiana trzech słów może podwoić Twoje wyniki.
 
 ```{=latex}
 \decoline
@@ -62,7 +62,7 @@ Nie ukrywaj CTA. Użytkownicy oczekują przycisku --- daj im go w oczywistym mie
 
 ### 2. Nagroda
 
-Ludzki mózg jest zaprogramowany na poszukiwanie nagród. Kliknięcie przycisku aktywuje te same ścieżki neuronalne, co inne zachowania nagradzające.
+Ludzki mózg jest zaprogramowany na poszukiwanie nagród. Kliknięcie przycisku aktywuje te same ścieżki neuronalne co inne zachowania nagradzające.
 
 **Jak to wykorzystać:**
 
@@ -134,7 +134,7 @@ Po czasowniku --- **co** czytelnik otrzyma.
 
 **Słabe:** „Wyślij"
 **Lepsze:** „Wyślij zgłoszenie"
-**Najlepsze:** „Wyślij i otrzymaj wycenę w 24h"
+**Najlepsze:** „Wyślij i otrzymaj wycenę w 24 godz."
 
 ### 3. Element pilności (opcjonalnie)
 
@@ -143,12 +143,6 @@ Jeśli masz uzasadnioną pilność --- użyj jej.
 - „Kup teraz --- oferta kończy się dziś"
 - „Zapisz się --- zostało 5 miejsc"
 - „Pobierz natychmiast"
-
-```{=latex}
-\begin{uwaga}
-Fałszywa pilność niszczy zaufanie. Jeśli „ostatnia szansa'' pojawia się co tydzień, ludzie przestają w nią wierzyć. Używaj pilności tylko gdy jest prawdziwa.
-\end{uwaga}
-```
 
 ### 4. Redukcja ryzyka (opcjonalnie)
 
@@ -165,7 +159,7 @@ Elementy, które zmniejszają postrzegane ryzyko:
 
 ## Formuły skutecznych CTA
 
-### Formuła 1: Czasownik + Wartość
+### Formuła 1. Czasownik + Wartość
 
 Najprostsza i najczęściej używana:
 
@@ -174,7 +168,7 @@ Najprostsza i najczęściej używana:
 - Zapisz się na newsletter
 - Kup kurs z 50% rabatem
 
-### Formuła 2: Czasownik + Pierwsza osoba + Wartość
+### Formuła 2. Czasownik + Pierwsza osoba + Wartość
 
 Dodaje element własności i kontroli:
 
@@ -183,7 +177,7 @@ Dodaje element własności i kontroli:
 - Chcę dołączyć teraz
 - Tak, chcę zwiększyć sprzedaż
 
-### Formuła 3: Czasownik + Wartość + Pilność
+### Formuła 3. Czasownik + Wartość + Pilność
 
 Dodaje element czasu:
 
@@ -192,7 +186,7 @@ Dodaje element czasu:
 - Pobierz natychmiast
 - Zarezerwuj miejsce zanim będzie za późno
 
-### Formuła 4: Korzyść jako CTA
+### Formuła 4. Korzyść jako CTA
 
 Skupia się na wyniku, nie na akcji:
 
@@ -211,7 +205,7 @@ Skupia się na wyniku, nie na akcji:
 
 \textbf{Z pierwszą osobą:} „Tak! Chcę nauczyć się copywritingu"
 
-\textbf{Z pilnością:} „Zapisz się teraz --- cena wzrasta za 48h"
+\textbf{Z pilnością:} „Zapisz się teraz --- cena wzrasta za 48 godz."
 
 \textbf{Z redukcją ryzyka:} „Wypróbuj przez 14 dni bez ryzyka"
 
@@ -229,9 +223,9 @@ Gdzie umieścić CTA jest równie ważne jak to, co w nim napiszesz.
 
 ### Above the fold
 
-„Above the fold" to część strony widoczna bez scrollowania. To najcenniejsza nieruchomość na stronie.
+„Above the fold" to część strony widoczna bez scrollowania. To najważniejsze miejsce na stronie.
 
-**Zasada:** Główne CTA powinno być widoczne od razu po wejściu na stronę.
+**Zasada.** Główne CTA powinno być widoczne od razu po wejściu na stronę.
 
 ### Po przedstawieniu wartości
 
@@ -255,13 +249,13 @@ Badania pokazują, że umieszczenie CTA na końcu opisu produktu może zwiększy
 
 Paradoks wyboru: zbyt wiele opcji paraliżuje decyzję.
 
-**Najgorsza praktyka:** Strona z przyciskami „Kup teraz", „Dowiedz się więcej", „Obejrzyj demo", „Skontaktuj się", „Zapisz się na newsletter" obok siebie.
+**Najgorsza praktyka.** Strona z przyciskami „Kup teraz", „Dowiedz się więcej", „Obejrzyj demo", „Skontaktuj się", „Zapisz się na newsletter" obok siebie.
 
-**Lepsza praktyka:** Jeden główny CTA (wizualnie dominujący) + opcjonalnie jeden drugorzędny (mniej widoczny).
+**Lepsza praktyka.** Jeden główny CTA (wizualnie dominujący) + opcjonalnie jeden drugorzędny (mniej widoczny).
 
 ```{=latex}
 \begin{wazne}
-Jedno badanie A/B dla firmy HVAC pokazało, że usunięcie jednego z dwóch CTA (``Zadzwoń teraz'' vs ``Zarezerwuj online'') zwiększyło konwersje telefoniczne o \textbf{18\%}. Mniej opcji = więcej działań.
+Badanie A/B dla firmy HVAC pokazało, że usunięcie jednego z dwóch CTA („Zadzwoń teraz” vs „Zarezerwuj online”) zwiększyło konwersje telefoniczne o \textbf{18\%}. Mniej opcji = więcej działań.
 \end{wazne}
 ```
 
@@ -285,7 +279,7 @@ CTA musi **wyróżniać się** na tle strony. Najczęściej używane kolory to p
 
 Większy przycisk = więcej kliknięć. Badania pokazują, że zwiększenie rozmiaru CTA może podnieść klikalność o **90%**.
 
-**Minimum dla mobile:** 44x44 piksele (zalecenie W3C dla dotyku).
+**Minimum dla mobile:** 44 x 44 piksele (zalecenie W3C dla dotyku).
 
 ### Biała przestrzeń
 
@@ -407,7 +401,7 @@ A/B testy CTA potrafią przynieść wzrosty konwersji rzędu 49\% (wg Scoop Mark
 \decoline
 ```
 
-## Checklist skutecznego CTA
+## Elementy skutecznego CTA
 
 **Tekst:**
 
@@ -420,7 +414,7 @@ A/B testy CTA potrafią przynieść wzrosty konwersji rzędu 49\% (wg Scoop Mark
 **Design:**
 
 - [ ] Wyróżnia się kontrastem na tle strony
-- [ ] Jest wystarczająco duży (min. 44x44px na mobile)
+- [ ] Jest wystarczająco duży (min. 44 x 44px na mobile)
 - [ ] Ma wystarczającą białą przestrzeń wokół
 - [ ] Jest widoczny bez scrollowania (przynajmniej jeden)
 

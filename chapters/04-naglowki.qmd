@@ -14,7 +14,7 @@ Ale jeśli Twój nagłówek nie zatrzyma czytelnika --- nikt tego nie przeczyta.
 Nagłówek to brama do Twojego tekstu. Strażnik, który decyduje, czy odbiorca wejdzie dalej, czy przewinie do następnego posta. W tym rozdziale poznasz zasady, formuły i techniki pisania nagłówków, które zatrzymują wzrok i zmuszają do czytania.
 
 ```{=latex}
-\stathighlight{5x}{więcej osób czyta nagłówek niż resztę tekstu}
+\stathighlight{5 x}{więcej osób czyta nagłówek niż resztę tekstu}
 ```
 
 ## Dlaczego nagłówek jest tak ważny?
@@ -40,7 +40,7 @@ Dlaczego ci giganci copywritingu traktowali nagłówki tak poważnie?
 
 1. **Zatrzymuje** --- przerywa scrollowanie, przyciąga wzrok
 2. **Wzbudza ciekawość** --- otwiera „lukę informacyjną"
-3. **Obiecuje korzyść** --- mówi „co z tego będę miał?"
+3. **Obiecuje korzyść** --- mówi, „co z tego będę miał?"
 4. **Selekcjonuje** --- przyciąga właściwych odbiorców
 5. **Prowadzi dalej** --- zachęca do przeczytania pierwszego zdania
 
@@ -59,7 +59,7 @@ Różnica między dobrym a złym nagłówkiem może oznaczać różnicę 10:1 w 
 
 Zanim przejdziemy do formuł, przyjrzyjmy się nagłówkom, które przeszły do historii reklamy. Każdy z nich zawiera lekcję, którą możesz zastosować w swoim copy.
 
-### „They Laughed When I Sat Down at the Piano --- But When I Started to Play!"
+### „Śmiali się, gdy usiadłem przy pianinie — ale gdy zacząłem grać!"
 
 **Autor:** John Caples, 1927  
 **Klient:** U.S. School of Music
@@ -77,7 +77,7 @@ Schemat „Śmiali się, gdy... ale kiedy..." można adaptować do niemal każde
 \end{wskazowka}
 ```
 
-### „At 60 miles an hour, the loudest noise in this new Rolls-Royce comes from the electric clock"
+### Przy prędkości 60 mil na godzinę najgłośniejszym dźwiękiem w nowym Rolls-Roysie jest tykanie zegara elektrycznego"
 
 **Autor:** David Ogilvy, 1958  
 **Klient:** Rolls-Royce
@@ -97,7 +97,7 @@ Ogilvy powiedział później: „Gdy reklamowałem Rolls-Royce'a, podawałem fak
 \end{wazne}
 ```
 
-### „Do You Make These Mistakes in English?"
+### „Czy popełniasz te błędy w angielskim?"
 
 **Autor:** Maxwell Sackheim, 1915  
 **Klient:** Sherwin Cody English Course
@@ -115,7 +115,7 @@ Dlaczego był tak skuteczny?
 \decoline
 ```
 
-## Formuła 4U: Checklist skutecznego nagłówka
+## Formuła 4U. Elementy skutecznego nagłówka
 
 Formuła 4U, stworzona przez Michaela Mastersona, to prosty system oceny i ulepszania nagłówków. Każdy nagłówek możesz ocenić w skali 1-4 dla każdego „U".
 
@@ -133,7 +133,7 @@ Formuła 4U, stworzona przez Michaela Mastersona, to prosty system oceny i uleps
 Nagłówek musi odpowiadać na pytanie: **„Co z tego będę miał?"**
 
 **Słabe:** „Nasze oprogramowanie do zarządzania projektami"  
-**Mocne:** „Skończ projekty 2x szybciej bez nadgodzin"
+**Mocne:** „Skończ projekty 2 x szybciej bez nadgodzin"
 
 **Słabe:** „Nowa kolekcja butów"  
 **Mocne:** „Buty, w których przejdziesz 10 km bez bólu stóp"
@@ -149,15 +149,9 @@ Pilność motywuje do działania **teraz**, nie „kiedyś".
 - Konsekwencja zwłoki: „Każdy dzień zwłoki kosztuje Cię..."
 - Słowa-wyzwalacze: „teraz", „dziś", „natychmiast"
 
-```{=latex}
-\begin{uwaga}
-Pilność musi być \textbf{autentyczna}. Fałszywe „ostatnie sztuki" i wieczne „promocje kończące się dziś" niszczą zaufanie. Używaj pilności tylko gdy jest prawdziwa.
-\end{uwaga}
-```
-
 ### Unique (Unikalny)
 
-W morzu podobnych nagłówków, Twój musi się wyróżniać.
+W morzu podobnych nagłówków Twój musi się wyróżniać.
 
 **Techniki budowania unikalności:**
 
@@ -208,9 +202,9 @@ Poniżej znajdziesz 12 typów nagłówków, które konsekwentnie generują wysok
 
 Najpopularniejszy i najbezpieczniejszy typ. Obiecuje konkretną wiedzę.
 
-**Formuła:** Jak [osiągnąć pożądany rezultat] [opcjonalnie: w określonym czasie/bez X]
+**Formuła.** Jak [osiągnąć pożądany rezultat] [opcjonalnie: w określonym czasie/bez X]
 
-**Przykłady:**
+**Przykłady.**
 
 - Jak napisać nagłówek, który zatrzyma scrollowanie
 - Jak zbudować listę mailingową od zera w 30 dni
@@ -220,9 +214,9 @@ Najpopularniejszy i najbezpieczniejszy typ. Obiecuje konkretną wiedzę.
 
 Liczby przyciągają wzrok i obiecują strukturę.
 
-**Formuła:** [Liczba] [przymiotnik] sposobów/błędów/sekretów [osiągnięcia X]
+**Formuła.** [Liczba] [przymiotnik] sposobów/błędów/sekretów [osiągnięcia X]
 
-**Przykłady:**
+**Przykłady.**
 
 - 7 śmiertelnych błędów, które zabijają Twoje nagłówki
 - 21 sprawdzonych formuł na nagłówki, które konwertują
@@ -238,9 +232,9 @@ Nieparzyste liczby (7, 9, 21) działają lepiej niż parzyste. Liczba 7 jest szc
 
 Pytania angażują mózg czytelnika --- automatycznie szuka odpowiedzi.
 
-**Formuła:** Czy [popełniasz błąd/masz problem/chcesz X]?
+**Formuła.** Czy [popełniasz błąd/masz problem/chcesz X]?
 
-**Przykłady:**
+**Przykłady.**
 
 - Czy popełniasz te 5 błędów w swoich emailach?
 - Ile pieniędzy tracisz przez słabe nagłówki?
@@ -250,9 +244,9 @@ Pytania angażują mózg czytelnika --- automatycznie szuka odpowiedzi.
 
 Bezpośredni, autorytarny, mocny.
 
-**Formuła:** [Czasownik w trybie rozkazującym] [korzyść/rezultat]
+**Formuła.** [Czasownik w trybie rozkazującym] [korzyść/rezultat]
 
-**Przykłady:**
+**Przykłady.**
 
 - Przestań tracić klientów przez słabe copy
 - Zacznij pisać nagłówki, które sprzedają
@@ -262,23 +256,23 @@ Bezpośredni, autorytarny, mocny.
 
 Ludzie uwielbiają poznawać przyczyny.
 
-**Formuła:** [Liczba] powodów, dlaczego [X dzieje się/nie dzieje się]
+**Formuła.** [Liczba] powodów, dlaczego [X dzieje się/nie dzieje się]
 
-**Przykłady:**
+**Przykłady.**
 
 - 5 powodów, dlaczego Twoje reklamy nie konwertują
 - Dlaczego 90% startupów upada w pierwszym roku
-- Oto dlaczego email marketing wciąż działa w 2025
+- Oto, dlaczego email marketing wciąż działa w 2025
 
 ### 6. Nagłówek „Sekret"
 
 Obiecuje ekskluzywną wiedzę niedostępną dla innych.
 
-**Formuła:** Sekret [osiągnięcia X], który [grupa] ukrywa przed [drugą grupą]
+**Formuła.** Sekret [osiągnięcia X], który [grupa] ukrywa przed [drugą grupą]
 
-**Przykłady:**
+**Przykłady.**
 
-- Sekret copywriterów zarabiających 6 cyfr
+- Sekret copywriterów zarabiających 6-cyfrowe kwoty
 - Technika sprzedaży, którą top handlowcy zachowują dla siebie
 - Ukryta funkcja Facebooka, która potrai Twój zasięg
 
@@ -286,33 +280,33 @@ Obiecuje ekskluzywną wiedzę niedostępną dla innych.
 
 Wykorzystuje awersję do straty --- ludzie bardziej boją się stracić niż pragną zyskać.
 
-**Formuła:** Ostrzeżenie: [negatywna konsekwencja, jeśli nie X]
+**Formuła.** Ostrzeżenie: [negatywna konsekwencja, jeśli nie X]
 
-**Przykłady:**
+**Przykłady.**
 
 - Ostrzeżenie: Te 3 słowa zabijają Twoje nagłówki
 - Uwaga: Jeśli popełniasz ten błąd, tracisz 50% klientów
 - Zanim napiszesz kolejny post, przeczytaj to
 
-### 8. Nagłówek testimonialowy
+### 8. Nagłówek z rekomendacją
 
 Wykorzystuje social proof w nagłówku.
 
-**Formuła:** „[Cytat/Rezultat]" --- [Imię, opis]
+**Formuła.** „[Cytat/Rezultat]" --- [Imię, opis]
 
-**Przykłady:**
+**Przykłady.**
 
 - „Zarobiłem 47 000 zł w pierwszy miesiąc" --- jak Jan zbudował biznes copywriterski
 - Co zrobiła, że jej sklep online wzrósł o 340%?
-- Metoda, dzięki której 2,347 przedsiębiorców podwoiło przychody
+- Metoda, dzięki której 2347 przedsiębiorców podwoiło przychody
 
 ### 9. Nagłówek „Without" (Bez...)
 
 Usuwa obiekcję lub przeszkodę.
 
-**Formuła:** Jak [osiągnąć X] bez [niepożądanej rzeczy]
+**Formuła.** Jak [osiągnąć X] bez [niepożądanej rzeczy]
 
-**Przykłady:**
+**Przykłady.**
 
 - Jak schudnąć bez diety i ćwiczeń
 - Jak zdobyć klientów bez cold callingu
@@ -322,21 +316,21 @@ Usuwa obiekcję lub przeszkodę.
 
 Pokazuje przewagę lub kontrast.
 
-**Formuła:** [X] vs [Y]: Który [lepszy/gorszy]? / Co wybrać?
+**Formuła.** [X] vs. [Y]: Który [lepszy/gorszy]? / Co wybrać?
 
-**Przykłady:**
+**Przykłady.**
 
-- Długie vs krótkie nagłówki: Co konwertuje lepiej?
-- Facebook Ads vs Google Ads dla e-commerce
-- Freelance vs etat: Prawdziwe liczby po 5 latach
+- Długie vs. krótkie nagłówki: Co konwertuje lepiej?
+- Facebook Ads vs. Google Ads dla e-commerce
+- Freelance vs. etat: Prawdziwe liczby po 5 latach
 
 ### 11. Nagłówek „Everything You Need"
 
 Obiecuje kompletność i oszczędność czasu.
 
-**Formuła:** Wszystko, co musisz wiedzieć o [X] / Kompletny przewodnik po [X]
+**Formuła.** Wszystko, co musisz wiedzieć o [X] / Kompletny przewodnik po [X]
 
-**Przykłady:**
+**Przykłady.**
 
 - Kompletny przewodnik po pisaniu nagłówków (2025)
 - Wszystko, co musisz wiedzieć o email marketingu
@@ -346,9 +340,9 @@ Obiecuje kompletność i oszczędność czasu.
 
 Pokazuje drogę z punktu A do punktu B.
 
-**Formuła:** Jak przejść od [obecna sytuacja] do [pożądana sytuacja]
+**Formuła.** Jak przejść od [obecna sytuacja] do [pożądana sytuacja]
 
-**Przykłady:**
+**Przykłady.**
 
 - Od zera do 10 000 subskrybentów w 6 miesięcy
 - Z copywritera-amatora w profesjonalistę z pełnym kalendarzem
@@ -358,7 +352,7 @@ Pokazuje drogę z punktu A do punktu B.
 \decoline
 ```
 
-## Power Words: Słowa, które sprzedają
+## Power Words. Słowa, które sprzedają
 
 Niektóre słowa mają większą moc przyciągania uwagi niż inne. To „power words" --- słowa wyzwalające emocjonalne reakcje.
 
@@ -406,7 +400,7 @@ Power words działają, ale \textbf{używaj ich z umiarem}. Nagłówek przełado
 ### 2. Brak konkretnej korzyści
 
 **Źle:** „Nasze oprogramowanie jest innowacyjne"  
-**Dobrze:** „Oprogramowanie, które oszczędza 10 godzin tygodniowo"
+**Dobrze:** „Oprogramowanie, z którym oszczędzasz 10 godzin tygodniowo"
 
 ### 3. Zbyt sprytne, mało jasne
 
@@ -435,31 +429,25 @@ Nawet najlepsi copywriterzy nie wiedzą, który nagłówek wygra. Testuj A/B i p
 
 ## Proces pisania nagłówka
 
-### Krok 1: Zacznij od korzyści
+### Krok 1. Zacznij od korzyści
 
 Wypisz 3-5 głównych korzyści Twojego produktu/treści dla czytelnika.
 
-### Krok 2: Napisz 10-25 wersji
+### Krok 2. Napisz 10-25 wersji
 
 Nie poprzestawaj na pierwszym pomyśle. Ogilvy pisał ponad 100 wersji. Ty napisz minimum 10.
 
-### Krok 3: Oceń według 4U
+### Krok 3. Oceń według 4U
 
-Przejrzyj każdy nagłówek przez pryzmat: Useful, Urgent, Unique, Ultra-specific.
+Przejrzyj każdy nagłówek przez pryzmat. Użyteczność, Pilność, Unikalność, Specyficzność.
 
-### Krok 4: Wybierz 3-5 finalistów
+### Krok 4. Wybierz 3-5 finalistów
 
 Wybierz najsilniejsze nagłówki do testów.
 
-### Krok 5: Testuj
+### Krok 5. Testuj
 
 Jeśli możesz --- testuj A/B. Jeśli nie --- zapytaj 5 osób z grupy docelowej, który nagłówek najbardziej przyciąga uwagę.
-
-```{=latex}
-\begin{formula}{Zasada 50/50}
-Poświęć \textbf{50\% czasu} przeznaczonego na pisanie tekstu na sam nagłówek. Reszta copy jest bezużyteczna, jeśli nagłówek nie zatrzyma czytelnika.
-\end{formula}
-```
 
 ```{=latex}
 \decoline
@@ -469,21 +457,21 @@ Poświęć \textbf{50\% czasu} przeznaczonego na pisanie tekstu na sam nagłówe
 \begin{cwiczenie}{Napisz 10 nagłówków}
 Wybierz produkt lub usługę (może być Twoja, może być fikcyjna).
 
-\textbf{Część 1: Brainstorming (15 min)}
+\textbf{Część 1. Burza mózgów (15 min)}
 \begin{enumerate}
   \item Wypisz 5 głównych korzyści produktu
   \item Wypisz 3 główne obiekcje/lęki klientów
-  \item Napisz 10 różnych nagłówków używając różnych typów (how-to, lista, pytanie, etc.)
+  \item Napisz 10 różnych nagłówków, używając różnych typów (how-to, lista, pytanie, etc.)
 \end{enumerate}
 
-\textbf{Część 2: Ocena (10 min)}
+\textbf{Część 2. Ocena (10 min)}
 \begin{enumerate}
   \item Oceń każdy nagłówek według 4U (1-4 dla każdego)
   \item Oblicz średnią dla każdego nagłówka
   \item Wybierz 3 najsilniejsze
 \end{enumerate}
 
-\textbf{Część 3: Ulepszenie (10 min)}
+\textbf{Część 3. Ulepszenie (10 min)}
 \begin{enumerate}
   \item Weź 3 najlepsze nagłówki
   \item Dla każdego napisz 2 wersje alternatywne
@@ -495,10 +483,10 @@ Wybierz produkt lub usługę (może być Twoja, może być fikcyjna).
 ```
 
 ```{=latex}
-\takeaway{Nagłówek to najważniejszy element Twojego copy --- decyduje, czy ktokolwiek przeczyta resztę. Stosuj formułę 4U (Useful, Urgent, Unique, Ultra-specific) jako checklist. Pisz minimum 10 wersji przed wyborem. Testuj, gdy możesz. Pamiętaj słowa Ogilvy'ego: napisanie nagłówka to wydanie 80 centów z Twojego dolara.}
+\takeaway{Nagłówek to najważniejszy element Twojego copy --- decyduje, czy ktokolwiek przeczyta resztę. Stosuj formułę 4U (użyteczność, pilność, unikalność, specyficzność); pisz minimum 10 wersji przed wyborem; testuj, gdy możesz. Pamiętaj słowa Ogilvy'ego: napisanie nagłówka to wydanie 80 centów z Twojego dolara.}
 ```
 
-W następnym rozdziale zajmiemy się **leadem i pierwszym akapitem** --- bo po zatrzymaniu czytelnika nagłówkiem, musisz go wciągnąć głębiej w tekst.
+W następnym rozdziale zajmiemy się **leadem i pierwszym akapitem** --- bo po zatrzymaniu czytelnika nagłówkiem chcesz go wciągnąć głębiej w tekst.
 
 ```{=latex}
 \decoline

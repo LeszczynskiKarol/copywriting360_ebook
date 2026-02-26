@@ -1,0 +1,524 @@
+---
+title: "Edycja, redakcja i korekta tekstu"
+subtitle: "Jak zamienić brudnopis w tekst, który sprzedaje"
+---
+
+```{=latex}
+\chapteropener{Pisanie to ludzka natura. Edycja to boska.\\--- Stephen King, \textit{On Writing}}
+```
+
+Napisałeś tekst. Nagłówek przyciąga uwagę. Lead wciąga. Body copy prowadzi do CTA.
+
+Ale jeszcze nie wysyłaj.
+
+To, co właśnie napisałeś, to pierwszy brudnopis. Surowy materiał. Diamenty też nie lśnią, gdy je wydobędziesz z kopalni --- wymagają szlifowania. Twój tekst jest dokładnie taki sam.
+
+W tym rozdziale poznasz trzypoziomowy system edycji, który zamieni przeciętne copy w tekst, od którego nie da się oderwać wzroku. Nauczysz się technik, którymi posługują się najlepsi redaktorzy i copywriterzy na świecie --- i zastosujesz je samodzielnie, nawet jeśli pracujesz solo.
+
+```{=latex}
+\stathighlight{50\%}{czasu pracy nad tekstem powinna zajmować edycja, nie pisanie (Filthy Rich Writer)}
+```
+
+## Dlaczego edycja jest tak ważna?
+
+David Ogilvy pisał 104 wersje nagłówka dla Rolls-Royce'a. Ernest Hemingway przepisywał zakończenie „Pożegnania z bronią“ 47 razy. Stephen King, autor ponad 60 bestsellerów, powiedział wprost: pisanie to ludzka natura, a edycja --- to coś boskiego.
+
+```{=latex}
+\begin{pojecie}{Zasada Kinga}
+Drugi brudnopis = Pierwszy brudnopis minus 10\%.
+
+Stephen King odkrył tę formułę jeszcze w liceum, gdy redaktor odpisał mu na manuskrypcie: „Nieźle, ale PUFFY (napuszone). Skróć o 10\%." King stosuje ją do dziś, a wielu profesjonalnych redaktorów traktuje 10\% jako absolutne minimum --- sami skracają o 20--30\%.
+\end{pojecie}
+```
+
+Ale edycja to nie tylko skracanie. To proces, który obejmuje trzy odrębne poziomy --- i pomieszanie ich jest najczęstszym błędem początkujących copywriterów.
+
+### Copywriter to nie redaktor (ale musi umieć jedno i drugie)
+
+W średnich i dużych firmach proces tworzenia treści wygląda zwykle tak:
+
+1. **Copywriter** pisze tekst
+2. **Redaktor** (content editor / copy editor) poprawia strukturę, styl i spójność z marką
+3. **Korektor** (proofreader) wyłapuje literówki, błędy interpunkcyjne i formatowanie
+
+Każdy z tych ludzi ma inne kompetencje. Redaktor patrzy na tekst z lotu ptaka --- czy argumentacja ma sens, czy struktura prowadzi czytelnika, czy ton pasuje do marki. Korektor patrzy przez lupę --- czy każdy przecinek jest na swoim miejscu.
+
+```{=latex}
+\begin{wazne}
+W dużych organizacjach (agencje reklamowe, wydawnictwa, korporacje) od edycji i korekty \textbf{są osobni ludzie}. Copywriter pisze --- redaktor i korektor dopieszczają. To nie jest przypadek: niezwykle trudno jest obiektywnie ocenić tekst, który samemu się napisało. Mózg automatycznie „naprawia" błędy, bo wie, co \textit{chciałeś} napisać.
+\end{wazne}
+```
+
+Ale jeśli pracujesz jako freelancer lub w małym zespole, musisz opanować wszystkie trzy role. To nie jest opcja --- to konieczność. Klient płaci za gotowy, dopracowany tekst, nie za pierwszy brudnopis.
+
+Dobra wiadomość? Edycji można się nauczyć. I jak zaraz zobaczysz, istnieją konkretne techniki i systemy, które sprawią, że będziesz to robić szybko i skutecznie.
+
+Ale nawet jeśli opanujesz samodzielną redakcję tekstów, i tak możesz rozważyć współpracę z profesjonalnym redaktorem lub korektorem przy ważnych projektach. To inwestycja, która się zwraca --- błąd w ofercie za 50 000 zł może kosztować znacznie więcej niż 200 zł za korektę.
+
+```{=latex}
+\decoline
+```
+
+## Trzy poziomy edycji
+
+Proces edycji ma trzy odrębne etapy. W każdy skupiasz się na czymś innym i --- to kluczowe --- każdy powinien być realizowany **w tej kolejności**, od ogółu do szczegółu.
+
+```{=latex}
+\begin{formula}{Lejek edycyjny}
+\textbf{Poziom 1. Redakcja merytoryczna}\\
+Struktura, argumentacja, logika, przekaz\\[6pt]
+\textbf{Poziom 2. Redakcja stylistyczna}\\
+Styl, płynność, czytelność, spójność\\[6pt]
+\textbf{Poziom 3. Korekta}\\
+Literówki, interpunkcja, formatowanie
+\end{formula}
+```
+
+Dlaczego ta kolejność jest ważna? Bo nie ma sensu dopieszczać przecinków w akapicie, który za chwilę usuniesz. Najpierw upewnij się, że mówisz właściwe rzeczy we właściwej kolejności. Potem dopracuj, jak to mówisz. Na końcu wyłap błędy techniczne.
+
+### Poziom 1. Redakcja merytoryczna
+
+To najważniejszy i najtrudniejszy etap. Patrzysz na tekst z perspektywy czytelnika i odpowiadasz na fundamentalne pytania:
+
+**Pytania kontrolne:**
+
+- Czy tekst realizuje cel? (sprzedaż, zapis, kliknięcie, edukacja?)
+- Czy obietnica z nagłówka jest spełniona w treści?
+- Czy argumenty są w logicznej kolejności?
+- Czy każda sekcja prowadzi do następnej? (śliska zjeżdżalnia!)
+- Czy CTA jest jasne i wynika z tego, co przeczytał czytelnik?
+- Czy uwzględniasz najważniejsze obiekcje klienta?
+- Czy piszesz do konkretnej persony, czy do „wszystkich"?
+
+Na tym etapie możesz:
+
+- Usunąć całe sekcje
+- Zmienić kolejność argumentów
+- Dodać brakujące elementy (dowody, social proof, korzyści)
+- Przepisać lead od nowa
+- Zmienić kąt komunikacji
+
+```{=latex}
+\begin{przyklad}{Redakcja merytoryczna w praktyce}
+\textbf{Brudnopis landing page:}
+
+Nagłówek → Opis firmy → Historia firmy → Lista funkcji → Cennik → CTA
+
+\textbf{Po redakcji merytorycznej:}
+
+Nagłówek z korzyścią → Problem klienta → Rozwiązanie → 3 kluczowe korzyści → Social proof → Oferta z ceną → CTA z pilnością
+
+Zmieniliśmy nie słowa, lecz \textbf{całą strukturę argumentacji}. To jest serce redakcji merytorycznej.
+\end{przyklad}
+```
+
+### Poziom 2. Redakcja stylistyczna
+
+Gdy struktura i logika są na miejscu, przechodzimy do poziomu zdań i akapitów. Tutaj dbasz o to, żeby tekst się dobrze czytał --- płynnie, naturalnie, bez zacięć.
+
+**Pytania kontrolne:**
+
+- Czy zdania nie są za długie? (powyżej 20 słów --- rozważ podział)
+- Czy używam strony czynnej zamiast biernej?
+- Czy unikam żargonu i „korporacyjnego" języka?
+- Czy ton jest spójny w całym tekście?
+- Czy nie powtarzam tych samych słów i zwrotów?
+- Czy przejścia między akapitami są płynne?
+- Czy tekst pasuje do głosu marki?
+
+Na tym etapie koncentrujesz się na:
+
+- **Skracaniu zdań** --- rozbij wielokrotnie złożone zdania na proste
+- **Usuwaniu zbędnych słów** --- „w celu" → „żeby", „w chwili obecnej" → „teraz"
+- **Zamianie strony biernej na czynną** --- „oferta została przygotowana" → „przygotowaliśmy ofertę"
+- **Eliminacji powtórzeń** --- szukaj tych samych słów w sąsiednich zdaniach
+- **Dopracowaniu rytmu** --- krótkie zdanie. Dłuższe wyjaśnienie. I znów krótkie.
+
+```{=latex}
+\beforeafter{Nasz innowacyjny produkt, który został stworzony z myślą o potrzebach współczesnych przedsiębiorców, oferuje kompleksowe rozwiązanie w zakresie zarządzania projektami, umożliwiając tym samym znaczące zwiększenie produktywności zespołu.}{Zarządzaj projektami szybciej. Nasz produkt pomaga Twojemu zespołowi kończyć zadania o 40\% szybciej --- bez nadgodzin i chaosu.}
+```
+
+### Poziom 3. Korekta
+
+Ostatni etap. Tekst jest merytorycznie poprawny, stylistycznie dopracowany --- teraz szukasz błędów technicznych.
+
+**Co sprawdzasz:**
+
+- Literówki i błędy ortograficzne
+- Interpunkcja (szczególnie przecinki w polskim!)
+- Spójność formatowania (wielkie litery, myślniki, cudzysłowy)
+- Poprawność nazw własnych, dat i liczb
+- Działające linki (w tekstach online)
+- Spójność w zapisie (np. „e-mail" vs. „email" --- wybierz jedno i trzymaj się tego)
+
+```{=latex}
+\begin{wskazowka}
+Nie łącz korekty z redakcją stylistyczną. Gdy szukasz literówek, mózg pracuje w trybie „skanera". Gdy jednocześnie próbujesz ulepszać styl, przełącza się między trybami i robi jedno i drugie słabo. Osobne przejście na korektę --- nawet 10-minutowe --- wyłapie błędy, które przegapiłeś wcześniej.
+\end{wskazowka}
+```
+
+```{=latex}
+\decoline
+```
+
+## „Zabij swoje darlings": najtrudniejsza zasada edycji
+
+Arthur Quiller-Couch, profesor Cambridge, powiedział w 1914 roku coś, co odmieniło myślenie o pisaniu na ponad sto lat:
+
+```{=latex}
+\begin{cytat}
+Kiedykolwiek poczujesz impuls, żeby stworzyć kawałek wyjątkowo pięknej prozy, poddaj mu się --- całym sercem --- a potem usuń to, zanim wyślesz manuskrypt do druku. Zabij swoje darlings.\\
+--- Arthur Quiller-Couch, \textit{On the Art of Writing} (1916)
+\end{cytat}
+```
+
+Cytat ten jest często (błędnie) przypisywany Williamowi Faulknerowi. Stephen King przywołał go w swoim kultowym „On Writing" i dodał: „Zabij swoje darlings, zabij swoje darlings, nawet gdy łamie to twoje egocentryczne małe serce pisarza --- zabij swoje darlings."
+
+### Co to oznacza w praktyce copywritingu?
+
+„Darlings" to fragmenty tekstu, które:
+
+- **Kochasz** --- bo są sprytne, zabawne lub poetyckie
+- **Nie służą czytelnikowi** --- nie prowadzą do CTA, nie budują argumentacji
+- **Służą Twojemu ego** --- pokazują, jaki jesteś mądry/kreatywny
+
+Rozpoznasz je po tym, że gdy ktoś sugeruje ich usunięcie, czujesz opór. „Ale to taki fajny zwrot!" „Ale spędziłem nad tym godzinę!" --- to klasyczne sygnały, że patrzysz na darling.
+
+### Jak zabijać darlings skutecznie?
+
+1. **Stwórz plik „cmentarzyk"** --- zamiast kasować, przenoś ulubione fragmenty do osobnego dokumentu. Psychologicznie łatwiej jest coś przenieść niż usunąć
+2. **Zadaj pytanie: „Czy czytelnik straci coś, jeśli to usunę?"** --- jeśli nie --- wytnij
+3. **Szukaj powtórzeń i schematów** --- jeśli ten sam punkt robisz dwukrotnie różnymi słowami, jeden musi odejść
+4. **Uważaj na sprytne gry słów** --- jeśli czytelnik musi się zastanowić, co masz na myśli, to nie jest sprytne, to jest niejasne
+5. **Czytaj bez kontekstu** --- pokaż fragment komuś, kto nie zna całości. Jeśli bez tego fragmentu nic nie traci --- wytnij go
+
+```{=latex}
+\begin{przyklad}{Darlings w copywritingu}
+\textbf{Brudnopis opisu produktu:}
+
+„Nasz krem nawilżający to jak \textit{oaza na środku Sahary} --- gdy Twoja skóra woła o pomoc niczym zagubiony wędrowiec na pustyni, ten mały słoiczek staje się Twoim \textit{kompasem prowadzącym do nawilżonej ziemi obiecanej}."
+
+\textbf{Po zabiciu darlings:}
+
+„Nasz krem nawilżający działa przez 24 godziny. Twoja skóra pozostaje miękka i nawilżona --- nawet w suchym, klimatyzowanym biurze."
+
+Metafora z Saharą? Piękna. Ale przeszkadza w przekazaniu korzyści. Darling musi odejść.
+\end{przyklad}
+```
+
+```{=latex}
+\decoline
+```
+
+## 7 technik samodzielnej redakcji
+
+Nawet bez profesjonalnego redaktora możesz znacząco poprawić jakość swoich tekstów. Oto techniki, które stosują najlepsi copywriterzy.
+
+### 1. Przerwa czasowa --- sen dobry na wszystko
+
+Najskuteczniejsza technika edycji w historii --- i jednocześnie najłatwiejsza.
+
+Napisz tekst. Zamknij dokument. Wróć do niego po minimum kilku godzinach --- najlepiej następnego dnia. Twój mózg potrzebuje dystansu, żeby przełączyć się z trybu „twórcy" na tryb „krytyka". Gdy czytasz tekst tuż po napisaniu, pamiętasz, co **chciałeś** powiedzieć, i nie widzisz, co **faktycznie** napisałeś.
+
+```{=latex}
+\begin{wazne}
+Wbuduj przerwę w harmonogram projektu! Jeśli termin jest w piątek, skończ pisanie w środę. Czwartek na redakcję, piątek na korektę i wysyłkę. Pisanie i oddanie tekstu w ten sam dzień prawie nigdy nie daje najlepszych rezultatów.
+\end{wazne}
+```
+
+### 2. Czytanie na głos
+
+Gdy czytasz w myślach, mózg automatycznie naprawia błędy i wygładza niezręczne frazy. Czytanie na głos zmusza do przetworzenia każdego słowa.
+
+**Co wyłapiesz:**
+
+- Zdania, w których zabraknie Ci tchu (za długie!)
+- Nienaturalne sformułowania (jeśli nie powiedziałbyś tego w rozmowie --- przepisz)
+- Powtórzenia słów, które na papierze nie rzucają się w oczy
+- Brak rytmu --- tekst, który dobrze brzmi czytany na głos, dobrze się czyta w myślach
+
+```{=latex}
+\begin{wskazowka}
+Nie masz ochoty czytać na głos? Użyj funkcji text-to-speech (np. wbudowanej w system operacyjny lub w edytorze). Słuchanie własnego tekstu czytanego syntetycznym głosem daje zaskakująco dobry efekt --- niezręczności od razu biją po uszach.
+\end{wskazowka}
+```
+
+### 3. Czytanie od końca
+
+Technika korektorska stosowana od dziesięcioleci. Czytaj tekst od ostatniego zdania do pierwszego. Dlaczego? Bo mózg nie może „wciągnąć się" w treść i zacząć pomijać błędy.
+
+Ta technika jest szczególnie skuteczna na etapie korekty (poziom 3). Nie nadaje się do oceny struktury czy stylu --- ale do wyłapywania literówek jest bezkonkurencyjna.
+
+### 4. Drukuj tekst
+
+Badania potwierdzają to, co doświadczeni redaktorzy wiedzą od lat --- czytamy inaczej na ekranie niż na papierze. Na papierze jesteśmy bardziej uważni, wolniej przetwarzamy tekst i wyłapujemy więcej błędów.
+
+Wydrukuj tekst, weź czerwony długopis i czytaj. Podkreślaj, skreślaj, rysuj strzałki. Ta fizyczna interakcja z tekstem aktywuje inne ścieżki w mózgu niż klikanie na ekranie.
+
+### 5. Metoda jednego przejścia na jeden problem
+
+Zamiast próbować wyłapać wszystko naraz, zrób kilka oddzielnych przejść przez tekst:
+
+- **Przejście 1:** Struktura i logika (redakcja merytoryczna)
+- **Przejście 2:** Zbędne słowa i zdania (skracanie)
+- **Przejście 3:** Strona bierna i żargon (styl)
+- **Przejście 4:** Literówki i interpunkcja (korekta)
+
+Tak --- to oznacza przeczytanie tekstu cztery razy. Ale każde czytanie jest szybsze, bo mózg szuka tylko jednej rzeczy.
+
+### 6. Test czytelności
+
+Wklej swój tekst do narzędzia mierzącego czytelność. Hemingway Editor jest darmowy i pokazuje:
+
+- Poziom trudności tekstu (grade level)
+- Zdania trudne do przeczytania (zaznaczone kolorem)
+- Użycie strony biernej
+- Nadmiar przysłówków
+
+Dla polskich tekstów narzędzia anglojęzyczne mają ograniczenia --- ale ogólne wskaźniki (długość zdań, zagnieżdżenie) pozostają trafne. Jasnopis (jasnopis.pl) to polskie narzędzie stworzone specjalnie do analizy czytelności w języku polskim.
+
+```{=latex}
+\stathighlight{8}{--- taki powinien być idealny „grade level" tekstu copywriterskiego. Pisz tak, żeby zrozumiał Cię 13-latek.}
+```
+
+### 7. Zasada odwróconej piramidy
+
+Po napisaniu tekstu zadaj sobie pytanie: **„Czy najważniejsza informacja jest na początku?"**
+
+Copywriterzy często budują napięcie jak w powieści --- wstęp, rozwinięcie, punkt kulminacyjny. Ale czytelnik nie ma czasu na fabułę. Chce wiedzieć, co zyska --- natychmiast. Jeśli Twoja kluczowa obietnica lub korzyść pojawia się dopiero w trzecim akapicie --- przenieś ją na początek.
+
+```{=latex}
+\decoline
+```
+
+## Lista słów i fraz do usunięcia
+
+Poniższe wyrażenia niemal **zawsze** osłabiają Twoje copy. Szukaj ich przy każdej edycji i usuwaj bezlitośnie.
+
+### Wypełniacze (filler words)
+
+- „W zasadzie..." → (usuń)
+- „Tak naprawdę..." → (usuń)
+- „Generalnie..." → (usuń)
+- „W pewnym sensie..." → (usuń)
+- „Niejako..." → (usuń)
+- „Zasadniczo..." → (usuń)
+
+### Napuszenia (puffery)
+
+- „innowacyjny" → opisz, **co** jest nowe
+- „kompleksowy" → wymień konkretne elementy
+- „dynamicznie rozwijający się" → podaj liczby
+- „nowoczesne rozwiązania" → jakie rozwiązania? co robią?
+- „najwyższa jakość" → udowodnij lub usuń
+- „lider rynku" → pokaż dane
+
+### Niepotrzebne konstrukcje
+
+- „w celu” → „żeby” / „by”
+- „w chwili obecnej” → „teraz”
+- „w przypadku, gdy” → „jeśli”
+- „dokonać zakupu” → „kupić”
+- „jest w stanie” → „może”
+- „uległ poprawie'' → „poprawił się”
+- „odgrywa istotną rolę” → „jest ważny”
+- „wychodząc naprzeciw oczekiwaniom” → (przepisz na język ludzki)
+
+```{=latex}
+\begin{uwaga}
+To nie znaczy, że te słowa są zawsze złe. Czasem „kompleksowy" jest jedynym trafnym słowem. Ale traktuj każde z nich jak żółtą kartkę --- zatrzymaj się i zapytaj: „Czy mogę to powiedzieć prościej i konkretniej?"
+\end{uwaga}
+```
+
+```{=latex}
+\decoline
+```
+
+## Narzędzia wspierające edycję
+
+Żadne narzędzie nie zastąpi ludzkiego oka i wyczucia języka. Ale narzędzia mogą wyłapać błędy, które Ty przegapisz.
+
+### Narzędzia do korekty i stylu
+
+- **LanguageTool** (languagetool.org) --- najlepsze darmowe narzędzie wspierające język polski. Sprawdza gramatykę, interpunkcję, styl. Ma wtyczkę do przeglądarki i edytorów
+- **Interpunkcja.com.pl** (Interpunkcja.com.pl) --- moja autorska aplikacja do sprawdzania pisowni po polsku.
+- **Microsoft Word / Google Docs** --- wbudowane sprawdzanie pisowni w języku polskim. Nie wystarczające, ale podstawa
+- **Hemingway Editor** (hemingwayapp.com) --- do oceny czytelności tekstów angielskich i wielojęzycznych treści
+
+### Narzędzia do skupienia
+
+- **FocusWriter** --- edytor bez rozproszeń
+- **Tryb skupienia w Google Docs/Word** --- ukrywa paski narzędzi
+- **Drukarka** --- tak, wydrukowany tekst to narzędzie edycyjne!
+
+```{=latex}
+\begin{wskazowka}
+AI (np. Claude, ChatGPT) może być świetnym „pierwszym czytelnikiem". Wklej swój tekst i zapytaj: „Jakie są najsłabsze punkty tego tekstu sprzedażowego?" lub „Które zdania są niejasne?". AI nie zastąpi profesjonalnego redaktora, ale wyłapie problemy, które Ty --- jako autor --- możesz przeoczyć. Więcej o pracy z AI znajdziesz w rozdziale o sztucznej inteligencji w copywritingu.
+\end{wskazowka}
+```
+
+```{=latex}
+\decoline
+```
+
+## Kiedy zatrudnić redaktora lub korektora?
+
+Self-editing jest niezbędną umiejętnością, ale ma swoje granice. Istnieją sytuacje, w których profesjonalna pomoc to nie luksus, lecz konieczność.
+
+### Zawsze rozważ profesjonalną redakcję, gdy:
+
+- **Stawka jest wysoka** --- oferta, od której zależy kontrakt; landing page z budżetem reklamowym 10 000+ zł; materiały inwestorskie
+- **Tekst jest długi** --- ebook, white paper, raport. Im dłuższy tekst, tym więcej błędów umyka nawet doświadczonym pisarzom
+- **Piszesz w nietypowym kontekście** --- branża, której nie znasz dogłębnie; formalny ton, którego rzadko używasz
+- **Tekst idzie „na wieczność"** --- druk (książka, katalog), treści na stronie głównej, materiały brandingowe
+
+### Gdzie znaleźć redaktora/korektora?
+
+- **Useme.com, Oferia.pl** --- polskie platformy freelancerów
+- **Zlecenia.net** --- ogłoszenia dla korektorów i redaktorów
+- **Polecenia** --- zapytaj w grupach copywriterów na Facebooku
+- **Wydawnictwa i agencje** --- często oferują usługi redakcyjne na zewnątrz
+
+### Ile to kosztuje? (orientacyjne stawki w Polsce)
+
+- **Korekta:** 5--15 zł za stronę znormalizowaną (1800 znaków ze spacjami)
+- **Redakcja stylistyczna:** 10--25 zł za stronę
+- **Redakcja merytoryczna:** 15--40 zł za stronę
+
+Ceny zależą od doświadczenia redaktora, stopnia trudności tekstu i terminu realizacji.
+
+```{=latex}
+\begin{wazne}
+Nawet jeśli korzystasz z usług redaktora --- \textbf{zawsze} rób self-edit przed wysłaniem tekstu. Po pierwsze, szanujesz czas (i pieniądze) --- redaktor skupi się na prawdziwych problemach zamiast poprawiać oczywiste niedoróbki. Po drugie, uczysz się --- porównywanie swoich tekstów z wersjami po redakcji to jedna z najskuteczniejszych metod rozwoju warsztatu.
+\end{wazne}
+```
+
+```{=latex}
+\decoline
+```
+
+## Redakcja tekstu - lista podsumowująca
+
+Korzystaj z tej listy przy każdym tekście, zanim go wyślesz do klienta lub opublikujesz.
+
+### Redakcja merytoryczna
+
+\begin{checklist}
+  \item Tekst realizuje określony cel (sprzedaż / zapis / klik / edukacja)
+  \item Nagłówek obiecuje konkretną korzyść
+  \item Lead wciąga i prowadzi do dalszej lektury
+  \item Argumentacja jest w logicznej kolejności
+  \item Najważniejsze obiekcje klienta są zaadresowane
+  \item CTA jest jasne, konkretne i wynika z treści
+  \item Social proof jest obecny (jeśli możliwy)
+  \item Tekst jest pisany do konkretnej persony, nie do ``wszystkich''
+\end{checklist}
+
+### Redakcja stylistyczna
+
+\begin{checklist}
+  \item Zdania mają maks. 20 słów (z wyjątkami)
+  \item Strona czynna dominuje nad bierną
+  \item Brak żargonu i ``korporacyjnego'' języka
+  \item Ton jest spójny w całym tekście
+  \item Brak zbędnych wypełniaczy i napuszeń
+  \item Przejścia między akapitami są płynne
+  \item Tekst stosuje formułę 10\% Kinga (skrócony o minimum 10\%)
+\end{checklist}
+
+### Korekta
+
+\begin{checklist}
+  \item Brak literówek i błędów ortograficznych
+  \item Interpunkcja jest poprawna
+  \item Nazwy własne, daty i liczby są sprawdzone
+  \item Formatowanie jest spójne (nagłówki, listy, wyróżnienia)
+  \item Linki działają (w tekstach online)
+  \item Zapis jest konsekwentny (np. ``e-mail'' albo ``email'' --- jedno w całym tekście)
+\end{checklist}
+
+```{=latex}
+\decoline
+```
+
+```{=latex}
+\begin{cwiczenie}{Edytuj tekst w 3 przejściach}
+Weź swój tekst napisany wcześniej (najlepiej jedno z ćwiczeń z poprzednich rozdziałów --- landing page, email lub artykuł).
+
+\textbf{Część 1. Redakcja merytoryczna (15 min)}
+\begin{enumerate}
+  \item Zapisz w jednym zdaniu cel tekstu
+  \item Sprawdź, czy każda sekcja prowadzi do tego celu
+  \item Usuń lub przenieś sekcje, które odciągają od celu
+  \item Dodaj brakujące elementy (obiekcje, dowody, korzyści)
+\end{enumerate}
+
+\textbf{Część 2. Redakcja stylistyczna (15 min)}
+\begin{enumerate}
+  \item Zaznacz wszystkie zdania powyżej 20 słów --- rozważ podział
+  \item Znajdź i zamień stronę bierną na czynną
+  \item Usuń wypełniacze: „tak naprawdę", ``w zasadzie'', ``generalnie''
+  \item Policz słowa --- skróć tekst o minimum 10\%
+\end{enumerate}
+
+\textbf{Część 3. Korekta (10 min)}
+\begin{enumerate}
+  \item Przeczytaj tekst na głos --- popraw wszystko, co „brzmi źle"
+  \item Przeczytaj od ostatniego zdania do pierwszego --- szukaj literówek
+  \item Sprawdź interpunkcję, nazwy własne i spójność formatowania
+\end{enumerate}
+
+\textbf{Część 4. Porównaj (5 min)}
+
+Połóż obok siebie pierwszą i ostateczną wersję. Odpowiedz:
+\begin{itemize}
+  \item O ile procent skróciłeś tekst?
+  \item Ile zdań w stronie biernej zamieniłeś na czynną?
+  \item Który fragment bolał najbardziej, gdy go usuwałeś? (To był Twój darling.)
+\end{itemize}
+
+\textbf{Czas:} 45 minut
+\end{cwiczenie}
+```
+
+```{=latex}
+\decoline
+```
+
+```{=latex}
+\begin{cwiczenie}{Zabij 10 darlings}
+Weź dowolny tekst marketingowy --- może to być Twój tekst lub tekst ze strony firmy, którą lubisz.
+
+\textbf{Część 1. Identyfikacja (10 min)}
+
+Przeczytaj tekst i zaznacz 10 fragmentów, które:
+\begin{itemize}
+  \item Brzmią sprytnie, ale nie komunikują konkretnej korzyści
+  \item Powtarzają już powiedzianą myśl innymi słowami
+  \item Używają ogólników zamiast konkretów (``innowacyjny'', ``najwyższa jakość'')
+  \item Mogłyby zostać usunięte bez utraty sensu
+\end{itemize}
+
+\textbf{Część 2. Egzekucja (10 min)}
+
+Dla każdego z 10 fragmentów:
+\begin{itemize}
+  \item Usuń go ALBO zamień na krótszą, konkretniejszą wersję
+  \item Zapisz, dlaczego usunąłeś (np. „powtórzenie", „brak korzyści", „ego autora")
+\end{itemize}
+
+\textbf{Część 3. Ocena (5 min)}
+
+Przeczytaj tekst po zmianach. Czy stracił coś? Czy zyskał na czytelności? Ile słów usunąłeś?
+
+\textbf{Czas:} 25 minut
+\end{cwiczenie}
+```
+
+```{=latex}
+\takeaway{Edycja to nie poprawianie błędów --- to osobna umiejętność, która odróżnia amatorów od profesjonalistów. Stosuj trzypoziomowy lejek: najpierw struktura (redakcja merytoryczna), potem styl (redakcja stylistyczna), na końcu detale (korekta). Używaj formuły Kinga: drugi brudnopis = pierwszy minus 10\%. Czytaj na głos. Zabijaj swoje darlings. I pamiętaj --- w dużych firmach od edycji są osobni ludzie. Jeśli pracujesz solo, musisz umieć zastąpić ich wszystkich. Ale przy ważnych projektach rozważ profesjonalnego redaktora. To inwestycja, nie koszt.}
+```
+
+```{=latex}
+\decoline
+```

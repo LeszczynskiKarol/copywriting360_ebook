@@ -7,7 +7,7 @@
   a4paper,
   twoside,
   openright,
-  11pt,
+  12pt,
   DIV=12,
   BCOR=12mm]{scrbook}
 
@@ -49,7 +49,7 @@
 \usepackage{xcolor}
 \usepackage[top=25mm,bottom=25mm,inner=25mm,outer=20mm]{geometry}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
-\setcounter{secnumdepth}{3}
+\setcounter{secnumdepth}{2}
 % Make \paragraph and \subparagraph free-standing
 \makeatletter
 \ifx\paragraph\undefined\else
@@ -105,9 +105,11 @@
 % ============================================================
 % COPYWRITING 360 - Header BEZ FontAwesome
 % ============================================================
-
+\AtBeginDocument{\let\maketitle\relax}
 \usepackage{xcolor}
-
+\usepackage{pdfpages}
+\setcounter{secnumdepth}{1}          
+\KOMAoptions{numbers=endperiod}      
 \definecolor{primaryblue}{HTML}{1a73e8}
 \definecolor{primarydark}{HTML}{0d47a1}
 \definecolor{primarylight}{HTML}{e3f2fd}
@@ -129,6 +131,8 @@
 \definecolor{importantborder}{HTML}{e91e63}
 \definecolor{exercisebg}{HTML}{e3f2fd}
 \definecolor{exerciseborder}{HTML}{1976d2}
+\definecolor{deepnavy}{HTML}{0a1628}
+\definecolor{accentcyan}{HTML}{00b8d4}
 
 \usepackage{tcolorbox}
 \tcbuselibrary{skins,breakable}
@@ -151,13 +155,13 @@
 
 \titleformat{\section}
   {\normalfont\Large\bfseries\color{primarydark}}
-  {\textcolor{primaryblue}{\thesection}}
+  {\textcolor{primaryblue}{\thesection.}}
   {1em}
   {}
 
 \titleformat{\subsection}
   {\normalfont\large\bfseries\color{textdark}}
-  {\textcolor{primaryblue}{\thesubsection}}
+  {\textcolor{primaryblue}{\thesubsection.}}
   {0.75em}
   {}
 
@@ -208,7 +212,7 @@
   borderline west={4pt}{0pt}{tipborder},
   sharp corners,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{tipborder}WSKAZOWKA},
+  title={\color{tipborder}WSKAZÓWKA},
   fonttitle=\bfseries,
   coltitle=tipborder,
   attach boxed title to top left={yshift=-2mm, xshift=5mm},
@@ -240,7 +244,7 @@
   borderline west={4pt}{0pt}{importantborder},
   sharp corners,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{importantborder}WAZNE},
+  title={\color{importantborder}WAŻNE},
   fonttitle=\bfseries,
   coltitle=importantborder,
   attach boxed title to top left={yshift=-2mm, xshift=5mm},
@@ -255,7 +259,7 @@
   boxrule=1pt,
   arc=5pt,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{white}CWICZENIE: #1},
+  title={\color{white}ĆWICZENIE. #1},
   fonttitle=\bfseries,
   coltitle=white,
   attach boxed title to top left={yshift=-3mm, xshift=5mm},
@@ -284,7 +288,7 @@
   boxrule=2pt,
   arc=8pt,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{white}FORMULA: #1},
+  title={\color{white}FORMUŁA. #1},
   fonttitle=\bfseries,
   coltitle=white,
   attach boxed title to top center={yshift=-3mm},
@@ -299,7 +303,7 @@
   boxrule=1pt,
   arc=0pt,
   left=15pt, right=15pt, top=12pt, bottom=12pt,
-  title={\color{white}PRZYKLAD: #1},
+  title={\color{white}PRZYKłAD. #1},
   fonttitle=\bfseries,
   coltitle=white,
   attach boxed title to top left={yshift=-3mm, xshift=5mm},
@@ -307,8 +311,16 @@
 }
 
 % LISTS
-\setlist[itemize,1]{label=\textcolor{primaryblue}{--}, leftmargin=*, itemsep=4pt}
-\setlist[itemize,2]{label=\textcolor{primaryblue}{-}, leftmargin=*, itemsep=2pt}
+\newcommand{\bulleticon}{%
+  \tikz[baseline=-0.6ex]{
+    \fill[primaryblue!15] circle (0.7ex);
+    \fill[primaryblue] circle (0.3ex);
+  }%
+}
+\setlist[itemize,1]{
+  label=\bulleticon,
+  leftmargin=2em, itemsep=6pt, parsep=2pt
+}
 \setlist[enumerate,1]{label=\textcolor{primaryblue}{\bfseries\arabic*.}, leftmargin=*, itemsep=4pt}
 
 \newlist{checklist}{itemize}{1}
@@ -458,7 +470,7 @@
   \apptocmd{\@title}{\par {\large #1 \par}}{}{}
 }
 \makeatother
-\subtitle{Od Psychologii do Konwersji}
+\subtitle{Od psychologii do konwersji}
 \author{Karol Leszczyński}
 \date{2026-01-01}
 
@@ -466,110 +478,21 @@
 \frontmatter
 \maketitle
 
-% ============================================================
-% TITLE PAGE
-% ============================================================
-\thispagestyle{empty}
-\begin{center}
-\vspace*{4cm}
-
-{\fontsize{48}{52}\selectfont\bfseries\color{primarydark}Copywriting 360°}
-
-\vspace{0.5cm}
-
-{\LARGE\color{textmuted}Od Psychologii do Konwersji}
-
-\vspace{3cm}
-
-{\Large Karol Leszczyński}
-
-\vspace{4cm}
-
-\begin{minipage}{0.7\textwidth}
-\centering
-{\large\color{primaryblue}Kompletny przewodnik po sztuce copywritingu}
-
-\vspace{1cm}
-
-\color{textmuted}
-Psychologia perswazji \textbullet\ Formuły i techniki\\[8pt]
-Landing pages \textbullet\ Email marketing \textbullet\ Social media\\[8pt]
-AI w copywritingu \textbullet\ Budowanie biznesu
-\end{minipage}
-
-\vfill
-
-{\color{textmuted}Wydanie I \textbullet\ 2026}
-
-\vspace{0.5cm}
-
-{\color{primaryblue}\rule{0.3\textwidth}{2pt}}
-
-\end{center}
-\cleardoublepage
-
-% ============================================================
-% COPYRIGHT PAGE
-% ============================================================
-\thispagestyle{empty}
-\vspace*{\fill}
-\begin{center}
-\small\color{textmuted}
-
-\textbf{Copywriting 360°}\\
-Od Psychologii do Konwersji
-
-\vspace{1.5cm}
-
-Copyright © 2026 Karol Leszczyński\\
-Wszelkie prawa zastrzeżone.
-
-\vspace{1.5cm}
-
-Wydanie I
-
-\vspace{2cm}
-
-{\color{primaryblue}\rule{0.15\textwidth}{0.5pt}}
-
-\vspace{1.5cm}
-
-kontakt@kurscopywritingu.pl\\
-www.kurscopywritingu.pl
-
-\end{center}
-\vspace*{\fill}
-\cleardoublepage
-
-% ============================================================
-% DEDICATION
-% ============================================================
-\thispagestyle{empty}
-\vspace*{0.3\textheight}
-\begin{center}
-\large\itshape\color{textmuted}
-Dla wszystkich, którzy wierzą,\\
-że słowa mogą zmieniać świat.
-\end{center}
-\vspace*{\fill}
-\cleardoublepage
+\pagenumbering{gobble}
+\pagecolor{deepnavy}
+\includepdf[pages=1]{cover.pdf}
+\pagecolor{white}
+\null\thispagestyle{empty}\clearpage
+\input{_frontmatter.tex}
 
 \renewcommand*\contentsname{Spis treści}
 {
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{1}
 \tableofcontents
 }
 
 \setstretch{1.15}
 \mainmatter
-\bookmarksetup{startatroot}
-
-\chapter{Copywriting 360°}\label{copywriting-360}
-
-Od Psychologii do Konwersji
-
-\hfill\break
-
 \bookmarksetup{startatroot}
 
 \chapter*{Przedmowa}\label{przedmowa}
@@ -579,11 +502,14 @@ Od Psychologii do Konwersji
 
 Trzymasz w rękach efekt ponad 15 lat doświadczenia w marketingu
 cyfrowym, copywritingu i budowaniu biznesów online. To nie jest kolejny
-zbiór ``sztuczek'' i ``hacków'' --- to kompleksowy system myślenia o
+zbiór „sztuczek'' i „hacków'' --- to kompleksowy system myślenia o
 komunikacji perswazyjnej.
 
-\section{Dla kogo jest ta
+\section*{Dla kogo jest ta
 książka?}\label{dla-kogo-jest-ta-ksiux105ux17cka}
+\addcontentsline{toc}{section}{Dla kogo jest ta książka?}
+
+\markright{Dla kogo jest ta książka?}
 
 Ta książka jest dla Ciebie, jeśli:
 
@@ -601,20 +527,26 @@ Ta książka jest dla Ciebie, jeśli:
   Interesujesz się psychologią perswazji i jej zastosowaniami
 \end{itemize}
 
-\section{Jak korzystać z tej
+\section*{Jak korzystać z tej
 książki?}\label{jak-korzystaux107-z-tej-ksiux105ux17cki}
+\addcontentsline{toc}{section}{Jak korzystać z tej książki?}
 
-\textbf{Dla początkujących:} Przerabiaj rozdziały po kolei. Każdy buduje
-na poprzednim.
+\markright{Jak korzystać z tej książki?}
 
-\textbf{Dla średnio zaawansowanych:} Możesz przeskakiwać do
+\textbf{Dla początkujących.} Przerabiaj rozdziały po kolei. Każdy buduje
+inne kompetencje.
+
+\textbf{Dla średnio zaawansowanych.} Możesz przeskakiwać do
 interesujących Cię tematów, ale wracaj do fundamentów, gdy poczujesz
 braki.
 
-\textbf{Dla zaawansowanych:} Użyj tej książki jako reference --- wracaj
+\textbf{Dla zaawansowanych.} Użyj tej książki jako inspirację --- wracaj
 do konkretnych technik i formuł przy projektach.
 
-\section{Oznaczenia w książce}\label{oznaczenia-w-ksiux105ux17cce}
+\section*{Oznaczenia w książce}\label{oznaczenia-w-ksiux105ux17cce}
+\addcontentsline{toc}{section}{Oznaczenia w książce}
+
+\markright{Oznaczenia w książce}
 
 W całej książce znajdziesz specjalne bloki, które wyróżniają różne typy
 treści:
@@ -628,7 +560,7 @@ Uwagi zwracają uwagę na częste błędy lub pułapki.
 \end{uwaga}
 
 \begin{wazne}
-Bloki "Ważne" podkreślają kluczowe informacje, których nie możesz pominąć.
+Bloki „Ważne" podkreślają kluczowe informacje, których nie możesz pominąć.
 \end{wazne}
 
 \begin{pojecie}{Nazwa pojęcia}
@@ -654,8 +586,7 @@ Czytelniku --- bez Twojego zaufania ta praca nie miałaby sensu.
 
 Do dzieła!
 
-\emph{Karol Leszczyński}\\
-\emph{Luty 2026}
+\emph{Karol Leszczyński} \emph{Luty 2026}
 
 \bookmarksetup{startatroot}
 
@@ -666,15 +597,14 @@ I dlaczego zmieni Twoje podejście do biznesu
 
 \hfill\break
 
-\chapteropener{W świecie przesyconym treścią, słowa są Twoją supermocą.\\Naucz się ich używać.}
+\chapteropener{W świecie przesyconym treścią słowa są Twoją supermocą.\\Naucz się ich używać.}
 
-\textbf{Każdego dnia jesteś bombardowany tysiącami komunikatów
-marketingowych.} Reklamy w social mediach, emaile, billboardy, strony
-internetowe, opakowania produktów --- wszędzie ktoś próbuje zwrócić
-Twoją uwagę i przekonać Cię do działania. Większość tych komunikatów
-przepływa przez Twoją świadomość bez śladu. Ale niektóre\ldots{}
-niektóre zatrzymują Cię w miejscu. Zmuszają do przeczytania. I
-działania.
+\textbf{Każdego dnia bombardują Cię tysiące komunikatów marketingowych.}
+Reklamy w social mediach, emaile, billboardy, strony internetowe,
+opakowania produktów --- wszędzie ktoś próbuje zwrócić Twoją uwagę i
+przekonać Cię do działania. Większość tych komunikatów przepływa przez
+Twoją świadomość bez śladu. Ale niektóre\ldots{} niektóre zatrzymują Cię
+w miejscu. Zmuszają do przeczytania. I działania.
 
 To nie magia. To \textbf{copywriting}.
 
@@ -713,8 +643,8 @@ prawdziwy copywriting buduje marki, które przetrwają dekady.
 \section{Copywriting a inne formy
 pisania}\label{copywriting-a-inne-formy-pisania}
 
-Często słyszę pytanie: ``Czym różni się copywriting od content
-writingu?'' To fundamentalne rozróżnienie, które musisz zrozumieć.
+Często słyszę pytanie: „Czym różni się copywriting od content
+writingu?''. To fundamentalne rozróżnienie, które musisz zrozumieć.
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1600}}
@@ -736,15 +666,16 @@ UX Writing
 \bottomrule\noalign{}
 \endlastfoot
 \textbf{Cel} & Konwersja & Edukacja & Użyteczność \\
-\textbf{Horyzont} & Natychmiastowy & Długoterminowy & Momentalny \\
+\textbf{Horyzont} & Natychmiastowy & Długoterminowy & Natcyhmiastowy \\
 \textbf{Ton} & Perswazyjny & Informacyjny & Neutralny \\
-\textbf{Długość} & 3 słowa -- 20 stron & 500--5000+ słów & 1--50 słów \\
+\textbf{Długość} & 3 słowa -- kilkadziesiąt stron & 500--5000+ słów &
+1--50 słów \\
 \textbf{Przykłady} & Reklamy, landing pages & Blog, poradniki &
 Przyciski, komunikaty \\
 \end{longtable}
 
 \begin{wskazowka}
-Granice między tymi formami zacierają się. Najlepsi specjaliści potrafią płynnie przechodzić między nimi. Artykuł blogowy może mieć elementy copywritingu (CTA), a landing page może edukować. Traktuj te kategorie jako spektrum, nie sztywne podziały.
+Granice między tymi formami się zacierają. Najlepsi specjaliści potrafią płynnie przechodzić między nimi. Artykuł blogowy może mieć elementy copywritingu (CTA), a landing page może edukować. Traktuj te kategorie jako spektrum, nie sztywne podziały.
 \end{wskazowka}
 
 \section{Krótka historia
@@ -752,10 +683,10 @@ copywritingu}\label{kruxf3tka-historia-copywritingu}
 
 \subsection{Era pionierów (1900--1950)}\label{era-pionieruxf3w-19001950}
 
-Claude Hopkins, David Ogilvy, John Caples --- ci pionierzy ustanowili
-fundamenty, które używamy do dziś. Co ciekawe, większość ich zasad
-powstała zanim istniał internet, a mimo to doskonale sprawdzają się w
-erze cyfrowej.
+Claude Hopkins, David Ogilvy, John Caples --- ci pionierzy skonstruowali
+fundamenty używane do dziś. Co ciekawe, większość z nich zasad powstała,
+zanim istniał internet, a mimo to doskonale sprawdzają się w erze
+cyfrowej.
 
 \begin{cytat}
 Reklama to sprzedaż w druku. Traktuj ją jak handlowca, który odwiedza tysiące klientów jednocześnie.
@@ -770,7 +701,7 @@ To złoty wiek direct mail --- długich listów sprzedażowych, które
 generowały miliony dolarów. Gary Halbert, Dan Kennedy, Eugene Schwartz
 udoskonalili techniki perswazji do poziomu niemal naukowej precyzji.
 
-\stathighlight{30:1}{Legendarny list Halberta przyniósł 30 mln USD przy inwestycji 1 mln USD}
+\stathighlight{30:1}{Legendarny list Halberta przyniósł \mbox{30 mln USD} przy inwestycji 1 mln USD}
 
 \subsection{Era digitalna
 (1990--obecnie)}\label{era-digitalna-1990obecnie}
@@ -781,15 +712,15 @@ przetestować 10 wersji nagłówka i dowiedzieć się, która działa lepiej.
 To rewolucja w szybkości iteracji.
 
 \begin{wazne}
-Nie daj się zwieść: mimo AI i automatyzacji, podstawy copywritingu --- psychologia, struktura, jasność przekazu --- pozostają niezmienne. Narzędzia się zmieniają, ludzie nie.
+Nie daj się zwieść: mimo AI i automatyzacji podstawy copywritingu --- psychologia, struktura, jasność przekazu --- pozostają niezmienne. Narzędzia się zmieniają, ludzie nie.
 \end{wazne}
 
 \decoline
 
 \section{Anatomia konwersji}\label{anatomia-konwersji}
 
-Zanim napiszesz pierwsze słowo, musisz zrozumieć, co właściwie próbujesz
-osiągnąć. W copywritingu wszystko sprowadza się do \textbf{konwersji}.
+Zanim napiszesz pierwsze słowo, zrozum, co właściwie próbujesz osiągnąć.
+W copywritingu wszystko sprowadza się do \textbf{konwersji}.
 
 \begin{pojecie}{Konwersja}
 \textbf{Konwersja} to moment, w którym odbiorca Twojego komunikatu wykonuje pożądane działanie --- kliknięcie, zapis, zakup, telefon, pobranie.
@@ -804,23 +735,10 @@ osiągnąć. W copywritingu wszystko sprowadza się do \textbf{konwersji}.
 za 997 zł.
 
 \textbf{Mikro konwersje} to mniejsze kroki prowadzące do makro
-konwersji:
+konwersji, np. kliknięcie w reklamę, zapis na newsletter, pobranie lead
+magneta, otwarcie emaila, dodanie do koszyka.
 
-\begin{itemize}
-\tightlist
-\item
-  Kliknięcie w reklamę
-\item
-  Zapis na newsletter\\
-\item
-  Pobranie lead magneta
-\item
-  Otwarcie emaila
-\item
-  Dodanie do koszyka
-\end{itemize}
-
-Każda mikro konwersja wymaga osobnego ``copy'' --- emaila, przycisku,
+Każda mikro konwersja wymaga osobnego „copy'' --- emaila, przycisku,
 strony. Dobry copywriter myśli o całej ścieżce, nie tylko o końcowym
 kroku.
 
@@ -858,56 +776,32 @@ które wyróżniają copy generujące wyniki:
 Zanim przejdziemy dalej, rozprawmy się z kilkoma szkodliwymi mitami:
 
 \begin{uwaga}
-\textbf{MIT 1: "Copywriting to manipulacja"}
+\textbf{MIT 1: „Copywriting to manipulacja”}
 
-Manipulacja to świadome wprowadzanie w błąd dla własnej korzyści. Etyczny copywriting to jasne komunikowanie wartości produktu osobom, które naprawdę mogą z niego skorzystać. Różnica jest fundamentalna.
-
-\medskip
-\textbf{MIT 2: "Trzeba być urodzonym pisarzem"}
-
-Copywriting to umiejętność --- można się jej nauczyć. Najlepsi copywriterzy to często byli inżynierowie, sprzedawcy, psychologowie. Liczy się zrozumienie ludzi, nie talent literacki.
+Manipulacja polega na świadomym wprowadzaniu w błąd dla własnej korzyści. Etyczny copywriting to jasne komunikowanie wartości produktu osobom, które naprawdę mogą z niego skorzystać. Różnica jest fundamentalna.
 
 \medskip
-\textbf{MIT 3: "AI zastąpi copywriterów"}
+\textbf{MIT 2: „Trzeba być urodzonym pisarzem”}
 
-AI to narzędzie, jak kalkulator dla matematyka. Może przyspieszyć pracę, ale strategia, empatia i zrozumienie kontekstu pozostają domeną człowieka. Więcej o tym w Module 19.
+Copywriting jest umiejętnością --- można się jej nauczyć. Najlepsi copywriterzy to często byli inżynierowie, sprzedawcy, psychologowie. Liczy się zrozumienie ludzi, nie talent literacki.
+
+\medskip
+\textbf{MIT 3: „AI zastąpi copywriterów”}
+
+AI to narzędzie, jak kalkulator dla matematyka. Może przyspieszyć pracę, ale strategia, empatia i zrozumienie kontekstu pozostają domeną człowieka. Więcej o tym w rozdziale nr 19.
 \end{uwaga}
 
 \decoline
 
-\section{Struktura tego kursu}\label{struktura-tego-kursu}
-
-Ten kurs jest podzielony na \textbf{6 części}, które prowadzą Cię od
-fundamentów do zaawansowanych technik:
-
-\begin{longtable}[]{@{}lll@{}}
-\toprule\noalign{}
-Część & Nazwa & Zakres \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-I & FUNDAMENTY & Psychologia, research, poziomy świadomości \\
-II & TECHNIKI & Nagłówki, formuły, storytelling, obiekcje \\
-III & FORMATY & Landing pages, email, social, e-commerce, B2B, UX \\
-IV & AI I NARZĘDZIA & Prompt engineering, toolkit, testowanie \\
-V & BIZNES & Portfolio, wycena, pozyskiwanie klientów \\
-VI & PROJEKT & Capstone z feedbackiem \\
-\end{longtable}
-
-\begin{wskazowka}
-Nie musisz przerabiać kursu linearnie. Jeśli jesteś doświadczonym marketerem, możesz zacząć od Części III (formaty). Jeśli chcesz szybko pozyskać klientów --- skocz do Części V. Wracaj do wcześniejszych modułów, gdy poczujesz, że brakuje Ci fundamentów.
-\end{wskazowka}
-
 \section{Jak maksymalnie wykorzystać ten
-kurs}\label{jak-maksymalnie-wykorzystaux107-ten-kurs}
+ebook}\label{jak-maksymalnie-wykorzystaux107-ten-ebook}
 
 \begin{checklist}
   \item \textbf{Rób ćwiczenia} --- 70\% nauki to praktyka, nie teoria
-  \item \textbf{Zbieraj swipe file} --- Zapisuj przykłady dobrego copy
-  \item \textbf{Analizuj codziennie} --- Patrz na reklamy przez pryzmat technik z kursu
-  \item \textbf{Pisz codziennie} --- Nawet 15 minut dziennie robi różnicę
-  \item \textbf{Szukaj feedbacku} --- Pokaż swoje copy innym
+  \item \textbf{Zbieraj swipe file} --- zapisuj przykłady dobrego copy
+  \item \textbf{Analizuj codziennie} --- patrz na reklamy przez pryzmat technik z kursu
+  \item \textbf{Pisz codziennie} --- nawet 15 minut dziennie robi różnicę
+  \item \textbf{Zbieraj informacje zwrotne od klientów i czytelników} --- pokazuj innym swoje copy
 \end{checklist}
 
 \decoline
@@ -930,12 +824,12 @@ Zanim przejdziesz dalej, wykonaj pierwszą analizę:
 \textbf{Czas:} 15--20 minut
 \end{cwiczenie}
 
-\takeaway{Copywriting to umiejętność łącząca psychologię, kreatywność i strategię. Nie jest manipulacją --- jest jasną komunikacją wartości. I jak każda umiejętność, można się go nauczyć poprzez systematyczną praktykę i analizę.}
+\takeaway{Copywriting to umiejętność łącząca psychologię, kreatywność i strategię. Nie jest manipulacją --- jest jasną komunikacją wartości. I jak każdej umiejętności, można się jej nauczyć poprzez systematyczną praktykę i analizę.}
 
 W następnym rozdziale zanurzymy się w \textbf{psychologię perswazji} ---
 naukowy fundament, który sprawi, że Twoje copy będzie działać nie przez
-przypadek, ale przez głębokie zrozumienie, jak ludzki mózg podejmuje
-decyzje.
+przypadek, ale przez głębokie zrozumienie mechanizmów rządzących ludzkim
+mózgiem.
 
 \decoline
 
@@ -973,21 +867,24 @@ Każda decyzja zakupowa jest wynikiem kombinacji \textbf{racjonalnych potrzeb} i
 Badania konsumenckie konsekwentnie pokazują, że ludzie kupują z kilku
 fundamentalnych powodów:
 
-\textbf{Unikanie bólu} --- Strach przed utratą, problemami,
-dyskomfortem. Ludzie są 2x bardziej zmotywowani do unikania straty niż
-do osiągania zysku.
-
-\textbf{Dążenie do przyjemności} --- Pragnienie lepszego życia, statusu,
-komfortu, przyjemności.
-
-\textbf{Przynależność społeczna} --- Chęć bycia częścią grupy,
-akceptacji, uznania.
-
-\textbf{Bezpieczeństwo} --- Potrzeba stabilności, przewidywalności,
-ochrony.
-
-\textbf{Samodoskonalenie} --- Aspiracje, rozwój, stawanie się lepszą
-wersją siebie.
+\begin{itemize}
+\item
+  \textbf{Unikanie bólu} --- strach przed utratą, problemami,
+  dyskomfortem. Ludzie są 2 x bardziej zmotywowani do unikania straty
+  niż do osiągania zysku.
+\item
+  \textbf{Dążenie do przyjemności} --- pragnienie lepszego życia,
+  statusu, komfortu, przyjemności.
+\item
+  \textbf{Przynależność społeczna} --- chęć bycia częścią grupy,
+  akceptacji, uznania.
+\item
+  \textbf{Bezpieczeństwo} --- potrzeba stabilności, przewidywalności,
+  ochrony.
+\item
+  \textbf{Samodoskonalenie} --- aspiracje, rozwój, stawanie się lepszą
+  wersją siebie.
+\end{itemize}
 
 \begin{wskazowka}
 Zanim zaczniesz pisać, zadaj sobie pytanie: \textbf{Który z tych motywów jest najsilniejszy dla mojej grupy docelowej?} Odpowiedź powinna kształtować całą Twoją komunikację.
@@ -1000,8 +897,8 @@ Kahneman}\label{dwa-systemy-myux15blenia-kahneman}
 
 W 2002 roku Daniel Kahneman otrzymał Nagrodę Nobla za badania nad
 podejmowaniem decyzji. Jego teoria dwóch systemów myślenia
-zrewolucjonizowała nasze rozumienie tego, jak ludzie podejmują decyzje
---- i jest fundamentem nowoczesnego copywritingu.
+zrewolucjonizowała rozumienie tego, jak ludzie podejmują decyzje --- i
+jest fundamentem nowoczesnego copywritingu.
 
 \begin{pojecie}{System 1 i System 2}
 \textbf{System 1}: Szybki, automatyczny, intuicyjny, emocjonalny. Działa bez wysiłku, nieustannie. Odpowiada za 95\% naszych codziennych decyzji.
@@ -1034,7 +931,7 @@ analizują każdego słowa.
 \begin{wazne}
 \textbf{Konsekwencja dla copywritingu:}
 
-Twoje copy musi najpierw \textbf{trafić do Systemu 1} (emocje, obrazy, proste przekazy), a dopiero potem dostarczyć argumenty dla \textbf{Systemu 2} (fakty, dane, logika), który usprawiedliwi emocjonalną decyzję.
+Twoje copy powinno najpierw \textbf{trafić do Systemu 1} (emocje, obrazy, proste przekazy), a dopiero potem dostarczyć argumenty dla \textbf{Systemu 2} (fakty, dane, logika), który usprawiedliwi emocjonalną decyzję.
 \end{wazne}
 
 \subsection{Praktyczne zastosowanie}\label{praktyczne-zastosowanie}
@@ -1073,7 +970,7 @@ Twoje copy musi najpierw \textbf{trafić do Systemu 1} (emocje, obrazy, proste p
 
 \begin{beforeafter}
 {Nasza platforma oferuje zaawansowane algorytmy machine learning do analizy danych biznesowych z dokładnością 99,7\% i integracją z ponad 200 systemami ERP.}
-{Wyobraź sobie, że w poniedziałek rano masz gotowy raport, który normalnie zajmowałby Ci cały tydzień. 2,347 firm już oszczędza średnio 10 godzin tygodniowo. [Szczegóły techniczne poniżej]}
+{Wyobraź sobie, że w poniedziałek rano masz gotowy raport, który normalnie zajmowałby Ci cały tydzień. 2347 firm już oszczędza średnio 10 godzin tygodniowo. [Szczegóły techniczne poniżej]}
 \end{beforeafter}
 
 \decoline
@@ -1081,22 +978,21 @@ Twoje copy musi najpierw \textbf{trafić do Systemu 1} (emocje, obrazy, proste p
 \section{7 zasad wpływu Cialdiniego}\label{zasad-wpux142ywu-cialdiniego}
 
 Robert Cialdini, profesor psychologii z Arizona State University,
-spędził dekady badając, co sprawia, że ludzie mówią „tak''. Jego książka
-„Influence: The Psychology of Persuasion'' (1984) stała się biblią
-marketingu i sprzedaży.
+spędził dekady, badając, co sprawia, że ludzie mówią „tak''. Jego
+książka „Influence: The Psychology of Persuasion'' (1984) stała się
+biblią marketingu i sprzedaży.
 
 Cialdini zidentyfikował \textbf{7 uniwersalnych zasad wpływu}, które
 działają niezależnie od kultury, branży czy epoki. Jako copywriter,
 powinieneś znać je na pamięć.
 
-\subsection{1. Wzajemność
-(Reciprocity)}\label{wzajemnoux15bux107-reciprocity}
+\subsection{1. Wzajemność}\label{wzajemnoux15bux107}
 
 \begin{pojecie}{Zasada wzajemności}
 Ludzie czują się zobowiązani do odwzajemnienia przysługi. Gdy ktoś daje nam coś wartościowego, odczuwamy wewnętrzny przymus, by „wyrównać rachunki".
 \end{pojecie}
 
-\textbf{Mechanizm:} Gdy dajesz coś za darmo (wartościowy content,
+\textbf{Mechanizm.} Gdy dajesz coś za darmo (wartościowy content,
 próbkę, poradę), odbiorca podświadomie czuje się zobowiązany.
 
 \textbf{W copywritingu:}
@@ -1114,19 +1010,18 @@ próbkę, poradę), odbiorca podświadomie czuje się zobowiązany.
 \end{itemize}
 
 \begin{przyklad}{Wzajemność w praktyce}
-\textbf{E-mail marketerzy:} „Przygotowałem dla Ciebie 47-stronicowy przewodnik po email marketingu. Bez żadnych zobowiązań. [Pobierz za darmo]"
+\textbf{E-mail marketerzy.} „Przygotowałem dla Ciebie 47-stronicowy przewodnik po email marketingu. Bez żadnych zobowiązań. [Pobierz za darmo]"
 
-\textbf{Mechanizm:} Po pobraniu wartościowego materiału, odbiorca jest bardziej skłonny otworzyć kolejne maile i rozważyć płatną ofertę.
+\textbf{Mechanizm.} Po pobraniu wartościowego materiału odbiorca jest bardziej skłonny otworzyć kolejne maile i rozważyć płatną ofertę.
 \end{przyklad}
 
-\subsection{2. Niedostępność
-(Scarcity)}\label{niedostux119pnoux15bux107-scarcity}
+\subsection{2. Niedostępność}\label{niedostux119pnoux15bux107}
 
 \begin{pojecie}{Zasada niedostępności}
 Rzeczy postrzegane jako rzadkie lub ograniczone wydają się bardziej wartościowe. Strach przed utratą (FOMO) jest silniejszym motywatorem niż chęć zysku.
 \end{pojecie}
 
-\textbf{Mechanizm:} Ograniczenie dostępności (czasowe, ilościowe,
+\textbf{Mechanizm.} Ograniczenie dostępności (czasowe, ilościowe,
 ekskluzywne) zwiększa postrzeganą wartość i motywuje do działania.
 
 \textbf{W copywritingu:}
@@ -1142,16 +1037,16 @@ ekskluzywne) zwiększa postrzeganą wartość i motywuje do działania.
 \end{itemize}
 
 \begin{uwaga}
-Niedostępność działa \textbf{tylko gdy jest autentyczna}. Fałszywe ograniczenia („Oferta kończy się dziś!" --- powtarzane co tydzień) niszczą zaufanie i wiarygodność marki. Klienci szybko uczą się ignorować takie komunikaty.
+Niedostępność działa \textbf{tylko, gdy jest autentyczna}. Fałszywe ograniczenia („Oferta kończy się dziś!" --- powtarzane co tydzień) niszczą zaufanie i wiarygodność marki. Klienci szybko uczą się ignorować takie komunikaty.
 \end{uwaga}
 
-\subsection{3. Autorytet (Authority)}\label{autorytet-authority}
+\subsection{3. Autorytet}\label{autorytet}
 
 \begin{pojecie}{Zasada autorytetu}
 Ludzie ufają ekspertom i autorytetom. Informacje pochodzące od osób postrzeganych jako kompetentne są bardziej przekonujące.
 \end{pojecie}
 
-\textbf{Mechanizm:} Mózg używa skrótu myślowego: „Ta osoba wie więcej,
+\textbf{Mechanizm.} Mózg używa skrótu myślowego: „Ta osoba wie więcej,
 więc mogę jej zaufać.''
 
 \textbf{W copywritingu:}
@@ -1173,17 +1068,16 @@ więc mogę jej zaufać.''
 \begin{przyklad}{Autorytet w praktyce}
 \textbf{Słabo:} „Nasz krem jest skuteczny."
 
-\textbf{Silnie:} „9 z 10 dermatologów poleca nasz krem. Przebadany klinicznie na 2,000 pacjentów przez Instytut Dermatologii w Warszawie."
+\textbf{Silnie:} „9 z 10 dermatologów poleca nasz krem. Przebadany klinicznie na 2000 pacjentów przez Instytut Dermatologii w Warszawie."
 \end{przyklad}
 
-\subsection{4. Spójność (Commitment \&
-Consistency)}\label{spuxf3jnoux15bux107-commitment-consistency}
+\subsection{4. Spójność}\label{spuxf3jnoux15bux107}
 
 \begin{pojecie}{Zasada spójności}
 Ludzie dążą do bycia konsekwentnymi wobec swoich wcześniejszych deklaracji i działań. Małe zobowiązania torują drogę większym.
 \end{pojecie}
 
-\textbf{Mechanizm:} Technika „stopy w drzwiach'' --- małe „tak''
+\textbf{Mechanizm.} Technika „stopy w drzwiach'' --- małe „tak''
 zwiększa prawdopodobieństwo większego „tak''.
 
 \textbf{W copywritingu:}
@@ -1201,22 +1095,22 @@ zwiększa prawdopodobieństwo większego „tak''.
 \end{itemize}
 
 \begin{przyklad}{Spójność w praktyce (Yes-Set)}
-„Czy chciałbyś zarabiać więcej pracując mniej? [Tak]
+Czy chcesz zarabiać więcej, pracując mniej? [Tak]
 
 Czy doceniasz sprawdzone rozwiązania zamiast eksperymentów? [Tak]
 
 Czy wolisz uczyć się od praktyków niż teoretyków? [Tak]
 
-Świetnie. Mam dla Ciebie coś, co spełnia wszystkie te kryteria..."
+Świetnie. Mam dla Ciebie coś, co spełnia wszystkie te kryteria...
 \end{przyklad}
 
-\subsection{5. Sympatia (Liking)}\label{sympatia-liking}
+\subsection{5. Sympatia}\label{sympatia}
 
 \begin{pojecie}{Zasada sympatii}
 Ludzie chętniej mówią „tak" osobom, które lubią. Sympatię buduje podobieństwo, komplementy, znajomość i atrakcyjność.
 \end{pojecie}
 
-\textbf{Mechanizm:} Lubimy ludzi podobnych do nas, tych którzy nas
+\textbf{Mechanizm.} Lubimy ludzi podobnych do nas, tych, którzy nas
 chwalą, i tych, których często widzimy.
 
 \textbf{W copywritingu:}
@@ -1237,14 +1131,14 @@ chwalą, i tych, których często widzimy.
 „Wiem, jak to jest siedzieć nad pustą kartką o 2 w nocy, zastanawiając się, czy kiedykolwiek uda się napisać ten tekst. Byłem tam. 15 lat temu zaczynałem dokładnie tak jak Ty..."
 \end{przyklad}
 
-\subsection{6. Społeczny dowód słuszności (Social
-Proof)}\label{spoux142eczny-dowuxf3d-sux142usznoux15bci-social-proof}
+\subsection{6. Społeczny dowód
+słuszności}\label{spoux142eczny-dowuxf3d-sux142usznoux15bci}
 
 \begin{pojecie}{Zasada społecznego dowodu}
-W sytuacji niepewności ludzie patrzą na zachowania innych, zakładając że większość ma rację. „Skoro inni to robią, to musi być dobre."
+W sytuacji niepewności ludzie patrzą na zachowania innych, zakładając, że większość ma rację. „Skoro inni to robią, to musi być dobre."
 \end{pojecie}
 
-\textbf{Mechanizm:} Ewolucyjny skrót myślowy --- naśladowanie grupy
+\textbf{Mechanizm.} Ewolucyjny skrót myślowy --- naśladowanie grupy
 zwiększało szanse przetrwania.
 
 \textbf{W copywritingu:}
@@ -1254,7 +1148,7 @@ zwiększało szanse przetrwania.
 \item
   Liczba klientów/użytkowników
 \item
-  Testimoniały i recenzje
+  Rekomendacje i recenzje
 \item
   Case studies
 \item
@@ -1266,16 +1160,16 @@ zwiększało szanse przetrwania.
 \stathighlight{97\%}{konsumentów sprawdza opinie przed zakupem}
 
 \begin{uwaga}
-Social proof jest \textbf{najbardziej skuteczny}, gdy pochodzi od osób podobnych do odbiorcy. Opinia innego przedsiębiorcy bardziej przekona przedsiębiorcę niż opinia celebryty.
+Społeczny dowód słuszności jest \textbf{najbardziej skuteczny}, gdy pochodzi od osób podobnych do odbiorcy. Opinia innego przedsiębiorcy bardziej przekona przedsiębiorcę niż opinia celebryty.
 \end{uwaga}
 
-\subsection{7. Jedność (Unity)}\label{jednoux15bux107-unity}
+\subsection{7. Jedność}\label{jednoux15bux107}
 
 \begin{pojecie}{Zasada jedności}
 Ludzie są bardziej skłonni do zgody z osobami, które postrzegają jako „swoich" --- członków tej samej grupy, plemienia, społeczności.
 \end{pojecie}
 
-\textbf{Mechanizm:} Zasada dodana przez Cialdiniego w 2016 roku.
+\textbf{Mechanizm.} Zasada dodana przez Cialdiniego w 2016 roku.
 Wykracza poza sympatię --- dotyczy wspólnej tożsamości.
 
 \textbf{W copywritingu:}
@@ -1309,13 +1203,12 @@ jest podatny na określone wzorce perswazji.
 Znajomość błędów poznawczych to \textbf{nie} licencja na manipulację. To narzędzie do tworzenia komunikacji, która jest zgodna z naturalnym sposobem, w jaki ludzie przetwarzają informacje.
 \end{wazne}
 
-\subsection{Efekt zakotwiczenia
-(Anchoring)}\label{efekt-zakotwiczenia-anchoring}
+\subsection{Efekt zakotwiczenia}\label{efekt-zakotwiczenia}
 
-\textbf{Mechanizm:} Pierwsza informacja, którą otrzymujemy, staje się
+\textbf{Mechanizm.} Pierwsza informacja, którą otrzymujemy, staje się
 „kotwicą'' dla wszystkich kolejnych ocen.
 
-\textbf{Zastosowanie:} Pokaż najpierw wyższą cenę, a potem rzeczywistą.
+\textbf{Zastosowanie.} Pokaż najpierw wyższą cenę, a potem rzeczywistą.
 Cena 997 zł wydaje się niska, gdy wcześniej widzieliśmy 2497 zł.
 
 \begin{przyklad}{Zakotwiczenie cenowe}
@@ -1326,27 +1219,25 @@ Cena 997 zł wydaje się niska, gdy wcześniej widzieliśmy 2497 zł.
 Oszczędzasz: 1,500 zł (60\%)
 \end{przyklad}
 
-\subsection{Awersja do straty (Loss
-Aversion)}\label{awersja-do-straty-loss-aversion}
+\subsection{Awersja do straty}\label{awersja-do-straty}
 
-\textbf{Mechanizm:} Ból związany ze stratą jest \textasciitilde2x
+\textbf{Mechanizm.} Ból związany ze stratą jest \textasciitilde2 x
 silniejszy niż przyjemność z równoważnego zysku.
 
-\textbf{Zastosowanie:} Zamiast mówić o tym, co klient zyska, pokaż co
+\textbf{Zastosowanie.} Zamiast mówić o tym, co klient zyska, pokaż, co
 straci, jeśli nie kupi.
 
 \begin{beforeafter}
-{Zaoszczędź 360 zł rocznie zmieniając dostawcę energii.}
+{Zaoszczędź 360 zł rocznie, zmieniając dostawcę energii.}
 {Nie zmieniając dostawcy, tracisz 360 zł rocznie. To 30 zł miesięcznie, które mogłyby zostać w Twojej kieszeni.}
 \end{beforeafter}
 
-\subsection{Efekt ramowania (Framing
-Effect)}\label{efekt-ramowania-framing-effect}
+\subsection{Efekt ramowania}\label{efekt-ramowania}
 
-\textbf{Mechanizm:} Sposób przedstawienia informacji wpływa na jej
+\textbf{Mechanizm.} Sposób przedstawienia informacji wpływa na jej
 odbiór, nawet jeśli fakty są identyczne.
 
-\textbf{Zastosowanie:} Dobieraj słowa, które ramują informację
+\textbf{Zastosowanie.} Dobieraj słowa, które ramują informację
 korzystnie.
 
 \begin{longtable}[]{@{}ll@{}}
@@ -1361,13 +1252,12 @@ Negatywne ramowanie & Pozytywne ramowanie \\
 3 z 10 się nie uda & 7 z 10 odniesie sukces \\
 \end{longtable}
 
-\subsection{Efekt potwierdzenia (Confirmation
-Bias)}\label{efekt-potwierdzenia-confirmation-bias}
+\subsection{Efekt potwierdzenia}\label{efekt-potwierdzenia}
 
-\textbf{Mechanizm:} Ludzie szukają informacji potwierdzających ich
+\textbf{Mechanizm.} Ludzie szukają informacji potwierdzających ich
 istniejące przekonania.
 
-\textbf{Zastosowanie:} Nie próbuj zmieniać przekonań klienta. Potwierdź
+\textbf{Zastosowanie.} Nie próbuj zmieniać przekonań klienta. Potwierdź
 je i pokaż, jak Twój produkt do nich pasuje.
 
 \begin{wskazowka}
@@ -1377,10 +1267,10 @@ Zamiast przekonywać klienta, że się myli, powiedz: \textbf{„Masz rację, ż
 \subsection{WYSIATI (What You See Is All There
 Is)}\label{wysiati-what-you-see-is-all-there-is}
 
-\textbf{Mechanizm:} Mózg tworzy spójną historię z dostępnych informacji,
+\textbf{Mechanizm.} Mózg tworzy spójną historię z dostępnych informacji,
 ignorując to, czego nie widzi.
 
-\textbf{Zastosowanie:} Kontroluj, jakie informacje odbiorca widzi jako
+\textbf{Zastosowanie.} Kontroluj, jakie informacje odbiorca widzi jako
 pierwsze. Przedstaw najważniejsze korzyści i dowody na początku.
 
 \decoline
@@ -1392,12 +1282,12 @@ zakupy B2B są w rzeczywistości napędzane emocjami (strach przed błędem,
 chęć uznania, ambicja).
 
 \begin{pojecie}{Wyzwalacz emocjonalny}
-Bodziec (słowo, obraz, historia) który wywołuje silną reakcję emocjonalną, motywującą do działania.
+Bodziec (słowo, obraz, historia), który wywołuje silną reakcję emocjonalną, motywującą do działania.
 \end{pojecie}
 
 \subsection{7 głównych wyzwalaczy}\label{gux142uxf3wnych-wyzwalaczy}
 
-\textbf{1. Strach (Fear)}
+\textbf{1. Strach}
 
 Najsilniejszy wyzwalacz. Strach przed stratą, porażką, ośmieszeniem,
 wykluczeniem.
@@ -1405,41 +1295,41 @@ wykluczeniem.
 \emph{„Czy Twoja firma jest chroniona przed cyberatakiem? 60\% małych
 firm upada w ciągu 6 miesięcy po poważnym naruszeniu danych.''}
 
-\textbf{2. Chciwość (Greed)}
+\textbf{2. Chciwość}
 
 Pragnienie więcej --- więcej pieniędzy, czasu, sukcesu, uznania.
 
-\emph{„Dołącz do 2,347 przedsiębiorców, którzy zwiększyli przychody
+\emph{„Dołącz do 2347 przedsiębiorców, którzy zwiększyli przychody
 średnio o 147\% w 90 dni.''}
 
-\textbf{3. Pożądanie (Desire)}
+\textbf{3. Pożądanie}
 
 Aspiracje, marzenia, wizja lepszego życia.
 
 \emph{„Wyobraź sobie, że budzisz się w poniedziałek z ekscytacją, nie z
 lękiem\ldots``}
 
-\textbf{4. Ciekawość (Curiosity)}
+\textbf{4. Ciekawość}
 
 Naturalna potrzeba domknięcia luki informacyjnej.
 
 \emph{„Sekret, który top 1\% copywriterów ukrywa przed resztą
 branży\ldots``}
 
-\textbf{5. Przynależność (Belonging)}
+\textbf{5. Przynależność}
 
 Potrzeba bycia częścią grupy, akceptacji.
 
-\emph{„Dołącz do społeczności 15,000 marketerów, którzy codziennie
+\emph{„Dołącz do społeczności 15 000 marketerów, którzy codziennie
 dzielą się wiedzą\ldots``}
 
-\textbf{6. Duma/Status (Pride/Status)}
+\textbf{6. Duma/Status}
 
 Pragnienie uznania, wyróżnienia się, prestiżu.
 
 \emph{„Dla liderów, którzy nie akceptują przeciętności\ldots``}
 
-\textbf{7. Poczucie winy (Guilt)}
+\textbf{7. Poczucie winy}
 
 Potrzeba naprawienia czegoś, wywiązania się z obowiązku.
 
@@ -1451,108 +1341,8 @@ Negatywne emocje (strach, poczucie winy) są potężnymi motywatorami, ale \text
 
 \decoline
 
-\section{Model AIDA}\label{model-aida}
-
-AIDA to najstarszy i najbardziej sprawdzony model copywritingu,
-stworzony przez Eliasa St.~Elmo Lewisa w 1898 roku. Przez ponad 125 lat
-pozostaje fundamentem skutecznej komunikacji perswazyjnej.
-
-\begin{formula}{AIDA}
-\textbf{A}ttention (Uwaga) --- Przyciągnij uwagę nagłówkiem lub hookiem\\
-\textbf{I}nterest (Zainteresowanie) --- Utrzymaj uwagę interesującymi informacjami\\
-\textbf{D}esire (Pożądanie) --- Wzbudź pragnienie posiadania/skorzystania\\
-\textbf{A}ction (Działanie) --- Wezwij do konkretnego działania
-\end{formula}
-
-\subsection{Attention (Uwaga)}\label{attention-uwaga}
-
-W świecie, gdzie przeciętny człowiek jest bombardowany tysiącami
-komunikatów dziennie, masz \textbf{2-3 sekundy} na przyciągnięcie uwagi.
-
-\textbf{Narzędzia:}
-
-\begin{itemize}
-\tightlist
-\item
-  Nagłówki z liczbami („7 sposobów na\ldots``)
-\item
-  Pytania („Czy popełniasz ten błąd?{}``)
-\item
-  Kontrowersyjne stwierdzenia („Wszystko co wiesz o X jest błędne'')
-\item
-  Obietnice korzyści („Jak podwoić konwersję w 30 dni'')
-\end{itemize}
-
-\subsection{Interest (Zainteresowanie)}\label{interest-zainteresowanie}
-
-Po przyciągnięciu uwagi, musisz ją utrzymać. Tu wchodzą fakty, historie,
-dowody.
-
-\textbf{Narzędzia:}
-
-\begin{itemize}
-\tightlist
-\item
-  Statystyki i dane
-\item
-  Historie klientów
-\item
-  Problem, który odbiorca rozpoznaje
-\item
-  Unikalne informacje
-\end{itemize}
-
-\subsection{Desire (Pożądanie)}\label{desire-poux17cux105danie}
-
-Zainteresowanie to za mało --- musisz sprawić, że odbiorca \textbf{chce}
-Twój produkt. Tu emocje są kluczowe.
-
-\textbf{Narzędzia:}
-
-\begin{itemize}
-\tightlist
-\item
-  Korzyści (nie cechy!)
-\item
-  Wizualizacja rezultatów
-\item
-  Social proof
-\item
-  Usuwanie obiekcji
-\end{itemize}
-
-\subsection{Action (Działanie)}\label{action-dziaux142anie}
-
-Jasne, konkretne, pilne wezwanie do działania.
-
-\textbf{Narzędzia:}
-
-\begin{itemize}
-\tightlist
-\item
-  Wyraźny CTA
-\item
-  Ograniczenie czasowe/ilościowe
-\item
-  Redukcja ryzyka (gwarancja)
-\item
-  Następny krok
-\end{itemize}
-
-\begin{przyklad}{AIDA w praktyce --- Landing Page}
-\textbf{[A] Nagłówek:} „Jak zdobyłem 10,000 subskrybentów w 90 dni bez wydawania złotówki na reklamy"
-
-\textbf{[I] Lead:} „W 2019 roku miałem 47 subskrybentów i zero pomysłów. Dziś moja lista przynosi mi 6-cyfrowe przychody rocznie. Oto dokładna strategia, krok po kroku..."
-
-\textbf{[D] Korzyści:} „Wyobraź sobie, że budzisz się rano i widzisz powiadomienia o nowych sprzedażach --- automatycznie, bez Twojego udziału. To nie magia. To system, który dam Ci w tym kursie..."
-
-\textbf{[A] CTA:} „Dołącz teraz za 297 zł (cena rośnie do 497 zł za 48h) --- 30-dniowa gwarancja zwrotu"
-\end{przyklad}
-
-\decoline
-
-\section{Future Pacing: Projekcja
-przyszłości}\label{future-pacing-projekcja-przyszux142oux15bci}
+\section{Future Pacing. Projekcja
+przyszłości}\label{future-pacing.-projekcja-przyszux142oux15bci}
 
 Future pacing to technika pochodząca z NLP (neurolingwistycznego
 programowania), która jest niezwykle skuteczna w copywritingu.
@@ -1591,83 +1381,15 @@ Future pacing działa w obie strony. Możesz również pokazać \textbf{negatywn
 
 \decoline
 
-\section{Storytelling: Siła
-narracji}\label{storytelling-siux142a-narracji}
-
-Ludzie opowiadają historie od czasów malowideł jaskiniowych. Nasze mózgi
-są zaprogramowane do przetwarzania i zapamiętywania narracji znacznie
-lepiej niż suchych faktów.
-
-\stathighlight{22x}{Historie są pamiętane 22x lepiej niż same fakty}
-
-\subsection{Dlaczego storytelling
-działa?}\label{dlaczego-storytelling-dziaux142a}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  \textbf{Aktywuje wiele obszarów mózgu} --- nie tylko językowe, ale też
-  sensoryczne i emocjonalne
-\item
-  \textbf{Powoduje synchronizację} --- słuchacz „przeżywa'' historię
-  razem z narratorem
-\item
-  \textbf{Uwalnia oksytocynę} --- hormon zaufania i empatii
-\item
-  \textbf{Omija „radar reklamowy''} --- ludzie nie bronią się przed
-  historiami tak jak przed reklamami
-\end{enumerate}
-
-\subsection{Struktura skutecznej
-historii}\label{struktura-skutecznej-historii}
-
-\begin{formula}{Podróż Bohatera (uproszczona)}
-\textbf{1. Zwykły świat} --- Bohater (Twój klient) żyje z problemem\\
-\textbf{2. Wezwanie} --- Coś się zmienia, problem staje się nie do zniesienia\\
-\textbf{3. Opór} --- Bohater wątpi, boi się, odkłada działanie\\
-\textbf{4. Mentor} --- Pojawia się pomocnik (Ty/Twój produkt)\\
-\textbf{5. Transformacja} --- Bohater podejmuje działanie\\
-\textbf{6. Nowy świat} --- Bohater osiąga sukces, problem rozwiązany
-\end{formula}
-
-\subsection{3 typy historii w
-copywritingu}\label{typy-historii-w-copywritingu}
-
-\textbf{1. Historia pochodzenia (Origin Story)}
-
-Opowiedz, dlaczego powstał Twój produkt/firma. Jakie frustracje, jakie
-doświadczenia?
-
-\textbf{2. Historia klienta (Customer Story)}
-
-Transformacja prawdziwego klienta: problem → rozwiązanie → rezultat.
-
-\textbf{3. Historia przestrogi (Cautionary Tale)}
-
-Co się stanie, jeśli problem nie zostanie rozwiązany? (używaj ostrożnie)
-
-\begin{przyklad}{Mini-story w copy}
-„Anna była jak większość przedsiębiorców --- pracowała 70 godzin tygodniowo, a jej firma ledwo się utrzymywała na powierzchni. W styczniu była o krok od zamknięcia działalności.
-
-Wtedy trafiła na nasz system.
-
-6 miesięcy później? Anna pracuje 30 godzin tygodniowo, jej przychody wzrosły 3x, a w przyszłym miesiącu wyjeżdża na 3-tygodniowe wakacje --- pierwsze od 5 lat.
-
-Różnica? Jeden system. Jedna decyzja."
-\end{przyklad}
-
-\decoline
-
 \section{Etyka perswazji}\label{etyka-perswazji}
 
 Znajomość technik perswazji to odpowiedzialność. Granica między
 perswazją a manipulacją nie zawsze jest oczywista, ale istnieje.
 
 \begin{pojecie}{Perswazja vs. Manipulacja}
-\textbf{Perswazja}: Przekonywanie do działania, które jest w \textbf{najlepszym interesie odbiorcy}.
+\textbf{Perswazja}. Przekonywanie do działania, które jest w \textbf{najlepszym interesie odbiorcy}.
 
-\textbf{Manipulacja}: Przekonywanie do działania, które jest w interesie \textbf{nadawcy}, często kosztem odbiorcy.
+\textbf{Manipulacja}. Przekonywanie do działania, które jest w interesie \textbf{nadawcy}, często kosztem odbiorcy.
 \end{pojecie}
 
 \subsection{Zasady etycznego
@@ -1677,23 +1399,20 @@ copywritingu}\label{zasady-etycznego-copywritingu}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \textbf{Nie kłam} --- Nie obiecuj czegoś, czego produkt nie dostarcza
+  \textbf{Nie kłam.} Nie obiecuj czegoś, czego produkt nie dostarcza
 \item
-  \textbf{Nie wyolbrzymiaj} --- „Najlepszy na świecie'' wymaga dowodu
+  \textbf{Nie wyolbrzymiaj.} „Najlepszy na świecie'' wymaga dowodu
 \item
-  \textbf{Nie wykorzystuj słabości} --- Nie celuj w desperację,
+  \textbf{Nie wykorzystuj słabości.} Nie celuj w desperację,
   uzależnienia, lęki
 \item
-  \textbf{Nie ukrywaj} --- Istotne warunki muszą być jasne
+  \textbf{Nie ukrywaj.} Istotne warunki muszą być jasne
 \item
-  \textbf{Pytaj siebie} --- „Czy poleciłbym ten produkt bliskiej
-  osobie?''
+  \textbf{Pytaj siebie.} „Czy poleciłbym ten produkt bliskiej osobie?''
 \end{enumerate}
 
 \begin{wazne}
-Etyka w copywritingu to nie tylko kwestia moralna --- to również strategia biznesowa. Klienci, którzy czują się oszukani, nie wracają, nie polecają i mogą aktywnie szkodzić Twojej reputacji.
-
-Długoterminowe budowanie marki wymaga zaufania. Zaufanie wymaga uczciwości.
+Etyka w copywritingu to nie tylko kwestia moralna --- to również strategia biznesowa. Klienci, którzy czują się oszukani, nie wracają, nie polecają i mogą aktywnie szkodzić Twojej reputacji. Długoterminowe budowanie marki wymaga zaufania. Zaufanie wymaga uczciwości.
 \end{wazne}
 
 \decoline
@@ -1704,9 +1423,7 @@ Znajdź skuteczną reklamę (może być online) i przeanalizuj ją:
 \begin{enumerate}
   \item Które zasady Cialdiniego wykorzystuje?
   \item Jakie błędy poznawcze aktywuje?
-  \item Jakie wyzwalacze emocjonalne stosuje?
-  \item Czy stosuje model AIDA? Jak?
-  \item Czy wykorzystuje storytelling?
+  \item Jakie wyzwalacze emocjonalne stosuje?  
   \item Czy jest etyczna? Dlaczego tak/nie?
 \end{enumerate}
 
@@ -1727,7 +1444,7 @@ zrozumienie, kim dokładnie są Twoi odbiorcy i co ich napędza.
 
 \chapter{Badanie grupy docelowej}\label{badanie-grupy-docelowej}
 
-Poznaj swojego klienta lepiej niż on sam siebie zna
+Poznaj swojego klienta lepiej, niż on sam siebie zna
 
 \hfill\break
 
@@ -1743,7 +1460,7 @@ stworzyć buyer personę i zbierać Voice of Customer --- czyli słowa,
 których Twoi klienci faktycznie używają. To wiedza, która sprawi, że
 Twoje copy będzie brzmiało jak rozmowa z przyjacielem, nie jak reklama.
 
-\stathighlight{2-5x}{wzrost skuteczności stron stosujących buyer persony}
+\stathighlight{2-5 x}{wzrost skuteczności stron stosujących buyer persony}
 
 \section{Dlaczego badanie grupy docelowej jest
 kluczowe?}\label{dlaczego-badanie-grupy-docelowej-jest-kluczowe}
@@ -1764,20 +1481,20 @@ Badanie grupy docelowej to \textbf{nie} opcjonalny dodatek. To fundament, bez kt
 \subsection{Korzyści z dogłębnego poznania
 odbiorcy}\label{korzyux15bci-z-dogux142ux119bnego-poznania-odbiorcy}
 
-\textbf{Wiesz, jakim językiem mówić} --- Twoi klienci mają swój żargon,
+\textbf{Wiesz, jakim językiem mówić.} Twoi klienci mają swój żargon,
 swoje określenia, swoje metafory. Gdy używasz ich słów, brzmisz jak
 „swój''.
 
-\textbf{Trafiasz w prawdziwe problemy} --- Nie zgadujesz, co boli
-klientów. Wiesz to z pierwszej ręki.
+\textbf{Trafiasz w prawdziwe problemy.} Nie zgadujesz, co boli klientów.
+Wiesz to z pierwszej ręki.
 
-\textbf{Tworzysz treści, które rezonują} --- Copy przestaje być
-„reklamą'', a staje się rozmową, która trafia prosto w serce.
+\textbf{Tworzysz treści, które rezonują.} Copy przestaje być „reklamą'',
+a staje się rozmową, która trafia prosto w serce.
 
-\textbf{Oszczędzasz czas i pieniądze} --- Zamiast testować dziesiątki
+\textbf{Oszczędzasz czas i pieniądze.} Zamiast testować dziesiątki
 wariantów na oślep, zaczynasz od mocnej pozycji.
 
-\textbf{Budujesz autorytet} --- Gdy klient czuje, że go rozumiesz,
+\textbf{Budujesz autorytet.} Gdy klient czuje, że go rozumiesz,
 automatycznie Ci ufa.
 
 \begin{cytat}
@@ -1786,10 +1503,10 @@ Gdy używasz słów swoich klientów, wydajesz się czytać w ich myślach. Bo f
 
 \decoline
 
-\section{Demografia vs.~Psychografia}\label{demografia-vs.-psychografia}
+\section{Demografia vs.~psychografia}\label{demografia-vs.-psychografia}
 
 Większość marketerów zna demografię. Niewielu rozumie psychografię. A to
-właśnie psychografia jest kluczem do skutecznego copywritingu.
+właśnie psychografia jest fundamentem skutecznego copywritingu.
 
 \begin{pojecie}{Demografia}
 Obiektywne, mierzalne cechy populacji: wiek, płeć, dochód, wykształcenie, lokalizacja, stan cywilny, zawód. Demografia odpowiada na pytanie: \textbf{KIM} jest Twój klient?
@@ -1857,31 +1574,30 @@ identycznej demografii.
 Demografia mówi Ci, \textbf{gdzie} szukać klientów (jakie kanały, jakie media). Psychografia mówi Ci, \textbf{co} im powiedzieć, gdy już ich znajdziesz.
 \end{wskazowka}
 
-\subsection{Kluczowe elementy
-psychografii}\label{kluczowe-elementy-psychografii}
+\subsection{Istotne elementy
+psychografii}\label{istotne-elementy-psychografii}
 
-\textbf{Wartości} --- Co jest dla nich ważne? Rodzina, kariera, wolność,
+\textbf{Wartości.} Co jest dla nich ważne? Rodzina, kariera, wolność,
 bezpieczeństwo, przygoda?
 
-\textbf{Przekonania} --- W co wierzą? Jakie mają poglądy na temat Twojej
+\textbf{Przekonania.} W co wierzą? Jakie mają poglądy na temat Twojej
 branży?
 
-\textbf{Lęki i frustracje} --- Co ich budzi w nocy? Czego się boją? Co
-ich irytuje?
+\textbf{Lęki i frustracje.} Co ich budzi w nocy? Czego się boją? Co ich
+irytuje?
 
-\textbf{Aspiracje i marzenia} --- Kim chcą się stać? Jak wyobrażają
-sobie sukces?
+\textbf{Aspiracje i marzenia.} Kim chcą się stać? Jak wyobrażają sobie
+sukces?
 
-\textbf{Styl życia} --- Jak spędzają czas? Jakie mają nawyki? Gdzie
-bywają?
+\textbf{Styl życia.} Jak spędzają czas? Jakie mają nawyki? Gdzie bywają?
 
-\textbf{Osobowość} --- Introwertycy czy ekstrawertycy? Analityczni czy
+\textbf{Osobowość.} Introwertycy czy ekstrawertycy? Analityczni czy
 impulsywni?
 
 \decoline
 
-\section{Buyer Persona: Twój idealny
-klient}\label{buyer-persona-twuxf3j-idealny-klient}
+\section{Buyer Persona. Twój idealny
+klient}\label{buyer-persona.-twuxf3j-idealny-klient}
 
 Buyer persona to fikcyjna postać reprezentująca Twojego idealnego
 klienta. To nie jest prawdziwa osoba, ale \textbf{kompozyt} oparty na
@@ -2025,7 +1741,7 @@ Lepiej mieć \textbf{jedną dogłębnie zbadaną personę} niż pięć powierzch
 
 \subsection{Negative Persona}\label{negative-persona}
 
-Równie ważne jak wiedzieć, do kogo piszesz, jest wiedzieć, do kogo
+Równie ważna jak świadomość, do kogo piszesz, jest wiedza, do kogo
 \textbf{nie} piszesz.
 
 Negative persona to profil osoby, która:
@@ -2044,8 +1760,8 @@ Identyfikacja negative persony oszczędza czas i zasoby marketingowe.
 
 \decoline
 
-\section{Voice of Customer (VoC): Głos
-klienta}\label{voice-of-customer-voc-gux142os-klienta}
+\section{Voice of Customer (VoC). Głos
+klienta}\label{voice-of-customer-voc.-gux142os-klienta}
 
 Voice of Customer to proces zbierania dokładnych słów, fraz i wyrażeń,
 których używają Twoi klienci. To \textbf{najcenniejszy surowiec} dla
@@ -2084,8 +1800,7 @@ Nagłówek z VoC (zaczerpnięty dosłownie z recenzji książki o uzależnieniac
 
 \subsection{4 metody zbierania VoC}\label{metody-zbierania-voc}
 
-\subsection{1. Review Mining (eksploracja
-recenzji)}\label{review-mining-eksploracja-recenzji}
+\subsection{1. Sprawdzanie recenzji}\label{sprawdzanie-recenzji}
 
 Najbardziej dostępna metoda --- analizujesz publiczne recenzje i
 komentarze.
@@ -2216,7 +1931,8 @@ Dobre do zbierania danych od większej grupy, gdy wywiady nie są możliwe.
   „Co prawie powstrzymało Cię od {[}zakupu/zapisania się{]}?''
 \end{itemize}
 
-\subsection{4. Social Listening}\label{social-listening}
+\subsection{4. Monitoring mediów
+społecznościowych}\label{monitoring-mediuxf3w-spoux142ecznoux15bciowych}
 
 Monitorowanie rozmów w mediach społecznościowych i na forach.
 
@@ -2257,8 +1973,8 @@ dane?}\label{jak-analizowaux107-zebrane-dane}
 
 Zebrałeś dziesiątki cytatów, komentarzy, odpowiedzi z ankiet. Co teraz?
 
-\subsection{Krok 1: Stwórz arkusz
-kategoryzacji}\label{krok-1-stwuxf3rz-arkusz-kategoryzacji}
+\subsection{Krok 1. Stwórz arkusz
+kategoryzacji}\label{krok-1.-stwuxf3rz-arkusz-kategoryzacji}
 
 Utwórz arkusz z kolumnami:
 
@@ -2276,7 +1992,7 @@ Język/Frazy & „To jest mega frustrujące'' \\
 Momenty decyzji & „Zdecydowałem się, gdy\ldots'' \\
 \end{longtable}
 
-\subsection{Krok 2: Szukaj wzorców}\label{krok-2-szukaj-wzorcuxf3w}
+\subsection{Krok 2. Szukaj wzorców}\label{krok-2.-szukaj-wzorcuxf3w}
 
 \begin{itemize}
 \tightlist
@@ -2290,8 +2006,8 @@ Momenty decyzji & „Zdecydowałem się, gdy\ldots'' \\
   Jakie obiekcje są powszechne?
 \end{itemize}
 
-\subsection{Krok 3: Identyfikuj „sticky
-quotes''}\label{krok-3-identyfikuj-sticky-quotes}
+\subsection{Krok 3. Identyfikuj „sticky
+quotes''}\label{krok-3.-identyfikuj-sticky-quotes}
 
 To cytaty, które:
 
@@ -2407,7 +2123,7 @@ Nie zbieraj danych w nieskończoność. Zbierz wystarczająco, przeanalizuj dog�
   \textbf{Calendly} --- umawianie wywiadów
 \end{itemize}
 
-\subsection{Do review mining}\label{do-review-mining}
+\subsection{Do zbierania recenzji}\label{do-zbierania-recenzji}
 
 \begin{itemize}
 \tightlist
@@ -2422,9 +2138,9 @@ Nie zbieraj danych w nieskończoność. Zbierz wystarczająco, przeanalizuj dog�
 \decoline
 
 \begin{cwiczenie}{Stwórz buyer personę}
-Wybierz produkt lub usługę (może być Twoja lub hipotetyczna) i przeprowadź mini-badanie:
+Wybierz produkt lub usługę (może być Twoja lub hipotetyczna) i przeprowadź mini badanie:
 
-\textbf{Część 1: Review Mining (30 min)}
+\textbf{Część 1. Zbieranie recenzji (30 min)}
 \begin{enumerate}
   \item Znajdź 3 źródła recenzji (Amazon, fora, Facebook)
   \item Przeczytaj minimum 20 recenzji
@@ -2432,24 +2148,24 @@ Wybierz produkt lub usługę (może być Twoja lub hipotetyczna) i przeprowadź 
   \item Zidentyfikuj 3 powtarzające się problemy
 \end{enumerate}
 
-\textbf{Część 2: Buyer Persona (30 min)}
+\textbf{Część 2. Buyer Persona (30 min)}
 \begin{enumerate}
   \item Na podstawie zebranych danych stwórz personę
   \item Nadaj jej imię i demografię
   \item Opisz cele, frustracje, obiekcje
-  \item Dodaj 2-3 cytaty z review mining
+  \item Dodaj 2-3 cytaty z zebranych recenzji
 \end{enumerate}
 
-\textbf{Część 3: Zastosowanie (15 min)}
+\textbf{Część 3. Zastosowanie (15 min)}
 \begin{enumerate}
-  \item Napisz nagłówek używając języka persony
+  \item Napisz nagłówek, używając języka persony
   \item Napisz 3-zdaniowy lead adresujący główny problem
 \end{enumerate}
 
 \textbf{Czas:} 75 minut
 \end{cwiczenie}
 
-\takeaway{Badanie grupy docelowej to fundament skutecznego copywritingu. Demografia mówi Ci KIM jest klient, psychografia --- DLACZEGO kupuje. Buyer persona daje Ci konkretną osobę, do której piszesz. Voice of Customer dostarcza dokładnych słów, które trafiają prosto w serce odbiorcy. Nie zgaduj --- badaj. Nie zakładaj --- pytaj. Nie pisz do wszystkich --- pisz do jednej konkretnej osoby.}
+\takeaway{Badanie grupy docelowej to fundament skutecznego copywritingu. Demografia mówi Ci, KIM jest klient, psychografia --- DLACZEGO kupuje. Buyer persona daje Ci konkretną osobę, do której piszesz. Voice of Customer dostarcza dokładnych słów, które trafiają prosto w serce odbiorcy. Nie zgaduj --- badaj. Nie zakładaj --- pytaj. Nie pisz do wszystkich --- pisz do jednej konkretnej osoby.}
 
 W następnym rozdziale zajmiemy się \textbf{pisaniem nagłówków} ---
 pierwszym i najważniejszym elementem każdego tekstu. Bo nawet najlepsze
@@ -2480,7 +2196,7 @@ odbiorca wejdzie dalej, czy przewinie do następnego posta. W tym
 rozdziale poznasz zasady, formuły i techniki pisania nagłówków, które
 zatrzymują wzrok i zmuszają do czytania.
 
-\stathighlight{5x}{więcej osób czyta nagłówek niż resztę tekstu}
+\stathighlight{5 x}{więcej osób czyta nagłówek niż resztę tekstu}
 
 \section{Dlaczego nagłówek jest tak
 ważny?}\label{dlaczego-nagux142uxf3wek-jest-tak-waux17cny}
@@ -2523,7 +2239,7 @@ nagłówek?}\label{co-robi-dobry-nagux142uxf3wek}
 \item
   \textbf{Wzbudza ciekawość} --- otwiera „lukę informacyjną''
 \item
-  \textbf{Obiecuje korzyść} --- mówi „co z tego będę miał?''
+  \textbf{Obiecuje korzyść} --- mówi, „co z tego będę miał?''
 \item
   \textbf{Selekcjonuje} --- przyciąga właściwych odbiorców
 \item
@@ -2544,9 +2260,8 @@ Zanim przejdziemy do formuł, przyjrzyjmy się nagłówkom, które przeszły
 do historii reklamy. Każdy z nich zawiera lekcję, którą możesz
 zastosować w swoim copy.
 
-\subsection{„They Laughed When I Sat Down at the Piano --- But When I
-Started to
-Play!''}\label{they-laughed-when-i-sat-down-at-the-piano-but-when-i-started-to-play}
+\subsection{„Śmiali się, gdy usiadłem przy pianinie --- ale gdy zacząłem
+grać!''}\label{ux15bmiali-siux119-gdy-usiadux142em-przy-pianinie-ale-gdy-zaczux105ux142em-graux107}
 
 \textbf{Autor:} John Caples, 1927\\
 \textbf{Klient:} U.S. School of Music
@@ -2571,9 +2286,9 @@ najsłynniejszych w historii reklamy. Dlaczego działa?
 Schemat „Śmiali się, gdy... ale kiedy..." można adaptować do niemal każdej branży. To formuła transformacji, która działa od niemal 100 lat.
 \end{wskazowka}
 
-\subsection{„At 60 miles an hour, the loudest noise in this new
-Rolls-Royce comes from the electric
-clock''}\label{at-60-miles-an-hour-the-loudest-noise-in-this-new-rolls-royce-comes-from-the-electric-clock}
+\subsection{Przy prędkości 60 mil na godzinę najgłośniejszym dźwiękiem w
+nowym Rolls-Roysie jest tykanie zegara
+elektrycznego''}\label{przy-prux119dkoux15bci-60-mil-na-godzinux119-najgux142oux15bniejszym-dux17awiux119kiem-w-nowym-rolls-roysie-jest-tykanie-zegara-elektrycznego}
 
 \textbf{Autor:} David Ogilvy, 1958\\
 \textbf{Klient:} Rolls-Royce
@@ -2599,8 +2314,8 @@ Co czyni go genialnym?
 Ogilvy powiedział później: „Gdy reklamowałem Rolls-Royce'a, podawałem fakty --- żadnej gorącej retoryki, żadnych przymiotników." Konkrety sprzedają lepiej niż ogólniki.
 \end{wazne}
 
-\subsection{„Do You Make These Mistakes in
-English?''}\label{do-you-make-these-mistakes-in-english}
+\subsection{„Czy popełniasz te błędy w
+angielskim?''}\label{czy-popeux142niasz-te-bux142ux119dy-w-angielskim}
 
 \textbf{Autor:} Maxwell Sackheim, 1915\\
 \textbf{Klient:} Sherwin Cody English Course
@@ -2624,8 +2339,8 @@ Dlaczego był tak skuteczny?
 
 \decoline
 
-\section{Formuła 4U: Checklist skutecznego
-nagłówka}\label{formuux142a-4u-checklist-skutecznego-nagux142uxf3wka}
+\section{Formuła 4U. Elementy skutecznego
+nagłówka}\label{formuux142a-4u.-elementy-skutecznego-nagux142uxf3wka}
 
 Formuła 4U, stworzona przez Michaela Mastersona, to prosty system oceny
 i ulepszania nagłówków. Każdy nagłówek możesz ocenić w skali 1-4 dla
@@ -2643,7 +2358,7 @@ każdego „U''.
 Nagłówek musi odpowiadać na pytanie: \textbf{„Co z tego będę miał?{}``}
 
 \textbf{Słabe:} „Nasze oprogramowanie do zarządzania projektami''\\
-\textbf{Mocne:} „Skończ projekty 2x szybciej bez nadgodzin''
+\textbf{Mocne:} „Skończ projekty 2 x szybciej bez nadgodzin''
 
 \textbf{Słabe:} „Nowa kolekcja butów''\\
 \textbf{Mocne:} „Buty, w których przejdziesz 10 km bez bólu stóp''
@@ -2666,13 +2381,9 @@ Pilność motywuje do działania \textbf{teraz}, nie „kiedyś''.
   Słowa-wyzwalacze: „teraz'', „dziś'', „natychmiast''
 \end{itemize}
 
-\begin{uwaga}
-Pilność musi być \textbf{autentyczna}. Fałszywe „ostatnie sztuki" i wieczne „promocje kończące się dziś" niszczą zaufanie. Używaj pilności tylko gdy jest prawdziwa.
-\end{uwaga}
-
 \subsection{Unique (Unikalny)}\label{unique-unikalny}
 
-W morzu podobnych nagłówków, Twój musi się wyróżniać.
+W morzu podobnych nagłówków Twój musi się wyróżniać.
 
 \textbf{Techniki budowania unikalności:}
 
@@ -2733,10 +2444,10 @@ wysokie wyniki. Każdy zawiera formułę i przykłady.
 
 Najpopularniejszy i najbezpieczniejszy typ. Obiecuje konkretną wiedzę.
 
-\textbf{Formuła:} Jak {[}osiągnąć pożądany rezultat{]} {[}opcjonalnie: w
+\textbf{Formuła.} Jak {[}osiągnąć pożądany rezultat{]} {[}opcjonalnie: w
 określonym czasie/bez X{]}
 
-\textbf{Przykłady:}
+\textbf{Przykłady.}
 
 \begin{itemize}
 \tightlist
@@ -2753,10 +2464,10 @@ określonym czasie/bez X{]}
 
 Liczby przyciągają wzrok i obiecują strukturę.
 
-\textbf{Formuła:} {[}Liczba{]} {[}przymiotnik{]}
+\textbf{Formuła.} {[}Liczba{]} {[}przymiotnik{]}
 sposobów/błędów/sekretów {[}osiągnięcia X{]}
 
-\textbf{Przykłady:}
+\textbf{Przykłady.}
 
 \begin{itemize}
 \tightlist
@@ -2776,9 +2487,9 @@ Nieparzyste liczby (7, 9, 21) działają lepiej niż parzyste. Liczba 7 jest szc
 
 Pytania angażują mózg czytelnika --- automatycznie szuka odpowiedzi.
 
-\textbf{Formuła:} Czy {[}popełniasz błąd/masz problem/chcesz X{]}?
+\textbf{Formuła.} Czy {[}popełniasz błąd/masz problem/chcesz X{]}?
 
-\textbf{Przykłady:}
+\textbf{Przykłady.}
 
 \begin{itemize}
 \tightlist
@@ -2795,10 +2506,10 @@ Pytania angażują mózg czytelnika --- automatycznie szuka odpowiedzi.
 
 Bezpośredni, autorytarny, mocny.
 
-\textbf{Formuła:} {[}Czasownik w trybie rozkazującym{]}
+\textbf{Formuła.} {[}Czasownik w trybie rozkazującym{]}
 {[}korzyść/rezultat{]}
 
-\textbf{Przykłady:}
+\textbf{Przykłady.}
 
 \begin{itemize}
 \tightlist
@@ -2814,10 +2525,10 @@ Bezpośredni, autorytarny, mocny.
 
 Ludzie uwielbiają poznawać przyczyny.
 
-\textbf{Formuła:} {[}Liczba{]} powodów, dlaczego {[}X dzieje się/nie
+\textbf{Formuła.} {[}Liczba{]} powodów, dlaczego {[}X dzieje się/nie
 dzieje się{]}
 
-\textbf{Przykłady:}
+\textbf{Przykłady.}
 
 \begin{itemize}
 \tightlist
@@ -2826,22 +2537,22 @@ dzieje się{]}
 \item
   Dlaczego 90\% startupów upada w pierwszym roku
 \item
-  Oto dlaczego email marketing wciąż działa w 2025
+  Oto, dlaczego email marketing wciąż działa w 2025
 \end{itemize}
 
 \subsection{6. Nagłówek „Sekret''}\label{nagux142uxf3wek-sekret}
 
 Obiecuje ekskluzywną wiedzę niedostępną dla innych.
 
-\textbf{Formuła:} Sekret {[}osiągnięcia X{]}, który {[}grupa{]} ukrywa
+\textbf{Formuła.} Sekret {[}osiągnięcia X{]}, który {[}grupa{]} ukrywa
 przed {[}drugą grupą{]}
 
-\textbf{Przykłady:}
+\textbf{Przykłady.}
 
 \begin{itemize}
 \tightlist
 \item
-  Sekret copywriterów zarabiających 6 cyfr
+  Sekret copywriterów zarabiających 6-cyfrowe kwoty
 \item
   Technika sprzedaży, którą top handlowcy zachowują dla siebie
 \item
@@ -2854,9 +2565,9 @@ przed {[}drugą grupą{]}
 Wykorzystuje awersję do straty --- ludzie bardziej boją się stracić niż
 pragną zyskać.
 
-\textbf{Formuła:} Ostrzeżenie: {[}negatywna konsekwencja, jeśli nie X{]}
+\textbf{Formuła.} Ostrzeżenie: {[}negatywna konsekwencja, jeśli nie X{]}
 
-\textbf{Przykłady:}
+\textbf{Przykłady.}
 
 \begin{itemize}
 \tightlist
@@ -2868,14 +2579,14 @@ pragną zyskać.
   Zanim napiszesz kolejny post, przeczytaj to
 \end{itemize}
 
-\subsection{8. Nagłówek
-testimonialowy}\label{nagux142uxf3wek-testimonialowy}
+\subsection{8. Nagłówek z
+rekomendacją}\label{nagux142uxf3wek-z-rekomendacjux105}
 
 Wykorzystuje social proof w nagłówku.
 
-\textbf{Formuła:} „{[}Cytat/Rezultat{]}'' --- {[}Imię, opis{]}
+\textbf{Formuła.} „{[}Cytat/Rezultat{]}'' --- {[}Imię, opis{]}
 
-\textbf{Przykłady:}
+\textbf{Przykłady.}
 
 \begin{itemize}
 \tightlist
@@ -2885,7 +2596,7 @@ Wykorzystuje social proof w nagłówku.
 \item
   Co zrobiła, że jej sklep online wzrósł o 340\%?
 \item
-  Metoda, dzięki której 2,347 przedsiębiorców podwoiło przychody
+  Metoda, dzięki której 2347 przedsiębiorców podwoiło przychody
 \end{itemize}
 
 \subsection{9. Nagłówek „Without''
@@ -2893,9 +2604,9 @@ Wykorzystuje social proof w nagłówku.
 
 Usuwa obiekcję lub przeszkodę.
 
-\textbf{Formuła:} Jak {[}osiągnąć X{]} bez {[}niepożądanej rzeczy{]}
+\textbf{Formuła.} Jak {[}osiągnąć X{]} bez {[}niepożądanej rzeczy{]}
 
-\textbf{Przykłady:}
+\textbf{Przykłady.}
 
 \begin{itemize}
 \tightlist
@@ -2912,19 +2623,19 @@ porównawczy}\label{nagux142uxf3wek-poruxf3wnawczy}
 
 Pokazuje przewagę lub kontrast.
 
-\textbf{Formuła:} {[}X{]} vs {[}Y{]}: Który {[}lepszy/gorszy{]}? / Co
+\textbf{Formuła.} {[}X{]} vs.~{[}Y{]}: Który {[}lepszy/gorszy{]}? / Co
 wybrać?
 
-\textbf{Przykłady:}
+\textbf{Przykłady.}
 
 \begin{itemize}
 \tightlist
 \item
-  Długie vs krótkie nagłówki: Co konwertuje lepiej?
+  Długie vs.~krótkie nagłówki: Co konwertuje lepiej?
 \item
-  Facebook Ads vs Google Ads dla e-commerce
+  Facebook Ads vs.~Google Ads dla e-commerce
 \item
-  Freelance vs etat: Prawdziwe liczby po 5 latach
+  Freelance vs.~etat: Prawdziwe liczby po 5 latach
 \end{itemize}
 
 \subsection{11. Nagłówek „Everything You
@@ -2932,10 +2643,10 @@ Need''}\label{nagux142uxf3wek-everything-you-need}
 
 Obiecuje kompletność i oszczędność czasu.
 
-\textbf{Formuła:} Wszystko, co musisz wiedzieć o {[}X{]} / Kompletny
+\textbf{Formuła.} Wszystko, co musisz wiedzieć o {[}X{]} / Kompletny
 przewodnik po {[}X{]}
 
-\textbf{Przykłady:}
+\textbf{Przykłady.}
 
 \begin{itemize}
 \tightlist
@@ -2952,10 +2663,10 @@ przewodnik po {[}X{]}
 
 Pokazuje drogę z punktu A do punktu B.
 
-\textbf{Formuła:} Jak przejść od {[}obecna sytuacja{]} do {[}pożądana
+\textbf{Formuła.} Jak przejść od {[}obecna sytuacja{]} do {[}pożądana
 sytuacja{]}
 
-\textbf{Przykłady:}
+\textbf{Przykłady.}
 
 \begin{itemize}
 \tightlist
@@ -2969,8 +2680,8 @@ sytuacja{]}
 
 \decoline
 
-\section{Power Words: Słowa, które
-sprzedają}\label{power-words-sux142owa-ktuxf3re-sprzedajux105}
+\section{Power Words. Słowa, które
+sprzedają}\label{power-words.-sux142owa-ktuxf3re-sprzedajux105}
 
 Niektóre słowa mają większą moc przyciągania uwagi niż inne. To „power
 words'' --- słowa wyzwalające emocjonalne reakcje.
@@ -3030,7 +2741,8 @@ kosztownych błędów''
 korzyści}\label{brak-konkretnej-korzyux15bci}
 
 \textbf{Źle:} „Nasze oprogramowanie jest innowacyjne''\\
-\textbf{Dobrze:} „Oprogramowanie, które oszczędza 10 godzin tygodniowo''
+\textbf{Dobrze:} „Oprogramowanie, z którym oszczędzasz 10 godzin
+tygodniowo''
 
 \subsection{3. Zbyt sprytne, mało
 jasne}\label{zbyt-sprytne-maux142o-jasne}
@@ -3065,56 +2777,53 @@ i pozwól danym zdecydować.
 
 \section{Proces pisania nagłówka}\label{proces-pisania-nagux142uxf3wka}
 
-\subsection{Krok 1: Zacznij od
-korzyści}\label{krok-1-zacznij-od-korzyux15bci}
+\subsection{Krok 1. Zacznij od
+korzyści}\label{krok-1.-zacznij-od-korzyux15bci}
 
 Wypisz 3-5 głównych korzyści Twojego produktu/treści dla czytelnika.
 
-\subsection{Krok 2: Napisz 10-25
-wersji}\label{krok-2-napisz-10-25-wersji}
+\subsection{Krok 2. Napisz 10-25
+wersji}\label{krok-2.-napisz-10-25-wersji}
 
 Nie poprzestawaj na pierwszym pomyśle. Ogilvy pisał ponad 100 wersji. Ty
 napisz minimum 10.
 
-\subsection{Krok 3: Oceń według 4U}\label{krok-3-oceux144-wedux142ug-4u}
+\subsection{Krok 3. Oceń według
+4U}\label{krok-3.-oceux144-wedux142ug-4u}
 
-Przejrzyj każdy nagłówek przez pryzmat: Useful, Urgent, Unique,
-Ultra-specific.
+Przejrzyj każdy nagłówek przez pryzmat. Użyteczność, Pilność,
+Unikalność, Specyficzność.
 
-\subsection{Krok 4: Wybierz 3-5
-finalistów}\label{krok-4-wybierz-3-5-finalistuxf3w}
+\subsection{Krok 4. Wybierz 3-5
+finalistów}\label{krok-4.-wybierz-3-5-finalistuxf3w}
 
 Wybierz najsilniejsze nagłówki do testów.
 
-\subsection{Krok 5: Testuj}\label{krok-5-testuj}
+\subsection{Krok 5. Testuj}\label{krok-5.-testuj}
 
 Jeśli możesz --- testuj A/B. Jeśli nie --- zapytaj 5 osób z grupy
 docelowej, który nagłówek najbardziej przyciąga uwagę.
-
-\begin{formula}{Zasada 50/50}
-Poświęć \textbf{50\% czasu} przeznaczonego na pisanie tekstu na sam nagłówek. Reszta copy jest bezużyteczna, jeśli nagłówek nie zatrzyma czytelnika.
-\end{formula}
 
 \decoline
 
 \begin{cwiczenie}{Napisz 10 nagłówków}
 Wybierz produkt lub usługę (może być Twoja, może być fikcyjna).
 
-\textbf{Część 1: Brainstorming (15 min)}
+\textbf{Część 1. Burza mózgów (15 min)}
 \begin{enumerate}
   \item Wypisz 5 głównych korzyści produktu
   \item Wypisz 3 główne obiekcje/lęki klientów
-  \item Napisz 10 różnych nagłówków używając różnych typów (how-to, lista, pytanie, etc.)
+  \item Napisz 10 różnych nagłówków, używając różnych typów (how-to, lista, pytanie, etc.)
 \end{enumerate}
 
-\textbf{Część 2: Ocena (10 min)}
+\textbf{Część 2. Ocena (10 min)}
 \begin{enumerate}
   \item Oceń każdy nagłówek według 4U (1-4 dla każdego)
   \item Oblicz średnią dla każdego nagłówka
   \item Wybierz 3 najsilniejsze
 \end{enumerate}
 
-\textbf{Część 3: Ulepszenie (10 min)}
+\textbf{Część 3. Ulepszenie (10 min)}
 \begin{enumerate}
   \item Weź 3 najlepsze nagłówki
   \item Dla każdego napisz 2 wersje alternatywne
@@ -3124,11 +2833,11 @@ Wybierz produkt lub usługę (może być Twoja, może być fikcyjna).
 \textbf{Czas:} 35 minut
 \end{cwiczenie}
 
-\takeaway{Nagłówek to najważniejszy element Twojego copy --- decyduje, czy ktokolwiek przeczyta resztę. Stosuj formułę 4U (Useful, Urgent, Unique, Ultra-specific) jako checklist. Pisz minimum 10 wersji przed wyborem. Testuj, gdy możesz. Pamiętaj słowa Ogilvy'ego: napisanie nagłówka to wydanie 80 centów z Twojego dolara.}
+\takeaway{Nagłówek to najważniejszy element Twojego copy --- decyduje, czy ktokolwiek przeczyta resztę. Stosuj formułę 4U (użyteczność, pilność, unikalność, specyficzność); pisz minimum 10 wersji przed wyborem; testuj, gdy możesz. Pamiętaj słowa Ogilvy'ego: napisanie nagłówka to wydanie 80 centów z Twojego dolara.}
 
 W następnym rozdziale zajmiemy się \textbf{leadem i pierwszym akapitem}
---- bo po zatrzymaniu czytelnika nagłówkiem, musisz go wciągnąć głębiej
-w tekst.
+--- bo po zatrzymaniu czytelnika nagłówkiem chcesz go wciągnąć głębiej w
+tekst.
 
 \decoline
 
@@ -3156,14 +2865,14 @@ W tym rozdziale poznasz technikę „śliskiej zjeżdżalni'', która sprawi,
 że czytelnicy będą ślizgać się przez Twój tekst aż do wezwania do
 działania.
 
-\section{Koncepcja „Slippery Slide'' (Śliska
+\section{Koncepcja „Slippery Slide'' (śliska
 zjeżdżalnia)}\label{koncepcja-slippery-slide-ux15bliska-zjeux17cdux17calnia}
 
-Joseph Sugarman, legendarny copywriter odpowiedzialny za kampanię
-BluBlocker (10 milionów sprzedanych okularów), stworzył jedną z
-najważniejszych koncepcji w copywritingu.
+Joseph Sugarman, copywriter odpowiedzialny za kampanię BluBlocker (10
+milionów sprzedanych okularów), stworzył jedną z najważniejszych
+koncepcji w copywritingu.
 
-\begin{pojecie}{Slippery Slide (Śliska zjeżdżalnia)}
+\begin{pojecie}{Slippery Slide (śliska zjeżdżalnia)}
 Twoi czytelnicy powinni być tak pochłonięci Twoim tekstem, że nie mogą przestać czytać, dopóki nie przeczytają wszystkiego --- jakby zjeżdżali po śliskiej zjeżdżalni.
 \end{pojecie}
 
@@ -3224,8 +2933,8 @@ porzucenia:
 
 \decoline
 
-\section{Formuła APP: Struktura wciągającego
-wstępu}\label{formuux142a-app-struktura-wciux105gajux105cego-wstux119pu}
+\section{Formuła APP. Struktura wciągającego
+wstępu}\label{formuux142a-app.-struktura-wciux105gajux105cego-wstux119pu}
 
 Brian Dean z Backlinko stworzył prostą formułę na pisanie wstępów, które
 zatrzymują czytelników na stronie. Nazywa ją APP.
@@ -3302,8 +3011,7 @@ Twojego tekstu i odbiorcy.
 Lead)}\label{lead-bezpoux15bredni-summary-lead}
 
 Klasyka dziennikarstwa. Odpowiada na pytania: kto, co, gdzie, kiedy,
-dlaczego, jak. Idealne dla newsów i komunikatów, gdzie czytelnik chce
-szybko poznać fakty.
+dlaczego, jak. Idealne dla newsów i komunikatów informujących o faktach.
 
 \textbf{Przykład:}
 
@@ -3312,7 +3020,7 @@ Apple ogłosiło dziś nową wersję iPhone'a z baterią działającą 48 godzin
 --- dwa razy dłużej niż poprzedni model.
 \end{quote}
 
-\textbf{Kiedy używać:} Komunikaty prasowe, newsy, informacje produktowe.
+\textbf{Kiedy używać:} komunikaty prasowe, newsy, informacje produktowe.
 
 \subsection{2. Lead anegdotyczny (Anecdotal
 Lead)}\label{lead-anegdotyczny-anecdotal-lead}
@@ -3330,7 +3038,7 @@ pomyślała. Nie wiedziała jeszcze, że problem nie leży w talencie, ale w
 procesie.
 \end{quote}
 
-\textbf{Kiedy używać:} Artykuły blogowe, case studies, teksty
+\textbf{Kiedy używać:} artykuły blogowe, case studies, teksty
 sprzedażowe, historie sukcesu.
 
 \begin{wskazowka}
@@ -3352,7 +3060,7 @@ rysunkiem pęknięcia. To nie jest zwykła kawiarnia --- to miejsce, gdzie
 powstała jedna z najsłynniejszych marek świata.
 \end{quote}
 
-\textbf{Kiedy używać:} Artykuły lifestylowe, opisy miejsc, profile firm
+\textbf{Kiedy używać:} artykuły lifestylowe, opisy miejsc, profile firm
 lub osób.
 
 \subsection{4. Lead-pytanie (Question
@@ -3364,11 +3072,11 @@ automatycznie szuka odpowiedzi na pytania --- to instynkt.
 \textbf{Przykład:}
 
 \begin{quote}
-Czy zdarzyło Ci się napisać genialny tekst, który nikt nie przeczytał? A
-może Twoje maile lądują w koszu bez otwarcia?
+Czy zdarzyło Ci się napisać genialny tekst, którego nikt nie przeczytał?
+A może Twoje maile lądują w koszu bez otwarcia?
 \end{quote}
 
-\textbf{Kiedy używać:} Treści edukacyjne, artykuły poradnikowe, teksty
+\textbf{Kiedy używać:} treści edukacyjne, artykuły poradnikowe, teksty
 problemowe.
 
 \begin{uwaga}
@@ -3389,8 +3097,8 @@ Nie dlatego, że Twój tekst jest zły --- ale dlatego, że Twój nagłówek
 ich nie zatrzymał.
 \end{quote}
 
-\textbf{Kiedy używać:} Artykuły data-driven, treści edukacyjne, teksty,
-które mają zmienić przekonania.
+\textbf{Kiedy używać:} Artykuły bazujące na danych, treści edukacyjne,
+teksty, które mają zmienić przekonania.
 
 \subsection{6. Lead „Ty'' (Direct Address
 Lead)}\label{lead-ty-direct-address-lead}
@@ -3402,7 +3110,7 @@ osobisty i natychmiastowy.
 
 \begin{quote}
 Pracujesz ciężko. Piszesz posty, wysyłasz maile, tworzysz oferty. A mimo
-to --- konwersje stoją w miejscu. Brzmi znajomo?
+to konwersje stoją w miejscu. Brzmi znajomo?
 \end{quote}
 
 \textbf{Kiedy używać:} Teksty sprzedażowe, landing page, email
@@ -3437,7 +3145,7 @@ Okazało się, że to umiejętność, której można się nauczyć w 90 dni.'' -
 Ania, kursantka Copywriting 360°
 \end{quote}
 
-\textbf{Kiedy używać:} Testimoniale, wywiady, historie sukcesu.
+\textbf{Kiedy używać:} recenzje, wywiady, historie sukcesu.
 
 \begin{wskazowka}
 Lead cytatowy działa najlepiej, gdy cytat jest konkretny, emocjonalny i zawiera element zaskoczenia lub transformacji. Unikaj banalnych cytatów typu „Jestem bardzo zadowolony".
@@ -3445,8 +3153,8 @@ Lead cytatowy działa najlepiej, gdy cytat jest konkretny, emocjonalny i zawiera
 
 \decoline
 
-\section{Bucket Brigades: Frazy, które nie pozwalają przestać
-czytać}\label{bucket-brigades-frazy-ktuxf3re-nie-pozwalajux105-przestaux107-czytaux107}
+\section{Bucket Brigades. Frazy, które nie pozwalają przestać
+czytać}\label{bucket-brigades.-frazy-ktuxf3re-nie-pozwalajux105-przestaux107-czytaux107}
 
 Bucket brigades (dosł. „brygady kubłowe'') to stara technika
 copywriterska, którą Brian Dean spopularyzował w kontekście SEO. Nazwa
@@ -3593,7 +3301,7 @@ I to robi całą różnicę."
 \end{przyklad}
 
 \begin{uwaga}
-Nie przesadzaj z bucket brigades. Używane co 2-3 akapity są skuteczne. Używane w każdym akapicie stają się męczące i tracą moc. Umiar jest kluczem.
+Nie przesadzaj z bucket brigades. Używane co 2-3 akapity są skuteczne. Używane w każdym akapicie stają się męczące i tracą moc. Umiar to podstawa.
 \end{uwaga}
 
 \decoline
@@ -3621,7 +3329,7 @@ czytelnik zobaczy, dokąd zmierza.
 \textbf{Przykład:}
 
 \begin{quote}
-Za 30 dni będziesz pisać teksty, które konwertują 2x lepiej niż teraz.
+Za 30 dni będziesz pisać teksty, które konwertują 2 x lepiej niż teraz.
 Bez talentu. Bez wieloletniego doświadczenia. Tylko z właściwym
 systemem.
 \end{quote}
@@ -3746,7 +3454,7 @@ tekstów reklamowych staje się kluczową kompetencją każdego marketera.
 
 \begin{quote}
 Twoja konkurencja nigdy nie była większa. A uwaga klientów --- nigdy
-bardziej rozproszona. Oto jak wygrać tę walkę.
+bardziej rozproszona. Oto, jak wygrać tę walkę.
 \end{quote}
 
 \subsection{2. Banalne otwarcia}\label{banalne-otwarcia}
@@ -3777,7 +3485,7 @@ z Tobą moją wiedzą\ldots{}
 \textbf{Dobrze:}
 
 \begin{quote}
-Twoje teksty mogą konwertować 2x lepiej. Bez dodatkowego ruchu. Bez
+Twoje teksty mogą konwertować 2 x lepiej. Bez dodatkowego ruchu. Bez
 większego budżetu. Tylko ze zmianą kilku słów.
 \end{quote}
 
@@ -3798,7 +3506,7 @@ Wybierz temat artykułu lub tekstu sprzedażowego (może być fikcyjny).
 
 \textbf{Część 1: Napisz 5 leadów (20 min)}
 
-Napisz lead tego samego tekstu używając 5 różnych technik:
+Napisz lead tego samego tekstu, używając 5 różnych technik:
 \begin{enumerate}
   \item Lead anegdotyczny (historia)
   \item Lead-pytanie
@@ -3847,8 +3555,8 @@ przeprowadzić przez cały tekst --- aż do wezwania do działania.
 To najtrudniejsza część copywritingu.
 
 W tym rozdziale poznasz sprawdzone formuły strukturyzowania tekstu,
-techniki formatowania dla „skanuących'' czytelników oraz sposoby na
-utrzymanie uwagi przez cały tekst --- nieważne, czy ma 500 czy 5000
+techniki formatowania dla „skanuących'' czytelników i sposoby na
+utrzymanie uwagi przez cały tekst --- nieważne, czy ma 500, czy 5000
 słów.
 
 \section{Dlaczego struktura ma
@@ -3897,11 +3605,11 @@ Najstarsza i najbardziej znana formuła copywritingu. Stworzona około
 \textbf{A}ction (Działanie) --- Wezwij do konkretnego działania
 \end{formula}
 
-\textbf{Kiedy używać:} Landing page, reklamy, emaile sprzedażowe, teksty
+\textbf{Kiedy używać:} landing page, reklamy, emaile sprzedażowe, teksty
 dla zimnego ruchu (ludzi, którzy nie znają jeszcze Twojej marki).
 
 \begin{przyklad}{AIDA w praktyce --- kurs online}
-\textbf{Attention:} „Czy wiesz, że 90\% copywriterów zarabia mniej niż mogłoby?"
+\textbf{Attention:} „Czy wiesz, że 90\% copywriterów zarabia mniej, niż by mogło?"
 
 \textbf{Interest:} „Problem nie leży w talencie ani doświadczeniu. Większość copywriterów nigdy nie nauczyła się systemu, który zamienia słowa w pieniądze. Piszą intuicyjnie --- i intuicyjnie tracą klientów."
 
@@ -3921,7 +3629,7 @@ niezawodną formułę sprzedaży w historii''.
 \textbf{S}olution (Rozwiązanie) --- Przedstaw swoje rozwiązanie
 \end{formula}
 
-\textbf{Kiedy używać:} Krótkie teksty (posty social media, emaile,
+\textbf{Kiedy używać:} krótkie teksty (posty social media, emaile,
 reklamy), teksty dla odbiorców świadomych problemu.
 
 \begin{przyklad}{PAS w praktyce --- usługa SEO}
@@ -3933,7 +3641,7 @@ reklamy), teksty dla odbiorców świadomych problemu.
 \end{przyklad}
 
 \begin{wskazowka}
-PAS to formuła oparta na bólu. Działa, bo ludzie są silniej motywowani unikaniem straty niż osiąganiem zysku (awersja do straty). Ale używaj z umiarem --- zbyt agresywne „pogłębianie bólu" może zrazić czytelnika.
+PAS to formuła bazująca na bólu. Działa, bo ludzie są silniej motywowani unikaniem straty niż osiąganiem zysku (awersja do straty). Ale używaj z umiarem --- zbyt agresywne „pogłębianie bólu" może zrazić czytelnika.
 \end{wskazowka}
 
 \subsection{Formuła BAB
@@ -3948,7 +3656,7 @@ most (Twój produkt/usługę).
 \textbf{B}ridge (Most) --- Pokaż, jak Twój produkt prowadzi z „przed" do „po"
 \end{formula}
 
-\textbf{Kiedy używać:} Teksty transformacyjne, case studies, historie
+\textbf{Kiedy używać:} teksty transformacyjne, case studies, historie
 sukcesu, produkty zmieniające życie.
 
 \begin{przyklad}{BAB w praktyce --- aplikacja do produktywności}
@@ -3966,12 +3674,12 @@ emocjonalne korzyści.
 
 \begin{formula}{FAB}
 \textbf{F}eature (Cecha) --- Co produkt MA lub ROBI\\
-\textbf{A}dvantage (Zaleta) --- Dlaczego ta cecha jest lepsza od alternatyw\\
+\textbf{A}dvantage (Zaleta) --- Dlaczego ta cecha jest lepsza od konkurencyjnych rozwiązań\\
 \textbf{B}enefit (Korzyść) --- Co to oznacza dla KLIENTA
 \end{formula}
 
-\textbf{Kiedy używać:} Opisy produktów, strony z cechami, porównania,
-body copy po AIDA/PAS.
+\textbf{Kiedy używać:} opisy produktów, strony z cechami, porównania,
+treść po AIDA/PAS.
 
 \begin{przyklad}{FAB w praktyce --- laptop}
 \textbf{Feature:} „Bateria 20 godzin"
@@ -3996,7 +3704,7 @@ Sprawdzona struktura dla stron sprzedażowych i landing page.
 \textbf{P}ush (Pchnięcie) --- Wezwij do działania
 \end{formula}
 
-\textbf{Kiedy używać:} Landing page, strony sprzedażowe, oferty.
+\textbf{Kiedy używać:} landing page, strony sprzedażowe, oferty.
 
 \subsection{Łączenie formuł
 (Hybrydy)}\label{ux142ux105czenie-formuux142-hybrydy}
@@ -4032,11 +3740,171 @@ góry strony, potem pionowy pas w dół lewej strony.
 Użytkownicy skanują strony internetowe w kształcie litery F --- najpierw poziomo u góry, potem nieco niżej poziomo, a następnie pionowo w dół lewej strony. Dlatego najważniejsze informacje powinny znajdować się u góry i po lewej stronie.
 \end{pojecie}
 
+\begin{center}
+\begin{tikzpicture}[x=1mm, y=1mm]
+
+% === LEWA STRONA: Symulacja strony www ===
+\fill[white, rounded corners=2pt] (0,0) rectangle (75,105);
+\draw[bordergray, line width=0.6pt, rounded corners=2pt] (0,0) rectangle (75,105);
+
+% Pasek przeglądarki
+\fill[backgroundgray, rounded corners=2pt] (0,101) rectangle (75,105);
+\draw[bordergray, line width=0.4pt] (0,101) -- (75,101);
+\fill[accentred!30] (3,102.2) circle (1);
+\fill[accentorange!50] (6.5,102.2) circle (1);
+\fill[accentgreen!30] (10,102.2) circle (1);
+\fill[bordergray] (18,102) rectangle (57,104);
+\node[font=\fontsize{3.5}{3.5}\selectfont, text=textmuted] at (37.5,103) {www.example.com};
+
+% Logo / nav
+\fill[primaryblue!20] (3,95) rectangle (18,98);
+\foreach \x in {50,56,62,68} {
+  \fill[bordergray] (\x,96) rectangle (\x+4,97.5);
+}
+
+% Nagłówek H1
+\fill[textdark!60] (3,88) rectangle (55,91);
+
+% Tekst akapit 1
+\fill[textdark!30] (3,83) rectangle (68,84.5);
+\fill[textdark!30] (3,80.5) rectangle (65,82);
+\fill[textdark!30] (3,78) rectangle (60,79.5);
+
+% Nagłówek H2
+\fill[textdark!50] (3,73) rectangle (40,75.5);
+
+% Tekst akapit 2
+\fill[textdark!30] (3,68) rectangle (68,69.5);
+\fill[textdark!30] (3,65.5) rectangle (63,67);
+\fill[textdark!30] (3,63) rectangle (66,64.5);
+\fill[textdark!30] (3,60.5) rectangle (55,62);
+
+% Obrazek placeholder
+\fill[primarylight] (3,48) rectangle (30,57);
+\node[font=\fontsize{5}{5}\selectfont, text=primaryblue] at (16.5,52.5) {IMG};
+
+% Tekst obok obrazka
+\fill[textdark!30] (33,54.5) rectangle (68,56);
+\fill[textdark!30] (33,52) rectangle (65,53.5);
+\fill[textdark!30] (33,49.5) rectangle (60,51);
+
+% Nagłówek H3
+\fill[textdark!45] (3,43) rectangle (35,45);
+
+% Lista
+\foreach \y in {38, 35.5, 33, 30.5} {
+  \fill[primaryblue] (5,\y+0.5) circle (0.6);
+  \fill[textdark!25] (8,\y) rectangle (62,\y+1.5);
+}
+
+% Tekst dolny
+\fill[textdark!25] (3,25) rectangle (68,26.5);
+\fill[textdark!25] (3,22.5) rectangle (55,24);
+
+% CTA button
+\fill[primaryblue!20, rounded corners=1.5pt] (3,15) rectangle (32,19);
+\node[font=\fontsize{4}{4}\selectfont, text=primaryblue] at (17.5,17) {Call to Action};
+
+% Footer
+\fill[backgroundgray] (0,0) rectangle (75,8);
+\draw[bordergray, line width=0.3pt] (0,8) -- (75,8);
+\fill[textdark!15] (3,4) rectangle (25,6);
+\fill[textdark!15] (30,4) rectangle (52,6);
+\fill[textdark!15] (57,4) rectangle (72,6);
+
+% === PRAWA STRONA: Heatmapa F-Pattern ===
+\begin{scope}[xshift=82mm]
+
+\fill[white, rounded corners=2pt] (0,0) rectangle (75,105);
+\draw[bordergray, line width=0.6pt, rounded corners=2pt] (0,0) rectangle (75,105);
+
+% Pasek przeglądarki
+\fill[backgroundgray, rounded corners=2pt] (0,101) rectangle (75,105);
+\draw[bordergray, line width=0.4pt] (0,101) -- (75,101);
+\fill[accentred!30] (3,102.2) circle (1);
+\fill[accentorange!50] (6.5,102.2) circle (1);
+\fill[accentgreen!30] (10,102.2) circle (1);
+\fill[bordergray] (18,102) rectangle (57,104);
+\node[font=\fontsize{3.5}{3.5}\selectfont, text=textmuted] at (37.5,103) {www.example.com};
+
+% --- Heatmapa F ---
+% Pierwsza pozioma belka (najgorętsza)
+\shade[left color=accentred!90, right color=accentorange!20, opacity=0.7]
+  (2,86) rectangle (60,93);
+\shade[left color=accentred!60, right color=accentorange!10, opacity=0.4]
+  (2,83) rectangle (55,86);
+
+% Druga pozioma belka (krótsza)
+\shade[left color=accentorange!80, right color=accentorange!15, opacity=0.6]
+  (2,66) rectangle (48,74);
+\shade[left color=accentorange!50, right color=accentorange!5, opacity=0.3]
+  (2,63) rectangle (42,66);
+
+% Pionowy pas F (lewa strona)
+\shade[top color=accentorange!70, bottom color=accentgreen!15, opacity=0.55]
+  (2,15) rectangle (18,83);
+
+% Dodatkowe gorące punkty
+\shade[left color=accentorange!50, right color=primarylight, opacity=0.35]
+  (2,43) rectangle (35,46);
+\shade[left color=accentorange!40, right color=primarylight, opacity=0.25]
+  (2,29) rectangle (25,40);
+
+% Zimna strefa
+\fill[primarylight, opacity=0.15] (40,10) rectangle (72,55);
+
+% Duże "F"
+\node[font=\fontsize{60}{60}\selectfont\bfseries, text=white, opacity=0.3] at (25,60) {F};
+
+% Treść pod heatmapą (przezroczysta)
+\fill[textdark!15] (3,95) rectangle (18,98);
+\foreach \x in {50,56,62,68} {
+  \fill[bordergray!40] (\x,96) rectangle (\x+4,97.5);
+}
+\fill[textdark!20] (3,88) rectangle (55,91);
+\fill[textdark!10] (3,83) rectangle (68,84.5);
+\fill[textdark!10] (3,80.5) rectangle (65,82);
+\fill[textdark!10] (3,78) rectangle (60,79.5);
+\fill[textdark!15] (3,73) rectangle (40,75.5);
+\fill[textdark!10] (3,68) rectangle (68,69.5);
+\fill[textdark!10] (3,65.5) rectangle (63,67);
+\fill[textdark!10] (3,63) rectangle (66,64.5);
+\fill[textdark!10] (3,60.5) rectangle (55,62);
+\fill[primarylight!50] (3,48) rectangle (30,57);
+\fill[textdark!10] (33,54.5) rectangle (68,56);
+\fill[textdark!10] (33,52) rectangle (65,53.5);
+\fill[textdark!10] (33,49.5) rectangle (60,51);
+\fill[textdark!12] (3,43) rectangle (35,45);
+\foreach \y in {38, 35.5, 33, 30.5} {
+  \fill[primaryblue!30] (5,\y+0.5) circle (0.6);
+  \fill[textdark!8] (8,\y) rectangle (62,\y+1.5);
+}
+\fill[textdark!8] (3,25) rectangle (68,26.5);
+\fill[textdark!8] (3,22.5) rectangle (55,24);
+\fill[primaryblue!10, rounded corners=1.5pt] (3,15) rectangle (32,19);
+\fill[backgroundgray!50] (0,0) rectangle (75,8);
+
+\end{scope}
+
+% === ETYKIETY ===
+\node[anchor=south, font=\small\bfseries, text=textdark] at (37.5,107) {Strona internetowa};
+\node[anchor=south, font=\small\bfseries, text=accentred] at (119.5,107) {Schemat skanowania strony};
+
+
+
+\end{tikzpicture}
+\end{center}
+
+\vspace{0.5em}
+\begin{center}
+\small\color{textmuted}\textit{Rysunek: Wzorzec F --- jak użytkownicy skanują strony internetowe (na podstawie badań Nielsen Norman Group)}
+\end{center}
+
 \subsection{Nagłówki i
 śródtytuły}\label{nagux142uxf3wki-i-ux15bruxf3dtytuux142y}
 
 Nagłówki (H1, H2, H3\ldots) to \textbf{szkielet} Twojego tekstu.
-Czytelnik skanujący powinien zrozumieć główny przekaz czytając
+Czytelnik skanujący powinien zrozumieć główny przekaz, czytając
 \textbf{tylko nagłówki}.
 
 \textbf{Zasady skutecznych śródtytułów:}
@@ -4052,17 +3920,17 @@ Czytelnik skanujący powinien zrozumieć główny przekaz czytając
   \textbf{Są krótkie} --- 4-8 słów, nigdy nie powinny przechodzić do
   drugiej linii
 \item
-  \textbf{Tworzą logiczny flow} --- czytane po kolei opowiadają historię
+  \textbf{Tworzą logiczny flow} --- czytane po kolei, opowiadają
+  historię
 \end{itemize}
 
 \begin{wskazowka}
-\textbf{Test nagłówków:} Przeczytaj tylko nagłówki swojego tekstu. Czy ktoś, kto przeczyta wyłącznie je, zrozumie Twój główny przekaz i korzyści? Jeśli nie --- przepisz nagłówki.
+\textbf{Test nagłówków.} Przeczytaj tylko nagłówki swojego tekstu. Czy ktoś, kto przeczyta wyłącznie je, zrozumie Twój główny przekaz i korzyści? Jeśli nie --- przepisz nagłówki.
 \end{wskazowka}
 
 \subsection{Krótkie akapity}\label{kruxf3tkie-akapity}
 
-W druku akapit ma 5-7 zdań. W internecie? \textbf{2-4 zdania
-maksymalnie}.
+W druku akapit ma 5-7 zdań. W internecie? \textbf{2-5 zdań maksymalnie}.
 
 Długie bloki tekstu to „ściany tekstu'' (walls of text) --- sygnał dla
 mózgu: „to wymaga wysiłku''. Krótkie akapity mówią: „to jest łatwe do
@@ -4106,12 +3974,9 @@ Listy to \textbf{magnes dla oka}. Sygnalizują: „tu jest seria punktów,
 \begin{itemize}
 \tightlist
 \item
-  Równoległa struktura --- każdy punkt zaczyna się od tego samego typu
-  słowa (czasownik, rzeczownik)
-\item
   Podobna długość punktów --- wizualna spójność
 \item
-  5-7 punktów optimum (zgodnie z zasadą Millera o pojemności pamięci
+  4-7 punktów optimum (zgodnie z zasadą Millera o pojemności pamięci
   roboczej)
 \item
   Najważniejsze punkty na początku i na końcu (efekt pierwszeństwa i
@@ -4124,14 +3989,14 @@ italic)}\label{wyruxf3ux17cnienia-bold-italic}
 Wyróżnienia tworzą „skanowalny szkielet'' --- czytelnik przeskakuje
 wzrokiem po pogrubionych frazach i rozumie sedno.
 
-\textbf{Zasada:} Po napisaniu tekstu wróć i pogrub tylko te frazy, które
+\textbf{Zasada.} Po napisaniu tekstu wróć i pogrub tylko te frazy, które
 --- przeczytane po kolei --- opowiadają całą historię.
 
 \begin{uwaga}
 Nie pogrubiaj wszystkiego. Jeśli wszystko jest ważne, nic nie jest ważne. Maksymalnie 10-15\% tekstu powinno być pogrubione.
 \end{uwaga}
 
-\subsection{Callouts i boxy}\label{callouts-i-boxy}
+\subsection{Wyróżnienia i boxy}\label{wyruxf3ux17cnienia-i-boxy}
 
 Wyróżnione bloki tekstu (jak te w tym podręczniku) przyciągają uwagę i
 sygnalizują: „to jest szczególnie ważne''.
@@ -4186,42 +4051,6 @@ zakończenie
 Yoast SEO zaleca, żeby minimum \textbf{30\% zdań} zawierało słowa przejściowe. To dobry benchmark dla tekstów online.
 \end{wskazowka}
 
-\subsection{Technika „bucket brigades''
-(przypomnienie)}\label{technika-bucket-brigades-przypomnienie}
-
-Bucket brigades to krótkie frazy, które „podają'' uwagę czytelnika z
-jednego akapitu do następnego.
-
-\textbf{Przykłady:}
-
-\begin{itemize}
-\tightlist
-\item
-  Oto dlaczego\ldots{}
-\item
-  Ale to nie wszystko\ldots{}
-\item
-  I tu jest najlepsza część\ldots{}
-\item
-  Pozwól, że wyjaśnię\ldots{}
-\item
-  Brzmi znajomo?
-\end{itemize}
-
-\textbf{Gdzie umieszczać:}
-
-\begin{itemize}
-\tightlist
-\item
-  Na początku akapitów (po śródtytule)
-\item
-  Przed kluczowymi informacjami
-\item
-  Gdy zmieniasz temat lub kierunek
-\item
-  Gdy tekst staje się gęsty lub techniczny
-\end{itemize}
-
 \subsection{Technika „Open Loops'' (Otwarte
 pętle)}\label{technika-open-loops-otwarte-pux119tle}
 
@@ -4263,9 +4092,9 @@ Najważniejsze informacje na górze, szczegóły na dole. Czytelnik, który
 przeczyta tylko początek, powinien poznać sedno.
 
 \begin{formula}{Odwrócona piramida}
-\textbf{Górna część:} Najważniejsza informacja, główna korzyść, kluczowy wniosek\\
-\textbf{Środek:} Szczegóły, dowody, rozwinięcie argumentów\\
-\textbf{Dół:} Kontekst, tło, informacje uzupełniające
+\textbf{Górna część:} najważniejsza informacja, główna korzyść, kluczowy wniosek\\
+\textbf{Środek:} szczegóły, dowody, rozwinięcie argumentów\\
+\textbf{Dół:} kontekst, tło, informacje uzupełniające
 \end{formula}
 
 \subsection{Podsumowania (TL;DR)}\label{podsumowania-tldr}
@@ -4287,7 +4116,7 @@ W długim tekście co 300-500 słów dodawaj element „resetujący'' uwagę:
 \item
   Lista wypunktowana
 \item
-  Cytat lub callout
+  Cytat
 \item
   Krótki, 1-zdaniowy akapit
 \end{itemize}
@@ -4312,8 +4141,8 @@ Każda sekcja długiego tekstu powinna mieć własną mini-strukturę:
 
 \decoline
 
-\section{Checklist struktury i body
-copy}\label{checklist-struktury-i-body-copy}
+\section{Elementy struktury i treści
+copy}\label{elementy-struktury-i-treux15bci-copy}
 
 Przed publikacją sprawdź swój tekst według tej listy:
 
@@ -4324,7 +4153,7 @@ Przed publikacją sprawdź swój tekst według tej listy:
 \item[$\square$]
   Tekst ma jasną formułę (AIDA, PAS, BAB lub hybryda)
 \item[$\square$]
-  Nagłówki czytane same opowiadają całą historię
+  Nagłówki same „opowiadają'' całą historię
 \item[$\square$]
   Każda sekcja ma jeden główny temat
 \item[$\square$]
@@ -4376,25 +4205,25 @@ Przed publikacją sprawdź swój tekst według tej listy:
 \begin{cwiczenie}{Przepisz tekst używając formuły}
 Wybierz krótki tekst reklamowy lub opis produktu (może być Twój lub znaleziony online).
 
-\textbf{Część 1: Analiza (10 min)}
+\textbf{Część 1. Analiza (10 min)}
 \begin{enumerate}
-  \item Zidentyfikuj, czy tekst używa jakiejś formuły (AIDA, PAS, BAB, FAB)?
+  \item Sprawdź, czy w tekście używane są jakiejś formuły (AIDA, PAS, BAB, FAB)?
   \item Zaznacz słowa przejściowe
   \item Oceń formatowanie (akapity, listy, wyróżnienia)
 \end{enumerate}
 
-\textbf{Część 2: Przepisanie (20 min)}
+\textbf{Część 2. Przepisanie (20 min)}
 
-Przepisz tekst używając formuły PAS + FAB:
+Przepisz tekst, używając formuły PAS + FAB:
 \begin{itemize}
   \item Problem (1-2 zdania)
   \item Agitate (2-3 zdania)
   \item Solution + FAB (cecha → zaleta → korzyść dla 3 głównych cech)
 \end{itemize}
 
-\textbf{Część 3: Formatowanie (10 min)}
+\textbf{Część 3. Formatowanie (10 min)}
 \begin{enumerate}
-  \item Podziel na krótkie akapity (max 3 zdania)
+  \item Podziel na krótkie akapity (maks. 3 zdania)
   \item Dodaj 1-2 listy wypunktowane
   \item Pogrub kluczowe frazy
   \item Dodaj 2-3 bucket brigades
@@ -4431,7 +4260,7 @@ klientów, subskrybentów, użytkowników.
 I to właśnie na CTA większość copywriterów traci konwersje.
 
 W tym rozdziale poznasz psychologię stojącą za skutecznym CTA,
-sprawdzone formuły pisania przycisków i linków, które klikają, oraz
+sprawdzone formuły pisania przycisków i linków, które klikają, a także
 błędy, które sabotują Twoje wyniki.
 
 \section{Czym jest CTA i dlaczego jest tak
@@ -4463,7 +4292,7 @@ Bez jasnego CTA czytelnik:
 \stathighlight{202\%}{o tyle lepiej konwertują spersonalizowane CTA vs. generyczne (HubSpot)}
 
 Badania pokazują, że nawet drobne zmiany w CTA mogą dramatycznie wpłynąć
-na wyniki. PartnerStack zwiększył konwersję o \textbf{111\%} zmieniając
+na wyniki. PartnerStack zwiększył konwersję o \textbf{111\%}, zmieniając
 tekst z „Book A Demo'' na „Get Started''. Zmiana trzech słów może
 podwoić Twoje wyniki.
 
@@ -4492,7 +4321,7 @@ Nie ukrywaj CTA. Użytkownicy oczekują przycisku --- daj im go w oczywistym mie
 \subsection{2. Nagroda}\label{nagroda}
 
 Ludzki mózg jest zaprogramowany na poszukiwanie nagród. Kliknięcie
-przycisku aktywuje te same ścieżki neuronalne, co inne zachowania
+przycisku aktywuje te same ścieżki neuronalne co inne zachowania
 nagradzające.
 
 \textbf{Jak to wykorzystać:}
@@ -4591,7 +4420,7 @@ korzyść}\label{wartoux15bux107-lub-korzyux15bux107}
 Po czasowniku --- \textbf{co} czytelnik otrzyma.
 
 \textbf{Słabe:} „Wyślij'' \textbf{Lepsze:} „Wyślij zgłoszenie''
-\textbf{Najlepsze:} „Wyślij i otrzymaj wycenę w 24h''
+\textbf{Najlepsze:} „Wyślij i otrzymaj wycenę w 24 godz.''
 
 \subsection{3. Element pilności
 (opcjonalnie)}\label{element-pilnoux15bci-opcjonalnie}
@@ -4607,10 +4436,6 @@ Jeśli masz uzasadnioną pilność --- użyj jej.
 \item
   „Pobierz natychmiast''
 \end{itemize}
-
-\begin{uwaga}
-Fałszywa pilność niszczy zaufanie. Jeśli „ostatnia szansa'' pojawia się co tydzień, ludzie przestają w nią wierzyć. Używaj pilności tylko gdy jest prawdziwa.
-\end{uwaga}
 
 \subsection{4. Redukcja ryzyka
 (opcjonalnie)}\label{redukcja-ryzyka-opcjonalnie}
@@ -4633,8 +4458,8 @@ Elementy, które zmniejszają postrzegane ryzyko:
 
 \section{Formuły skutecznych CTA}\label{formuux142y-skutecznych-cta}
 
-\subsection{Formuła 1: Czasownik +
-Wartość}\label{formuux142a-1-czasownik-wartoux15bux107}
+\subsection{Formuła 1. Czasownik +
+Wartość}\label{formuux142a-1.-czasownik-wartoux15bux107}
 
 Najprostsza i najczęściej używana:
 
@@ -4650,8 +4475,8 @@ Najprostsza i najczęściej używana:
   Kup kurs z 50\% rabatem
 \end{itemize}
 
-\subsection{Formuła 2: Czasownik + Pierwsza osoba +
-Wartość}\label{formuux142a-2-czasownik-pierwsza-osoba-wartoux15bux107}
+\subsection{Formuła 2. Czasownik + Pierwsza osoba +
+Wartość}\label{formuux142a-2.-czasownik-pierwsza-osoba-wartoux15bux107}
 
 Dodaje element własności i kontroli:
 
@@ -4667,8 +4492,8 @@ Dodaje element własności i kontroli:
   Tak, chcę zwiększyć sprzedaż
 \end{itemize}
 
-\subsection{Formuła 3: Czasownik + Wartość +
-Pilność}\label{formuux142a-3-czasownik-wartoux15bux107-pilnoux15bux107}
+\subsection{Formuła 3. Czasownik + Wartość +
+Pilność}\label{formuux142a-3.-czasownik-wartoux15bux107-pilnoux15bux107}
 
 Dodaje element czasu:
 
@@ -4684,8 +4509,8 @@ Dodaje element czasu:
   Zarezerwuj miejsce zanim będzie za późno
 \end{itemize}
 
-\subsection{Formuła 4: Korzyść jako
-CTA}\label{formuux142a-4-korzyux15bux107-jako-cta}
+\subsection{Formuła 4. Korzyść jako
+CTA}\label{formuux142a-4.-korzyux15bux107-jako-cta}
 
 Skupia się na wyniku, nie na akcji:
 
@@ -5047,6 +4872,748 @@ Wybierz 3 najlepsze wersje i uzasadnij, dlaczego właśnie te.
 W następnym rozdziale zajmiemy się \textbf{pisaniem dla różnych kanałów}
 --- bo CTA na landing page to co innego niż CTA w emailu czy poście na
 social media.
+
+\decoline
+
+\bookmarksetup{startatroot}
+
+\chapter{Edycja, redakcja i korekta
+tekstu}\label{edycja-redakcja-i-korekta-tekstu}
+
+Jak zamienić brudnopis w tekst, który sprzedaje
+
+\hfill\break
+
+\chapteropener{Pisanie to ludzka natura. Edycja to boska.\\--- Stephen King, \textit{On Writing}}
+
+Napisałeś tekst. Nagłówek przyciąga uwagę. Lead wciąga. Body copy
+prowadzi do CTA.
+
+Ale jeszcze nie wysyłaj.
+
+To, co właśnie napisałeś, to pierwszy brudnopis. Surowy materiał.
+Diamenty też nie lśnią, gdy je wydobędziesz z kopalni --- wymagają
+szlifowania. Twój tekst jest dokładnie taki sam.
+
+W tym rozdziale poznasz trzypoziomowy system edycji, który zamieni
+przeciętne copy w tekst, od którego nie da się oderwać wzroku. Nauczysz
+się technik, którymi posługują się najlepsi redaktorzy i copywriterzy na
+świecie --- i zastosujesz je samodzielnie, nawet jeśli pracujesz solo.
+
+\stathighlight{50\%}{czasu pracy nad tekstem powinna zajmować edycja, nie pisanie (Filthy Rich Writer)}
+
+\section{Dlaczego edycja jest tak
+ważna?}\label{dlaczego-edycja-jest-tak-waux17cna}
+
+David Ogilvy pisał 104 wersje nagłówka dla Rolls-Royce'a. Ernest
+Hemingway przepisywał zakończenie ``Pożegnania z bronią'\,' 47 razy.
+Stephen King, autor ponad 60 bestsellerów, powiedział wprost: pisanie to
+ludzka natura, a edycja --- to coś boskiego.
+
+\begin{pojecie}{Zasada Kinga}
+Drugi brudnopis = Pierwszy brudnopis minus 10\%.
+
+Stephen King odkrył tę formułę jeszcze w liceum, gdy redaktor odpisał mu na manuskrypcie: „Nieźle, ale PUFFY (napuszone). Skróć o 10\%." King stosuje ją do dziś, a wielu profesjonalnych redaktorów traktuje 10\% jako absolutne minimum --- sami skracają o 20--30\%.
+\end{pojecie}
+
+Ale edycja to nie tylko skracanie. To proces, który obejmuje trzy
+odrębne poziomy --- i pomieszanie ich jest najczęstszym błędem
+początkujących copywriterów.
+
+\subsection{Copywriter to nie redaktor (ale musi umieć jedno i
+drugie)}\label{copywriter-to-nie-redaktor-ale-musi-umieux107-jedno-i-drugie}
+
+W średnich i dużych firmach proces tworzenia treści wygląda zwykle tak:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Copywriter} pisze tekst
+\item
+  \textbf{Redaktor} (content editor / copy editor) poprawia strukturę,
+  styl i spójność z marką
+\item
+  \textbf{Korektor} (proofreader) wyłapuje literówki, błędy
+  interpunkcyjne i formatowanie
+\end{enumerate}
+
+Każdy z tych ludzi ma inne kompetencje. Redaktor patrzy na tekst z lotu
+ptaka --- czy argumentacja ma sens, czy struktura prowadzi czytelnika,
+czy ton pasuje do marki. Korektor patrzy przez lupę --- czy każdy
+przecinek jest na swoim miejscu.
+
+\begin{wazne}
+W dużych organizacjach (agencje reklamowe, wydawnictwa, korporacje) od edycji i korekty \textbf{są osobni ludzie}. Copywriter pisze --- redaktor i korektor dopieszczają. To nie jest przypadek: niezwykle trudno jest obiektywnie ocenić tekst, który samemu się napisało. Mózg automatycznie „naprawia" błędy, bo wie, co \textit{chciałeś} napisać.
+\end{wazne}
+
+Ale jeśli pracujesz jako freelancer lub w małym zespole, musisz opanować
+wszystkie trzy role. To nie jest opcja --- to konieczność. Klient płaci
+za gotowy, dopracowany tekst, nie za pierwszy brudnopis.
+
+Dobra wiadomość? Edycji można się nauczyć. I jak zaraz zobaczysz,
+istnieją konkretne techniki i systemy, które sprawią, że będziesz to
+robić szybko i skutecznie.
+
+A nawet jeśli opanujesz self-editing, warto rozważyć współpracę z
+profesjonalnym redaktorem lub korektorem przy ważnych projektach. To
+inwestycja, która się zwraca --- błąd w ofercie za 50 000 zł może
+kosztować znacznie więcej niż 200 zł za korektę.
+
+\decoline
+
+\section{Trzy poziomy edycji}\label{trzy-poziomy-edycji}
+
+Proces edycji ma trzy odrębne etapy. Każdy skupia się na czymś innym, i
+--- to kluczowe --- powinny być realizowane \textbf{w tej kolejności},
+od ogółu do szczegółu.
+
+\begin{formula}{Lejek edycyjny}
+\textbf{Poziom 1: Redakcja merytoryczna} (Revision / Substantive editing)\\
+Struktura, argumentacja, logika, przekaz\\[6pt]
+\textbf{Poziom 2: Redakcja stylistyczna} (Copy editing)\\
+Styl, płynność, czytelność, spójność\\[6pt]
+\textbf{Poziom 3: Korekta} (Proofreading)\\
+Literówki, interpunkcja, formatowanie
+\end{formula}
+
+Dlaczego ta kolejność jest ważna? Bo nie ma sensu dopieszczać przecinków
+w akapicie, który za chwilę usuniesz. Najpierw upewnij się, że mówisz
+właściwe rzeczy we właściwej kolejności. Potem dopracuj, jak to mówisz.
+Na końcu --- wyłap błędy techniczne.
+
+\subsection{Poziom 1: Redakcja
+merytoryczna}\label{poziom-1-redakcja-merytoryczna}
+
+To najważniejszy i najtrudniejszy etap. Patrzysz na tekst z perspektywy
+czytelnika i odpowiadasz na fundamentalne pytania:
+
+\textbf{Pytania kontrolne:}
+
+\begin{itemize}
+\tightlist
+\item
+  Czy tekst realizuje cel? (sprzedaż, zapis, kliknięcie, edukacja?)
+\item
+  Czy obietnica z nagłówka jest spełniona w treści?
+\item
+  Czy argumenty są w logicznej kolejności?
+\item
+  Czy każda sekcja prowadzi do następnej? (śliska zjeżdżalnia!)
+\item
+  Czy CTA jest jasne i wynika z tego, co przeczytał czytelnik?
+\item
+  Czy uwzględniłeś najważniejsze obiekcje klienta?
+\item
+  Czy pisałeś do konkretnej persony, czy do „wszystkich''?
+\end{itemize}
+
+Na tym etapie możesz:
+
+\begin{itemize}
+\tightlist
+\item
+  Usunąć całe sekcje
+\item
+  Zmienić kolejność argumentów
+\item
+  Dodać brakujące elementy (dowody, social proof, korzyści)
+\item
+  Przepisać lead od nowa
+\item
+  Zmienić kąt komunikacji
+\end{itemize}
+
+\begin{przyklad}{Redakcja merytoryczna w praktyce}
+\textbf{Brudnopis landing page:}
+
+Nagłówek → Opis firmy → Historia firmy → Lista funkcji → Cennik → CTA
+
+\textbf{Po redakcji merytorycznej:}
+
+Nagłówek z korzyścią → Problem klienta → Rozwiązanie → 3 kluczowe korzyści → Social proof → Oferta z ceną → CTA z pilnością
+
+Zmieniliśmy nie słowa, lecz \textbf{całą strukturę argumentacji}. To jest serce redakcji merytorycznej.
+\end{przyklad}
+
+\subsection{Poziom 2: Redakcja
+stylistyczna}\label{poziom-2-redakcja-stylistyczna}
+
+Gdy struktura i logika są na miejscu, przechodzimy do poziomu zdań i
+akapitów. Tutaj dbasz o to, żeby tekst się dobrze czytał --- płynnie,
+naturalnie, bez zacięć.
+
+\textbf{Pytania kontrolne:}
+
+\begin{itemize}
+\tightlist
+\item
+  Czy zdania nie są za długie? (powyżej 20 słów --- rozważ podział)
+\item
+  Czy używam strony czynnej zamiast biernej?
+\item
+  Czy unikam żargonu i „korporacyjnego'' języka?
+\item
+  Czy ton jest spójny w całym tekście?
+\item
+  Czy nie powtarzam tych samych słów i zwrotów?
+\item
+  Czy przejścia między akapitami są płynne?
+\item
+  Czy tekst pasuje do głosu marki?
+\end{itemize}
+
+Na tym etapie koncentrujesz się na:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Skracaniu zdań} --- rozbij wielokrotnie złożone zdania na
+  proste
+\item
+  \textbf{Usuwaniu zbędnych słów} --- „w celu'' → „żeby'', „w chwili
+  obecnej'' → „teraz''
+\item
+  \textbf{Zamianie strony biernej na czynną} --- „oferta została
+  przygotowana'' → „przygotowaliśmy ofertę''
+\item
+  \textbf{Eliminacji powtórzeń} --- szukaj tych samych słów w sąsiednich
+  zdaniach
+\item
+  \textbf{Dopracowaniu rytmu} --- krótkie zdanie. Dłuższe wyjaśnienie. I
+  znów krótkie.
+\end{itemize}
+
+\beforeafter{Nasz innowacyjny produkt, który został stworzony z myślą o potrzebach współczesnych przedsiębiorców, oferuje kompleksowe rozwiązanie w zakresie zarządzania projektami, umożliwiając tym samym znaczące zwiększenie produktywności zespołu.}{Zarządzaj projektami szybciej. Nasz produkt pomaga Twojemu zespołowi kończyć zadania o 40\% szybciej --- bez nadgodzin i chaosu.}
+
+\subsection{Poziom 3: Korekta}\label{poziom-3-korekta}
+
+Ostatni etap. Tekst jest merytorycznie poprawny, stylistycznie
+dopracowany --- teraz szukasz błędów technicznych.
+
+\textbf{Co sprawdzasz:}
+
+\begin{itemize}
+\tightlist
+\item
+  Literówki i błędy ortograficzne
+\item
+  Interpunkcja (szczególnie przecinki w polskim!)
+\item
+  Spójność formatowania (wielkie litery, myślniki, cudzysłowy)
+\item
+  Poprawność nazw własnych, dat i liczb
+\item
+  Działające linki (w tekstach online)
+\item
+  Spójność w zapisie (np. „e-mail'' vs.~„email'' --- wybierz jedno i
+  trzymaj się tego)
+\end{itemize}
+
+\begin{wskazowka}
+Nie łącz korekty z redakcją stylistyczną. Gdy szukasz literówek, mózg pracuje w trybie „skanera". Gdy jednocześnie próbujesz ulepszać styl, przełącza się między trybami i robi jedno i drugie słabo. Osobne przejście na korektę --- nawet 10-minutowe --- wyłapie błędy, które przegapiłeś wcześniej.
+\end{wskazowka}
+
+\decoline
+
+\section{„Zabij swoje darlings'': najtrudniejsza zasada
+edycji}\label{zabij-swoje-darlings-najtrudniejsza-zasada-edycji}
+
+Arthur Quiller-Couch, profesor Cambridge, powiedział w 1914 roku coś, co
+odmieniło myślenie o pisaniu na ponad sto lat:
+
+\begin{cytat}
+Kiedykolwiek poczujesz impuls, żeby stworzyć kawałek wyjątkowo pięknej prozy, poddaj mu się --- całym sercem --- a potem usuń to, zanim wyślesz manuskrypt do druku. Zabij swoje darlings.\\
+--- Arthur Quiller-Couch, \textit{On the Art of Writing} (1916)
+\end{cytat}
+
+Cytat ten jest często (błędnie) przypisywany Williamowi Faulknerowi.
+Stephen King przywołał go w swoim kultowym „On Writing'' i dodał: „Zabij
+swoje darlings, zabij swoje darlings, nawet gdy łamie to twoje
+egocentryczne małe serce pisarza --- zabij swoje darlings.''
+
+\subsection{Co to oznacza w praktyce
+copywritingu?}\label{co-to-oznacza-w-praktyce-copywritingu}
+
+„Darlings'' to fragmenty tekstu, które:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Kochasz} --- bo są sprytne, zabawne lub poetyckie
+\item
+  \textbf{Nie służą czytelnikowi} --- nie prowadzą do CTA, nie budują
+  argumentacji
+\item
+  \textbf{Służą Twojemu ego} --- pokazują, jaki jesteś mądry/kreatywny
+\end{itemize}
+
+Rozpoznasz je po tym, że gdy ktoś sugeruje ich usunięcie, czujesz opór.
+„Ale to taki fajny zwrot!'' „Ale spędziłem nad tym godzinę!'' --- to
+klasyczne sygnały, że patrzysz na darling.
+
+\subsection{Jak zabijać darlings
+skutecznie?}\label{jak-zabijaux107-darlings-skutecznie}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Stwórz plik „cmentarzyk''} --- zamiast kasować, przenoś
+  ulubione fragmenty do osobnego dokumentu. Psychologicznie łatwiej jest
+  coś przenieść niż usunąć
+\item
+  \textbf{Zadaj pytanie: „Czy czytelnik straci coś, jeśli to usunę?{}``}
+  --- jeśli nie --- wytnij
+\item
+  \textbf{Szukaj redundancji} --- jeśli ten sam punkt robisz dwukrotnie
+  różnymi słowami, jeden musi odejść
+\item
+  \textbf{Uważaj na sprytne gry słów} --- jeśli czytelnik musi się
+  zastanowić, co miałeś na myśli, to nie jest sprytne, to jest niejasne
+\item
+  \textbf{Czytaj bez kontekstu} --- pokaż fragment komuś, kto nie zna
+  całości. Jeśli bez tego fragmentu nic nie traci --- wytnij go
+\end{enumerate}
+
+\begin{przyklad}{Darlings w copywritingu}
+\textbf{Brudnopis opisu produktu:}
+
+„Nasz krem nawilżający to jak \textit{oaza na środku Sahary} --- gdy Twoja skóra woła o pomoc niczym zagubiony wędrowiec na pustyni, ten mały słoiczek staje się Twoim \textit{kompasem prowadzącym do nawilżonej ziemi obiecanej}."
+
+\textbf{Po zabiciu darlings:}
+
+„Nasz krem nawilżający działa przez 24 godziny. Twoja skóra pozostaje miękka i nawilżona --- nawet w suchym, klimatyzowanym biurze."
+
+Metafora z Saharą? Piękna. Ale przeszkadza w przekazaniu korzyści. Darling musi odejść.
+\end{przyklad}
+
+\decoline
+
+\section{7 technik self-editingu}\label{technik-self-editingu}
+
+Nawet bez profesjonalnego redaktora możesz znacząco poprawić jakość
+swoich tekstów. Oto techniki, które stosują najlepsi copywriterzy.
+
+\subsection{1. Przerwa czasowa
+(Sleep-on-it)}\label{przerwa-czasowa-sleep-on-it}
+
+Najskuteczniejsza technika edycji w historii --- i jednocześnie
+najłatwiejsza.
+
+Napisz tekst. Zamknij dokument. Wróć do niego po minimum kilku godzinach
+--- najlepiej następnego dnia. Twój mózg potrzebuje dystansu, żeby
+przełączyć się z trybu „twórcy'' na tryb „krytyka''. Gdy czytasz tekst
+tuż po napisaniu, pamiętasz, co \textbf{chciałeś} powiedzieć, i nie
+widzisz, co \textbf{faktycznie} napisałeś.
+
+\begin{wazne}
+Wbuduj przerwę w harmonogram projektu! Jeśli deadline jest w piątek, skończ pisanie w środę. Czwartek na redakcję, piątek na korektę i wysyłkę. Day-rate copywriting (pisanie i oddanie w jeden dzień) prawie nigdy nie daje najlepszych rezultatów.
+\end{wazne}
+
+\subsection{2. Czytanie na głos}\label{czytanie-na-gux142os}
+
+Gdy czytasz w myślach, mózg automatycznie naprawia błędy i wygładza
+niezręczne frazy. Czytanie na głos to zmusza do przetworzenia każdego
+słowa.
+
+\textbf{Co wyłapiesz:}
+
+\begin{itemize}
+\tightlist
+\item
+  Zdania, w których zabraknie Ci tchu (za długie!)
+\item
+  Nienaturalne sformułowania (jeśli nie powiedziałbyś tego w rozmowie
+  --- przepisz)
+\item
+  Powtórzenia słów, które na papierze nie rzucają się w oczy
+\item
+  Brak rytmu --- tekst, który dobrze brzmi czytany na głos, dobrze się
+  czyta w myślach
+\end{itemize}
+
+\begin{wskazowka}
+Nie masz ochoty czytać na głos? Użyj funkcji text-to-speech (np. wbudowanej w system operacyjny lub w edytorze). Słuchanie własnego tekstu czytanego syntetycznym głosem daje zaskakująco dobry efekt --- niezręczności od razu biją po uszach.
+\end{wskazowka}
+
+\subsection{3. Czytanie od końca}\label{czytanie-od-koux144ca}
+
+Technika korektorska stosowana od dziesięcioleci. Czytaj tekst od
+ostatniego zdania do pierwszego. Dlaczego? Bo mózg nie może „wciągnąć
+się'' w treść i zacząć pomijać błędy.
+
+Ta technika jest szczególnie skuteczna na etapie korekty (poziom 3). Nie
+nadaje się do oceny struktury czy stylu --- ale do wyłapywania literówek
+jest bezkonkurencyjna.
+
+\subsection{4. Drukuj tekst}\label{drukuj-tekst}
+
+Badania potwierdzają to, co doświadczeni redaktorzy wiedzą od lat ---
+czytamy inaczej na ekranie niż na papierze. Na papierze jesteśmy
+bardziej uważni, wolniej przetwarzamy tekst i wyłapujemy więcej błędów.
+
+Wydrukuj tekst, weź czerwony długopis i czytaj. Podkreślaj, skreślaj,
+rysuj strzałki. Ta fizyczna interakcja z tekstem aktywuje inne ścieżki w
+mózgu niż klikanie na ekranie.
+
+\subsection{5. Metoda jednego przejścia na jeden
+problem}\label{metoda-jednego-przejux15bcia-na-jeden-problem}
+
+Zamiast próbować wyłapać wszystko naraz, zrób kilka oddzielnych przejść
+przez tekst:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Przejście 1:} Struktura i logika (redakcja merytoryczna)
+\item
+  \textbf{Przejście 2:} Zbędne słowa i zdania (skracanie)
+\item
+  \textbf{Przejście 3:} Strona bierna i żargon (styl)
+\item
+  \textbf{Przejście 4:} Literówki i interpunkcja (korekta)
+\end{itemize}
+
+Tak --- to oznacza przeczytanie tekstu cztery razy. Ale każde czytanie
+jest szybsze, bo mózg szuka tylko jednej rzeczy.
+
+\subsection{6. Test czytelności}\label{test-czytelnoux15bci}
+
+Wklej swój tekst do narzędzia mierzącego czytelność. Hemingway Editor
+jest darmowy i pokazuje:
+
+\begin{itemize}
+\tightlist
+\item
+  Poziom trudności tekstu (grade level)
+\item
+  Zdania trudne do przeczytania (zaznaczone kolorem)
+\item
+  Użycie strony biernej
+\item
+  Nadmiar przysłówków
+\end{itemize}
+
+Dla polskich tekstów narzędzia anglojęzyczne mają ograniczenia --- ale
+ogólne wskaźniki (długość zdań, zagnieżdżenie) pozostają trafne.
+Jasnopis (jasnopis.pl) to polskie narzędzie stworzone specjalnie do
+analizy czytelności w języku polskim.
+
+\stathighlight{8}{--- taki powinien być idealny „grade level" tekstu copywriterskiego. Pisz tak, żeby zrozumiał Cię 13-latek.}
+
+\subsection{7. Zasada odwróconej
+piramidy}\label{zasada-odwruxf3conej-piramidy-1}
+
+Po napisaniu tekstu zadaj sobie pytanie: \textbf{„Czy najważniejsza
+informacja jest na początku?{}``}
+
+Copywriterzy często budują napięcie jak w powieści --- wstęp,
+rozwinięcie, punkt kulminacyjny. Ale czytelnik nie ma czasu na fabułę.
+Chce wiedzieć, co zyska --- natychmiast. Jeśli Twoja kluczowa obietnica
+lub korzyść pojawia się dopiero w trzecim akapicie --- przenieś ją na
+początek.
+
+\decoline
+
+\section{Lista słów i fraz do
+usunięcia}\label{lista-sux142uxf3w-i-fraz-do-usuniux119cia}
+
+Poniższe wyrażenia niemal \textbf{zawsze} osłabiają Twoje copy. Szukaj
+ich przy każdej edycji i usuwaj bezlitośnie.
+
+\subsection{Wypełniacze (filler
+words)}\label{wypeux142niacze-filler-words}
+
+\begin{itemize}
+\tightlist
+\item
+  „W zasadzie\ldots'' → (usuń)
+\item
+  „Tak naprawdę\ldots'' → (usuń)
+\item
+  „Generalnie\ldots'' → (usuń)
+\item
+  „W pewnym sensie\ldots'' → (usuń)
+\item
+  „Niejako\ldots'' → (usuń)
+\item
+  „Zasadniczo\ldots'' → (usuń)
+\end{itemize}
+
+\subsection{Napuszenia (puffery)}\label{napuszenia-puffery}
+
+\begin{itemize}
+\tightlist
+\item
+  „innowacyjny'' → opisz, \textbf{co} jest nowe
+\item
+  „kompleksowy'' → wymień konkretne elementy
+\item
+  „dynamicznie rozwijający się'' → podaj liczby
+\item
+  „nowoczesne rozwiązania'' → jakie rozwiązania? co robią?
+\item
+  „najwyższa jakość'' → udowodnij lub usuń
+\item
+  „lider rynku'' → pokaż dane
+\end{itemize}
+
+\subsection{Niepotrzebne konstrukcje}\label{niepotrzebne-konstrukcje}
+
+\begin{itemize}
+\tightlist
+\item
+  „w celu'' → „żeby'' / „by''
+\item
+  „w chwili obecnej'' → „teraz''
+\item
+  „w przypadku, gdy'' → „jeśli''
+\item
+  „dokonać zakupu'' → „kupić''
+\item
+  ``jest w stanie'\,' → „może''
+\item
+  ``uległ poprawie'\,' → „poprawił się''
+\item
+  „odgrywa istotną rolę'' → „jest ważny''
+\item
+  „wychodząc naprzeciw oczekiwaniom'' → (przepisz na język ludzki)
+\end{itemize}
+
+\begin{uwaga}
+To nie znaczy, że te słowa są zawsze złe. Czasem „kompleksowy" jest jedynym trafnym słowem. Ale traktuj każde z nich jak żółtą kartkę --- zatrzymaj się i zapytaj: „Czy mogę to powiedzieć prościej i konkretniej?"
+\end{uwaga}
+
+\decoline
+
+\section{Narzędzia wspierające
+edycję}\label{narzux119dzia-wspierajux105ce-edycjux119}
+
+Żadne narzędzie nie zastąpi ludzkiego oka i wyczucia języka. Ale
+narzędzia mogą wyłapać błędy, które Ty przegapisz.
+
+\subsection{Narzędzia do korekty i
+stylu}\label{narzux119dzia-do-korekty-i-stylu}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{LanguageTool} (languagetool.org) --- najlepsze darmowe
+  narzędzie wspierające język polski. Sprawdza gramatykę, interpunkcję,
+  styl. Ma wtyczkę do przeglądarki i edytorów
+\item
+  \textbf{Jasnopis} (jasnopis.pl) --- polskie narzędzie do analizy
+  czytelności tekstu. Pokazuje indeks mglistości i pozwala ocenić, czy
+  tekst jest zrozumiały dla odbiorcy
+\item
+  \textbf{Microsoft Word / Google Docs} --- wbudowane sprawdzanie
+  pisowni w języku polskim. Nie wystarczające, ale podstawa
+\item
+  \textbf{Hemingway Editor} (hemingwayapp.com) --- do oceny czytelności
+  tekstów angielskich i wielojęzycznych treści
+\end{itemize}
+
+\subsection{Narzędzia do skupienia}\label{narzux119dzia-do-skupienia}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{FocusWriter} --- edytor bez rozproszeń
+\item
+  \textbf{Tryb skupienia w Google Docs/Word} --- ukrywa paski narzędzi
+\item
+  \textbf{Drukarka} --- tak, wydrukowany tekst to narzędzie edycyjne!
+\end{itemize}
+
+\begin{wskazowka}
+AI (np. Claude, ChatGPT) może być świetnym „pierwszym czytelnikiem". Wklej swój tekst i zapytaj: „Jakie są najsłabsze punkty tego tekstu sprzedażowego?" lub „Które zdania są niejasne?". AI nie zastąpi profesjonalnego redaktora, ale wyłapie problemy, które Ty --- jako autor --- możesz przeoczyć. Więcej o pracy z AI znajdziesz w rozdziale o copywritingu w erze sztucznej inteligencji.
+\end{wskazowka}
+
+\decoline
+
+\section{Kiedy zatrudnić redaktora lub
+korektora?}\label{kiedy-zatrudniux107-redaktora-lub-korektora}
+
+Self-editing jest niezbędną umiejętnością, ale ma swoje granice.
+Istnieją sytuacje, w których profesjonalna pomoc to nie luksus, lecz
+konieczność.
+
+\subsection{Zawsze rozważ profesjonalną redakcję,
+gdy:}\label{zawsze-rozwaux17c-profesjonalnux105-redakcjux119-gdy}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Stawka jest wysoka} --- oferta, od której zależy kontrakt;
+  landing page z budżetem reklamowym 10 000+ zł; materiały inwestorskie
+\item
+  \textbf{Tekst jest długi} --- ebook, white paper, raport. Im dłuższy
+  tekst, tym więcej błędów umyka nawet doświadczonym pisarzom
+\item
+  \textbf{Piszesz w nietypowym kontekście} --- branża, której nie znasz
+  dogłębnie; formalny ton, którego rzadko używasz
+\item
+  \textbf{Tekst idzie „na wieczność''} --- druk (książka, katalog),
+  treści na stronie głównej, materiały brandingowe
+\end{itemize}
+
+\subsection{Gdzie znaleźć
+redaktora/korektora?}\label{gdzie-znaleux17aux107-redaktorakorektora}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Useme.com, Oferia.pl} --- polskie platformy freelancerów
+\item
+  \textbf{Zlecenia.net} --- ogłoszenia dla korektorów i redaktorów
+\item
+  \textbf{Polecenia} --- zapytaj w grupach copywriterów na Facebooku
+\item
+  \textbf{Wydawnictwa i agencje} --- często oferują usługi redakcyjne na
+  zewnątrz
+\end{itemize}
+
+\subsection{Ile to kosztuje? (orientacyjne stawki w
+Polsce)}\label{ile-to-kosztuje-orientacyjne-stawki-w-polsce}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Korekta:} 5--15 zł za stronę znormalizowaną (1800 znaków ze
+  spacjami)
+\item
+  \textbf{Redakcja stylistyczna:} 10--25 zł za stronę
+\item
+  \textbf{Redakcja merytoryczna:} 15--40 zł za stronę
+\end{itemize}
+
+Ceny zależą od doświadczenia redaktora, stopnia trudności tekstu i
+terminu realizacji.
+
+\begin{wazne}
+Nawet jeśli korzystasz z usług redaktora --- \textbf{zawsze} rób self-edit przed wysłaniem tekstu. Po pierwsze, szanujesz czas (i pieniądze) --- redaktor skupi się na prawdziwych problemach zamiast poprawiać oczywiste niedoróbki. Po drugie, uczysz się --- porównywanie swoich tekstów z wersjami po redakcji to jedna z najskuteczniejszych metod rozwoju warsztatu.
+\end{wazne}
+
+\decoline
+
+\section{Checklist edycyjny
+copywritera}\label{checklist-edycyjny-copywritera}
+
+Korzystaj z tej listy przy każdym tekście, zanim go wyślesz do klienta
+lub opublikujesz.
+
+\subsection{Redakcja merytoryczna}\label{redakcja-merytoryczna}
+
+\begin{checklist}
+  \item Tekst realizuje określony cel (sprzedaż / zapis / klik / edukacja)
+  \item Nagłówek obiecuje konkretną korzyść
+  \item Lead wciąga i prowadzi do dalszej lektury
+  \item Argumentacja jest w logicznej kolejności
+  \item Najważniejsze obiekcje klienta są zaadresowane
+  \item CTA jest jasne, konkretne i wynika z treści
+  \item Social proof jest obecny (jeśli możliwy)
+  \item Tekst jest pisany do konkretnej persony, nie do ``wszystkich''
+\end{checklist}
+
+\subsection{Redakcja stylistyczna}\label{redakcja-stylistyczna}
+
+\begin{checklist}
+  \item Zdania mają maks. 20 słów (z wyjątkami)
+  \item Strona czynna dominuje nad bierną
+  \item Brak żargonu i ``korporacyjnego'' języka
+  \item Ton jest spójny w całym tekście
+  \item Brak zbędnych wypełniaczy i napuszeń
+  \item Przejścia między akapitami są płynne
+  \item Tekst stosuje formułę 10\% Kinga (skrócony o minimum 10\%)
+\end{checklist}
+
+\subsection{Korekta}\label{korekta}
+
+\begin{checklist}
+  \item Brak literówek i błędów ortograficznych
+  \item Interpunkcja jest poprawna
+  \item Nazwy własne, daty i liczby są sprawdzone
+  \item Formatowanie jest spójne (nagłówki, listy, wyróżnienia)
+  \item Linki działają (w tekstach online)
+  \item Zapis jest konsekwentny (np. ``e-mail'' albo ``email'' --- jedno w całym tekście)
+\end{checklist}
+
+\decoline
+
+\begin{cwiczenie}{Edytuj tekst w 3 przejściach}
+Weź tekst, który napisałeś wcześniej (najlepiej jedno z ćwiczeń z poprzednich rozdziałów --- landing page, email lub artykuł).
+
+\textbf{Część 1: Redakcja merytoryczna (15 min)}
+\begin{enumerate}
+  \item Zapisz w jednym zdaniu cel tekstu
+  \item Sprawdź, czy każda sekcja prowadzi do tego celu
+  \item Usuń lub przenieś sekcje, które odciągają od celu
+  \item Dodaj brakujące elementy (obiekcje, dowody, korzyści)
+\end{enumerate}
+
+\textbf{Część 2: Redakcja stylistyczna (15 min)}
+\begin{enumerate}
+  \item Zaznacz wszystkie zdania powyżej 20 słów --- rozważ podział
+  \item Znajdź i zamień stronę bierną na czynną
+  \item Usuń wypełniacze: „tak naprawdę", ``w zasadzie'', ``generalnie''
+  \item Policz słowa --- skróć tekst o minimum 10\%
+\end{enumerate}
+
+\textbf{Część 3: Korekta (10 min)}
+\begin{enumerate}
+  \item Przeczytaj tekst na głos --- popraw wszystko, co „brzmi źle"
+  \item Przeczytaj od ostatniego zdania do pierwszego --- szukaj literówek
+  \item Sprawdź interpunkcję, nazwy własne i spójność formatowania
+\end{enumerate}
+
+\textbf{Część 4: Porównaj (5 min)}
+
+Połóż obok siebie pierwszą i ostateczną wersję. Odpowiedz:
+\begin{itemize}
+  \item O ile procent skróciłeś tekst?
+  \item Ile zdań w stronie biernej zamieniłeś na czynną?
+  \item Który fragment bolał najbardziej, gdy go usuwałeś? (To był Twój darling.)
+\end{itemize}
+
+\textbf{Czas:} 45 minut
+\end{cwiczenie}
+
+\decoline
+
+\begin{cwiczenie}{Zabij 10 darlings}
+Weź dowolny tekst marketingowy --- może to być Twój tekst lub tekst ze strony firmy, którą lubisz.
+
+\textbf{Część 1: Identyfikacja (10 min)}
+
+Przeczytaj tekst i zaznacz 10 fragmentów, które:
+\begin{itemize}
+  \item Brzmią sprytnie, ale nie komunikują konkretnej korzyści
+  \item Powtarzają już powiedzianą myśl innymi słowami
+  \item Używają ogólników zamiast konkretów (``innowacyjny'', ``najwyższa jakość'')
+  \item Mogłyby zostać usunięte bez utraty sensu
+\end{itemize}
+
+\textbf{Część 2: Egzekucja (10 min)}
+
+Dla każdego z 10 fragmentów:
+\begin{itemize}
+  \item Usuń go ALBO zamień na krótszą, konkretniejszą wersję
+  \item Zapisz, dlaczego usunąłeś (np. „powtórzenie", „brak korzyści", „ego autora")
+\end{itemize}
+
+\textbf{Część 3: Ocena (5 min)}
+
+Przeczytaj tekst po zmianach. Czy stracił coś? Czy zyskał na czytelności? Ile słów usunąłeś?
+
+\textbf{Czas:} 25 minut
+\end{cwiczenie}
+
+\takeaway{Edycja to nie poprawianie błędów --- to osobna umiejętność, która odróżnia amatorów od profesjonalistów. Stosuj trzypoziomowy lejek: najpierw struktura (redakcja merytoryczna), potem styl (redakcja stylistyczna), na końcu detale (korekta). Używaj formuły Kinga: drugi brudnopis = pierwszy minus 10\%. Czytaj na głos. Zabijaj swoje darlings. I pamiętaj --- w dużych firmach od edycji są osobni ludzie. Jeśli pracujesz solo, musisz umieć zastąpić ich wszystkich. Ale przy ważnych projektach --- rozważ profesjonalnego redaktora. To inwestycja, nie koszt.}
+
+W następnym rozdziale zajmiemy się \textbf{copywritingiem w erze
+sztucznej inteligencji} --- jak wykorzystać AI jako narzędzie, nie
+zastępstwo, w procesie pisania i edycji.
 
 \decoline
 
@@ -6219,7 +6786,7 @@ Prosty szablon używany przez Pixar Animation Studios.
 \decoline
 
 \section{Typy historii w
-copywritingu}\label{typy-historii-w-copywritingu-1}
+copywritingu}\label{typy-historii-w-copywritingu}
 
 Nie każda historia musi być epicką podróżą bohatera. Oto typy historii,
 które działają w marketingu:
@@ -7813,8 +8380,6 @@ Opisy produktów, strony kategorii i optymalizacja konwersji
 
 \hfill\break
 
-\chapteropener{Ludzie nie kupują produktów. Kupują lepsze wersje siebie.\\--- Samuel Hulick}
-
 W e-commerce Twoje słowa to jedyny sprzedawca. Klient nie może dotknąć
 produktu, przymierzyć go, ani zadać pytania ekspedientowi. Wszystko, co
 ma, to zdjęcia i tekst.
@@ -9060,6 +9625,1654 @@ Dla każdego emaila napisz: Subject line + treść (100-150 słów)
 W następnym rozdziale zajmiemy się \textbf{copywritingiem dla usług
 profesjonalnych} --- gdzie sprzedajesz wiedzę i ekspertyzę, a nie
 namacalny produkt.
+
+\decoline
+
+\bookmarksetup{startatroot}
+
+\chapter{Kariera copywritera}\label{kariera-copywritera}
+
+Jak zbudować dochodową praktykę w zmieniającym się świecie
+
+\hfill\break
+
+\chapteropener{Copywriting to jedna z niewielu karier, gdzie możesz zacząć od zera i w ciągu roku zarabiać więcej niż dyrektorzy korporacji.\\--- Dan Kennedy}
+
+Copywriting to zawód, który oferuje coś rzadkiego: wolność. Wolność
+wyboru klientów, miejsca pracy, godzin. Wolność zarabiania bez sufitu.
+Ale ta wolność wymaga czegoś w zamian: musisz sam zbudować swoją
+praktykę od podstaw.
+
+W tym rozdziale przeprowadzę Cię przez całą ścieżkę --- od pierwszego
+zlecenia po dochodową specjalizację. Omówimy realne stawki, sposoby
+pozyskiwania klientów, budowanie portfolio i kluczową kwestię
+współczesności: jak AI zmienia branżę i co to oznacza dla Twojej
+kariery.
+
+\section{Trzy ścieżki kariery
+copywritera}\label{trzy-ux15bcieux17cki-kariery-copywritera}
+
+Zanim zaczniemy, musisz wybrać model pracy. Każdy ma swoje zalety i
+wady.
+
+\subsection{1. Freelancer}\label{freelancer}
+
+\textbf{Czym jest:} Pracujesz na własny rachunek, sam zdobywasz
+klientów, sam ustalasz stawki.
+
+\textbf{Zalety:}
+
+\begin{itemize}
+\tightlist
+\item
+  Brak limitu zarobków
+\item
+  Pełna elastyczność czasu i miejsca
+\item
+  Wybierasz klientów i projekty
+\item
+  Możesz pracować zdalnie z dowolnego miejsca na świecie
+\end{itemize}
+
+\textbf{Wady:}
+
+\begin{itemize}
+\tightlist
+\item
+  Niestabilny dochód, zwłaszcza na początku
+\item
+  Sam musisz znaleźć klientów
+\item
+  Brak benefitów (ubezpieczenie, urlop, L4)
+\item
+  Odpowiedzialność za księgowość, umowy, faktury
+\end{itemize}
+
+\textbf{Dla kogo:} Osoby ceniące wolność, gotowe na niepewność finansową
+na starcie, z umiejętnościami samopromocji.
+
+\subsection{2. Praca w agencji}\label{praca-w-agencji}
+
+\textbf{Czym jest:} Etat lub współpraca B2B z agencją
+reklamową/marketingową. Piszesz dla klientów agencji.
+
+\textbf{Zalety:}
+
+\begin{itemize}
+\tightlist
+\item
+  Stabilne wynagrodzenie
+\item
+  Różnorodność projektów i branż
+\item
+  Nauka od doświadczonych copywriterów
+\item
+  Networking i kontakty branżowe
+\item
+  Szybki rozwój umiejętności
+\end{itemize}
+
+\textbf{Wady:}
+
+\begin{itemize}
+\tightlist
+\item
+  Mniejsza kontrola nad projektami
+\item
+  Często długie godziny pracy i tight deadlines
+\item
+  Ograniczony wpływ na stawki
+\item
+  Praca może nie trafiać do portfolio (ghostwriting)
+\end{itemize}
+
+\textbf{Dla kogo:} Początkujący, którzy chcą się szybko nauczyć; osoby
+preferujące pracę zespołową.
+
+\subsection{3. Copywriter in-house}\label{copywriter-in-house}
+
+\textbf{Czym jest:} Etat w dziale marketingu konkretnej firmy. Piszesz
+wyłącznie dla jednej marki.
+
+\textbf{Zalety:}
+
+\begin{itemize}
+\tightlist
+\item
+  Stabilność zatrudnienia i benefity
+\item
+  Głębokie poznanie jednej branży
+\item
+  Przewidywalny harmonogram
+\item
+  Możliwość awansu wewnętrznego
+\end{itemize}
+
+\textbf{Wady:}
+
+\begin{itemize}
+\tightlist
+\item
+  Ograniczona różnorodność tematyczna
+\item
+  Może być monotonnie
+\item
+  Mniejsze możliwości rozwoju kreatywnego
+\item
+  Trudniejsze przejście do freelancingu (wąskie portfolio)
+\end{itemize}
+
+\textbf{Dla kogo:} Osoby ceniące stabilność, zainteresowane konkretną
+branżą.
+
+\begin{wskazowka}
+Wiele osób łączy ścieżki: pracuje w agencji na etacie i dorabia jako freelancer. To dobry sposób na budowanie portfolio i testowanie rynku przed pełnym przejściem na freelancing.
+\end{wskazowka}
+
+\decoline
+
+\section{Ile zarabia copywriter?}\label{ile-zarabia-copywriter}
+
+Zarobki copywritera zależą od doświadczenia, specjalizacji, lokalizacji
+i modelu rozliczenia. Oto realne dane z 2024-2025.
+
+\subsection{Stawki freelancerów
+(globalne)}\label{stawki-freelanceruxf3w-globalne}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule\noalign{}
+Poziom & Za słowo & Za godzinę & Za projekt \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Początkujący & \$0.10-0.25 & \$25-50 & \$100-500 \\
+Średniozaaw. & \$0.25-0.50 & \$50-100 & \$500-2000 \\
+Doświadczony & \$0.50-1.00 & \$100-150 & \$2000-5000 \\
+Ekspert & \$1.00+ & \$150-250+ & \$5000-25000+ \\
+\end{longtable}
+
+\textbf{Źródło:} AWAI, Copyblogger, ZipRecruiter, Payscale 2024-2025
+
+\subsection{Stawki za konkretne
+projekty}\label{stawki-za-konkretne-projekty}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Projekt & Zakres cen \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Post na blog (1000 słów) & \$100-\$1000+ \\
+Email marketingowy & \$100-\$500 \\
+Landing page & \$500-\$3000 \\
+Strona główna & \$500-\$2500 \\
+Sales page (długa forma) & \$1000-\$15000 \\
+White paper & \$1000-\$5000 \\
+Case study & \$500-\$2000 \\
+Sekwencja emailowa (5-7 maili) & \$500-\$3000 \\
+\end{longtable}
+
+\begin{wazne}
+Według ZipRecruiter, średni roczny zarobek freelance copywritera w USA to \$77,000, a top 10\% zarabia ponad \$136,000 rocznie. Copywriterzy z 8+ latami doświadczenia często przekraczają \$100/godzinę.
+\end{wazne}
+
+\subsection{Polski rynek}\label{polski-rynek}
+
+Na polskim rynku stawki są niższe, ale nadal atrakcyjne w porównaniu do
+średniej krajowej:
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+Poziom & Za 1000 znaków & Miesięcznie (etat) \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Junior & 30-60 zł & 4000-6000 zł brutto \\
+Mid & 60-120 zł & 6000-10000 zł \\
+Senior & 120-250 zł & 10000-18000 zł \\
+Freelancer ekspert & 200-500 zł & Brak limitu \\
+\end{longtable}
+
+\begin{wskazowka}
+Jeśli pracujesz jako freelancer w Polsce, ale dla klientów zagranicznych (USA, UK, Europa Zachodnia), możesz zarabiać globalne stawki przy polskich kosztach życia. To jedna z największych zalet zdalnej pracy.
+\end{wskazowka}
+
+\decoline
+
+\section{Specjalizacja: Klucz do wyższych
+stawek}\label{specjalizacja-klucz-do-wyux17cszych-stawek}
+
+Generalista konkuruje ceną. Specjalista konkuruje wartością.
+
+Najlepiej opłacane nisze copywriterskie w 2025 to:
+
+\subsection{1. SaaS / Tech}\label{saas-tech}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Dlaczego płaci dobrze:} Skomplikowane produkty, duże budżety
+  marketingowe, B2B
+\item
+  \textbf{Co piszesz:} Landing pages, emails, onboarding, dokumentacja,
+  case studies
+\item
+  \textbf{Stawki:} \$50-150/godz, SaaS writerzy zarabiają średnio
+  \$70,000/rok
+\end{itemize}
+
+\subsection{2. Finanse / Fintech}\label{finanse-fintech}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Dlaczego płaci dobrze:} Regulacje wymagają precyzji, wysokie
+  stawki branżowe
+\item
+  \textbf{Co piszesz:} Treści edukacyjne, white papers, compliance copy,
+  email
+\item
+  \textbf{Stawki:} \$75-200/godz
+\end{itemize}
+
+\subsection{3. Zdrowie / Wellness}\label{zdrowie-wellness}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Dlaczego płaci dobrze:} Ogromny rynek, wymaga wiarygodności i
+  research
+\item
+  \textbf{Co piszesz:} Suplementy, urządzenia medyczne, aplikacje
+  wellness
+\item
+  \textbf{Stawki:} \$50-150/godz
+\end{itemize}
+
+\subsection{4. Direct Response / Sprzedaż
+bezpośrednia}\label{direct-response-sprzedaux17c-bezpoux15brednia}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Dlaczego płaci dobrze:} Mierzalne wyniki, prowizje od
+  sprzedaży
+\item
+  \textbf{Co piszesz:} Sales letters, VSL, launch sequences, Facebook
+  Ads
+\item
+  \textbf{Stawki:} \$100-300/godz + royalties
+\end{itemize}
+
+\subsection{5. E-commerce / DTC}\label{e-commerce-dtc}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Dlaczego płaci dobrze:} Boom zakupów online, potrzeba
+  konwersji
+\item
+  \textbf{Co piszesz:} Opisy produktów, sekwencje emailowe, reklamy
+\item
+  \textbf{Stawki:} \$40-100/godz
+\end{itemize}
+
+\subsection{6. B2B / Enterprise}\label{b2b-enterprise}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Dlaczego płaci dobrze:} Długie cykle sprzedaży, wartościowe
+  kontrakty
+\item
+  \textbf{Co piszesz:} White papers, case studies, propozycje, ABM
+  content
+\item
+  \textbf{Stawki:} \$75-175/godz
+\end{itemize}
+
+\begin{przyklad}{Nisza + Specjalizacja = Wyższa wartość}
+Zamiast być ``copywriterem'', możesz być:
+\begin{itemize}
+  \item Copywriterem emailowym dla firm SaaS
+  \item Specjalistą od landing pages dla branży fitness
+  \item Ekspertem od case studies B2B w sektorze technologii
+\end{itemize}
+
+Im węższa nisza, tym łatwiej się wyróżnić i tym wyższe stawki możesz pobierać.
+\end{przyklad}
+
+\decoline
+
+\section{Budowanie portfolio od zera}\label{budowanie-portfolio-od-zera}
+
+Największy paradoks copywritingu: potrzebujesz portfolio, żeby zdobyć
+klientów, ale potrzebujesz klientów, żeby mieć portfolio.
+
+Rozwiązanie? \textbf{Spec work} --- projekty demonstracyjne pisane dla
+fikcyjnych lub prawdziwych marek.
+
+\subsection{Jak zbudować portfolio bez
+klientów}\label{jak-zbudowaux107-portfolio-bez-klientuxf3w}
+
+\textbf{1. Projekty spec (demonstracyjne)}
+
+Wybierz markę, którą lubisz, i napisz dla niej: - Alternatywny nagłówek
+strony głównej - Sekwencję 3 emaili powitalnych - Landing page dla
+nowego produktu
+
+Oznacz jasno, że to projekt demonstracyjny, nie zlecenie.
+
+\textbf{2. Własne projekty}
+
+\begin{itemize}
+\tightlist
+\item
+  Blog o tematyce, w której chcesz się specjalizować
+\item
+  Newsletter z analizami copywriterskimi
+\item
+  Case studies analizujące copy innych marek
+\end{itemize}
+
+\textbf{3. Pro bono dla NGO / startupów}
+
+Zaoferuj darmową pomoc organizacji non-profit lub startupowi w zamian za
+testimonial i możliwość pokazania pracy w portfolio.
+
+\textbf{4. Projekty z kursów}
+
+Dobre kursy copywriterskie zawierają zadania praktyczne. Wykorzystaj je
+jako próbki.
+
+\subsection{Struktura portfolio}\label{struktura-portfolio}
+
+\textbf{Co musi zawierać:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{O mnie} --- kim jesteś, komu pomagasz, dlaczego warto z Tobą
+  pracować
+\item
+  \textbf{Próbki prac} --- 3-5 najlepszych projektów z kontekstem
+\item
+  \textbf{Testimonialne} --- jeśli masz (na początku mogą być z pro
+  bono)
+\item
+  \textbf{CTA} --- jak się z Tobą skontaktować
+\end{enumerate}
+
+\textbf{Format:}
+
+\begin{itemize}
+\tightlist
+\item
+  Strona internetowa (idealna, buduje wiarygodność)
+\item
+  PDF w Canva/Google Docs (OK na start)
+\item
+  Profil na LinkedIn z linkami do prac
+\end{itemize}
+
+\begin{wazne}
+Dla każdej próbki podaj kontekst: Jaki był cel projektu? Jakie wyzwanie rozwiązywałeś? Jakie były rezultaty (jeśli znasz)? Sam tekst bez kontekstu mówi mniej.
+\end{wazne}
+
+\decoline
+
+\section{Znajdowanie klientów}\label{znajdowanie-klientuxf3w}
+
+\subsection{Platformy freelancerskie}\label{platformy-freelancerskie}
+
+\textbf{Upwork, Fiverr, Freelancer}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Plusy:} Dużo zleceń, łatwy start
+\item
+  \textbf{Minusy:} Wysoka konkurencja, często niskie stawki, prowizje
+  platformy
+\item
+  \textbf{Strategia:} Zacznij od małych zleceń, buduj opinie, stopniowo
+  podnoś stawki
+\end{itemize}
+
+\textbf{Platformy specjalistyczne:}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Contently, Skyword} --- dla doświadczonych content writerów
+\item
+  \textbf{ProBlogger Job Board} --- zlecenia pisarskie
+\item
+  \textbf{Clearvoice} --- B2B i content marketing
+\end{itemize}
+
+\subsection{Cold outreach}\label{cold-outreach}
+
+Bezpośredni kontakt z potencjalnymi klientami to najpotężniejsza metoda,
+ale wymaga odwagi.
+
+\textbf{Struktura cold emaila:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Hook personalny (pokaż, że znasz firmę)
+\item
+  Wartość, którą możesz dać
+\item
+  Dowód (wyniki, portfolio)
+\item
+  Jasny CTA
+\end{enumerate}
+
+\begin{przyklad}{Cold email do potencjalnego klienta}
+\textbf{Temat:} Pomysł na zwiększenie konwersji landing page [Nazwa firmy]
+
+Cześć [Imię],
+
+Przeglądając stronę [produkt], zauważyłem, że nagłówek skupia się na funkcjach (``Platforma z 50+ integracjami''), a nie na korzyści dla klienta.
+
+W podobnym projekcie dla [firma X] zmiana nagłówka na benefit-first zwiększyła konwersję o 23\%.
+
+Chętnie pokażę Ci 2-3 alternatywne wersje nagłówka --- bez zobowiązań. Jeśli spodobają Ci się, możemy porozmawiać o dalszej współpracy.
+
+Czy masz 15 minut w tym tygodniu?
+
+[Podpis + link do portfolio]
+\end{przyklad}
+
+\subsection{LinkedIn}\label{linkedin-1}
+
+LinkedIn to platforma \#1 dla copywriterów B2B.
+
+\textbf{Strategia:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Zoptymalizuj profil (nagłówek = kim jesteś + komu pomagasz)
+\item
+  Publikuj wartościowe posty 2-3x/tydzień
+\item
+  Komentuj posty potencjalnych klientów
+\item
+  Wysyłaj connection requests z personalizowaną wiadomością
+\end{enumerate}
+
+\subsection{Networking i referrals}\label{networking-i-referrals}
+
+80\% zleceń doświadczonych copywriterów pochodzi z poleceń.
+
+\textbf{Jak budować sieć:}
+
+\begin{itemize}
+\tightlist
+\item
+  Dołącz do społeczności copywriterskich (Facebook, Slack, Discord)
+\item
+  Uczestnicz w webinarach i konferencjach
+\item
+  Utrzymuj relacje z byłymi klientami
+\item
+  Proś o rekomendacje i testimonialne
+\end{itemize}
+
+\decoline
+
+\section{Wycena projektów}\label{wycena-projektuxf3w}
+
+Początkujący copywriterzy popełniają błąd: wyceniają na podstawie czasu
+lub słów. Zaawansowani wyceniają na podstawie \textbf{wartości}.
+
+\subsection{Trzy modele wyceny}\label{trzy-modele-wyceny}
+
+\textbf{1. Za słowo/znak}
+
+\begin{itemize}
+\tightlist
+\item
+  Najprostszy, ale najmniej opłacalny
+\item
+  Im szybciej piszesz, tym mniej zarabiasz
+\item
+  OK dla content writingu, słabe dla copywritingu
+\end{itemize}
+
+\textbf{2. Za godzinę}
+
+\begin{itemize}
+\tightlist
+\item
+  Lepszy niż za słowo
+\item
+  Problem: klient nie zna kosztu z góry
+\item
+  Wymaga śledzenia czasu
+\end{itemize}
+
+\textbf{3. Za projekt (flat fee)}
+
+\begin{itemize}
+\tightlist
+\item
+  Najlepszy model dla copywritera
+\item
+  Wyceniasz wartość, nie czas
+\item
+  Klient zna koszt z góry, mniej negocjacji
+\end{itemize}
+
+\subsection{Jak wyceniać projekty?}\label{jak-wyceniaux107-projekty}
+
+\textbf{Krok 1:} Zbadaj, ile klient może zyskać dzięki Twojej pracy
+
+\begin{itemize}
+\tightlist
+\item
+  Landing page, która generuje \$50,000/mies sprzedaży, jest warta
+  więcej niż blog post
+\end{itemize}
+
+\textbf{Krok 2:} Określ minimalną stawkę godzinową, której potrzebujesz
+
+\begin{verbatim}
+(Koszty życia + oszczędności + podatki) / Godziny billable = Min. stawka
+\end{verbatim}
+
+\textbf{Krok 3:} Oszacuj czas projektu i pomnóż przez stawkę + margines
+
+\textbf{Krok 4:} Porównaj z wartością dla klienta --- jeśli Twoja wycena
+to 5-10\% potencjalnego zysku klienta, jest uczciwa
+
+\begin{wskazowka}
+Nigdy nie podawaj ceny w pierwszym kontakcie. Najpierw zrozum zakres projektu i cele klienta. Pytaj: ``Jaki rezultat chcesz osiągnąć?'' ``Jak zmierzysz sukces?'' Im lepiej rozumiesz wartość, tym lepiej wycenisz.
+\end{wskazowka}
+
+\subsection{Pakiety i retainery}\label{pakiety-i-retainery}
+
+Zamiast jednorazowych projektów, oferuj pakiety:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Pakiet email:} 4 emaile/miesiąc = \$X/mies
+\item
+  \textbf{Pakiet content:} 2 artykuły + 8 postów social media = \$X/mies
+\item
+  \textbf{Retainer:} X godzin miesięcznie do dyspozycji = \$X/mies
+\end{itemize}
+
+Retainery dają przewidywalny dochód i długoterminowe relacje z
+klientami.
+
+\decoline
+
+\section{AI w copywritingu: Zagrożenie czy
+szansa?}\label{ai-w-copywritingu-zagroux17cenie-czy-szansa}
+
+To pytanie, które zadaje sobie każdy copywriter w 2024-2025. Odpowiedź
+jest złożona.
+
+\subsection{Co się dzieje na rynku?}\label{co-siux119-dzieje-na-rynku}
+
+\textbf{Fakty:}
+
+\begin{itemize}
+\tightlist
+\item
+  ChatGPT i podobne narzędzia potrafią generować tekst w sekundy
+\item
+  Część klientów zastąpiła copywriterów AI (szczególnie w low-end
+  content)
+\item
+  Platformy typu Fiverr odnotowują spadek zleceń na proste teksty
+\item
+  Jednocześnie najlepsi copywriterzy raportują rekordowe lata
+\end{itemize}
+
+\subsection{Co AI robi dobrze:}\label{co-ai-robi-dobrze}
+
+\begin{itemize}
+\tightlist
+\item
+  Szybkie drafty i brainstorming
+\item
+  Meta descriptions, product descriptions w skali
+\item
+  Warianty A/B do testowania
+\item
+  Research i synteza informacji
+\item
+  Poprawa gramatyki i stylu
+\end{itemize}
+
+\subsection{Czego AI NIE potrafi:}\label{czego-ai-nie-potrafi}
+
+\begin{itemize}
+\tightlist
+\item
+  Prawdziwej empatii i zrozumienia klienta
+\item
+  Oryginalnego głosu marki
+\item
+  Strategii opartej na deep research
+\item
+  Storytellingu opartego na prawdziwych historiach
+\item
+  Kreatywności, która łamie konwencje
+\item
+  Gwarancji dokładności (AI halucynuje)
+\item
+  Odpowiedzialności za wyniki
+\end{itemize}
+
+\begin{wazne}
+AI nie zastąpi copywriterów. Zastąpi copywriterów, którzy NIE używają AI. Przyszłość należy do tych, którzy potrafią łączyć ludzką kreatywność i strategię z mocą AI do przyspieszania pracy.
+\end{wazne}
+
+\subsection{Jak używać AI jako
+copywriter?}\label{jak-uux17cywaux107-ai-jako-copywriter}
+
+\textbf{1. Brainstorming i research}
+
+\begin{itemize}
+\tightlist
+\item
+  Generuj 20 wariantów nagłówka i wybierz najlepszy jako punkt wyjścia
+\item
+  Zbieraj informacje i syntetyzuj dane
+\end{itemize}
+
+\textbf{2. Drafty i outline}
+
+\begin{itemize}
+\tightlist
+\item
+  Twórz struktury artykułów
+\item
+  Generuj wstępne drafty, które potem przepiszesz
+\end{itemize}
+
+\textbf{3. Edycja i optymalizacja}
+
+\begin{itemize}
+\tightlist
+\item
+  Sprawdzaj gramatykę i styl
+\item
+  Testuj różne wersje CTA
+\end{itemize}
+
+\textbf{4. Skalowanie powtarzalnych zadań}
+
+\begin{itemize}
+\tightlist
+\item
+  Meta descriptions
+\item
+  Warianty produktowych opisów
+\item
+  Personalizacja emaili
+\end{itemize}
+
+\textbf{Czego NIE robić:}
+
+\begin{itemize}
+\tightlist
+\item
+  Nie kopiuj-wklejaj AI output jako finalny produkt
+\item
+  Nie polegaj na AI w kwestii faktów bez weryfikacji
+\item
+  Nie pozwól, by AI zdefiniował głos marki klienta
+\end{itemize}
+
+\begin{przyklad}{AI jako asystent, nie zastępca}
+\textbf{Zadanie:} Napisz landing page dla aplikacji fitness
+
+\textbf{Złe podejście:}
+``ChatGPT, napisz mi landing page dla aplikacji fitness'' → kopiuj-wklej
+
+\textbf{Dobre podejście:}
+1. Przeprowadź research klienta i grupy docelowej (sam lub z pomocą AI)
+2. Zdefiniuj USP, korzyści, obiekcje (Twoja strategia)
+3. Użyj AI do wygenerowania 10 wariantów nagłówka
+4. Wybierz najlepszy i dopracuj własnym głosem
+5. Napisz body copy sam, używając AI do sprawdzenia flow
+6. Przeczytaj całość na głos, dopracuj, wyślij klientowi
+\end{przyklad}
+
+\subsection{Przyszłość kariery
+copywritera}\label{przyszux142oux15bux107-kariery-copywritera}
+
+AI zmienia rynek, ale nie eliminuje potrzeby copywriterów. Ewoluuje to,
+za co klienci płacą:
+
+\textbf{Mniej wartościowe (zagrożone przez AI):}
+
+\begin{itemize}
+\tightlist
+\item
+  Proste opisy produktów
+\item
+  Generyczny content SEO
+\item
+  Basic social media posts
+\item
+  Prosta dokumentacja
+\end{itemize}
+
+\textbf{Bardziej wartościowe (trudne do zastąpienia):}
+
+\begin{itemize}
+\tightlist
+\item
+  Strategia komunikacji
+\item
+  Głęboki research i wywiady
+\item
+  Storytelling oparty na prawdziwych historiach
+\item
+  Koncepcje kreatywne
+\item
+  Brandvoice development
+\item
+  Konwersja i direct response
+\item
+  Edukacja i szkolenie zespołów
+\end{itemize}
+
+\decoline
+
+\section{Checklist kariery
+copywritera}\label{checklist-kariery-copywritera}
+
+\textbf{Przed startem:}
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Określ preferowany model (freelance/agencja/in-house)
+\item[$\square$]
+  Zdobądź podstawową wiedzę (kursy, książki, praktyka)
+\item[$\square$]
+  Wybierz wstępną niszę lub specjalizację
+\item[$\square$]
+  Przygotuj portfolio (choćby z projektami spec)
+\end{itemize}
+
+\textbf{Pierwsze kroki:}
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Załóż profil na LinkedIn i 1-2 platformach freelance
+\item[$\square$]
+  Napisz 5-10 cold emaili do potencjalnych klientów
+\item[$\square$]
+  Dołącz do 2-3 społeczności copywriterskich
+\item[$\square$]
+  Zdobądź pierwsze zlecenie (nawet małe lub pro bono)
+\end{itemize}
+
+\textbf{Rozwój:}
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Zbieraj testimonialne od każdego klienta
+\item[$\square$]
+  Regularnie aktualizuj portfolio
+\item[$\square$]
+  Podnoś stawki co 6-12 miesięcy
+\item[$\square$]
+  Buduj sieć kontaktów i poleceń
+\item[$\square$]
+  Ucz się AI i nowych narzędzi
+\item[$\square$]
+  Pogłębiaj specjalizację
+\end{itemize}
+
+\textbf{Skalowanie:}
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Przejdź na wyceny projektowe zamiast za słowo/godz
+\item[$\square$]
+  Oferuj pakiety i retainery
+\item[$\square$]
+  Rozważ produkty (kursy, ebooki, szablony)
+\item[$\square$]
+  Buduj personal brand (blog, social media, newsletter)
+\end{itemize}
+
+\decoline
+
+\begin{cwiczenie}{Plan kariery copywritera}
+Stwórz osobisty plan rozwoju kariery copywriterskiej.
+
+\textbf{Część 1: Samoocena (15 min)}
+\begin{enumerate}
+  \item Jakie są Twoje mocne strony jako pisarza?
+  \item W jakich branżach masz doświadczenie lub wiedzę?
+  \item Jaki model pracy preferujesz (freelance/agencja/in-house)?
+  \item Ile chcesz zarabiać za rok? Za 3 lata?
+\end{enumerate}
+
+\textbf{Część 2: Strategia (20 min)}
+\begin{enumerate}
+  \item Wybierz 1-2 potencjalne nisze do zbadania
+  \item Określ, jakie typy copy chcesz pisać (email, landing pages, content...)
+  \item Zidentyfikuj 3 umiejętności do rozwinięcia w najbliższych 6 miesiącach
+  \item Wymień 5 firm/osób, z którymi chciałbyś pracować
+\end{enumerate}
+
+\textbf{Część 3: Action plan (15 min)}
+\begin{enumerate}
+  \item Co zrobisz w tym tygodniu, żeby ruszyć do przodu?
+  \item Co zrobisz w tym miesiącu?
+  \item Jak będziesz mierzyć postępy?
+\end{enumerate}
+
+\textbf{Czas:} 50 minut
+\end{cwiczenie}
+
+\takeaway{Kariera copywritera oferuje wolność i nieograniczony potencjał zarobkowy, ale wymaga samodzielnego budowania praktyki. Trzy ścieżki: freelancing (wolność, ryzyko), agencja (nauka, networking), in-house (stabilność, specjalizacja). Specjalizacja w niszy (SaaS, finanse, zdrowie, B2B) pozwala pobierać wyższe stawki --- eksperci zarabiają \$100-250/godz vs \$25-50 dla generalistów. Portfolio budujesz przez projekty spec, własne projekty i pro bono. Klientów zdobywasz przez platformy, cold outreach, LinkedIn i referrals. AI zmienia branżę, ale nie eliminuje copywriterów --- eliminuje tych, którzy nie adaptują się do nowych narzędzi. Przyszłość należy do copywriterów, którzy łączą strategię, kreatywność i ludzką empatię z mocą AI do przyspieszania pracy.}
+
+W następnym rozdziale zajmiemy się \textbf{AI w copywritingu} --- jak
+praktycznie wykorzystywać narzędzia AI w codziennej pracy copywritera.
+
+\decoline
+
+\bookmarksetup{startatroot}
+
+\chapter{AI w copywritingu}\label{ai-w-copywritingu}
+
+Jak wykorzystać sztuczną inteligencję w codziennej pracy
+
+\hfill\break
+
+\chapteropener{AI nie zastąpi copywriterów. Zastąpi copywriterów, którzy nie używają AI.\\--- Powiedzenie branżowe, 2024}
+
+Sztuczna inteligencja zmieniła copywriting szybciej niż jakakolwiek
+technologia w historii tej branży. ChatGPT, Claude, Jasper i dziesiątki
+innych narzędzi potrafią generować tekst w sekundy. Pytanie nie brzmi
+już
+\texttt{czy\ używać\ AI?\textquotesingle{}\textquotesingle{}\ -\/-\/-\ brzmi}jak
+używać AI mądrze?'\,'
+
+W tym rozdziale pokażę Ci praktyczne podejście do pracy z AI. Nie chodzi
+o zastąpienie Twoich umiejętności, ale o ich wzmocnienie. Poznasz
+metodologię ``kanapki AI'\,', konkretne prompty do różnych zadań i
+workflow, który łączy ludzką kreatywność z mocą algorytmów.
+
+\section{Metoda kanapki AI
+(Human-AI-Human)}\label{metoda-kanapki-ai-human-ai-human}
+
+Najskuteczniejszy sposób pracy z AI to metoda \textbf{kanapki} ---
+człowiek na początku, AI w środku, człowiek na końcu.
+
+\begin{wazne}
+\textbf{Kanapka AI:}
+\begin{enumerate}
+  \item \textbf{CZŁOWIEK (góra):} Strategia, brief, kontekst, głos marki, cele
+  \item \textbf{AI (środek):} Generowanie draftu, warianty, research, brainstorming
+  \item \textbf{CZŁOWIEK (dół):} Edycja, weryfikacja faktów, dopracowanie głosu, finalizacja
+\end{enumerate}
+\end{wazne}
+
+\subsection{Dlaczego kanapka działa?}\label{dlaczego-kanapka-dziaux142a}
+
+\textbf{AI jest świetne w:}
+
+\begin{itemize}
+\tightlist
+\item
+  Szybkim generowaniu draftu
+\item
+  Tworzeniu wielu wariantów do testowania
+\item
+  Syntezie dużych ilości informacji
+\item
+  Brainstormingu i generowaniu pomysłów
+\item
+  Powtarzalnych zadaniach (meta descriptions, warianty produktów)
+\item
+  Sprawdzaniu gramatyki i stylu
+\end{itemize}
+
+\textbf{AI jest słabe w:}
+
+\begin{itemize}
+\tightlist
+\item
+  Prawdziwej empatii i zrozumieniu klienta
+\item
+  Oryginalności (generuje na podstawie istniejących wzorców)
+\item
+  Głębokim researchu opartym na rozmowach z ludźmi
+\item
+  Utrzymaniu spójnego głosu marki przez dłuższy tekst
+\item
+  Weryfikacji faktów (AI ``halucynuje'\,' --- wymyśla)
+\item
+  Zrozumieniu kontekstu kulturowego i niuansów
+\end{itemize}
+
+\subsection{Praktyczny przykład
+kanapki}\label{praktyczny-przykux142ad-kanapki}
+
+\textbf{Zadanie:} Napisz landing page dla aplikacji do medytacji.
+
+\textbf{Krok 1: Człowiek (góra)}
+
+Przed użyciem AI przygotowujesz:
+
+\begin{itemize}
+\tightlist
+\item
+  Brief: kto jest odbiorcą (zapracowani profesjonaliści 30-45)
+\item
+  USP: medytacje 5-minutowe dopasowane do kalendarza
+\item
+  Ton: spokojny, ale konkretny, bez ezoteryki
+\item
+  Obiekcje:
+  \texttt{nie\ mam\ czasu\textquotesingle{}\textquotesingle{},}to nie
+  dla mnie'\,'
+\item
+  CTA: 7-dniowy trial
+\end{itemize}
+
+\textbf{Krok 2: AI (środek)}
+
+Przekazujesz AI kontekst i prosisz o draft nagłówków, strukturę strony,
+warianty CTA.
+
+\textbf{Krok 3: Człowiek (dół)}
+
+\begin{itemize}
+\tightlist
+\item
+  Wybierasz najlepsze elementy z outputu AI
+\item
+  Przepisujesz w głosie marki
+\item
+  Weryfikujesz, czy odpowiada na rzeczywiste obiekcje klientów
+\item
+  Dodajesz prawdziwe historie i dowody społeczne
+\item
+  Dopracowujesz flow tekstu
+\end{itemize}
+
+\begin{przyklad}{Porównanie: AI raw vs. po ludzkim dopracowaniu}
+\textbf{AI raw:}
+``Odkryj spokój w codziennym chaosie. Nasza aplikacja oferuje krótkie medytacje, które pomogą Ci zredukować stres i zwiększyć produktywność.''
+
+\textbf{Po ludzkim dopracowaniu:}
+``5 minut między spotkaniami. Tyle wystarczy, żeby odzyskać spokój. Medytacje dopasowane do Twojego kalendarza --- włącz, oddychaj, wróć do pracy z czystą głową.''
+
+Różnica: konkret zamiast ogólników, głos dopasowany do zapracowanego odbiorcy, eliminacja marketingowego żargonu.
+\end{przyklad}
+
+\decoline
+
+\section{Anatomia dobrego prompta}\label{anatomia-dobrego-prompta}
+
+Jakość outputu AI zależy bezpośrednio od jakości Twojego prompta. Słaby
+prompt = słaby wynik.
+
+\subsection{Formuła skutecznego prompta:
+RCE}\label{formuux142a-skutecznego-prompta-rce}
+
+\textbf{R --- Rola (Role)}
+
+Zdefiniuj, kim ma być AI w tej rozmowie.
+
+\textbf{C --- Kontekst (Context)}
+
+Podaj tło, informacje o marce, odbiorcy, celu.
+
+\textbf{E --- Oczekiwanie (Expectation)}
+
+Określ dokładnie, czego oczekujesz: format, długość, ton, struktura.
+
+\begin{przyklad}{Słaby vs. dobry prompt}
+\textbf{Słaby prompt:}
+``Napisz mi email sprzedażowy.''
+
+\textbf{Dobry prompt (RCE):}
+``Jesteś doświadczonym copywriterem specjalizującym się w email marketingu B2B.
+
+\textbf{Kontekst:} Piszemy dla firmy SaaS oferującej narzędzie do zarządzania projektami. Odbiorca: menedżerowie IT w średnich firmach (50-200 pracowników). Główna korzyść: oszczędność 5h tygodniowo na raportowaniu. Obiekcja: `już mamy narzędzia'.
+
+\textbf{Oczekiwanie:} Napisz email follow-up po webinarze. Długość: max 150 słów. Ton: profesjonalny, ale nie korporacyjny. Zakończ konkretnym CTA (umów demo). Użyj formuły PAS.''
+\end{przyklad}
+
+\subsection{Techniki zaawansowane}\label{techniki-zaawansowane}
+
+\textbf{1. Dawaj przykłady (Few-shot prompting)}
+
+Zamiast opisywać styl, pokaż go:
+
+\begin{verbatim}
+Oto przykłady naszego głosu marki:
+- "Nie obiecujemy cudów. Obiecujemy, że przestaniesz gubić faktury."
+- "Księgowość bez bólu głowy? Tak, to możliwe."
+
+Napisz 3 nagłówki w tym stylu dla naszej nowej funkcji automatycznych przypomnień.
+\end{verbatim}
+
+\textbf{2. Chain of thought (Myślenie krok po kroku)}
+
+Poproś AI o rozumowanie:
+
+\begin{verbatim}
+Zanim napiszesz copy, najpierw:
+1. Zidentyfikuj główny ból klienta
+2. Określ, jak nasz produkt go rozwiązuje
+3. Wymyśl 3 możliwe kąty podejścia
+4. Wybierz najsilniejszy i napisz na jego podstawie
+\end{verbatim}
+
+\textbf{3. Iteracja przez dialog}
+
+Nie oczekuj perfekcji za pierwszym razem. Prowadź rozmowę:
+
+\begin{verbatim}
+- "To dobry start, ale za ogólnikowe. Dodaj konkretne liczby."
+- "Ton jest za formalny. Przepisz bardziej swobodnie."
+- "Nagłówek 2 jest najlepszy. Rozwiń go i daj mi 5 wariantów."
+\end{verbatim}
+
+\textbf{4. Prośba o alternatywy}
+
+\begin{verbatim}
+Daj mi 10 wariantów tego nagłówka:
+- 3 skupione na korzyści
+- 3 skupione na bólu
+- 2 z liczbą
+- 2 z pytaniem
+\end{verbatim}
+
+\begin{wskazowka}
+Traktuj AI jak młodszego copywritera, który potrzebuje szczegółowego briefu. Im więcej kontekstu i wskazówek dasz, tym lepszy output otrzymasz. Nigdy nie kopiuj-wklejaj pierwszego wyniku jako finalny produkt.
+\end{wskazowka}
+
+\decoline
+
+\section{Praktyczne prompty do
+copywritingu}\label{praktyczne-prompty-do-copywritingu}
+
+Poniżej znajdziesz sprawdzone prompty do najczęstszych zadań
+copywriterskich.
+
+\subsection{Nagłówki}\label{nagux142uxf3wki-1}
+
+\begin{verbatim}
+Jesteś copywriterem specjalizującym się w nagłówkach, 
+które zatrzymują scrollowanie.
+
+Produkt: [opis]
+Grupa docelowa: [opis]
+Główna korzyść: [korzyść]
+
+Wygeneruj 15 nagłówków:
+- 5 opartych na korzyści (co zyska klient)
+- 5 opartych na bólu (czego uniknie)
+- 3 z konkretną liczbą
+- 2 jako pytania prowokujące
+
+Unikaj: ogólników, przymiotników bez pokrycia 
+(najlepszy, rewolucyjny), clickbaitu.
+\end{verbatim}
+
+\subsection{Email marketingowy}\label{email-marketingowy}
+
+\begin{verbatim}
+Kontekst: [opisz firmę, produkt, odbiorcę]
+Cel emaila: [np. zachęcenie do demo, powrót do koszyka]
+Etap lejka: [cold, warm, hot]
+
+Napisz email według struktury:
+1. Temat (max 50 znaków, bez caps lock i wykrzykników)
+2. Preheader (40-90 znaków)
+3. Treść (max 150 słów)
+4. CTA (jeden, konkretny)
+
+Ton: [opisz]
+Czego unikać: [np. agresywnej sprzedaży, żargonu]
+\end{verbatim}
+
+\subsection{Landing page}\label{landing-page-3}
+
+\begin{verbatim}
+Działaj jako conversion copywriter z 10-letnim doświadczeniem.
+
+Produkt/usługa: [opis]
+Odbiorca: [szczegółowy opis persony]
+Główne USP: [1-2 zdania]
+Obiekcje klientów: [lista 3-5 obiekcji]
+Dowody społeczne: [jakie mamy]
+CTA: [co ma zrobić odwiedzający]
+
+Zaproponuj strukturę landing page:
+1. Nagłówek + podnagłówek (hero section)
+2. Sekcja problemu (pokaż, że rozumiemy ból)
+3. Sekcja rozwiązania (jak pomagamy)
+4. Korzyści (3-5, z ikonami)
+5. Social proof
+6. Odpowiedź na obiekcje
+7. CTA + gwarancja
+
+Dla każdej sekcji podaj konkretny copy.
+\end{verbatim}
+
+\subsection{Analiza Voice of Customer}\label{analiza-voice-of-customer}
+
+\begin{verbatim}
+Przeanalizuj poniższe opinie klientów i zidentyfikuj:
+
+1. Top 3 powody, dla których klienci kupują
+2. Główne obiekcje przed zakupem
+3. Nieoczekiwane korzyści, które odkryli po zakupie
+4. Język, którego używają (cytaty do wykorzystania w copy)
+5. Emocje dominujące w opiniach
+
+[wklej opinie]
+
+Na podstawie tej analizy zaproponuj:
+- 3 nagłówki wykorzystujące język klientów
+- 3 punkty do sekcji korzyści
+- Sposób odpowiedzi na główną obiekcję
+\end{verbatim}
+
+\subsection{Opisy produktów}\label{opisy-produktuxf3w}
+
+\begin{verbatim}
+Produkt: [nazwa i podstawowe info]
+Kategoria: [np. elektronika, moda, kosmetyki]
+Cena: [zakres cenowy]
+Odbiorca: [kto kupuje]
+Konkurencja: [czym się wyróżniamy]
+
+Napisz opis produktu:
+1. Nagłówek (max 10 słów, korzyść nie cecha)
+2. Lead (2-3 zdania, dlaczego warto)
+3. Korzyści (5 bulletów, format: [ikona emoji] Korzyść + krótkie wyjaśnienie)
+4. Specyfikacja (tylko kluczowe parametry)
+5. CTA
+
+Ton: [opisz]
+Unikaj: ogólników, powtarzania specyfikacji jako korzyści
+\end{verbatim}
+
+\decoline
+
+\section{Narzędzia AI dla
+copywritera}\label{narzux119dzia-ai-dla-copywritera}
+
+\subsection{ChatGPT (OpenAI)}\label{chatgpt-openai}
+
+\textbf{Mocne strony:}
+
+\begin{itemize}
+\tightlist
+\item
+  Wszechstronność --- radzi sobie z różnymi zadaniami
+\item
+  Duża baza wiedzy
+\item
+  Dobre zrozumienie kontekstu
+\item
+  Integracje z wieloma narzędziami
+\end{itemize}
+
+\textbf{Słabe strony:}
+
+\begin{itemize}
+\tightlist
+\item
+  Może być powtarzalny w stylu
+\item
+  Czasem zbyt ``kwiecisty'\,' język
+\item
+  Wymaga dobrego promptingu
+\end{itemize}
+
+\textbf{Najlepsze do:} Brainstormingu, pierwszych draftów, researchu,
+wariantów A/B.
+
+\subsection{Claude (Anthropic)}\label{claude-anthropic}
+
+\textbf{Mocne strony:}
+
+\begin{itemize}
+\tightlist
+\item
+  Naturalniejszy, mniej ``AI-owy'\,' styl pisania
+\item
+  Lepsze utrzymanie głosu marki
+\item
+  Świetne do dłuższych tekstów
+\item
+  Mniejsza skłonność do halucynacji
+\end{itemize}
+
+\textbf{Słabe strony:}
+
+\begin{itemize}
+\tightlist
+\item
+  Mniejsza baza wiedzy niż ChatGPT
+\item
+  Brak natywnego web search (w podstawowej wersji)
+\end{itemize}
+
+\textbf{Najlepsze do:} Długich tekstów, utrzymania tonu marki, edycji i
+przepisywania.
+
+\subsection{Jasper}\label{jasper}
+
+\textbf{Mocne strony:}
+
+\begin{itemize}
+\tightlist
+\item
+  Zaprojektowany specjalnie dla marketingu
+\item
+  Wbudowane szablony copywriterskie
+\item
+  Brand Voice training
+\item
+  Integracja z SEO
+\end{itemize}
+
+\textbf{Słabe strony:}
+
+\begin{itemize}
+\tightlist
+\item
+  Płatny (brak darmowej wersji)
+\item
+  Mniej elastyczny niż ChatGPT/Claude
+\end{itemize}
+
+\textbf{Najlepsze do:} Zespołów marketingowych, skalowania contentu,
+utrzymania spójności marki.
+
+\subsection{Inne narzędzia warte
+uwagi}\label{inne-narzux119dzia-warte-uwagi}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Narzędzie & Specjalizacja \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Copy.ai & Krótkie formy, social media, ads \\
+Writesonic & SEO content, blog posts \\
+Rytr & Budżetowa opcja dla freelancerów \\
+Grammarly & Edycja, styl, gramatyka \\
+Hemingway & Upraszczanie tekstu \\
+\end{longtable}
+
+\begin{wskazowka}
+Nie musisz płacić za wszystkie narzędzia. Na start wystarczy darmowa wersja ChatGPT lub Claude. Gdy opanujesz podstawy i zobaczysz, co działa, możesz rozważyć płatne opcje dla konkretnych potrzeb.
+\end{wskazowka}
+
+\decoline
+
+\section{Workflow: AI w praktyce}\label{workflow-ai-w-praktyce}
+
+Jak wygląda typowy dzień pracy copywritera korzystającego z AI?
+
+\subsection{Workflow 1: Napisanie artykułu
+blogowego}\label{workflow-1-napisanie-artykuux142u-blogowego}
+
+\textbf{Krok 1: Research (20 min)}
+
+\begin{itemize}
+\tightlist
+\item
+  Zbierasz materiały źródłowe
+\item
+  Używasz AI do syntezy: ``Przeczytaj te artykuły i wyciągnij kluczowe
+  punkty'\,'
+\item
+  Weryfikujesz fakty i statystyki
+\end{itemize}
+
+\textbf{Krok 2: Outline (10 min)}
+
+\begin{itemize}
+\tightlist
+\item
+  Prosisz AI o 3 propozycje struktury
+\item
+  Wybierasz najlepszą, modyfikujesz
+\item
+  Definiujesz, co chcesz powiedzieć w każdej sekcji
+\end{itemize}
+
+\textbf{Krok 3: Draft (30 min)}
+
+\begin{itemize}
+\tightlist
+\item
+  AI generuje draft poszczególnych sekcji
+\item
+  Ty dodajesz własne przemyślenia, przykłady, głos
+\item
+  Iterujesz: ``Przepisz to mniej formalnie'\,'
+\end{itemize}
+
+\textbf{Krok 4: Edycja (20 min)}
+
+\begin{itemize}
+\tightlist
+\item
+  Czytasz całość na głos
+\item
+  Poprawiasz flow i spójność
+\item
+  Dodajesz wprowadzenie i zakończenie (sam!)
+\item
+  Sprawdzasz fakty
+\end{itemize}
+
+\textbf{Razem:} 80 min zamiast 3-4 godzin
+
+\subsection{Workflow 2: Kampania emailowa (5
+maili)}\label{workflow-2-kampania-emailowa-5-maili}
+
+\textbf{Krok 1: Strategia (15 min)}
+
+\begin{itemize}
+\tightlist
+\item
+  Definiujesz cel sekwencji
+\item
+  Określasz, co ma być w każdym mailu
+\item
+  Przygotowujesz brief dla AI
+\end{itemize}
+
+\textbf{Krok 2: Generowanie (20 min)}
+
+\begin{itemize}
+\tightlist
+\item
+  AI generuje drafty wszystkich 5 maili
+\item
+  Prosisz o alternatywne tematy (10 wariantów)
+\end{itemize}
+
+\textbf{Krok 3: Selekcja i edycja (30 min)}
+
+\begin{itemize}
+\tightlist
+\item
+  Wybierasz najlepsze elementy
+\item
+  Przepisujesz w głosie marki
+\item
+  Dodajesz personalizację
+\end{itemize}
+
+\textbf{Krok 4: Warianty A/B (10 min)}
+
+\begin{itemize}
+\tightlist
+\item
+  AI generuje warianty tematów do testów
+\item
+  Wybierasz 2-3 do przetestowania
+\end{itemize}
+
+\textbf{Razem:} 75 min zamiast 4-5 godzin
+
+\subsection{Workflow 3: Audyt istniejącego
+copy}\label{workflow-3-audyt-istniejux105cego-copy}
+
+\begin{verbatim}
+Przeanalizuj poniższy tekst pod kątem:
+
+1. Jasności przekazu (czy od razu wiadomo, o co chodzi?)
+2. Skupienia na kliencie vs. na firmie (policz "my/nasze" vs "ty/twoje")
+3. Konkretności (czy są liczby, przykłady?)
+4. Call to action (czy jest jasny i przekonujący?)
+5. Czytelności (czy tekst jest łatwy do skanowania?)
+
+Dla każdego punktu:
+- Oceń w skali 1-10
+- Podaj konkretny problem
+- Zaproponuj poprawkę
+
+[wklej tekst do analizy]
+\end{verbatim}
+
+\decoline
+
+\section{Czego NIE robić z AI}\label{czego-nie-robiux107-z-ai}
+
+\subsection{1. Nie kopiuj-wklejaj bez
+edycji}\label{nie-kopiuj-wklejaj-bez-edycji}
+
+AI output to draft, nie finał. Zawsze edytuj.
+
+\subsection{2. Nie polegaj na faktach od
+AI}\label{nie-polegaj-na-faktach-od-ai}
+
+AI ``halucynuje'\,' --- wymyśla statystyki, cytaty, źródła.
+\textbf{Zawsze weryfikuj} każdą liczbę i fakt.
+
+\subsection{3. Nie pozwól AI definiować głosu
+marki}\label{nie-pozwuxf3l-ai-definiowaux107-gux142osu-marki}
+
+AI może naśladować styl, ale nie może go stworzyć. Głos marki
+definiujesz Ty, AI tylko pomaga go utrzymać.
+
+\subsection{4. Nie używaj AI do:}\label{nie-uux17cywaj-ai-do}
+
+\begin{itemize}
+\tightlist
+\item
+  Pisania o wydarzeniach po dacie odcięcia wiedzy (bez web search)
+\item
+  Tworzenia treści wymagających empatii (np. kondolencje, przeprosiny)
+\item
+  Generowania treści prawnych lub medycznych bez weryfikacji eksperta
+\item
+  Pisania jako konkretna osoba (problem etyczny)
+\end{itemize}
+
+\subsection{5. Nie ukrywaj użycia AI (gdy to
+nieetyczne)}\label{nie-ukrywaj-uux17cycia-ai-gdy-to-nieetyczne}
+
+Jeśli klient płaci za ``Twoje'\,' teksty, bądź transparentny co do roli
+AI w procesie. Większość klientów akceptuje AI jako narzędzie, ale nie
+akceptuje oszustwa.
+
+\begin{wazne}
+\textbf{Test jakości AI output:}
+
+Przed wysłaniem tekstu klientowi zadaj sobie pytanie: ``Czy podpisałbym się pod tym tekstem, gdyby był w całości mój?''
+
+Jeśli nie --- edytuj dalej.
+\end{wazne}
+
+\decoline
+
+\section{Przyszłość: AI jako partner, nie
+zamiennik}\label{przyszux142oux15bux107-ai-jako-partner-nie-zamiennik}
+
+Branża copywritingu przechodzi transformację. Ale to nie koniec pracy
+dla copywriterów --- to zmiana jej charakteru.
+
+\subsection{Co się zmienia:}\label{co-siux119-zmienia}
+
+\textbf{Mniej wartościowe (zagrożone):}
+
+\begin{itemize}
+\tightlist
+\item
+  Proste opisy produktów
+\item
+  Generyczny content SEO
+\item
+  Podstawowe posty social media
+\item
+  Szablonowe emaile
+\end{itemize}
+
+\textbf{Bardziej wartościowe (trudne do zastąpienia):}
+
+\begin{itemize}
+\tightlist
+\item
+  Strategia komunikacji
+\item
+  Głęboki research i wywiady z klientami
+\item
+  Storytelling oparty na prawdziwych historiach
+\item
+  Koncepcje kreatywne
+\item
+  Brand voice development
+\item
+  Konwersja i direct response
+\item
+  Edukacja i szkolenie zespołów
+\end{itemize}
+
+\subsection{Jak się przygotować?}\label{jak-siux119-przygotowaux107}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Opanuj AI} --- traktuj je jako umiejętność, nie zagrożenie
+\item
+  \textbf{Specjalizuj się} --- ekspert w niszy jest trudniejszy do
+  zastąpienia
+\item
+  \textbf{Buduj relacje} --- klienci kupują od ludzi, nie od algorytmów
+\item
+  \textbf{Rozwijaj strategię} --- AI nie powie klientowi, co ma napisać
+\item
+  \textbf{Inwestuj w empatię} --- zrozumienie klienta to Twoja przewaga
+\end{enumerate}
+
+\begin{cytat}{HubSpot State of AI Report, 2024}
+67\% marketerów twierdzi, że AI pomaga im oszczędzać czas i przyspiesza tworzenie treści. Ale najlepsze wyniki osiągają ci, którzy łączą AI z ludzką kreatywnością i strategicznym myśleniem.
+\end{cytat}
+
+\decoline
+
+\section{Checklist pracy z AI}\label{checklist-pracy-z-ai}
+
+\textbf{Przed użyciem AI:}
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Mam jasny cel i brief
+\item[$\square$]
+  Zdefiniowałem odbiorcę i ton
+\item[$\square$]
+  Przygotowałem kontekst (USP, obiekcje, korzyści)
+\item[$\square$]
+  Wiem, jakiego formatu oczekuję
+\end{itemize}
+
+\textbf{Podczas pracy z AI:}
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Używam formuły RCE (Rola, Kontekst, Oczekiwanie)
+\item[$\square$]
+  Daję przykłady pożądanego stylu
+\item[$\square$]
+  Iteruję i prowadzę dialog
+\item[$\square$]
+  Proszę o warianty, nie tylko jeden output
+\end{itemize}
+
+\textbf{Po otrzymaniu outputu:}
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Weryfikuję wszystkie fakty i liczby
+\item[$\square$]
+  Edytuję w głosie marki
+\item[$\square$]
+  Dodaję własne przemyślenia i przykłady
+\item[$\square$]
+  Czytam na głos, sprawdzam flow
+\item[$\square$]
+  Zadaję pytanie: ``Czy podpisałbym się pod tym?'\,'
+\end{itemize}
+
+\decoline
+
+\begin{cwiczenie}{Praktyka z AI}
+Przećwicz metodę kanapki AI na realnym zadaniu.
+
+\textbf{Zadanie:} Napisz email powitalny dla nowego subskrybenta newslettera.
+
+\textbf{Krok 1: Człowiek (15 min)}
+\begin{enumerate}
+  \item Zdefiniuj: Kim jest Twój idealny subskrybent?
+  \item Co obiecujesz w newsletterze?
+  \item Jaki ton chcesz utrzymać?
+  \item Jakie jest CTA (co ma zrobić po przeczytaniu)?
+  \item Napisz przykładowe 2-3 zdania w swoim głosie
+\end{enumerate}
+
+\textbf{Krok 2: AI (10 min)}
+\begin{enumerate}
+  \item Użyj ChatGPT lub Claude
+  \item Przekaż kontekst z Kroku 1
+  \item Poproś o draft emaila + 5 wariantów tematu
+  \item Poproś o alternatywną wersję w innym tonie
+\end{enumerate}
+
+\textbf{Krok 3: Człowiek (15 min)}
+\begin{enumerate}
+  \item Wybierz najlepsze elementy z outputów AI
+  \item Przepisz email w swoim głosie
+  \item Dodaj osobiste elementy (historia, anegdota)
+  \item Przeczytaj na głos, popraw flow
+  \item Porównaj z oryginalnym outputem AI
+\end{enumerate}
+
+\textbf{Refleksja:} Co AI zrobiło dobrze? Co musiałeś znacząco zmienić? Ile czasu zaoszczędziłeś vs. pisanie od zera?
+
+\textbf{Czas:} 40 minut
+\end{cwiczenie}
+
+\takeaway{AI to najpotężniejsze narzędzie w historii copywritingu, ale tylko narzędzie. Metoda kanapki AI (człowiek-AI-człowiek) zapewnia najlepsze wyniki: Ty definiujesz strategię i kontekst, AI generuje draft i warianty, Ty edytujesz i finalizujesz. Skuteczny prompt wymaga trzech elementów: Roli, Kontekstu i Oczekiwania (RCE). AI jest świetne w szybkim generowaniu draftu, brainstormingu i powtarzalnych zadaniach. AI jest słabe w empatii, oryginalności, weryfikacji faktów i utrzymaniu głosu marki. Nigdy nie kopiuj-wklejaj outputu AI jako finalnego produktu. Zawsze weryfikuj fakty --- AI halucynuje. Przyszłość należy do copywriterów, którzy opanują AI jako narzędzie, jednocześnie rozwijając umiejętności trudne do zautomatyzowania: strategię, empatię i prawdziwe zrozumienie klienta.}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+To ostatni rozdział kursu. Masz teraz kompletny zestaw narzędzi do
+budowania kariery copywritera w erze AI. Powodzenia!
 
 \decoline
 

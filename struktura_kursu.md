@@ -8,7 +8,7 @@
 
 ## Nazwa kursu
 
-**"Copywriting 360° — Od Psychologii do Konwersji"**
+**"Copywriting 360° — Od psychologii do konwersji"**
 
 Alternatywy:
 

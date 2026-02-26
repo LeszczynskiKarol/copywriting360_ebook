@@ -9,7 +9,7 @@ subtitle: "Email, social media, landing page i więcej"
 
 To, co działa na landing page, niekoniecznie zadziała w emailu. To, co przyciąga uwagę na LinkedIn, może zostać zignorowane na Instagramie. Każdy kanał ma swoje zasady, ograniczenia i oczekiwania odbiorców.
 
-W tym rozdziale poznasz specyfikę copywritingu dla najważniejszych kanałów marketingowych --- od emaili, przez social media, po landing page. Nauczysz się dostosowywać przekaz do medium, nie tracąc spójności marki.
+W tym rozdziale poznasz specyfikę copywritingu dla najważniejszych kanałów marketingowych --- od emaili, przez social media, po landing page. Nauczysz się dostosowywania przekazu do medium przy zachowaniu spójności marki.
 
 ## Dlaczego kanał ma znaczenie?
 
@@ -34,9 +34,9 @@ Dobry copywriter opanowuje **głos marki** (który pozostaje spójny) i **ton pr
 
 ## Email marketing
 
-Email pozostaje jednym z najbardziej dochodowych kanałów marketingowych --- ROI wynosi średnio **42 USD na każdy wydany 1 USD**. Ale sukces emaila zależy od tego, czy w ogóle zostanie otwarty.
+Email pozostaje jednym z najbardziej dochodowych kanałów marketingowych. Ale sukces emaila zależy od tego, czy w ogóle zostanie otwarty.
 
-### Temat emaila (Subject Line)
+### Temat emaila
 
 Temat to nagłówek emaila --- od niego zależy, czy odbiorca w ogóle przeczyta resztę.
 
@@ -47,9 +47,9 @@ Temat to nagłówek emaila --- od niego zależy, czy odbiorca w ogóle przeczyta
 **Statystyki, które musisz znać:**
 
 - **69%** odbiorców oznacza email jako spam na podstawie samego tematu
-- Tematy z **personalizacją** (imię odbiorcy) mają 29% wyższy open rate
-- Tematy z **liczbami** mają 57% wyższy open rate
-- Tematy z **emoji** mają do 56% wyższy open rate (ale używaj z umiarem)
+- Tematy z **personalizacją** (imię odbiorcy) mają 29% wyższy wskaźnik otwierania przez odbiorców
+- Tematy z **liczbami** mają 57% wyższy wskaźnik
+- Tematy z **emoji** mają do 56% wyższy wskaźnik (ale używaj z umiarem)
 - Optymalna długość: **30-50 znaków** (max 7 słów)
 
 **Formuły skutecznych tematów:**
@@ -64,14 +64,14 @@ Temat to nagłówek emaila --- od niego zależy, czy odbiorca w ogóle przeczyta
    - „5 technik, które podwoiły moje konwersje"
    
 4. **Pilność (jeśli prawdziwa):**
-   - „Ostatnie 24h: -50% na wszystkie kursy"
+   - „Ostatnie 24 godz.: -50% na wszystkie kursy"
    
 5. **Ciekawość:**
    - „To zmieniło moje podejście do pisania..."
 
 ```{=latex}
 \begin{wskazowka}
-Testuj A/B swoje tematy. Napisz 3-5 wersji dla każdego emaila i sprawdź, która działa najlepiej. Nawet drobne zmiany mogą dramatycznie wpłynąć na open rate.
+Testuj A/B swoje tematy. Napisz 3-5 wersji dla każdego emaila i sprawdź, która działa najlepiej. Nawet drobne zmiany mogą dramatycznie wpłynąć na wskaźnik otwierania emaili.
 \end{wskazowka}
 ```
 
@@ -84,7 +84,7 @@ Preheader to tekst wyświetlany obok tematu w skrzynce odbiorczej. To Twoja drug
 - Optymalna długość: **85-100 znaków**
 - Rozwijaj obietnicę z tematu, nie powtarzaj jej
 - Dodaj element intrygi lub korzyści
-- Emaile z preheaderem mają o **7% wyższy** open rate
+- Emaile z preheaderem mają o **7% wyższy** wskaźnik otwierania przez odbiorców
 
 ### Treść emaila
 
@@ -92,7 +92,7 @@ Po otwarciu --- utrzymaj uwagę i doprowadź do kliknięcia.
 
 **Struktura skutecznego emaila:**
 
-1. **Personalizowane powitanie** --- „Cześć Karol" > „Szanowny Kliencie"
+1. **Personalizowane powitanie** --- „Cześć, Karol!" > „Szanowny Kliencie"
 2. **Hook w pierwszym zdaniu** --- od razu do rzeczy
 3. **Główna treść** --- krótkie akapity, jedna myśl
 4. **Jedno główne CTA** --- jasne i widoczne
@@ -128,13 +128,13 @@ Przeanalizowałem 50 stron moich klientów i znalazłem 3 powtarzające się bł
 
 [Treść --- wartość, konkretne informacje]
 
-Stworzyłem krótki przewodnik, który pokazuje jak naprawić każdy z nich --- z przykładami przed i po.
+Stworzyłem krótki przewodnik, w którym pokazuję, jak naprawić każdy z nich --- z przykładami przed i po.
 
 \textbf{[Pobierz darmowy przewodnik]}
 
 [CTA --- jasne, z korzyścią]
 
-PS: Jeden z moich klientów zwiększył konwersje o 34\% poprawiając tylko punkt nr 2.
+PS: Jeden z moich klientów zwiększył konwersje o 34\%, poprawiając tylko punkt nr 2.
 
 [PS --- dodatkowy dowód/motywacja]
 \end{przyklad}
@@ -144,11 +144,11 @@ PS: Jeden z moich klientów zwiększył konwersje o 34\% poprawiając tylko punk
 
 | Typ emaila | Cel | Kluczowe elementy |
 |------------|-----|-------------------|
-| Welcome | Onboarding | Wartość od razu, co dalej |
+| Powitalny | Onboarding | Wartość od razu, co dalej |
 | Newsletter | Edukacja, relacja | Wartość > promocja |
 | Promocyjny | Sprzedaż | Pilność, korzyść, CTA |
-| Abandoned cart | Odzyskanie | Reminder, incentive |
-| Survey | Feedback | Krótki, jasny cel |
+| Opuszczony koszyk | Odzyskanie | Przypomnienie, zachęta |
+| Ankietowy | Informacja zwrotna | Krótki, jasny cel |
 
 ```{=latex}
 \decoline
@@ -170,7 +170,7 @@ Instagram pokazuje tylko pierwsze 125 znaków przed „więcej''. LinkedIn --- o
 \end{wskazowka}
 ```
 
-**2. Pisz jak mówisz**
+**2. Pisz tak, jak mówisz**
 
 Social media to nie miejsce na korporacyjny żargon. Pisz tak, jakbyś rozmawiał z przyjacielem (ale profesjonalnie).
 
@@ -187,7 +187,7 @@ Nie każdy post musi sprzedawać. Mieszaj:
 
 **5. Wykorzystuj FOMO**
 
-Strach przed przegapieniem działa szczególnie dobrze w social media --- gdzie treści są ulotne.
+Strach przed przegapieniem działa szczególnie dobrze w social media, gdzie treści są ulotne.
 
 ### LinkedIn
 
@@ -196,7 +196,7 @@ LinkedIn to platforma profesjonalna, ale coraz bardziej osobista. Użytkownicy s
 **Specyfika:**
 
 - Limit: **3000 znaków** (posty), artykuły bez limitu
-- Publiczność: profesjonaliści, decydenci B2B
+- Odbiorcy: profesjonaliści, decydenci B2B
 - Ton: profesjonalny, ale ludzki
 - Długie posty działają (jeśli są wartościowe)
 
@@ -252,12 +252,12 @@ Co było Waszą najdroższą lekcją w sprzedaży?
 
 ### Instagram
 
-Instagram to platforma wizualna, ale caption (podpis) ma ogromne znaczenie dla zaangażowania.
+Instagram to platforma wizualna, ale podpis ma ogromne znaczenie dla zaangażowania.
 
 **Specyfika:**
 
 - Limit: **2200 znaków** (widoczne ~125 przed „więcej")
-- Publiczność: młodsza, wizualna, mobilna
+- Odbiorcy: młodsi
 - Ton: casual, autentyczny, emocjonalny
 - Hashtagi: 3-5 dobrze dobranych > 30 przypadkowych
 
@@ -266,10 +266,10 @@ Instagram to platforma wizualna, ale caption (podpis) ma ogromne znaczenie dla z
 - **Storytelling** --- osobiste historie
 - **Mikro-porady** --- jedna konkretna wskazówka
 - **Pytania** --- angażują w komentarze
-- **Kontrowersje** --- „Unpopular opinion: ..."
-- **Behind the scenes** --- autentyczność
+- **Kontrowersje** --- „Mało popularna opinia: ..."
+- **Informacje „zza kulis“** --- autentyczność
 
-**Struktura caption Instagram:**
+**Struktura opisu na Instagramie:**
 
 ```
 [HOOK --- mocne pierwsze zdanie, max 125 znaków]
@@ -289,12 +289,12 @@ Instagram to platforma wizualna, ale caption (podpis) ma ogromne znaczenie dla z
 
 ### Facebook
 
-Facebook to platforma o największym zasięgu wiekowym, ale algorytm premiuje zaangażowanie.
+Facebook to platforma o największym zasięgu wiekowym, której algorytm premiuje zaangażowanie.
 
 **Specyfika:**
 
 - Limit: **63 206 znaków** (ale krótsze działają lepiej)
-- Publiczność: szeroka, 35+ dominuje
+- Odbiorcy: szeroka grupa, 35+ dominuje
 - Ton: konwersacyjny, wspólnotowy
 - Grupy > strony firmowe
 
@@ -312,7 +312,7 @@ Platforma szybkich myśli i dyskusji.
 **Specyfika:**
 
 - Limit: **280 znaków** (do 25 000 dla premium)
-- Publiczność: news junkies, influencerzy, branże tech/media
+- Odbiorcy: influencerzy, branże tech/media
 - Ton: zwięzły, dowcipny, na czasie
 - Wątki (threads) dla dłuższych treści
 

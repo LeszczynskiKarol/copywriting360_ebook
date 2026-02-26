@@ -27,15 +27,15 @@ Każda decyzja zakupowa jest wynikiem kombinacji \textbf{racjonalnych potrzeb} i
 
 Badania konsumenckie konsekwentnie pokazują, że ludzie kupują z kilku fundamentalnych powodów:
 
-**Unikanie bólu** --- Strach przed utratą, problemami, dyskomfortem. Ludzie są 2x bardziej zmotywowani do unikania straty niż do osiągania zysku.
+- **Unikanie bólu** --- strach przed utratą, problemami, dyskomfortem. Ludzie są 2 x bardziej zmotywowani do unikania straty niż do osiągania zysku.
 
-**Dążenie do przyjemności** --- Pragnienie lepszego życia, statusu, komfortu, przyjemności.
+- **Dążenie do przyjemności** --- pragnienie lepszego życia, statusu, komfortu, przyjemności.
 
-**Przynależność społeczna** --- Chęć bycia częścią grupy, akceptacji, uznania.
+- **Przynależność społeczna** --- chęć bycia częścią grupy, akceptacji, uznania.
 
-**Bezpieczeństwo** --- Potrzeba stabilności, przewidywalności, ochrony.
+- **Bezpieczeństwo** --- potrzeba stabilności, przewidywalności, ochrony.
 
-**Samodoskonalenie** --- Aspiracje, rozwój, stawanie się lepszą wersją siebie.
+- **Samodoskonalenie** --- aspiracje, rozwój, stawanie się lepszą wersją siebie.
 
 ```{=latex}
 \begin{wskazowka}
@@ -49,7 +49,7 @@ Zanim zaczniesz pisać, zadaj sobie pytanie: \textbf{Który z tych motywów jest
 
 ## Dwa systemy myślenia: Kahneman
 
-W 2002 roku Daniel Kahneman otrzymał Nagrodę Nobla za badania nad podejmowaniem decyzji. Jego teoria dwóch systemów myślenia zrewolucjonizowała nasze rozumienie tego, jak ludzie podejmują decyzje --- i jest fundamentem nowoczesnego copywritingu.
+W 2002 roku Daniel Kahneman otrzymał Nagrodę Nobla za badania nad podejmowaniem decyzji. Jego teoria dwóch systemów myślenia zrewolucjonizowała rozumienie tego, jak ludzie podejmują decyzje --- i jest fundamentem nowoczesnego copywritingu.
 
 ```{=latex}
 \begin{pojecie}{System 1 i System 2}
@@ -76,7 +76,7 @@ Większość Twoich odbiorców czyta Twoje copy w **trybie Systemu 1**. Przeglą
 \begin{wazne}
 \textbf{Konsekwencja dla copywritingu:}
 
-Twoje copy musi najpierw \textbf{trafić do Systemu 1} (emocje, obrazy, proste przekazy), a dopiero potem dostarczyć argumenty dla \textbf{Systemu 2} (fakty, dane, logika), który usprawiedliwi emocjonalną decyzję.
+Twoje copy powinno najpierw \textbf{trafić do Systemu 1} (emocje, obrazy, proste przekazy), a dopiero potem dostarczyć argumenty dla \textbf{Systemu 2} (fakty, dane, logika), który usprawiedliwi emocjonalną decyzję.
 \end{wazne}
 ```
 
@@ -101,7 +101,7 @@ Twoje copy musi najpierw \textbf{trafić do Systemu 1} (emocje, obrazy, proste p
 ```{=latex}
 \begin{beforeafter}
 {Nasza platforma oferuje zaawansowane algorytmy machine learning do analizy danych biznesowych z dokładnością 99,7\% i integracją z ponad 200 systemami ERP.}
-{Wyobraź sobie, że w poniedziałek rano masz gotowy raport, który normalnie zajmowałby Ci cały tydzień. 2,347 firm już oszczędza średnio 10 godzin tygodniowo. [Szczegóły techniczne poniżej]}
+{Wyobraź sobie, że w poniedziałek rano masz gotowy raport, który normalnie zajmowałby Ci cały tydzień. 2347 firm już oszczędza średnio 10 godzin tygodniowo. [Szczegóły techniczne poniżej]}
 \end{beforeafter}
 ```
 
@@ -111,11 +111,11 @@ Twoje copy musi najpierw \textbf{trafić do Systemu 1} (emocje, obrazy, proste p
 
 ## 7 zasad wpływu Cialdiniego
 
-Robert Cialdini, profesor psychologii z Arizona State University, spędził dekady badając, co sprawia, że ludzie mówią „tak". Jego książka „Influence: The Psychology of Persuasion" (1984) stała się biblią marketingu i sprzedaży.
+Robert Cialdini, profesor psychologii z Arizona State University, spędził dekady, badając, co sprawia, że ludzie mówią „tak". Jego książka „Influence: The Psychology of Persuasion" (1984) stała się biblią marketingu i sprzedaży.
 
 Cialdini zidentyfikował **7 uniwersalnych zasad wpływu**, które działają niezależnie od kultury, branży czy epoki. Jako copywriter, powinieneś znać je na pamięć.
 
-### 1. Wzajemność (Reciprocity)
+### 1. Wzajemność
 
 ```{=latex}
 \begin{pojecie}{Zasada wzajemności}
@@ -123,7 +123,7 @@ Ludzie czują się zobowiązani do odwzajemnienia przysługi. Gdy ktoś daje nam
 \end{pojecie}
 ```
 
-**Mechanizm:** Gdy dajesz coś za darmo (wartościowy content, próbkę, poradę), odbiorca podświadomie czuje się zobowiązany.
+**Mechanizm.** Gdy dajesz coś za darmo (wartościowy content, próbkę, poradę), odbiorca podświadomie czuje się zobowiązany.
 
 **W copywritingu:**
 
@@ -134,13 +134,13 @@ Ludzie czują się zobowiązani do odwzajemnienia przysługi. Gdy ktoś daje nam
 
 ```{=latex}
 \begin{przyklad}{Wzajemność w praktyce}
-\textbf{E-mail marketerzy:} „Przygotowałem dla Ciebie 47-stronicowy przewodnik po email marketingu. Bez żadnych zobowiązań. [Pobierz za darmo]"
+\textbf{E-mail marketerzy.} „Przygotowałem dla Ciebie 47-stronicowy przewodnik po email marketingu. Bez żadnych zobowiązań. [Pobierz za darmo]"
 
-\textbf{Mechanizm:} Po pobraniu wartościowego materiału, odbiorca jest bardziej skłonny otworzyć kolejne maile i rozważyć płatną ofertę.
+\textbf{Mechanizm.} Po pobraniu wartościowego materiału odbiorca jest bardziej skłonny otworzyć kolejne maile i rozważyć płatną ofertę.
 \end{przyklad}
 ```
 
-### 2. Niedostępność (Scarcity)
+### 2. Niedostępność
 
 ```{=latex}
 \begin{pojecie}{Zasada niedostępności}
@@ -148,7 +148,7 @@ Rzeczy postrzegane jako rzadkie lub ograniczone wydają się bardziej wartościo
 \end{pojecie}
 ```
 
-**Mechanizm:** Ograniczenie dostępności (czasowe, ilościowe, ekskluzywne) zwiększa postrzeganą wartość i motywuje do działania.
+**Mechanizm.** Ograniczenie dostępności (czasowe, ilościowe, ekskluzywne) zwiększa postrzeganą wartość i motywuje do działania.
 
 **W copywritingu:**
 
@@ -158,11 +158,11 @@ Rzeczy postrzegane jako rzadkie lub ograniczone wydają się bardziej wartościo
 
 ```{=latex}
 \begin{uwaga}
-Niedostępność działa \textbf{tylko gdy jest autentyczna}. Fałszywe ograniczenia („Oferta kończy się dziś!" --- powtarzane co tydzień) niszczą zaufanie i wiarygodność marki. Klienci szybko uczą się ignorować takie komunikaty.
+Niedostępność działa \textbf{tylko, gdy jest autentyczna}. Fałszywe ograniczenia („Oferta kończy się dziś!" --- powtarzane co tydzień) niszczą zaufanie i wiarygodność marki. Klienci szybko uczą się ignorować takie komunikaty.
 \end{uwaga}
 ```
 
-### 3. Autorytet (Authority)
+### 3. Autorytet
 
 ```{=latex}
 \begin{pojecie}{Zasada autorytetu}
@@ -170,7 +170,7 @@ Ludzie ufają ekspertom i autorytetom. Informacje pochodzące od osób postrzega
 \end{pojecie}
 ```
 
-**Mechanizm:** Mózg używa skrótu myślowego: „Ta osoba wie więcej, więc mogę jej zaufać."
+**Mechanizm.** Mózg używa skrótu myślowego: „Ta osoba wie więcej, więc mogę jej zaufać."
 
 **W copywritingu:**
 
@@ -184,11 +184,11 @@ Ludzie ufają ekspertom i autorytetom. Informacje pochodzące od osób postrzega
 \begin{przyklad}{Autorytet w praktyce}
 \textbf{Słabo:} „Nasz krem jest skuteczny."
 
-\textbf{Silnie:} „9 z 10 dermatologów poleca nasz krem. Przebadany klinicznie na 2,000 pacjentów przez Instytut Dermatologii w Warszawie."
+\textbf{Silnie:} „9 z 10 dermatologów poleca nasz krem. Przebadany klinicznie na 2000 pacjentów przez Instytut Dermatologii w Warszawie."
 \end{przyklad}
 ```
 
-### 4. Spójność (Commitment \& Consistency)
+### 4. Spójność
 
 ```{=latex}
 \begin{pojecie}{Zasada spójności}
@@ -196,7 +196,7 @@ Ludzie dążą do bycia konsekwentnymi wobec swoich wcześniejszych deklaracji i
 \end{pojecie}
 ```
 
-**Mechanizm:** Technika „stopy w drzwiach" --- małe „tak" zwiększa prawdopodobieństwo większego „tak".
+**Mechanizm.** Technika „stopy w drzwiach" --- małe „tak" zwiększa prawdopodobieństwo większego „tak".
 
 **W copywritingu:**
 
@@ -207,17 +207,17 @@ Ludzie dążą do bycia konsekwentnymi wobec swoich wcześniejszych deklaracji i
 
 ```{=latex}
 \begin{przyklad}{Spójność w praktyce (Yes-Set)}
-„Czy chciałbyś zarabiać więcej pracując mniej? [Tak]
+Czy chcesz zarabiać więcej, pracując mniej? [Tak]
 
 Czy doceniasz sprawdzone rozwiązania zamiast eksperymentów? [Tak]
 
 Czy wolisz uczyć się od praktyków niż teoretyków? [Tak]
 
-Świetnie. Mam dla Ciebie coś, co spełnia wszystkie te kryteria..."
+Świetnie. Mam dla Ciebie coś, co spełnia wszystkie te kryteria...
 \end{przyklad}
 ```
 
-### 5. Sympatia (Liking)
+### 5. Sympatia
 
 ```{=latex}
 \begin{pojecie}{Zasada sympatii}
@@ -225,7 +225,7 @@ Ludzie chętniej mówią „tak" osobom, które lubią. Sympatię buduje podobie
 \end{pojecie}
 ```
 
-**Mechanizm:** Lubimy ludzi podobnych do nas, tych którzy nas chwalą, i tych, których często widzimy.
+**Mechanizm.** Lubimy ludzi podobnych do nas, tych, którzy nas chwalą, i tych, których często widzimy.
 
 **W copywritingu:**
 
@@ -240,20 +240,20 @@ Ludzie chętniej mówią „tak" osobom, które lubią. Sympatię buduje podobie
 \end{przyklad}
 ```
 
-### 6. Społeczny dowód słuszności (Social Proof)
+### 6. Społeczny dowód słuszności
 
 ```{=latex}
 \begin{pojecie}{Zasada społecznego dowodu}
-W sytuacji niepewności ludzie patrzą na zachowania innych, zakładając że większość ma rację. „Skoro inni to robią, to musi być dobre."
+W sytuacji niepewności ludzie patrzą na zachowania innych, zakładając, że większość ma rację. „Skoro inni to robią, to musi być dobre."
 \end{pojecie}
 ```
 
-**Mechanizm:** Ewolucyjny skrót myślowy --- naśladowanie grupy zwiększało szanse przetrwania.
+**Mechanizm.** Ewolucyjny skrót myślowy --- naśladowanie grupy zwiększało szanse przetrwania.
 
 **W copywritingu:**
 
 - Liczba klientów/użytkowników
-- Testimoniały i recenzje
+- Rekomendacje i recenzje
 - Case studies
 - Logo znanych klientów
 - Statystyki użytkowania
@@ -264,11 +264,11 @@ W sytuacji niepewności ludzie patrzą na zachowania innych, zakładając że wi
 
 ```{=latex}
 \begin{uwaga}
-Social proof jest \textbf{najbardziej skuteczny}, gdy pochodzi od osób podobnych do odbiorcy. Opinia innego przedsiębiorcy bardziej przekona przedsiębiorcę niż opinia celebryty.
+Społeczny dowód słuszności jest \textbf{najbardziej skuteczny}, gdy pochodzi od osób podobnych do odbiorcy. Opinia innego przedsiębiorcy bardziej przekona przedsiębiorcę niż opinia celebryty.
 \end{uwaga}
 ```
 
-### 7. Jedność (Unity)
+### 7. Jedność
 
 ```{=latex}
 \begin{pojecie}{Zasada jedności}
@@ -276,7 +276,7 @@ Ludzie są bardziej skłonni do zgody z osobami, które postrzegają jako „swo
 \end{pojecie}
 ```
 
-**Mechanizm:** Zasada dodana przez Cialdiniego w 2016 roku. Wykracza poza sympatię --- dotyczy wspólnej tożsamości.
+**Mechanizm.** Zasada dodana przez Cialdiniego w 2016 roku. Wykracza poza sympatię --- dotyczy wspólnej tożsamości.
 
 **W copywritingu:**
 
@@ -305,11 +305,11 @@ Znajomość błędów poznawczych to \textbf{nie} licencja na manipulację. To n
 \end{wazne}
 ```
 
-### Efekt zakotwiczenia (Anchoring)
+### Efekt zakotwiczenia
 
-**Mechanizm:** Pierwsza informacja, którą otrzymujemy, staje się „kotwicą" dla wszystkich kolejnych ocen.
+**Mechanizm.** Pierwsza informacja, którą otrzymujemy, staje się „kotwicą" dla wszystkich kolejnych ocen.
 
-**Zastosowanie:** Pokaż najpierw wyższą cenę, a potem rzeczywistą. Cena 997 zł wydaje się niska, gdy wcześniej widzieliśmy 2497 zł.
+**Zastosowanie.** Pokaż najpierw wyższą cenę, a potem rzeczywistą. Cena 997 zł wydaje się niska, gdy wcześniej widzieliśmy 2497 zł.
 
 ```{=latex}
 \begin{przyklad}{Zakotwiczenie cenowe}
@@ -321,24 +321,24 @@ Oszczędzasz: 1,500 zł (60\%)
 \end{przyklad}
 ```
 
-### Awersja do straty (Loss Aversion)
+### Awersja do straty
 
-**Mechanizm:** Ból związany ze stratą jest ~2x silniejszy niż przyjemność z równoważnego zysku.
+**Mechanizm.** Ból związany ze stratą jest ~2 x silniejszy niż przyjemność z równoważnego zysku.
 
-**Zastosowanie:** Zamiast mówić o tym, co klient zyska, pokaż co straci, jeśli nie kupi.
+**Zastosowanie.** Zamiast mówić o tym, co klient zyska, pokaż, co straci, jeśli nie kupi.
 
 ```{=latex}
 \begin{beforeafter}
-{Zaoszczędź 360 zł rocznie zmieniając dostawcę energii.}
+{Zaoszczędź 360 zł rocznie, zmieniając dostawcę energii.}
 {Nie zmieniając dostawcy, tracisz 360 zł rocznie. To 30 zł miesięcznie, które mogłyby zostać w Twojej kieszeni.}
 \end{beforeafter}
 ```
 
-### Efekt ramowania (Framing Effect)
+### Efekt ramowania
 
-**Mechanizm:** Sposób przedstawienia informacji wpływa na jej odbiór, nawet jeśli fakty są identyczne.
+**Mechanizm.** Sposób przedstawienia informacji wpływa na jej odbiór, nawet jeśli fakty są identyczne.
 
-**Zastosowanie:** Dobieraj słowa, które ramują informację korzystnie.
+**Zastosowanie.** Dobieraj słowa, które ramują informację korzystnie.
 
 | Negatywne ramowanie | Pozytywne ramowanie |
 |---------------------|---------------------|
@@ -346,11 +346,11 @@ Oszczędzasz: 1,500 zł (60\%)
 | 10% śmiertelność | 90% przeżywalność |
 | 3 z 10 się nie uda | 7 z 10 odniesie sukces |
 
-### Efekt potwierdzenia (Confirmation Bias)
+### Efekt potwierdzenia
 
-**Mechanizm:** Ludzie szukają informacji potwierdzających ich istniejące przekonania.
+**Mechanizm.** Ludzie szukają informacji potwierdzających ich istniejące przekonania.
 
-**Zastosowanie:** Nie próbuj zmieniać przekonań klienta. Potwierdź je i pokaż, jak Twój produkt do nich pasuje.
+**Zastosowanie.** Nie próbuj zmieniać przekonań klienta. Potwierdź je i pokaż, jak Twój produkt do nich pasuje.
 
 ```{=latex}
 \begin{wskazowka}
@@ -360,9 +360,9 @@ Zamiast przekonywać klienta, że się myli, powiedz: \textbf{„Masz rację, ż
 
 ### WYSIATI (What You See Is All There Is)
 
-**Mechanizm:** Mózg tworzy spójną historię z dostępnych informacji, ignorując to, czego nie widzi.
+**Mechanizm.** Mózg tworzy spójną historię z dostępnych informacji, ignorując to, czego nie widzi.
 
-**Zastosowanie:** Kontroluj, jakie informacje odbiorca widzi jako pierwsze. Przedstaw najważniejsze korzyści i dowody na początku.
+**Zastosowanie.** Kontroluj, jakie informacje odbiorca widzi jako pierwsze. Przedstaw najważniejsze korzyści i dowody na początku.
 
 ```{=latex}
 \decoline
@@ -374,49 +374,49 @@ Emocje są paliwem decyzji zakupowych. Nawet najbardziej „racjonalne" zakupy B
 
 ```{=latex}
 \begin{pojecie}{Wyzwalacz emocjonalny}
-Bodziec (słowo, obraz, historia) który wywołuje silną reakcję emocjonalną, motywującą do działania.
+Bodziec (słowo, obraz, historia), który wywołuje silną reakcję emocjonalną, motywującą do działania.
 \end{pojecie}
 ```
 
 ### 7 głównych wyzwalaczy
 
-**1. Strach (Fear)**
+**1. Strach**
 
 Najsilniejszy wyzwalacz. Strach przed stratą, porażką, ośmieszeniem, wykluczeniem.
 
 *„Czy Twoja firma jest chroniona przed cyberatakiem? 60\% małych firm upada w ciągu 6 miesięcy po poważnym naruszeniu danych."*
 
-**2. Chciwość (Greed)**
+**2. Chciwość**
 
 Pragnienie więcej --- więcej pieniędzy, czasu, sukcesu, uznania.
 
-*„Dołącz do 2,347 przedsiębiorców, którzy zwiększyli przychody średnio o 147\% w 90 dni."*
+*„Dołącz do 2347 przedsiębiorców, którzy zwiększyli przychody średnio o 147\% w 90 dni."*
 
-**3. Pożądanie (Desire)**
+**3. Pożądanie**
 
 Aspiracje, marzenia, wizja lepszego życia.
 
 *„Wyobraź sobie, że budzisz się w poniedziałek z ekscytacją, nie z lękiem..."*
 
-**4. Ciekawość (Curiosity)**
+**4. Ciekawość**
 
 Naturalna potrzeba domknięcia luki informacyjnej.
 
 *„Sekret, który top 1\% copywriterów ukrywa przed resztą branży..."*
 
-**5. Przynależność (Belonging)**
+**5. Przynależność**
 
 Potrzeba bycia częścią grupy, akceptacji.
 
-*„Dołącz do społeczności 15,000 marketerów, którzy codziennie dzielą się wiedzą..."*
+*„Dołącz do społeczności 15 000 marketerów, którzy codziennie dzielą się wiedzą..."*
 
-**6. Duma/Status (Pride/Status)**
+**6. Duma/Status**
 
 Pragnienie uznania, wyróżnienia się, prestiżu.
 
 *„Dla liderów, którzy nie akceptują przeciętności..."*
 
-**7. Poczucie winy (Guilt)**
+**7. Poczucie winy**
 
 Potrzeba naprawienia czegoś, wywiązania się z obowiązku.
 
@@ -432,80 +432,7 @@ Negatywne emocje (strach, poczucie winy) są potężnymi motywatorami, ale \text
 \decoline
 ```
 
-## Model AIDA
-
-AIDA to najstarszy i najbardziej sprawdzony model copywritingu, stworzony przez Eliasa St. Elmo Lewisa w 1898 roku. Przez ponad 125 lat pozostaje fundamentem skutecznej komunikacji perswazyjnej.
-
-```{=latex}
-\begin{formula}{AIDA}
-\textbf{A}ttention (Uwaga) --- Przyciągnij uwagę nagłówkiem lub hookiem\\
-\textbf{I}nterest (Zainteresowanie) --- Utrzymaj uwagę interesującymi informacjami\\
-\textbf{D}esire (Pożądanie) --- Wzbudź pragnienie posiadania/skorzystania\\
-\textbf{A}ction (Działanie) --- Wezwij do konkretnego działania
-\end{formula}
-```
-
-### Attention (Uwaga)
-
-W świecie, gdzie przeciętny człowiek jest bombardowany tysiącami komunikatów dziennie, masz **2-3 sekundy** na przyciągnięcie uwagi.
-
-**Narzędzia:**
-
-- Nagłówki z liczbami („7 sposobów na...")
-- Pytania („Czy popełniasz ten błąd?")
-- Kontrowersyjne stwierdzenia („Wszystko co wiesz o X jest błędne")
-- Obietnice korzyści („Jak podwoić konwersję w 30 dni")
-
-### Interest (Zainteresowanie)
-
-Po przyciągnięciu uwagi, musisz ją utrzymać. Tu wchodzą fakty, historie, dowody.
-
-**Narzędzia:**
-
-- Statystyki i dane
-- Historie klientów
-- Problem, który odbiorca rozpoznaje
-- Unikalne informacje
-
-### Desire (Pożądanie)
-
-Zainteresowanie to za mało --- musisz sprawić, że odbiorca **chce** Twój produkt. Tu emocje są kluczowe.
-
-**Narzędzia:**
-
-- Korzyści (nie cechy!)
-- Wizualizacja rezultatów
-- Social proof
-- Usuwanie obiekcji
-
-### Action (Działanie)
-
-Jasne, konkretne, pilne wezwanie do działania.
-
-**Narzędzia:**
-
-- Wyraźny CTA
-- Ograniczenie czasowe/ilościowe
-- Redukcja ryzyka (gwarancja)
-- Następny krok
-
-```{=latex}
-\begin{przyklad}{AIDA w praktyce --- Landing Page}
-\textbf{[A] Nagłówek:} „Jak zdobyłem 10,000 subskrybentów w 90 dni bez wydawania złotówki na reklamy"
-
-\textbf{[I] Lead:} „W 2019 roku miałem 47 subskrybentów i zero pomysłów. Dziś moja lista przynosi mi 6-cyfrowe przychody rocznie. Oto dokładna strategia, krok po kroku..."
-
-\textbf{[D] Korzyści:} „Wyobraź sobie, że budzisz się rano i widzisz powiadomienia o nowych sprzedażach --- automatycznie, bez Twojego udziału. To nie magia. To system, który dam Ci w tym kursie..."
-
-\textbf{[A] CTA:} „Dołącz teraz za 297 zł (cena rośnie do 497 zł za 48h) --- 30-dniowa gwarancja zwrotu"
-\end{przyklad}
-```
-
-```{=latex}
-\decoline
-```
-
-## Future Pacing: Projekcja przyszłości
+## Future Pacing. Projekcja przyszłości
 
 Future pacing to technika pochodząca z NLP (neurolingwistycznego programowania), która jest niezwykle skuteczna w copywritingu.
 
@@ -543,89 +470,29 @@ Future pacing działa w obie strony. Możesz również pokazać \textbf{negatywn
 \decoline
 ```
 
-## Storytelling: Siła narracji
-
-Ludzie opowiadają historie od czasów malowideł jaskiniowych. Nasze mózgi są zaprogramowane do przetwarzania i zapamiętywania narracji znacznie lepiej niż suchych faktów.
-
-```{=latex}
-\stathighlight{22x}{Historie są pamiętane 22x lepiej niż same fakty}
-```
-
-### Dlaczego storytelling działa?
-
-1. **Aktywuje wiele obszarów mózgu** --- nie tylko językowe, ale też sensoryczne i emocjonalne
-2. **Powoduje synchronizację** --- słuchacz „przeżywa" historię razem z narratorem
-3. **Uwalnia oksytocynę** --- hormon zaufania i empatii
-4. **Omija „radar reklamowy"** --- ludzie nie bronią się przed historiami tak jak przed reklamami
-
-### Struktura skutecznej historii
-
-```{=latex}
-\begin{formula}{Podróż Bohatera (uproszczona)}
-\textbf{1. Zwykły świat} --- Bohater (Twój klient) żyje z problemem\\
-\textbf{2. Wezwanie} --- Coś się zmienia, problem staje się nie do zniesienia\\
-\textbf{3. Opór} --- Bohater wątpi, boi się, odkłada działanie\\
-\textbf{4. Mentor} --- Pojawia się pomocnik (Ty/Twój produkt)\\
-\textbf{5. Transformacja} --- Bohater podejmuje działanie\\
-\textbf{6. Nowy świat} --- Bohater osiąga sukces, problem rozwiązany
-\end{formula}
-```
-
-### 3 typy historii w copywritingu
-
-**1. Historia pochodzenia (Origin Story)**
-
-Opowiedz, dlaczego powstał Twój produkt/firma. Jakie frustracje, jakie doświadczenia?
-
-**2. Historia klienta (Customer Story)**
-
-Transformacja prawdziwego klienta: problem → rozwiązanie → rezultat.
-
-**3. Historia przestrogi (Cautionary Tale)**
-
-Co się stanie, jeśli problem nie zostanie rozwiązany? (używaj ostrożnie)
-
-```{=latex}
-\begin{przyklad}{Mini-story w copy}
-„Anna była jak większość przedsiębiorców --- pracowała 70 godzin tygodniowo, a jej firma ledwo się utrzymywała na powierzchni. W styczniu była o krok od zamknięcia działalności.
-
-Wtedy trafiła na nasz system.
-
-6 miesięcy później? Anna pracuje 30 godzin tygodniowo, jej przychody wzrosły 3x, a w przyszłym miesiącu wyjeżdża na 3-tygodniowe wakacje --- pierwsze od 5 lat.
-
-Różnica? Jeden system. Jedna decyzja."
-\end{przyklad}
-```
-
-```{=latex}
-\decoline
-```
-
 ## Etyka perswazji
 
 Znajomość technik perswazji to odpowiedzialność. Granica między perswazją a manipulacją nie zawsze jest oczywista, ale istnieje.
 
 ```{=latex}
 \begin{pojecie}{Perswazja vs. Manipulacja}
-\textbf{Perswazja}: Przekonywanie do działania, które jest w \textbf{najlepszym interesie odbiorcy}.
+\textbf{Perswazja}. Przekonywanie do działania, które jest w \textbf{najlepszym interesie odbiorcy}.
 
-\textbf{Manipulacja}: Przekonywanie do działania, które jest w interesie \textbf{nadawcy}, często kosztem odbiorcy.
+\textbf{Manipulacja}. Przekonywanie do działania, które jest w interesie \textbf{nadawcy}, często kosztem odbiorcy.
 \end{pojecie}
 ```
 
 ### Zasady etycznego copywritingu
 
-1. **Nie kłam** --- Nie obiecuj czegoś, czego produkt nie dostarcza
-2. **Nie wyolbrzymiaj** --- „Najlepszy na świecie" wymaga dowodu
-3. **Nie wykorzystuj słabości** --- Nie celuj w desperację, uzależnienia, lęki
-4. **Nie ukrywaj** --- Istotne warunki muszą być jasne
-5. **Pytaj siebie** --- „Czy poleciłbym ten produkt bliskiej osobie?"
+1. **Nie kłam.** Nie obiecuj czegoś, czego produkt nie dostarcza
+2. **Nie wyolbrzymiaj.** „Najlepszy na świecie" wymaga dowodu
+3. **Nie wykorzystuj słabości.** Nie celuj w desperację, uzależnienia, lęki
+4. **Nie ukrywaj.** Istotne warunki muszą być jasne
+5. **Pytaj siebie.** „Czy poleciłbym ten produkt bliskiej osobie?"
 
 ```{=latex}
 \begin{wazne}
-Etyka w copywritingu to nie tylko kwestia moralna --- to również strategia biznesowa. Klienci, którzy czują się oszukani, nie wracają, nie polecają i mogą aktywnie szkodzić Twojej reputacji.
-
-Długoterminowe budowanie marki wymaga zaufania. Zaufanie wymaga uczciwości.
+Etyka w copywritingu to nie tylko kwestia moralna --- to również strategia biznesowa. Klienci, którzy czują się oszukani, nie wracają, nie polecają i mogą aktywnie szkodzić Twojej reputacji. Długoterminowe budowanie marki wymaga zaufania. Zaufanie wymaga uczciwości.
 \end{wazne}
 ```
 
@@ -640,9 +507,7 @@ Znajdź skuteczną reklamę (może być online) i przeanalizuj ją:
 \begin{enumerate}
   \item Które zasady Cialdiniego wykorzystuje?
   \item Jakie błędy poznawcze aktywuje?
-  \item Jakie wyzwalacze emocjonalne stosuje?
-  \item Czy stosuje model AIDA? Jak?
-  \item Czy wykorzystuje storytelling?
+  \item Jakie wyzwalacze emocjonalne stosuje?  
   \item Czy jest etyczna? Dlaczego tak/nie?
 \end{enumerate}
 

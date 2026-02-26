@@ -11,7 +11,7 @@ Nagłówek przyciągnął uwagę. Lead wciągnął czytelnika. Teraz musisz go p
 
 To najtrudniejsza część copywritingu.
 
-W tym rozdziale poznasz sprawdzone formuły strukturyzowania tekstu, techniki formatowania dla „skanuących" czytelników oraz sposoby na utrzymanie uwagi przez cały tekst --- nieważne, czy ma 500 czy 5000 słów.
+W tym rozdziale poznasz sprawdzone formuły strukturyzowania tekstu, techniki formatowania dla „skanuących" czytelników i sposoby na utrzymanie uwagi przez cały tekst --- nieważne, czy ma 500, czy 5000 słów.
 
 ## Dlaczego struktura ma znaczenie?
 
@@ -48,11 +48,11 @@ Najstarsza i najbardziej znana formuła copywritingu. Stworzona około 1900 roku
 \end{formula}
 ```
 
-**Kiedy używać:** Landing page, reklamy, emaile sprzedażowe, teksty dla zimnego ruchu (ludzi, którzy nie znają jeszcze Twojej marki).
+**Kiedy używać:** landing page, reklamy, emaile sprzedażowe, teksty dla zimnego ruchu (ludzi, którzy nie znają jeszcze Twojej marki).
 
 ```{=latex}
 \begin{przyklad}{AIDA w praktyce --- kurs online}
-\textbf{Attention:} „Czy wiesz, że 90\% copywriterów zarabia mniej niż mogłoby?"
+\textbf{Attention:} „Czy wiesz, że 90\% copywriterów zarabia mniej, niż by mogło?"
 
 \textbf{Interest:} „Problem nie leży w talencie ani doświadczeniu. Większość copywriterów nigdy nie nauczyła się systemu, który zamienia słowa w pieniądze. Piszą intuicyjnie --- i intuicyjnie tracą klientów."
 
@@ -74,7 +74,7 @@ Uważana przez legendę copywritingu Dana Kennedy'ego za „najbardziej niezawod
 \end{formula}
 ```
 
-**Kiedy używać:** Krótkie teksty (posty social media, emaile, reklamy), teksty dla odbiorców świadomych problemu.
+**Kiedy używać:** krótkie teksty (posty social media, emaile, reklamy), teksty dla odbiorców świadomych problemu.
 
 ```{=latex}
 \begin{przyklad}{PAS w praktyce --- usługa SEO}
@@ -88,7 +88,7 @@ Uważana przez legendę copywritingu Dana Kennedy'ego za „najbardziej niezawod
 
 ```{=latex}
 \begin{wskazowka}
-PAS to formuła oparta na bólu. Działa, bo ludzie są silniej motywowani unikaniem straty niż osiąganiem zysku (awersja do straty). Ale używaj z umiarem --- zbyt agresywne „pogłębianie bólu" może zrazić czytelnika.
+PAS to formuła bazująca na bólu. Działa, bo ludzie są silniej motywowani unikaniem straty niż osiąganiem zysku (awersja do straty). Ale używaj z umiarem --- zbyt agresywne „pogłębianie bólu" może zrazić czytelnika.
 \end{wskazowka}
 ```
 
@@ -104,7 +104,7 @@ Pokazuje transformację --- stan przed i po --- a następnie przedstawia most (T
 \end{formula}
 ```
 
-**Kiedy używać:** Teksty transformacyjne, case studies, historie sukcesu, produkty zmieniające życie.
+**Kiedy używać:** teksty transformacyjne, case studies, historie sukcesu, produkty zmieniające życie.
 
 ```{=latex}
 \begin{przyklad}{BAB w praktyce --- aplikacja do produktywności}
@@ -123,12 +123,12 @@ Idealna do opisywania produktów i usług. Przekształca suche cechy w emocjonal
 ```{=latex}
 \begin{formula}{FAB}
 \textbf{F}eature (Cecha) --- Co produkt MA lub ROBI\\
-\textbf{A}dvantage (Zaleta) --- Dlaczego ta cecha jest lepsza od alternatyw\\
+\textbf{A}dvantage (Zaleta) --- Dlaczego ta cecha jest lepsza od konkurencyjnych rozwiązań\\
 \textbf{B}enefit (Korzyść) --- Co to oznacza dla KLIENTA
 \end{formula}
 ```
 
-**Kiedy używać:** Opisy produktów, strony z cechami, porównania, body copy po AIDA/PAS.
+**Kiedy używać:** opisy produktów, strony z cechami, porównania, treść po AIDA/PAS.
 
 ```{=latex}
 \begin{przyklad}{FAB w praktyce --- laptop}
@@ -159,7 +159,7 @@ Sprawdzona struktura dla stron sprzedażowych i landing page.
 \end{formula}
 ```
 
-**Kiedy używać:** Landing page, strony sprzedażowe, oferty.
+**Kiedy używać:** landing page, strony sprzedażowe, oferty.
 
 ### Łączenie formuł (Hybrydy)
 
@@ -185,26 +185,188 @@ Użytkownicy skanują strony internetowe w kształcie litery F --- najpierw pozi
 \end{pojecie}
 ```
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[x=1mm, y=1mm]
+
+% === LEWA STRONA: Symulacja strony www ===
+\fill[white, rounded corners=2pt] (0,0) rectangle (75,105);
+\draw[bordergray, line width=0.6pt, rounded corners=2pt] (0,0) rectangle (75,105);
+
+% Pasek przeglądarki
+\fill[backgroundgray, rounded corners=2pt] (0,101) rectangle (75,105);
+\draw[bordergray, line width=0.4pt] (0,101) -- (75,101);
+\fill[accentred!30] (3,102.2) circle (1);
+\fill[accentorange!50] (6.5,102.2) circle (1);
+\fill[accentgreen!30] (10,102.2) circle (1);
+\fill[bordergray] (18,102) rectangle (57,104);
+\node[font=\fontsize{3.5}{3.5}\selectfont, text=textmuted] at (37.5,103) {www.example.com};
+
+% Logo / nav
+\fill[primaryblue!20] (3,95) rectangle (18,98);
+\foreach \x in {50,56,62,68} {
+  \fill[bordergray] (\x,96) rectangle (\x+4,97.5);
+}
+
+% Nagłówek H1
+\fill[textdark!60] (3,88) rectangle (55,91);
+
+% Tekst akapit 1
+\fill[textdark!30] (3,83) rectangle (68,84.5);
+\fill[textdark!30] (3,80.5) rectangle (65,82);
+\fill[textdark!30] (3,78) rectangle (60,79.5);
+
+% Nagłówek H2
+\fill[textdark!50] (3,73) rectangle (40,75.5);
+
+% Tekst akapit 2
+\fill[textdark!30] (3,68) rectangle (68,69.5);
+\fill[textdark!30] (3,65.5) rectangle (63,67);
+\fill[textdark!30] (3,63) rectangle (66,64.5);
+\fill[textdark!30] (3,60.5) rectangle (55,62);
+
+% Obrazek placeholder
+\fill[primarylight] (3,48) rectangle (30,57);
+\node[font=\fontsize{5}{5}\selectfont, text=primaryblue] at (16.5,52.5) {IMG};
+
+% Tekst obok obrazka
+\fill[textdark!30] (33,54.5) rectangle (68,56);
+\fill[textdark!30] (33,52) rectangle (65,53.5);
+\fill[textdark!30] (33,49.5) rectangle (60,51);
+
+% Nagłówek H3
+\fill[textdark!45] (3,43) rectangle (35,45);
+
+% Lista
+\foreach \y in {38, 35.5, 33, 30.5} {
+  \fill[primaryblue] (5,\y+0.5) circle (0.6);
+  \fill[textdark!25] (8,\y) rectangle (62,\y+1.5);
+}
+
+% Tekst dolny
+\fill[textdark!25] (3,25) rectangle (68,26.5);
+\fill[textdark!25] (3,22.5) rectangle (55,24);
+
+% CTA button
+\fill[primaryblue!20, rounded corners=1.5pt] (3,15) rectangle (32,19);
+\node[font=\fontsize{4}{4}\selectfont, text=primaryblue] at (17.5,17) {Call to Action};
+
+% Footer
+\fill[backgroundgray] (0,0) rectangle (75,8);
+\draw[bordergray, line width=0.3pt] (0,8) -- (75,8);
+\fill[textdark!15] (3,4) rectangle (25,6);
+\fill[textdark!15] (30,4) rectangle (52,6);
+\fill[textdark!15] (57,4) rectangle (72,6);
+
+% === PRAWA STRONA: Heatmapa F-Pattern ===
+\begin{scope}[xshift=82mm]
+
+\fill[white, rounded corners=2pt] (0,0) rectangle (75,105);
+\draw[bordergray, line width=0.6pt, rounded corners=2pt] (0,0) rectangle (75,105);
+
+% Pasek przeglądarki
+\fill[backgroundgray, rounded corners=2pt] (0,101) rectangle (75,105);
+\draw[bordergray, line width=0.4pt] (0,101) -- (75,101);
+\fill[accentred!30] (3,102.2) circle (1);
+\fill[accentorange!50] (6.5,102.2) circle (1);
+\fill[accentgreen!30] (10,102.2) circle (1);
+\fill[bordergray] (18,102) rectangle (57,104);
+\node[font=\fontsize{3.5}{3.5}\selectfont, text=textmuted] at (37.5,103) {www.example.com};
+
+% --- Heatmapa F ---
+% Pierwsza pozioma belka (najgorętsza)
+\shade[left color=accentred!90, right color=accentorange!20, opacity=0.7]
+  (2,86) rectangle (60,93);
+\shade[left color=accentred!60, right color=accentorange!10, opacity=0.4]
+  (2,83) rectangle (55,86);
+
+% Druga pozioma belka (krótsza)
+\shade[left color=accentorange!80, right color=accentorange!15, opacity=0.6]
+  (2,66) rectangle (48,74);
+\shade[left color=accentorange!50, right color=accentorange!5, opacity=0.3]
+  (2,63) rectangle (42,66);
+
+% Pionowy pas F (lewa strona)
+\shade[top color=accentorange!70, bottom color=accentgreen!15, opacity=0.55]
+  (2,15) rectangle (18,83);
+
+% Dodatkowe gorące punkty
+\shade[left color=accentorange!50, right color=primarylight, opacity=0.35]
+  (2,43) rectangle (35,46);
+\shade[left color=accentorange!40, right color=primarylight, opacity=0.25]
+  (2,29) rectangle (25,40);
+
+% Zimna strefa
+\fill[primarylight, opacity=0.15] (40,10) rectangle (72,55);
+
+% Duże "F"
+\node[font=\fontsize{60}{60}\selectfont\bfseries, text=white, opacity=0.3] at (25,60) {F};
+
+% Treść pod heatmapą (przezroczysta)
+\fill[textdark!15] (3,95) rectangle (18,98);
+\foreach \x in {50,56,62,68} {
+  \fill[bordergray!40] (\x,96) rectangle (\x+4,97.5);
+}
+\fill[textdark!20] (3,88) rectangle (55,91);
+\fill[textdark!10] (3,83) rectangle (68,84.5);
+\fill[textdark!10] (3,80.5) rectangle (65,82);
+\fill[textdark!10] (3,78) rectangle (60,79.5);
+\fill[textdark!15] (3,73) rectangle (40,75.5);
+\fill[textdark!10] (3,68) rectangle (68,69.5);
+\fill[textdark!10] (3,65.5) rectangle (63,67);
+\fill[textdark!10] (3,63) rectangle (66,64.5);
+\fill[textdark!10] (3,60.5) rectangle (55,62);
+\fill[primarylight!50] (3,48) rectangle (30,57);
+\fill[textdark!10] (33,54.5) rectangle (68,56);
+\fill[textdark!10] (33,52) rectangle (65,53.5);
+\fill[textdark!10] (33,49.5) rectangle (60,51);
+\fill[textdark!12] (3,43) rectangle (35,45);
+\foreach \y in {38, 35.5, 33, 30.5} {
+  \fill[primaryblue!30] (5,\y+0.5) circle (0.6);
+  \fill[textdark!8] (8,\y) rectangle (62,\y+1.5);
+}
+\fill[textdark!8] (3,25) rectangle (68,26.5);
+\fill[textdark!8] (3,22.5) rectangle (55,24);
+\fill[primaryblue!10, rounded corners=1.5pt] (3,15) rectangle (32,19);
+\fill[backgroundgray!50] (0,0) rectangle (75,8);
+
+\end{scope}
+
+% === ETYKIETY ===
+\node[anchor=south, font=\small\bfseries, text=textdark] at (37.5,107) {Strona internetowa};
+\node[anchor=south, font=\small\bfseries, text=accentred] at (119.5,107) {Schemat skanowania strony};
+
+
+
+\end{tikzpicture}
+\end{center}
+
+\vspace{0.5em}
+\begin{center}
+\small\color{textmuted}\textit{Rysunek: Wzorzec F --- jak użytkownicy skanują strony internetowe (na podstawie badań Nielsen Norman Group)}
+\end{center}
+```
+
 ### Nagłówki i śródtytuły
 
-Nagłówki (H1, H2, H3...) to **szkielet** Twojego tekstu. Czytelnik skanujący powinien zrozumieć główny przekaz czytając **tylko nagłówki**.
+Nagłówki (H1, H2, H3...) to **szkielet** Twojego tekstu. Czytelnik skanujący powinien zrozumieć główny przekaz, czytając **tylko nagłówki**.
 
 **Zasady skutecznych śródtytułów:**
 
 - **Mówią, o czym jest sekcja** --- nie bądź tajemniczy
 - **Zawierają korzyść** --- „Jak zaoszczędzić 10 godzin tygodniowo" zamiast „O oszczędzaniu czasu"
 - **Są krótkie** --- 4-8 słów, nigdy nie powinny przechodzić do drugiej linii
-- **Tworzą logiczny flow** --- czytane po kolei opowiadają historię
+- **Tworzą logiczny flow** --- czytane po kolei, opowiadają historię
 
 ```{=latex}
 \begin{wskazowka}
-\textbf{Test nagłówków:} Przeczytaj tylko nagłówki swojego tekstu. Czy ktoś, kto przeczyta wyłącznie je, zrozumie Twój główny przekaz i korzyści? Jeśli nie --- przepisz nagłówki.
+\textbf{Test nagłówków.} Przeczytaj tylko nagłówki swojego tekstu. Czy ktoś, kto przeczyta wyłącznie je, zrozumie Twój główny przekaz i korzyści? Jeśli nie --- przepisz nagłówki.
 \end{wskazowka}
 ```
 
 ### Krótkie akapity
 
-W druku akapit ma 5-7 zdań. W internecie? **2-4 zdania maksymalnie**.
+W druku akapit ma 5-7 zdań. W internecie? **2-5 zdań maksymalnie**.
 
 Długie bloki tekstu to „ściany tekstu" (walls of text) --- sygnał dla mózgu: „to wymaga wysiłku". Krótkie akapity mówią: „to jest łatwe do przyswojenia".
 
@@ -228,16 +390,15 @@ Listy to **magnes dla oka**. Sygnalizują: „tu jest seria punktów, łatwych d
 
 **Zasady skutecznych list:**
 
-- Równoległa struktura --- każdy punkt zaczyna się od tego samego typu słowa (czasownik, rzeczownik)
 - Podobna długość punktów --- wizualna spójność
-- 5-7 punktów optimum (zgodnie z zasadą Millera o pojemności pamięci roboczej)
+- 4-7 punktów optimum (zgodnie z zasadą Millera o pojemności pamięci roboczej)
 - Najważniejsze punkty na początku i na końcu (efekt pierwszeństwa i świeżości)
 
 ### Wyróżnienia (bold, italic)
 
 Wyróżnienia tworzą „skanowalny szkielet" --- czytelnik przeskakuje wzrokiem po pogrubionych frazach i rozumie sedno.
 
-**Zasada:** Po napisaniu tekstu wróć i pogrub tylko te frazy, które --- przeczytane po kolei --- opowiadają całą historię.
+**Zasada.** Po napisaniu tekstu wróć i pogrub tylko te frazy, które --- przeczytane po kolei --- opowiadają całą historię.
 
 ```{=latex}
 \begin{uwaga}
@@ -245,7 +406,7 @@ Nie pogrubiaj wszystkiego. Jeśli wszystko jest ważne, nic nie jest ważne. Mak
 \end{uwaga}
 ```
 
-### Callouts i boxy
+### Wyróżnienia i boxy
 
 Wyróżnione bloki tekstu (jak te w tym podręczniku) przyciągają uwagę i sygnalizują: „to jest szczególnie ważne".
 
@@ -288,25 +449,6 @@ Yoast SEO zaleca, żeby minimum \textbf{30\% zdań} zawierało słowa przejścio
 \end{wskazowka}
 ```
 
-### Technika „bucket brigades" (przypomnienie)
-
-Bucket brigades to krótkie frazy, które „podają" uwagę czytelnika z jednego akapitu do następnego.
-
-**Przykłady:**
-
-- Oto dlaczego...
-- Ale to nie wszystko...
-- I tu jest najlepsza część...
-- Pozwól, że wyjaśnię...
-- Brzmi znajomo?
-
-**Gdzie umieszczać:**
-
-- Na początku akapitów (po śródtytule)
-- Przed kluczowymi informacjami
-- Gdy zmieniasz temat lub kierunek
-- Gdy tekst staje się gęsty lub techniczny
-
 ### Technika „Open Loops" (Otwarte pętle)
 
 Otwarta pętla to obietnica informacji, którą dostarczysz później. Ludzki mózg **nienawidzi** niedokończonych historii --- to efekt Zeigarnik.
@@ -338,9 +480,9 @@ Najważniejsze informacje na górze, szczegóły na dole. Czytelnik, który prze
 
 ```{=latex}
 \begin{formula}{Odwrócona piramida}
-\textbf{Górna część:} Najważniejsza informacja, główna korzyść, kluczowy wniosek\\
-\textbf{Środek:} Szczegóły, dowody, rozwinięcie argumentów\\
-\textbf{Dół:} Kontekst, tło, informacje uzupełniające
+\textbf{Górna część:} najważniejsza informacja, główna korzyść, kluczowy wniosek\\
+\textbf{Środek:} szczegóły, dowody, rozwinięcie argumentów\\
+\textbf{Dół:} kontekst, tło, informacje uzupełniające
 \end{formula}
 ```
 
@@ -355,7 +497,7 @@ W długim tekście co 300-500 słów dodawaj element „resetujący" uwagę:
 - Śródtytuł
 - Obraz lub grafika
 - Lista wypunktowana
-- Cytat lub callout
+- Cytat
 - Krótki, 1-zdaniowy akapit
 
 ### Struktura sekcji w długim tekście
@@ -371,14 +513,14 @@ Każda sekcja długiego tekstu powinna mieć własną mini-strukturę:
 \decoline
 ```
 
-## Checklist struktury i body copy
+## Elementy struktury i treści copy
 
 Przed publikacją sprawdź swój tekst według tej listy:
 
 **Struktura:**
 
 - [ ] Tekst ma jasną formułę (AIDA, PAS, BAB lub hybryda)
-- [ ] Nagłówki czytane same opowiadają całą historię
+- [ ] Nagłówki same „opowiadają” całą historię
 - [ ] Każda sekcja ma jeden główny temat
 - [ ] Przejścia między sekcjami są płynne
 
@@ -410,25 +552,25 @@ Przed publikacją sprawdź swój tekst według tej listy:
 \begin{cwiczenie}{Przepisz tekst używając formuły}
 Wybierz krótki tekst reklamowy lub opis produktu (może być Twój lub znaleziony online).
 
-\textbf{Część 1: Analiza (10 min)}
+\textbf{Część 1. Analiza (10 min)}
 \begin{enumerate}
-  \item Zidentyfikuj, czy tekst używa jakiejś formuły (AIDA, PAS, BAB, FAB)?
+  \item Sprawdź, czy w tekście używane są jakiejś formuły (AIDA, PAS, BAB, FAB)?
   \item Zaznacz słowa przejściowe
   \item Oceń formatowanie (akapity, listy, wyróżnienia)
 \end{enumerate}
 
-\textbf{Część 2: Przepisanie (20 min)}
+\textbf{Część 2. Przepisanie (20 min)}
 
-Przepisz tekst używając formuły PAS + FAB:
+Przepisz tekst, używając formuły PAS + FAB:
 \begin{itemize}
   \item Problem (1-2 zdania)
   \item Agitate (2-3 zdania)
   \item Solution + FAB (cecha → zaleta → korzyść dla 3 głównych cech)
 \end{itemize}
 
-\textbf{Część 3: Formatowanie (10 min)}
+\textbf{Część 3. Formatowanie (10 min)}
 \begin{enumerate}
-  \item Podziel na krótkie akapity (max 3 zdania)
+  \item Podziel na krótkie akapity (maks. 3 zdania)
   \item Dodaj 1-2 listy wypunktowane
   \item Pogrub kluczowe frazy
   \item Dodaj 2-3 bucket brigades

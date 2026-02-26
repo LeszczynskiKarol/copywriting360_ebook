@@ -15,12 +15,12 @@ Masz może 3-5 sekund, zanim czytelnik zdecyduje: czytam dalej czy przewijam. Tw
 
 W tym rozdziale poznasz technikę „śliskiej zjeżdżalni", która sprawi, że czytelnicy będą ślizgać się przez Twój tekst aż do wezwania do działania.
 
-## Koncepcja „Slippery Slide" (Śliska zjeżdżalnia)
+## Koncepcja „Slippery Slide" (śliska zjeżdżalnia)
 
-Joseph Sugarman, legendarny copywriter odpowiedzialny za kampanię BluBlocker (10 milionów sprzedanych okularów), stworzył jedną z najważniejszych koncepcji w copywritingu.
+Joseph Sugarman, copywriter odpowiedzialny za kampanię BluBlocker (10 milionów sprzedanych okularów), stworzył jedną z najważniejszych koncepcji w copywritingu.
 
 ```{=latex}
-\begin{pojecie}{Slippery Slide (Śliska zjeżdżalnia)}
+\begin{pojecie}{Slippery Slide (śliska zjeżdżalnia)}
 Twoi czytelnicy powinni być tak pochłonięci Twoim tekstem, że nie mogą przestać czytać, dopóki nie przeczytają wszystkiego --- jakby zjeżdżali po śliskiej zjeżdżalni.
 \end{pojecie}
 ```
@@ -63,7 +63,7 @@ Sugarman wymienia elementy, które sprawiają, że tekst jest niemożliwy do por
 \decoline
 ```
 
-## Formuła APP: Struktura wciągającego wstępu
+## Formuła APP. Struktura wciągającego wstępu
 
 Brian Dean z Backlinko stworzył prostą formułę na pisanie wstępów, które zatrzymują czytelników na stronie. Nazywa ją APP.
 
@@ -127,13 +127,13 @@ Dziennikarze i copywriterzy przez dekady wypracowali różne typy leadów. Każd
 
 ### 1. Lead bezpośredni (Summary Lead)
 
-Klasyka dziennikarstwa. Odpowiada na pytania: kto, co, gdzie, kiedy, dlaczego, jak. Idealne dla newsów i komunikatów, gdzie czytelnik chce szybko poznać fakty.
+Klasyka dziennikarstwa. Odpowiada na pytania: kto, co, gdzie, kiedy, dlaczego, jak. Idealne dla newsów i komunikatów informujących o faktach.
 
 **Przykład:**
 
 > Apple ogłosiło dziś nową wersję iPhone'a z baterią działającą 48 godzin --- dwa razy dłużej niż poprzedni model.
 
-**Kiedy używać:** Komunikaty prasowe, newsy, informacje produktowe.
+**Kiedy używać:** komunikaty prasowe, newsy, informacje produktowe.
 
 ### 2. Lead anegdotyczny (Anecdotal Lead)
 
@@ -143,7 +143,7 @@ Zaczynasz od krótkiej historii, która ilustruje główny temat. Ludzie uwielbi
 
 > Maria siedziała w kawiarni, wpatrując się w pusty dokument Word. Trzecia godzina, zero słów. „Może po prostu nie nadaję się na copywritera" --- pomyślała. Nie wiedziała jeszcze, że problem nie leży w talencie, ale w procesie.
 
-**Kiedy używać:** Artykuły blogowe, case studies, teksty sprzedażowe, historie sukcesu.
+**Kiedy używać:** artykuły blogowe, case studies, teksty sprzedażowe, historie sukcesu.
 
 ```{=latex}
 \begin{wskazowka}
@@ -159,7 +159,7 @@ Malujesz obraz słowami. Używasz szczegółów sensorycznych, żeby przenieść
 
 > Zapach świeżo zmielonej kawy miesza się z szumem ekspresu. Barista w wyblakłym fartuchu nalewa espresso do filiżanki z charakterystycznym rysunkiem pęknięcia. To nie jest zwykła kawiarnia --- to miejsce, gdzie powstała jedna z najsłynniejszych marek świata.
 
-**Kiedy używać:** Artykuły lifestylowe, opisy miejsc, profile firm lub osób.
+**Kiedy używać:** artykuły lifestylowe, opisy miejsc, profile firm lub osób.
 
 ### 4. Lead-pytanie (Question Lead)
 
@@ -167,9 +167,9 @@ Zadajesz pytanie, na które czytelnik chce poznać odpowiedź. Mózg automatyczn
 
 **Przykład:**
 
-> Czy zdarzyło Ci się napisać genialny tekst, który nikt nie przeczytał? A może Twoje maile lądują w koszu bez otwarcia?
+> Czy zdarzyło Ci się napisać genialny tekst, którego nikt nie przeczytał? A może Twoje maile lądują w koszu bez otwarcia?
 
-**Kiedy używać:** Treści edukacyjne, artykuły poradnikowe, teksty problemowe.
+**Kiedy używać:** treści edukacyjne, artykuły poradnikowe, teksty problemowe.
 
 ```{=latex}
 \begin{uwaga}
@@ -185,7 +185,7 @@ Zaczynasz od zaskakującego faktu, statystyki lub stwierdzenia, które wywraca o
 
 > 80% Twoich potencjalnych klientów nigdy nie przeczyta tego, co piszesz. Nie dlatego, że Twój tekst jest zły --- ale dlatego, że Twój nagłówek ich nie zatrzymał.
 
-**Kiedy używać:** Artykuły data-driven, treści edukacyjne, teksty, które mają zmienić przekonania.
+**Kiedy używać:** Artykuły bazujące na danych, treści edukacyjne, teksty, które mają zmienić przekonania.
 
 ### 6. Lead „Ty" (Direct Address Lead)
 
@@ -193,7 +193,7 @@ Zwracasz się bezpośrednio do czytelnika. Sprawia, że tekst staje się osobist
 
 **Przykład:**
 
-> Pracujesz ciężko. Piszesz posty, wysyłasz maile, tworzysz oferty. A mimo to --- konwersje stoją w miejscu. Brzmi znajomo?
+> Pracujesz ciężko. Piszesz posty, wysyłasz maile, tworzysz oferty. A mimo to konwersje stoją w miejscu. Brzmi znajomo?
 
 **Kiedy używać:** Teksty sprzedażowe, landing page, email marketing.
 
@@ -215,7 +215,7 @@ Zaczynasz od mocnego cytatu --- klienta, eksperta lub bohatera historii.
 
 > „Myślałam, że copywriting to talent, z którym trzeba się urodzić. Okazało się, że to umiejętność, której można się nauczyć w 90 dni." --- Ania, kursantka Copywriting 360°
 
-**Kiedy używać:** Testimoniale, wywiady, historie sukcesu.
+**Kiedy używać:** recenzje, wywiady, historie sukcesu.
 
 ```{=latex}
 \begin{wskazowka}
@@ -227,7 +227,7 @@ Lead cytatowy działa najlepiej, gdy cytat jest konkretny, emocjonalny i zawiera
 \decoline
 ```
 
-## Bucket Brigades: Frazy, które nie pozwalają przestać czytać
+## Bucket Brigades. Frazy, które nie pozwalają przestać czytać
 
 Bucket brigades (dosł. „brygady kubłowe") to stara technika copywriterska, którą Brian Dean spopularyzował w kontekście SEO. Nazwa pochodzi od strażaków, którzy w przeszłości przekazywali wiadra z wodą w łańcuchu ludzkim.
 
@@ -316,7 +316,7 @@ I to robi całą różnicę."
 
 ```{=latex}
 \begin{uwaga}
-Nie przesadzaj z bucket brigades. Używane co 2-3 akapity są skuteczne. Używane w każdym akapicie stają się męczące i tracą moc. Umiar jest kluczem.
+Nie przesadzaj z bucket brigades. Używane co 2-3 akapity są skuteczne. Używane w każdym akapicie stają się męczące i tracą moc. Umiar to podstawa.
 \end{uwaga}
 ```
 
@@ -340,7 +340,7 @@ Pokaż końcowy rezultat --- transformację, sukces, rozwiązanie. Niech czyteln
 
 **Przykład:**
 
-> Za 30 dni będziesz pisać teksty, które konwertują 2x lepiej niż teraz. Bez talentu. Bez wieloletniego doświadczenia. Tylko z właściwym systemem.
+> Za 30 dni będziesz pisać teksty, które konwertują 2 x lepiej niż teraz. Bez talentu. Bez wieloletniego doświadczenia. Tylko z właściwym systemem.
 
 ### 3. Zacznij od kontrastu
 
@@ -423,7 +423,7 @@ Po napisaniu pierwszego zdania zapytaj się: „Czy mogę je skrócić?" Jeśli 
 
 **Dobrze:**
 
-> Twoja konkurencja nigdy nie była większa. A uwaga klientów --- nigdy bardziej rozproszona. Oto jak wygrać tę walkę.
+> Twoja konkurencja nigdy nie była większa. A uwaga klientów --- nigdy bardziej rozproszona. Oto, jak wygrać tę walkę.
 
 ### 2. Banalne otwarcia
 
@@ -442,7 +442,7 @@ Unikaj zdań, które mógłby napisać każdy:
 
 **Dobrze:**
 
-> Twoje teksty mogą konwertować 2x lepiej. Bez dodatkowego ruchu. Bez większego budżetu. Tylko ze zmianą kilku słów.
+> Twoje teksty mogą konwertować 2 x lepiej. Bez dodatkowego ruchu. Bez większego budżetu. Tylko ze zmianą kilku słów.
 
 ### 4. Obietnice bez dowodów
 
@@ -462,7 +462,7 @@ Wybierz temat artykułu lub tekstu sprzedażowego (może być fikcyjny).
 
 \textbf{Część 1: Napisz 5 leadów (20 min)}
 
-Napisz lead tego samego tekstu używając 5 różnych technik:
+Napisz lead tego samego tekstu, używając 5 różnych technik:
 \begin{enumerate}
   \item Lead anegdotyczny (historia)
   \item Lead-pytanie
