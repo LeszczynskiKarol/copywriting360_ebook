@@ -312,7 +312,7 @@ Platforma szybkich myśli i dyskusji.
 **Specyfika:**
 
 - Limit: **280 znaków** (do 25 000 dla premium)
-- Odbiorcy: influencerzy, branże tech/media
+- Odbiorcy: influencerzy, branże tech/media 
 - Ton: zwięzły, dowcipny, na czasie
 - Wątki (threads) dla dłuższych treści
 
