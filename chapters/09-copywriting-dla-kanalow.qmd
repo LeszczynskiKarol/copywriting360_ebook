@@ -50,7 +50,7 @@ Temat to nagłówek emaila --- od niego zależy, czy odbiorca w ogóle przeczyta
 - Tematy z **personalizacją** (imię odbiorcy) mają 29% wyższy wskaźnik otwierania przez odbiorców
 - Tematy z **liczbami** mają 57% wyższy wskaźnik
 - Tematy z **emoji** mają do 56% wyższy wskaźnik (ale używaj z umiarem)
-- Optymalna długość: **30-50 znaków** (max 7 słów)
+- Optymalna długość: **30-50 znaków** (maks. 7 słów)
 
 **Formuły skutecznych tematów:**
 
@@ -272,7 +272,7 @@ Instagram to platforma wizualna, ale podpis ma ogromne znaczenie dla zaangażowa
 **Struktura opisu na Instagramie:**
 
 ```
-[HOOK --- mocne pierwsze zdanie, max 125 znaków]
+[HOOK --- mocne pierwsze zdanie, maks. 125 znaków]
 
 [Pusta linia]
 
@@ -333,7 +333,7 @@ Landing page to strona z jednym celem --- konwersją. Każdy element musi prowad
 
 ### Struktura landing page
 
-**1. Hero section (above the fold)**
+**1. Hero section (above the fold --- pierwszy obszar widoczny po załadowaniu strony)**
 
 - **Nagłówek** --- główna obietnica/korzyść
 - **Podtytuł** --- rozwinięcie lub jak to osiągniesz
@@ -354,8 +354,8 @@ Landing page to strona z jednym celem --- konwersją. Każdy element musi prowad
 
 **4. Dowody**
 
-- Testimoniale (z imieniem, zdjęciem, konkretnymi wynikami)
-- Case studies
+- Rekomendacje (z imieniem, zdjęciem, konkretnymi wynikami)
+- Studia przypadków
 - Liczby i statystyki
 - Logo klientów
 
@@ -371,11 +371,11 @@ Landing page to strona z jednym celem --- konwersją. Każdy element musi prowad
 - Powtórzenie głównego wezwania
 - Element pilności (jeśli prawdziwy)
 
-### Best practices landing page
+### Najlepsze praktyki landing page
 
 **Jeden cel = jedno CTA**
 
-Nie rozpraszaj uwagi. Usuń menu nawigacyjne, linki wychodzące, wszystko co odciąga od głównego celu.
+Nie rozpraszaj uwagi. Usuń menu nawigacyjne, linki wychodzące i wszystko inne, co odciąga od głównego celu.
 
 **Skanowalna struktura**
 
@@ -386,7 +386,7 @@ Nie rozpraszaj uwagi. Usuń menu nawigacyjne, linki wychodzące, wszystko co odc
 
 **Social proof**
 
-Ludzie ufają innym ludziom. Testimoniale z konkretnymi wynikami („Zwiększyłem sprzedaż o 47%") działają lepiej niż ogólne pochwały („Świetna usługa!").
+Ludzie ufają innym ludziom. Rekomendacje z konkretnymi wynikami („Zwiększyłem sprzedaż o 47%") działają lepiej niż ogólne pochwały („Świetna usługa!").
 
 **Redukcja ryzyka**
 
@@ -398,7 +398,7 @@ Każdy zakup to ryzyko. Zmniejsz je:
 
 ```{=latex}
 \begin{wazne}
-70\% wzrost konwersji gdy CTA znajduje się na końcu opisu produktu (po przedstawieniu wartości). Nie proś o działanie, zanim nie przekonasz.
+70\% wzrost konwersji, gdy CTA znajduje się na końcu opisu produktu (po przedstawieniu wartości). Nie proś o działanie, zanim nie przekonasz.
 \end{wazne}
 ```
 
@@ -456,15 +456,15 @@ Nie tylko „co ma", ale „co to znaczy dla klienta".
 \decoline
 ```
 
-## Reklamy (Ads)
+## Reklamy internetowe (Ads)
 
-Reklamy mają sekundy na przyciągnięcie uwagi i przekonanie do kliknięcia.
+W reklamach online jako copywriter masz sekundy na przyciągnięcie uwagi i przekonanie do kliknięcia.
 
 ### Facebook/Instagram Ads
 
 **Struktura:**
 
-1. **Hook** (pierwsze zdanie) --- zatrzymaj scrollowanie
+1. **Haczyk** (hook, czyli pierwsze zdanie) --- zatrzymaj scrollowanie
 2. **Problem lub obietnica** --- dlaczego to ważne
 3. **Rozwiązanie** --- co oferujesz
 4. **CTA** --- co ma zrobić
@@ -478,8 +478,8 @@ Reklamy mają sekundy na przyciągnięcie uwagi i przekonanie do kliknięcia.
 ### Google Ads
 
 Ograniczenia wymuszają zwięzłość:
-- Nagłówek: max 30 znaków (x3)
-- Opis: max 90 znaków (x2)
+- Nagłówek: maks. 30 znaków (x3)
+- Opis: maks. 90 znaków (x2)
 
 **Zasady:**
 
@@ -490,11 +490,11 @@ Ograniczenia wymuszają zwięzłość:
 
 ```{=latex}
 \begin{przyklad}{Google Ad}
-\textbf{Nagłówek 1:} Kurs Copywritingu Online
-\textbf{Nagłówek 2:} Naucz się pisać teksty, które sprzedają
+\textbf{Nagłówek 1:} Kurs Copywritingu Online\newline
+\textbf{Nagłówek 2:} Naucz się pisać teksty, które sprzedają\newline
 \textbf{Nagłówek 3:} Dołącz do 5000+ absolwentów
 
-\textbf{Opis 1:} Praktyczny kurs od podstaw do zaawansowanych technik. 30 dni gwarancji zwrotu.
+\textbf{Opis 1:} Praktyczny kurs od podstaw do zaawansowanych technik. 30 dni gwarancji zwrotu.\newline
 \textbf{Opis 2:} Zacznij już dziś i podwój swoje konwersje. Sprawdź program kursu.
 \end{przyklad}
 ```
@@ -503,11 +503,9 @@ Ograniczenia wymuszają zwięzłość:
 \decoline
 ```
 
-## Dostosowanie głosu marki do kanału
+## Dostosowanie komunikacji marki do kanału
 
-Głos marki pozostaje spójny --- ton się dostosowuje.
-
-**Głos marki** = osobowość (np. ekspert, przyjaciel, mentor)
+**Głos marki** = osobowość (np. ekspert, przyjaciel, mentor)\newline
 **Ton** = nastrój dopasowany do kontekstu (formalny, casualowy, pilny)
 
 ```{=latex}
@@ -518,7 +516,7 @@ Głos marki pozostaje spójny --- ton się dostosowuje.
 „Przygotowałem dla Ciebie analizę 5 najczęstszych błędów w nagłówkach. Zobacz, który popełniasz najczęściej."
 
 \textbf{Instagram (casualowy):}
-„Te 5 błędów w nagłówkach? Popełniałem je wszystkie. 🤦 Sprawdź, czy Ty też (swipe →)"
+„Te 5 błędów w nagłówkach? Popełniałem je wszystkie. Sprawdź, czy Ty też (swipe →)"
 
 \textbf{LinkedIn (profesjonalny, osobisty):}
 „Po przeanalizowaniu 500+ nagłówków moich klientów, znalazłem 5 powtarzających się błędów. Oto one:"
@@ -529,7 +527,7 @@ Głos marki pozostaje spójny --- ton się dostosowuje.
 \decoline
 ```
 
-## Checklist: Copywriting dla różnych kanałów
+## Podsumowanie: Copywriting dla różnych kanałów
 
 **Email:**
 
@@ -551,11 +549,11 @@ Głos marki pozostaje spójny --- ton się dostosowuje.
 
 - [ ] Jeden cel, jedno główne CTA
 - [ ] Korzyści > cechy
-- [ ] Social proof (testimoniale, liczby)
+- [ ] Social proof (rekomendacje, liczby, studia przypadków)
 - [ ] Redukcja ryzyka (gwarancja, FAQ)
 - [ ] Skanowalna struktura
 
-**Reklamy:**
+**Reklamy online:**
 
 - [ ] Hook w pierwszym zdaniu
 - [ ] Korzyść jasno zakomunikowana
@@ -585,8 +583,8 @@ Na podstawie tego samego przekazu napisz:
 
 \begin{enumerate}
   \item \textbf{Temat emaila + pierwsze 3 zdania} (zachęta do otwarcia i przeczytania)
-  \item \textbf{Post na LinkedIn} (max 500 znaków, profesjonalny ton)
-  \item \textbf{Caption na Instagram} (max 300 znaków, casualowy ton, z CTA)
+  \item \textbf{Post na LinkedIn} (maks. 500 znaków, profesjonalny ton)
+  \item \textbf{Caption na Instagram} (maks. 300 znaków, casualowy ton, z CTA)
 \end{enumerate}
 
 \textbf{Część 3: Porównaj (5 min)}

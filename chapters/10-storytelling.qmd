@@ -13,7 +13,7 @@ Możesz powiedzieć klientowi, że Twój produkt zwiększa produktywność o 40%
 
 Która wersja zostanie zapamiętana?
 
-W tym rozdziale poznasz psychologię storytellingu, sprawdzone frameworki narracyjne używane przez najlepsze marki świata oraz techniki tworzenia historii, które angażują emocjonalnie i prowadzą do sprzedaży.
+W tym rozdziale poznasz psychologię storytellingu, sprawdzone wzorce narracyjne używane przez najlepsze marki świata oraz techniki tworzenia historii, które angażują emocjonalnie i prowadzą do sprzedaży.
 
 ## Dlaczego historie działają?
 
@@ -27,19 +27,19 @@ Kiedy słuchamy **historii**, aktywują się **dodatkowe obszary** --- te same, 
 
 ```{=latex}
 \begin{pojecie}{Synchronizacja neuronalna}
-Badania dr Paula Zaka pokazują, że angażujące historie powodują wydzielanie oksytocyny --- hormonu zaufania i empatii. Co więcej, mózgi słuchacza i opowiadającego zaczynają ``synchronizować się'' --- dosłownie myślą w podobny sposób.
+Badania dr. Paula Zaka pokazują, że angażujące historie powodują wydzielanie oksytocyny --- hormonu zaufania i empatii. Co więcej, mózgi słuchacza i opowiadającego zaczynają „synchronizować się” --- dosłownie myślą w podobny sposób.
 \end{pojecie}
 ```
 
 **Co to oznacza dla copywritera?**
 
 - Historie budują **zaufanie** (oksytocyna)
-- Historie są **zapamiętywane** 22x lepiej niż fakty
+- Historie są **zapamiętywane** 22 x lepiej niż fakty
 - Historie **synchronizują** myślenie czytelnika z Twoim przekazem
 - Efekt emocjonalny historii może trwać **kilka dni**
 
 ```{=latex}
-\stathighlight{22x}{lepiej zapamiętujemy informacje przekazane w formie historii (Jerome Bruner)}
+\stathighlight{22 x}{lepiej zapamiętujemy informacje przekazane w formie historii (Jerome Bruner)}
 ```
 
 ```{=latex}
@@ -56,7 +56,7 @@ Pomyśl o tym jak o filmie. Klient to Luke Skywalker --- młody człowiek z prob
 
 ```{=latex}
 \begin{wazne}
-Kiedy marka pozycjonuje się jako bohater, klienci pozostają zdystansowani. Podświadomie myślą: ``To kolejny bohater, jak ja. Konkurujemy o uwagę i zasoby.'' Ale kiedy marka staje się przewodnikiem, klient myśli: ``Ta marka może mi pomóc w mojej podróży.''
+Kiedy marka pozycjonuje się jako bohater, klienci pozostają zdystansowani. Podświadomie myślą: „To kolejny bohater, jak ja. Konkurujemy o uwagę i zasoby.” Ale kiedy marka staje się przewodnikiem, klient myśli: „Ta marka może mi pomóc w mojej podróży.”
 \end{wazne}
 ```
 
@@ -69,7 +69,7 @@ Kiedy marka pozycjonuje się jako bohater, klienci pozostają zdystansowani. Pod
 ```{=latex}
 \begin{przyklad}{Marka jako bohater vs. marka jako przewodnik}
 \textbf{Marka jako bohater (źle):}
-``Jesteśmy liderem rynku z 15-letnim doświadczeniem. Nasz zespół 50 ekspertów stworzył innowacyjne rozwiązanie, które zdobyło 3 nagrody branżowe.''
+„Jesteśmy liderem rynku z 15-letnim doświadczeniem. Nasz zespół 50 ekspertów stworzył innowacyjne rozwiązanie, które zdobyło 3 nagrody branżowe.”
 
 \textbf{Marka jako przewodnik (dobrze):}
 ``Wiesz, jak to jest --- siedzisz do 22:00 nad raportami, które powinny zajmować godzinę. Byliśmy tam. Dlatego stworzyliśmy narzędzie, które pozwala Ci wrócić do domu na kolację z rodziną.''
@@ -82,7 +82,7 @@ Kiedy marka pozycjonuje się jako bohater, klienci pozostają zdystansowani. Pod
 
 ## Framework StoryBrand (SB7)
 
-Donald Miller stworzył 7-elementowy framework oparty na klasycznej podróży bohatera. To jeden z najpopularniejszych modeli storytellingu w marketingu.
+Donald Miller stworzył 7-elementowy strukturę bazującą na klasycznej podróży bohatera. To jeden z najpopularniejszych modeli storytellingu w marketingu.
 
 ```{=latex}
 \begin{formula}{StoryBrand Framework (SB7)}
@@ -106,7 +106,7 @@ Zdefiniuj, kim jest Twój klient i czego pragnie. **Jedno** główne pragnienie,
 
 ```{=latex}
 \begin{wskazowka}
-Pragnienie bohatera musi być związane z tym, co oferujesz. Jeśli sprzedajesz oprogramowanie do faktur, pragnieniem nie jest ``szczęście'' --- to zbyt abstrakcyjne. Pragnieniem jest ``kontrola nad finansami firmy'' lub ``koniec chaosu z dokumentami''.
+Pragnienie bohatera musi być związane z tym, co oferujesz. Jeśli sprzedajesz oprogramowanie do faktur, pragnieniem nie jest „szczęście” --- to zbyt abstrakcyjne. Pragnieniem jest „kontrola nad finansami firmy” lub „koniec chaosu z dokumentami”.
 \end{wskazowka}
 ```
 
@@ -119,7 +119,7 @@ Donald Miller wyróżnia **trzy poziomy problemu**:
 | Poziom | Opis | Przykład (kurs copywritingu) |
 |--------|------|------------------------------|
 | Zewnętrzny | Konkretna przeszkoda | „Nie wiem, jak pisać teksty, które sprzedają" |
-| Wewnętrzny | Uczucia, frustracje | „Czuję się niepewny wysyłając oferty klientom" |
+| Wewnętrzny | Uczucia, frustracje | „Czuję się niepewnie, wysyłając oferty klientom" |
 | Filozoficzny | Głębsze znaczenie | „Nie powinienem być skazany na niskie stawki tylko dlatego, że nikt mnie nie nauczył" |
 
 **Firmy zwykle sprzedają rozwiązania problemów zewnętrznych, ale klienci kupują rozwiązania problemów wewnętrznych.**
@@ -136,7 +136,7 @@ Dobry przewodnik ma dwie cechy:
 
 ```{=latex}
 \begin{przyklad}{Empatia + autorytet}
-``Wiem, jak to jest wysyłać dziesiątą ofertę w tym miesiącu i nie dostawać odpowiedzi. Sam przez to przechodziłem, zanim opracowałem system, który teraz daje mi 70\% odpowiedzi. Przez ostatnie 5 lat pomogłem 200+ copywriterom osiągnąć podobne wyniki.''
+„Wiem, jak to jest wysyłać dziesiątą ofertę w tym miesiącu i nie dostawać odpowiedzi. Sam przez to przechodziłem, zanim opracowałem system, który teraz daje mi 70\% odpowiedzi. Przez ostatnie 5 lat pomogłem 200+ copywriterom osiągnąć podobne wyniki.”
 \end{przyklad}
 ```
 
@@ -161,7 +161,7 @@ Bohaterowie nie działają sami z siebie. Potrzebują **wezwania**. W filmach to
 Dwa typy CTA:
 
 - **Bezpośrednie:** „Kup teraz", „Zapisz się"
-- **Pośrednie (transitional):** „Pobierz darmowy przewodnik" --- dla tych, którzy nie są jeszcze gotowi
+- **Pośrednie:** „Pobierz darmowy przewodnik" --- dla tych, którzy nie są jeszcze gotowi
 
 ### 6. Sukces
 
@@ -173,7 +173,7 @@ Trzy uniwersalne zakończenia historii:
 - **Kompletność:** Z brakującego elementu → pełnia, harmonia
 - **Samorealizacja:** Z ograniczeń → wolność, potencjał
 
-### 7. Porażka (Stakes)
+### 7. Porażka
 
 Co się stanie, jeśli bohater **nie** podejmie działania? Jakie są konsekwencje?
 
@@ -181,7 +181,7 @@ To „sól w przepisie" --- nie przesadzaj, ale pokaż stawkę.
 
 ```{=latex}
 \begin{uwaga}
-Donald Miller radzi używać porażki oszczędnie --- ``szczyptę soli''. Zbyt dużo strachu odstrasza. Ale bez żadnej stawki historia jest płaska i nie motywuje do działania.
+Donald Miller radzi, aby używać porażki oszczędnie --- „szczyptę soli”. Zbyt dużo strachu odstrasza. Ale bez żadnej stawki historia jest płaska i nie motywuje do działania.
 \end{uwaga}
 ```
 
@@ -189,7 +189,7 @@ Donald Miller radzi używać porażki oszczędnie --- ``szczyptę soli''. Zbyt d
 \decoline
 ```
 
-## Inne frameworki storytellingu
+## Inne modele storytellingu
 
 ### Struktura trzyaktowa
 
@@ -240,7 +240,7 @@ Prosty szablon używany przez Pixar Animation Studios.
 
 \textbf{Z tego powodu} zdobył referencje i kolejnych klientów.
 
-\textbf{Aż wreszcie} odszedł z etatu i zarabia 3x więcej, pracując dla siebie.
+\textbf{Aż wreszcie} odszedł z etatu i zarabia 3 x więcej, pracując dla siebie.
 \end{przyklad}
 ```
 
@@ -260,11 +260,11 @@ Dlaczego powstała firma? Jaki problem chciałeś rozwiązać?
 
 ```{=latex}
 \begin{przyklad}{Historia założyciela --- Harry's}
-Harry's (firma produkująca maszynki do golenia) opowiada historię dwóch założycieli zmęczonych przepłacaniem za golenie. Ale prawdziwy przekaz to: ``Ty też jesteś zmęczony przepłacaniem. My to rozumiemy, bo sami przez to przeszliśmy.''
+Harry's (firma produkująca maszynki do golenia) opowiada historię dwóch założycieli zmęczonych przepłacaniem za golenie. Ale prawdziwy przekaz to: „Ty też jesteś zmęczony przepłacaniem. My to rozumiemy, bo sami przez to przeszliśmy.”
 \end{przyklad}
 ```
 
-### 2. Historia klienta (Customer Story / Testimonial)
+### 2. Historia klienta
 
 Najpotężniejszy typ historii --- transformacja prawdziwego klienta.
 
@@ -277,19 +277,19 @@ Najpotężniejszy typ historii --- transformacja prawdziwego klienta.
 
 ```{=latex}
 \begin{wskazowka}
-Zamiast generycznych ``Świetna usługa!'', zbieraj szczegółowe historie. Pytaj klientów: ``Jak wyglądało Twoje życie/biznes PRZED? Co się zmieniło PO? Co konkretnie zyskałeś?''
+Zamiast generycznych „Świetna usługa!”, zbieraj szczegółowe historie. Pytaj klientów: „Jak wyglądało Twoje życie/biznes PRZED? Co się zmieniło PO? Co konkretnie zyskałeś?”
 \end{wskazowka}
 ```
 
-### 3. Historia „a gdyby tak..." (Vision Story)
+### 3. Historia „a gdyby tak..."
 
 Historia przyszłości --- jak będzie wyglądać życie klienta po zakupie.
 
-### 4. Historia porażki (Cautionary Tale)
+### 4. Historia porażki
 
 Co się stanie, jeśli problem nie zostanie rozwiązany? Historia kogoś, kto nie podjął działania.
 
-### 5. Historia „za kulisami" (Behind-the-Scenes)
+### 5. Historia „za kulisami"
 
 Jak powstaje produkt? Kto za nim stoi? Autentyczność buduje zaufanie.
 
@@ -303,7 +303,7 @@ Wartościowa lekcja zapakowana w narrację --- łatwiejsza do zapamiętania niż
 
 ## Elementy dobrej historii
 
-Niezależnie od frameworka, każda dobra historia potrzebuje:
+Niezależnie od zastosowanego modelu każda dobra historia potrzebuje:
 
 ### 1. Bohatera, z którym można się utożsamić
 
@@ -338,9 +338,9 @@ Abstrakcyjne historie nie angażują. Konkretne detale budują wiarygodność i 
 
 ```{=latex}
 \begin{przyklad}{Abstrakcyjnie vs. konkretnie}
-\textbf{Abstrakcyjnie:} ``Nasz klient zwiększył sprzedaż.''
+\textbf{Abstrakcyjnie:} „Nasz klient zwiększył sprzedaż.”
 
-\textbf{Konkretnie:} ``Marek, właściciel 3-osobowej agencji z Krakowa, zwiększył sprzedaż o 47\% w ciągu 90 dni. Teraz zamiast pracować do 22:00, kończy o 18:00 i ma czas na trening.''
+\textbf{Konkretnie:} „Marek, właściciel 3-osobowej agencji z Krakowa, zwiększył sprzedaż o 47\% w ciągu 90 dni. Teraz zamiast pracować do 22:00, kończy o 18:00 i ma czas na trening.”
 \end{przyklad}
 ```
 
@@ -416,7 +416,7 @@ Każda historia w marketingu musi prowadzić do czegoś --- CTA, lekcji, przekon
 \decoline
 ```
 
-## Checklist skutecznej historii
+## Storytelling - podsumowanie
 
 - [ ] Bohaterem jest klient (lub ktoś, z kim klient może się utożsamić)
 - [ ] Jest jasny problem/konflikt
@@ -464,7 +464,7 @@ Zakończ historię wezwaniem do działania, które naturalnie wynika z opowiedzi
 ```
 
 ```{=latex}
-\takeaway{Historie są 22x lepiej zapamiętywane niż fakty. W marketingu Twój klient jest bohaterem --- Ty jesteś przewodnikiem, który pomaga mu osiągnąć cel. Używaj frameworka StoryBrand: bohater z pragnieniem, problem (zewnętrzny + wewnętrzny), przewodnik z empatią i autorytetem, prosty plan, CTA, wizja sukcesu i konsekwencje porażki. Każda historia potrzebuje konfliktu, transformacji i konkretnych detali. Storytelling to nie ozdobnik --- to fundamentalne narzędzie budowania zaufania i przekonywania.}
+\takeaway{Historie są 22 x skuteczniej zapamiętywane niż fakty. W marketingu Twój klient jest bohaterem --- Ty jesteś przewodnikiem, który pomaga mu osiągnąć cel. Używaj struktury StoryBrand: bohater z pragnieniem, problem (zewnętrzny + wewnętrzny), przewodnik z empatią i autorytetem, prosty plan, CTA, wizja sukcesu i konsekwencje porażki. Każda historia potrzebuje konfliktu, transformacji i konkretnych detali. Storytelling to nie ozdobnik --- to fundamentalne narzędzie budowania zaufania i przekonywania.}
 ```
 
 W następnym rozdziale zajmiemy się **copywritingiem SEO** --- jak pisać teksty, które kochają zarówno ludzie, jak i wyszukiwarki.

@@ -18,7 +18,7 @@ To wyzwanie. Ale też ogromna szansa dla copywriterów, którzy rozumieją specy
 ## B2B vs B2C: Kluczowe różnice
 
 ```{=latex}
-\begin{tabular}{|p{4cm}|p{5cm}|p{5cm}|}
+\begin{tabular}{|p{4cm}|p{6cm}|p{6cm}|}
 \hline
 \textbf{Aspekt} & \textbf{B2B} & \textbf{B2C} \\
 \hline
@@ -34,14 +34,14 @@ Ton komunikacji & Profesjonalny, ale ludzki & Casualowy, emocjonalny \\
 \hline
 Typ contentu & White papers, case studies, webinary & Reklamy, social media, opisy produktów \\
 \hline
-CTA & ``Umów demo'', ``Pobierz raport'' & ``Kup teraz'', ``Dodaj do koszyka'' \\
+CTA & „Umów demo”, „Pobierz raport” & „Kup teraz”, „Dodaj do koszyka” \\
 \hline
 \end{tabular}
 ```
 
 ```{=latex}
 \begin{wazne}
-Największy mit B2B: ``Sprzedaję firmom, więc muszę pisać sucho i korporacyjnie''. Nie. Firmy nie czytają --- czytają ludzie. Twój tekst nadal musi być angażujący, jasny i przekonujący. Różnica polega na tym, CO przekonuje, nie JAK.
+Największy mit B2B: „Sprzedaję firmom, więc muszę pisać sucho i korporacyjnie”. Nie. Firmy nie czytają --- czytają ludzie. Twój tekst nadal musi być angażujący, jasny i przekonujący. Różnica polega na tym, CO przekonuje, nie JAK.
 \end{wazne}
 ```
 
@@ -49,7 +49,7 @@ Największy mit B2B: ``Sprzedaję firmom, więc muszę pisać sucho i korporacyj
 \decoline
 ```
 
-## Komitet zakupowy: Wielu decydentów, jedna decyzja
+## Komitet zakupowy: wielu decydentów, jedna decyzja
 
 W B2B rzadko przekonujesz jedną osobę. Według Forrester (2024), **89% decyzji zakupowych B2B** wymaga zgody wielu działów.
 
@@ -83,7 +83,7 @@ Ponad 40\% transakcji B2B stoi, bo interesariusze nie mogą się zgodzić. Twój
 
 ### Jak pisać dla wielu decydentów?
 
-**Zasada 1: Jeden przekaz, wiele języków**
+**Zasada 1. Jeden przekaz, wiele języków**
 
 Główna obietnica jest jedna. Ale prezentujesz ją różnie dla różnych osób:
 
@@ -94,18 +94,18 @@ Główna obietnica jest jedna. Ale prezentujesz ją różnie dla różnych osób
 | Menedżer operacyjny | Efektywność, czas | „Automatyzacja 80% manualnych zadań" |
 | Użytkownik końcowy | Prostota, UX | „Interfejs bez krzywej uczenia się" |
 
-**Zasada 2: Twórz content dla każdego etapu**
+**Zasada 2. Twórz content dla każdego etapu**
 
 - **TOFU (góra lejka):** Edukacyjne artykuły, raporty branżowe
 - **MOFU (środek):** Webinary, porównania, case studies
 - **BOFU (dół):** Demo, kalkulatory ROI, propozycje
 
-**Zasada 3: Wyposaż championa**
+**Zasada 3. Wyposaż championa**
 
-Daj mu materiały do przekonywania innych:
-- One-pagery z kluczowymi argumentami
-- ROI calculator do pokazania CFO
-- Dokumentacja techniczna dla IT
+Daj mu materiały do przekonywania innych:\newline
+- Jednostronicowe dokumenty z kluczowymi argumentami\newline
+- Kalkulator ROI do pokazania CFO\newline
+- Dokumentacja techniczna dla IT\newline
 - Case study podobnej firmy
 
 ```{=latex}
@@ -116,15 +116,15 @@ Daj mu materiały do przekonywania innych:
 
 ### Profesjonalny, ale ludzki
 
-B2B nie oznacza nudnego. Oznacza merytorycyny, konkretny i zorientowany na biznesowe rezultaty --- ale pisany dla ludzi.
+B2B nie oznacza nudnego. Oznacza merytorycyny, konkretny i zorientowany na biznesowe rezultaty, ale pisany dla ludzi.
 
 ```{=latex}
 \begin{przyklad}{Korporacyjny vs. Profesjonalny-ludzki}
 \textbf{Zbyt korporacyjny:}
-``Nasza innowacyjna platforma SaaS oferuje kompleksowe rozwiązania end-to-end dla przedsiębiorstw dążących do optymalizacji procesów biznesowych w ramach transformacji cyfrowej.''
+Nasza innowacyjna platforma SaaS oferuje kompleksowe rozwiązania end-to-end dla przedsiębiorstw dążących do optymalizacji procesów biznesowych w ramach transformacji cyfrowej.
 
 \textbf{Profesjonalny i ludzki:}
-``Twój zespół traci 12 godzin tygodniowo na ręczne raportowanie. Nasza platforma robi to automatycznie --- w tle, bez przerywania pracy. Średnia oszczędność: 15 000 zł miesięcznie na jednego analityka.''
+Twój zespół traci 12 godzin tygodniowo na ręczne raportowanie. Nasza platforma robi to automatycznie --- w tle, bez przerywania pracy. Średnia oszczędność: 15 000 zł miesięcznie na jednego analityka.
 \end{przyklad}
 ```
 
@@ -135,10 +135,10 @@ W B2B puste przymiotniki nie działają. „Najlepszy", „innowacyjny", „wiod
 ```{=latex}
 \begin{przyklad}{Przymiotniki vs. Liczby}
 \textbf{Słabo:}
-``Znacząco zwiększamy produktywność zespołów''
+Znacząco zwiększamy produktywność zespołów
 
 \textbf{Mocno:}
-``Zespoły używające naszego narzędzia zamykają projekty średnio 34\% szybciej --- potwierdzone w badaniu 847 użytkowników''
+Zespoły używające naszego narzędzia zamykają projekty średnio 34\% szybciej --- potwierdzone w badaniu 847 użytkowników
 \end{przyklad}
 ```
 
@@ -158,13 +158,13 @@ Unikaj żargonu, gdy piszesz dla decydentów spoza działu technicznego (CEO, CF
 
 ## Typy contentu B2B
 
-W B2B content marketing to podstawa. 58% marketerów B2B przypisuje przychody bezpośrednio do content marketingu. SEO daje średnio **748% ROI**, email marketing **$36 za każdy $1 wydany**.
+W B2B content marketing to podstawa. 58% marketerów B2B przypisuje przychody bezpośrednio do content marketingu.
 
 ### 1. White paper
 
 **Czym jest:** Pogłębiony raport na temat problemu branżowego i jego rozwiązania. Zwykle 5-15 stron.
 
-**Kiedy używać:** TOFU/MOFU. Budowanie autorytetu, generowanie leadów (gated content).
+**Kiedy używać:** TOFU/MOFU. Budowanie autorytetu, generowanie leadów.
 
 **Struktura:**
 
@@ -172,7 +172,7 @@ W B2B content marketing to podstawa. 58% marketerów B2B przypisuje przychody be
 2. Dlaczego dotychczasowe rozwiązania nie działają
 3. Nowe podejście / rozwiązanie
 4. Jak to wdrożyć
-5. Podsumowanie i next steps
+5. Podsumowanie i następne kroki
 
 ```{=latex}
 \begin{wskazowka}
@@ -186,7 +186,7 @@ White paper to NIE broszura sprzedażowa. To wartościowy, edukacyjny content, k
 
 **Kiedy używać:** MOFU/BOFU. Budowanie zaufania, dowód że Twoje rozwiązanie działa.
 
-**Struktura (Challenge-Solution-Results):**
+**Struktura (Wyzwanie-Rozwiązanie-Rezultat):**
 
 1. **Wyzwanie:** Z jakim problemem zmagał się klient?
 2. **Rozwiązanie:** Jak Twój produkt/usługa pomogła?
@@ -198,11 +198,11 @@ White paper to NIE broszura sprzedażowa. To wartościowy, edukacyjny content, k
 \begin{itemize}
   \item 47\% redukcja czasu procesowania faktur
   \item 23 000 zł miesięcznych oszczędności na kosztach operacyjnych
-  \item 99,7\% accuracy w automatycznej kategoryzacji
+  \item 99,7\% dokładności w automatycznej kategoryzacji
   \item ROI: 312\% w pierwszym roku
 \end{itemize}
 
-``To narzędzie zmieniło sposób, w jaki pracuje nasz dział finansów. Nie wyobrażam sobie powrotu do poprzedniego systemu.'' --- Anna Kowalska, CFO, TechCorp
+„To narzędzie zmieniło sposób, w jaki pracuje nasz dział finansów. Nie wyobrażam sobie powrotu do poprzedniego systemu.” --- Anna Kowalska, CFO, TechCorp
 \end{przyklad}
 ```
 
@@ -210,7 +210,7 @@ White paper to NIE broszura sprzedażowa. To wartościowy, edukacyjny content, k
 
 **Czym jest:** Prezentacja na żywo lub nagranie edukacyjne.
 
-**Kiedy używać:** MOFU. Demonstracja ekspertyzy, budowanie relacji.
+**Kiedy używać:** MOFU. Demonstracja wiedzy, budowanie relacji.
 
 **Copywriting dla webinarów:**
 
@@ -218,7 +218,7 @@ White paper to NIE broszura sprzedażowa. To wartościowy, edukacyjny content, k
 - Landing page z agendą i bio prelegentów
 - Sekwencja emaili przed i po webinarze
 
-### 4. Email nurturing
+### 4. Automatyczny i sekwencyjny mailing
 
 **Czym jest:** Seria emaili prowadząca leada przez lejek sprzedażowy.
 
@@ -235,11 +235,11 @@ White paper to NIE broszura sprzedażowa. To wartościowy, edukacyjny content, k
 \begin{przyklad}{Email B2B --- wartość + CTA}
 \textbf{Temat:} 3 błędy, przez które tracisz 20\% leadów
 
-Cześć [Imię],
+Cześć, [Imię]!
 
 Przeanalizowaliśmy 500 lejków sprzedażowych B2B. Wynik? 73\% firm popełnia te same 3 błędy w follow-upie.
 
-Najgorszy z nich: wysyłanie pierwszego follow-upa po 48+ godzinach. Leady kontaktowane w ciągu 5 minut mają 9x większe szanse na konwersję.
+Najgorszy z nich: wysyłanie pierwszego follow-upa po 48+ godzinach. Leady kontaktowane w ciągu 5 minut mają 9 x większe szanse na konwersję.
 
 Napisaliśmy krótki przewodnik (5 minut czytania), który pokazuje wszystkie 3 błędy i jak je naprawić.
 
@@ -275,11 +275,11 @@ Pozdrawiam,
 
 ## Pisanie dla długiego cyklu sprzedaży
 
-W B2B lead rzadko kupuje po pierwszym kontakcie. Proces trwa miesiące i wymaga wielu touchpointów.
+W B2B lead rzadko kupuje po pierwszym kontakcie. Proces trwa miesiące i wymaga przejścia przez wiele etapów.
 
 ### Mapowanie contentu na lejek
 
-**Góra lejka (Awareness):**
+**Góra lejka (zdobywanie uwagi):**
 
 - Artykuły edukacyjne (blog)
 - Raporty branżowe
@@ -288,7 +288,7 @@ W B2B lead rzadko kupuje po pierwszym kontakcie. Proces trwa miesiące i wymaga 
 
 *Cel:* Przyciągnąć uwagę, zbudować świadomość problemu
 
-**Środek lejka (Consideration):**
+**Środek lejka (rozważanie oferty):**
 
 - Webinary
 - E-booki / white papers
@@ -297,7 +297,7 @@ W B2B lead rzadko kupuje po pierwszym kontakcie. Proces trwa miesiące i wymaga 
 
 *Cel:* Edukować o rozwiązaniach, pozycjonować jako opcję
 
-**Dół lejka (Decision):**
+**Dół lejka (decyzja):**
 
 - Case studies
 - Kalkulatory ROI
@@ -308,29 +308,37 @@ W B2B lead rzadko kupuje po pierwszym kontakcie. Proces trwa miesiące i wymaga 
 
 ```{=latex}
 \begin{wazne}
-81\% kupujących B2B kontaktuje się ze sprzedawcą dopiero po zebraniu informacji i przygotowaniu do rozmowy. Twój content musi odpowiadać na ich pytania ZANIM zadzwonią. Jeśli nie znajdą odpowiedzi u Ciebie --- znajdą u konkurencji.
+81\% kupujących B2B kontaktuje się ze sprzedawcą dopiero po zebraniu informacji i przygotowaniu do rozmowy. Twój content musi odpowiadać na ich pytania, ZANIM zadzwonią. Jeśli nie znajdą odpowiedzi u Ciebie, znajdą u konkurencji.
 \end{wazne}
 ```
 
-### Sekwencja nurturingu
+### Sekwencja mailingu dla leadów
 
 Przykładowa sekwencja emaili dla leada, który pobrał white paper:
 
-| Dzień | Email | Cel |
-|-------|-------|-----|
-| 0 | Podziękowanie + link do white paper | Dostarczyć obiecany content |
-| 3 | Dodatkowy artykuł powiązany z tematem | Dostarczyć wartość |
-| 7 | Case study podobnej firmy | Pokazać dowód |
-| 14 | Zaproszenie na webinar / demo | CTA do głębszego zaangażowania |
-| 21 | „Czy masz pytania?" + oferta rozmowy | Otworzyć dialog |
+```{=latex}
+{\small
+\begin{tabularx}{\textwidth}{c X X}
+\toprule
+\textbf{Dzień} & \textbf{Email} & \textbf{Cel} \\
+\midrule
+0 & Podziękowanie + link do white paper & Dostarczyć obiecany content \\
+3 & Dodatkowy artykuł powiązany z tematem & Dostarczyć wartość \\
+7 & Case study podobnej firmy & Pokazać dowód \\
+14 & Zaproszenie na webinar / demo & CTA do głębszego zaangażowania \\
+21 & „Czy masz pytania?" + oferta rozmowy & Otworzyć dialog \\
+\bottomrule
+\end{tabularx}
+}
+```
 
 ```{=latex}
 \decoline
 ```
 
-## LinkedIn: Kluczowy kanał B2B
+## LinkedIn: kluczowy kanał B2B
 
-LinkedIn to platforma #1 dla B2B. Tutaj są Twoi decydenci. Ale copywriting na LinkedIn różni się od innych kanałów.
+LinkedIn to platforma nr 1 dla B2B. Tutaj są Twoi decydenci. Ale copywriting na LinkedIn różni się od innych kanałów.
 
 ### Zasady copywritingu na LinkedIn
 
@@ -361,17 +369,17 @@ Ludzie łączą się z ludźmi, nie z firmami. Pisz jako osoba, nie jako marka.
 \begin{przyklad}{Post na LinkedIn}
 Zadzwonił do mnie zdenerwowany klient.
 
-``Wasza platforma nie działa. Tracę pieniądze każdą minutę.''
+„Wasza platforma nie działa. Tracę pieniądze każdej minuty.”
 
 Sprawdziliśmy. Platforma działała idealnie.
 
 Problem? Jego zespół nie przeszedł onboardingu, który im wysłaliśmy 3 tygodnie temu.
 
-Mogłem powiedzieć: ``To nie nasza wina''.
+Mogłem powiedzieć: „To nie nasza wina.”
 
-Zamiast tego: ``Przepraszam, że to się stało. Za godzinę zrobimy Wam szkolenie na żywo.''
+Zamiast tego: „Przepraszam, że to się stało. Za godzinę zrobimy Wam szkolenie na żywo.”
 
-2 godziny później platforma ``działała''.
+2 godziny później platforma „działała”.
 
 3 miesiące później --- odnowili kontrakt i dokupili 2 moduły.
 
@@ -395,43 +403,43 @@ W B2B obiekcje są bardziej złożone i często dotyczą ryzyka organizacyjnego.
 
 | Obiekcja | Jak odpowiedzieć |
 |----------|------------------|
-| „Za drogo" | ROI, TCO (Total Cost of Ownership), koszt NIEROBIENIA nic |
+| „Za drogo" | ROI, TCO (Total Cost of Ownership), koszt NIEROBIENIA niczego |
 | „Mamy już rozwiązanie" | Konkretne przewagi, case study migracji |
 | „Nie mamy czasu na wdrożenie" | Szybkość implementacji, wsparcie onboardingowe |
-| „Muszę przekonać zarząd" | Materiały dla championa, ROI calculator |
+| „Muszę przekonać zarząd" | Materiały dla championa, kalkulator ROI |
 | „A co jeśli nie zadziała?" | Gwarancja, pilot/trial, case studies |
-| „Czy jesteście bezpieczni?" | Certyfikaty, audyty, dokumentacja security |
+| „Czy jesteście bezpieczni?" | Certyfikaty, audyty, dokumentacja bezpieczeństwa |
 
 ### Zbijanie obiekcji w copy
 
 **W FAQ:**
-```
-P: Jak długo trwa wdrożenie?
+
+P: Jak długo trwa wdrożenie?\newline
 O: Średnio 2-4 tygodnie, w zależności od skali. Nasz zespół onboardingowy prowadzi Cię przez cały proces. 94% klientów jest w pełni operacyjnych w ciągu 30 dni.
-```
+
 
 **W case study:**
-```
+
 „Baliśmy się, że migracja z poprzedniego systemu zajmie miesiące. W rzeczywistości byliśmy gotowi w 3 tygodnie. Zespół [Firmy] trzymał nas za rękę na każdym kroku." --- Jan Nowak, CTO, InnoTech
-```
+
 
 **W body copy:**
-```
+
 Rozumiemy, że zmiana systemu to duża decyzja. Dlatego oferujemy 90-dniowy pilot bez zobowiązań. Jeśli nie zobaczysz minimum 20% poprawy w [metryce], po prostu się pożegnamy. Bez pytań, bez kosztów.
-```
+
 
 ```{=latex}
 \decoline
 ```
 
-## Checklist copywritingu B2B
+## Copywriting B2B --- podsumowanie
 
 **Przed pisaniem:**
 
 - [ ] Zidentyfikowani członkowie komitetu zakupowego
-- [ ] Zrozumiane bóle i cele każdego decydenta
+- [ ] Zrozumiane problemy i cele każdego decydenta
 - [ ] Określony etap lejka (TOFU/MOFU/BOFU)
-- [ ] Jasny cel contentu (awareness/edukacja/konwersja)
+- [ ] Jasny cel contentu (zdobywanie uwagi/edukacja/konwersja)
 
 **Podczas pisania:**
 
@@ -445,14 +453,14 @@ Rozumiemy, że zmiana systemu to duża decyzja. Dlatego oferujemy 90-dniowy pilo
 **Typy contentu:**
 
 - [ ] White paper: edukacyjny, pozycjonujący jako eksperta
-- [ ] Case study: Challenge-Solution-Results z liczbami
+- [ ] Case study: Wyzwanie-Rozwiązanie-Rezultaty z liczbami
 - [ ] Email: wartość w każdym mailu, jeden CTA
 - [ ] Landing page: dłuższy tekst, dowody, demo CTA
-- [ ] LinkedIn: hook w pierwszej linii, osobisty ton
+- [ ] LinkedIn: haczyk w pierwszej linii, osobisty ton
 
 **Dla komitetu zakupowego:**
 
-- [ ] Materiały dla championa (one-pagery, ROI calculator)
+- [ ] Materiały dla championa (one-pagery, kalkulator ROI)
 - [ ] Argumenty dla CFO (ROI, TCO, payback period)
 - [ ] Argumenty dla CTO (bezpieczeństwo, integracje)
 - [ ] Argumenty dla użytkownika końcowego (prostota, UX)
@@ -468,7 +476,7 @@ Wybierz produkt/usługę B2B (swoją lub fikcyjną). Napisz sekwencję 3 emaili 
 \textbf{Kontekst:}
 \begin{itemize}
   \item Lead: Marketing Manager w firmie SaaS (50-200 pracowników)
-  \item Pobrany e-book: ``10 sposobów na zwiększenie retencji klientów''
+  \item Pobrany e-book: „10 sposobów na zwiększenie retencji klientów”
   \item Twój produkt: Platforma do customer success
 \end{itemize}
 
@@ -477,7 +485,7 @@ Wybierz produkt/usługę B2B (swoją lub fikcyjną). Napisz sekwencję 3 emaili 
 \textbf{Email 1 (dzień 0):}
 \begin{itemize}
   \item Podziękowanie za pobranie
-  \item Dodatkowa wartość (np. jeden tip)
+  \item Dodatkowa wartość (np. jedna porada)
   \item Bez CTA sprzedażowego
 \end{itemize}
 
@@ -495,17 +503,17 @@ Wybierz produkt/usługę B2B (swoją lub fikcyjną). Napisz sekwencję 3 emaili 
   \item Jasny CTA
 \end{itemize}
 
-Dla każdego emaila napisz: Subject line + treść (100-150 słów)
+Dla każdego emaila napisz: temat + treść (100-150 słów)
 
 \textbf{Czas:} 40 minut
 \end{cwiczenie}
 ```
 
 ```{=latex}
-\takeaway{Copywriting B2B to sprzedaż grupie decydentów, nie jednej osobie. Średnia transakcja B2B angażuje 10-11 interesariuszy --- CFO, CTO, użytkowników końcowych, każdy z własnymi priorytetami. Pisz dla ludzi, nie dla korporacji --- profesjonalnie, ale z ludzkim tonem. Używaj konkretnych liczb zamiast pustych przymiotników. Twórz content dla każdego etapu lejka: artykuły (TOFU), webinary i case studies (MOFU), kalkulatory ROI i demo (BOFU). Wyposaż championa w materiały do przekonywania innych. LinkedIn to platforma \#1 B2B --- hook w pierwszej linii, wartość przed sprzedażą. 81\% kupujących kontaktuje się ze sprzedawcą dopiero po zebraniu informacji. Jeśli nie znajdą odpowiedzi u Ciebie --- pójdą do konkurencji.}
+\takeaway{Copywriting B2B to sprzedaż grupie decydentów, nie jednej osobie. Średnia transakcja B2B angażuje 10-11 interesariuszy --- CFO, CTO, użytkowników końcowych, każdy z własnymi priorytetami. Pisz dla ludzi, nie dla korporacji --- profesjonalnie, ale z ludzkim tonem. Używaj konkretnych liczb zamiast pustych przymiotników. Twórz content dla każdego etapu lejka: artykuły (TOFU), webinary i case studies (MOFU), kalkulatory ROI i demo (BOFU). Wyposaż championa w materiały do przekonywania innych. LinkedIn to platforma nr 1 w B2B --- haczyk w pierwszej linii, wartość przed sprzedażą. 81\% kupujących kontaktuje się ze sprzedawcą dopiero po zebraniu informacji. Jeśli nie znajdą odpowiedzi u Ciebie --- pójdą do konkurencji.}
 ```
 
-W następnym rozdziale zajmiemy się **copywritingiem dla usług profesjonalnych** --- gdzie sprzedajesz wiedzę i ekspertyzę, a nie namacalny produkt.
+W następnym rozdziale zajmiemy się **karierą copywritera** i tym, jak wspinać się po kolejnych szczeblach w zawodzie.
 
 ```{=latex}
 \decoline

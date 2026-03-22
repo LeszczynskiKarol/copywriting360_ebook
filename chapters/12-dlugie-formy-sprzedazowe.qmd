@@ -35,7 +35,7 @@ Gdy zakup wymaga znaczącej zmiany (czasu, pieniędzy, nawyków), musisz zbudowa
 
 ```{=latex}
 \begin{wazne}
-Długość sama w sobie nie sprzedaje. Sprzedaje wartościowa, przekonująca treść. Jak powiedział Jerry Seinfeld: ``Nie ma czegoś takiego jak ograniczona uwaga. Jest tylko jakość tego, co oglądasz.'' Jeśli treść jest nudna, długość ją zabije. Jeśli jest fascynująca --- ludzie przeczytają każde słowo.
+Długość sama w sobie nie sprzedaje. Sprzedaje wartościowa, przekonująca treść. Jak powiedział Jerry Seinfeld: „Nie ma czegoś takiego jak ograniczona uwaga. Jest tylko jakość tego, co oglądasz.” Jeśli treść jest nudna, długość ją zabije. Jeśli jest fascynująca --- ludzie przeczytają każde słowo.
 \end{wazne}
 ```
 
@@ -43,7 +43,7 @@ Długość sama w sobie nie sprzedaje. Sprzedaje wartościowa, przekonująca tre
 \decoline
 ```
 
-## Fundamentalna zasada: Klient jest bohaterem
+## Fundamentalna zasada: klient jest bohaterem
 
 Zanim napiszesz jedno słowo, zapamiętaj:
 
@@ -55,15 +55,6 @@ Najczęstszy błąd w sales pages: opowiadanie o firmie, produkcie, nagrodach, d
 - Czy możesz mi pomóc go rozwiązać?
 - Jak będzie wyglądać moje życie po zakupie?
 
-```{=latex}
-\begin{przyklad}{Firma jako bohater vs. Klient jako bohater}
-\textbf{Źle (firma jako bohater):}
-``Jesteśmy liderem rynku szkoleń z 15-letnim doświadczeniem. Nasz zespół 20 ekspertów stworzył innowacyjny program, który zdobył 5 nagród branżowych.''
-
-\textbf{Dobrze (klient jako bohater):}
-``Wiesz, jak to jest --- kolejna porażka w negocjacjach. Wychodzisz ze spotkania z ceną niższą, niż chciałeś. Znowu. Zastanawiasz się, czy kiedykolwiek nauczysz się bronić swojej wartości. Byliśmy tam. I wiemy, jak z tego wyjść.''
-\end{przyklad}
-```
 
 ```{=latex}
 \decoline
@@ -71,7 +62,7 @@ Najczęstszy błąd w sales pages: opowiadanie o firmie, produkcie, nagrodach, d
 
 ## Struktura długiej formy sprzedażowej
 
-Istnieje wiele frameworków, ale większość skutecznych sales pages zawiera te same elementy --- w różnej kolejności.
+Istnieje wiele modeli, ale większość skutecznych sales pages zawiera te same elementy --- w różnej kolejności.
 
 ```{=latex}
 \begin{formula}{Struktura Sales Page}
@@ -80,8 +71,8 @@ Istnieje wiele frameworków, ale większość skutecznych sales pages zawiera te
 \textbf{3. Problem} --- nazwij ból, pogłęb konsekwencje\\
 \textbf{4. Agitacja} --- pokaż, co się stanie, jeśli problem nie zostanie rozwiązany\\
 \textbf{5. Rozwiązanie} --- przedstaw produkt jako odpowiedź\\
-\textbf{6. Korzyści i Fascinations} --- pokaż, co klient zyska\\
-\textbf{7. Dowody} --- testimoniale, case studies, dane\\
+\textbf{6. Korzyści} --- pokaż, co klient zyska\\
+\textbf{7. Dowody} --- rekomendacje, case studies, dane\\
 \textbf{8. Oferta} --- co dokładnie otrzymuje klient\\
 \textbf{9. Bonusy} --- dodatkowa wartość\\
 \textbf{10. Gwarancja} --- redukcja ryzyka\\
@@ -96,7 +87,7 @@ Istnieje wiele frameworków, ale większość skutecznych sales pages zawiera te
 **PAS-Why-Try-Buy (Joanna Wiebe, Copyhackers):**
 
 1. **Problem** --- nazwij ból
-2. **Agitate** --- pogłęb konsekwencje  
+2. **Agitate** --- pogłęb konsekwencje
 3. **Solution** --- przedstaw rozwiązanie
 4. **Why** --- dlaczego to działa, dlaczego teraz
 5. **Try** --- co jest w środku, jak to wygląda
@@ -114,7 +105,7 @@ Istnieje wiele frameworków, ale większość skutecznych sales pages zawiera te
 \decoline
 ```
 
-## Nagłówek: Pierwsza bitwa
+## Nagłówek: pierwsza bitwa
 
 Nagłówek sales page ma jedno zadanie: sprawić, żeby czytelnik przeczytał pierwsze zdanie.
 
@@ -123,7 +114,7 @@ Nagłówek sales page ma jedno zadanie: sprawić, żeby czytelnik przeczytał pi
 - **Obietnica korzyści:** „Jak podwoić swoje zarobki w 90 dni"
 - **Pytanie:** „Czy popełniasz te 5 błędów w negocjacjach?"
 - **Nowość/Odkrycie:** „Nowa metoda, która rewolucjonizuje copywriting"
-- **Testimonial:** „Jak zarobiłem 100 000 zł używając tej jednej techniki"
+- **Rekomendacja:** „Jak zarobiłem 100 000 zł, używając tej jednej techniki"
 - **Ostrzeżenie:** „OSTRZEŻENIE: Nie kupuj żadnego kursu copywritingu, dopóki nie przeczytasz tego"
 
 ```{=latex}
@@ -136,7 +127,7 @@ Testuj nagłówki. Napisz minimum 25 wersji, zanim wybierzesz finalny. Nagłówe
 \decoline
 ```
 
-## Lead: Wciągnij czytelnika
+## Lead: wciągnij czytelnika
 
 Lead (pierwsze akapity po nagłówku) musi natychmiast wciągnąć czytelnika i zbudować połączenie.
 
@@ -162,15 +153,13 @@ Seria pytań, na które czytelnik odpowiada „tak".
 \begin{przyklad}{Problem Lead}
 Czy kiedykolwiek wysłałeś ofertę klientowi... i czekałeś?
 
-Jeden dzień. Dwa dni. Tydzień.
-
-Nic.
+Jeden dzień. Dwa dni. Tydzień. I nic.
 
 Sprawdzasz skrzynkę co godzinę. Może poszło do spamu? Może nie dotarło?
 
-W końcu piszesz follow-up. ``Czy otrzymał Pan moją ofertę?''
+W końcu piszesz follow-up. „Czy otrzymał Pan moją ofertę?”
 
-Odpowiedź: ``Tak, dziękuję, ale zdecydowaliśmy się na inną firmę.''
+Odpowiedź: „Tak, dziękuję, ale zdecydowaliśmy się na inną firmę.”
 
 Brzmi znajomo?
 
@@ -182,9 +171,9 @@ Jeśli tak --- czytaj dalej. Bo za chwilę pokażę Ci, dlaczego Twoje oferty ni
 \decoline
 ```
 
-## Fascinations: Sekrety wielkich copywriterów
+## Wypunktowane korzyści
 
-**Fascinations** (zwane też „bullets" lub „bullet points") to jeden z najpotężniejszych elementów długiej formy. Gary Halbert twierdził, że są ważniejsze niż nagłówek. Parris Lampropoulos pisze 300 bulletów dla strony, która potrzebuje 70.
+**Wypunktowania** (fascinations, bullets, bullet points) to jeden z najpotężniejszych elementów długiej formy. Gary Halbert twierdził, że są ważniejsze niż nagłówek. Parris Lampropoulos pisze 300 bulletów dla strony, która potrzebuje 70.
 
 **Czym są fascinations?**
 
@@ -195,7 +184,7 @@ To wypunktowania, które łączą **korzyść** z **ciekawością** --- obiecuj�
 \begin{itemize}
   \item 7-krokowa formuła, którą nawet początkujący może użyć do pisania tekstów 100 razy skuteczniejszych niż te z największych agencji reklamowych
   \item Prawdziwy powód, dla którego ludzie kupują --- sekret znany mistrzom sprzedaży, socjologom i... oszustom. W końcu ujawniony!
-  \item Dlaczego dwa najpotężniejsze słowa w reklamie to już NIE ``Nowość'' i ``Darmowy'' --- i co je zastąpiło
+  \item Dlaczego dwa najpotężniejsze słowa w reklamie to już NIE „nowość” i „darmowy” --- i co je zastąpiło
   \item Jedna prosta zmiana w nagłówku, która zwiększyła konwersję o 127\% (strona 47)
 \end{itemize}
 \end{przyklad}
@@ -203,7 +192,7 @@ To wypunktowania, które łączą **korzyść** z **ciekawością** --- obiecuj�
 
 ### Formuły fascinations
 
-**How to + Korzyść:**
+**Jak? + Korzyść:**
 - „Jak napisać nagłówek, który przyciąga uwagę w 3 sekundy"
 
 **Sekret/Tajemnica:**
@@ -223,7 +212,7 @@ To wypunktowania, które łączą **korzyść** z **ciekawością** --- obiecuj�
 
 ```{=latex}
 \begin{wazne}
-Fascinations działają, bo tworzą ``otwartą pętlę'' --- zaczynają myśl, której nie kończą. Czytelnik musi kupić produkt, żeby dowiedzieć się reszty. To psychologia Zeigarnik Effect w praktyce.
+Fascinations działają, bo tworzą „otwartą pętlę” --- zaczynają myśl, której nie kończą. Czytelnik musi kupić produkt, żeby dowiedzieć się reszty. To psychologia Zeigarnik Effect w praktyce.
 \end{wazne}
 ```
 
@@ -231,27 +220,27 @@ Fascinations działają, bo tworzą ``otwartą pętlę'' --- zaczynają myśl, k
 \decoline
 ```
 
-## Dowody: Budowanie wiarygodności
+## Dowody: budowanie wiarygodności
 
 Twierdzenia bez dowodów to puste obietnice. Sales page musi udowodnić każde ważne stwierdzenie.
 
 ### Typy dowodów
 
-**1. Testimoniale**
+**1. Rekomendacje**
 
 Opinie klientów --- najlepiej z konkretnymi wynikami.
 
 ```{=latex}
-\begin{przyklad}{Silny testimonial}
-``Przed kursem Karola wysyłałem 10 ofert miesięcznie i dostawałem może 1 odpowiedź. Po zastosowaniu jego systemu --- 7 na 10 ofert kończy się rozmową. W ciągu 3 miesięcy podwoiłem swoje dochody.''
+\begin{przyklad}{Silna rekomendacja}
+Przed kursem Karola wysyłałem 10 ofert miesięcznie i dostawałem może 1 odpowiedź. Po zastosowaniu jego systemu --- 7 na 10 ofert kończy się rozmową. W ciągu 3 miesięcy podwoiłem swoje dochody.
 
 --- Marek Kowalski, freelance copywriter, Kraków
 \end{przyklad}
 ```
 
-**Słaby testimonial:** „Świetny kurs, polecam!"
+**Słaba rekomendacja:** „Świetny kurs, polecam!"
 
-**Silny testimonial:** Konkretne wyniki + imię i nazwisko + lokalizacja/zawód
+**Silna rekomendacja:** Konkretne wyniki + imię i nazwisko + lokalizacja/zawód
 
 **2. Case studies**
 
@@ -297,7 +286,7 @@ Sekcja oferty musi być **krystalicznie jasna**. Klient powinien dokładnie wied
 \begin{itemize}
   \item 26 modułów wideo (50+ godzin materiału)
   \item 35 godzin ćwiczeń praktycznych
-  \item Szablony i checklisty do pobrania
+  \item Szablony i tutoriale do pobrania
   \item Dostęp dożywotni + aktualizacje
 \end{itemize}
 
@@ -313,15 +302,47 @@ Sekcja oferty musi być **krystalicznie jasna**. Klient powinien dokładnie wied
 \end{przyklad}
 ```
 
-### Stack: Technika budowania wartości
+### Stack: technika budowania wartości
 
 „Stack" to technika prezentowania oferty jako sumy wartości poszczególnych elementów --- pokazujesz, ile każdy element jest wart osobno, a potem dajesz cenę znacznie niższą.
+
+Mechanizm jest prosty: zamiast podać jedną cenę i liczyć na to, że klient uzna ją za uczciwą, budujesz w jego głowie obraz łącznej wartości. Każdy element oferty prezentujesz osobno --- z nazwą, krótkim opisem korzyści i ceną rynkową. Klient widzi rosnącą sumę: 2997 zł, 3294 zł, 3791 zł... A potem pada Twoja cena: 997 zł. Kontrast między postrzeganą wartością a rzeczywistą ceną robi robotę za Ciebie.
+
+Kluczowe jest to, żeby wyceny poszczególnych elementów były **wiarygodne**. Jeśli darmowy PDF wycenisz na 997 zł, stracisz zaufanie. Ale jeśli pokażesz, że podobny kurs na rynku kosztuje 2997 zł, sesja konsultacyjna 497 zł za godzinę, a pakiet szablonów 297 zł --- czytelnik sam dojdzie do wniosku, że Twoja oferta to okazja.
+
+Najskuteczniejsze stacki mają jeszcze jedną cechę --- **budują wartość narastająco**. Zaczynasz od głównego produktu (największa kwota), potem dodajesz bonusy jeden po drugim. Każdy kolejny element to nowa linia z ceną, która powiększa sumę. Na końcu podkreślasz łączną wartość, przekreślasz ją i podajesz rzeczywistą cenę. To wizualny i psychologiczny proces, który sprawia, że finalna kwota wydaje się absurdalnie niska.
+```{=latex}
+\begin{wskazowka}
+Stack działa najlepiej, gdy prezentujesz go wizualnie --- każdy element w osobnej linii, z ceną wyrównaną do prawej. Czytelnik powinien móc przeskanować listę i zobaczyć rosnącą sumę na pierwszy rzut oka. W wersji wideo (VSL) narrator buduje stack element po elemencie, z pauzami między kolejnymi pozycjami.
+\end{wskazowka}
+```
+
+```{=latex}
+\begin{przyklad}{Stack w praktyce}
+\textbf{Co otrzymujesz:}
+
+\begin{tabular}{@{}p{0.75\textwidth}r@{}}
+Kurs Copywriting 360° (50h wideo + ćwiczenia) & 2997 zł \\
+Biblioteka 100 nagłówków z analizą & 297 zł \\
+Pakiet 25 szablonów sales page & 397 zł \\
+Sesja Q\&A na żywo z autorem & 497 zł \\
+Dostęp do zamkniętej społeczności absolwentów & 297 zł \\[6pt]
+\hline\\[-6pt]
+\textbf{Łączna wartość:} & \textbf{4485 zł} \\[6pt]
+\end{tabular}
+
+\begin{center}
+\Large\textbf{Twoja inwestycja dziś: 997 zł}\\[2pt]
+\normalsize(lub 3 wygodne raty po 397 zł)
+\end{center}
+\end{przyklad}
+```
 
 ```{=latex}
 \decoline
 ```
 
-## Bonusy: Dodatkowa wartość
+## Bonusy: dodatkowa wartość
 
 Bonusy służą dwóm celom:
 
@@ -337,7 +358,7 @@ Bonusy służą dwóm celom:
 
 ```{=latex}
 \begin{wskazowka}
-Czasem jeden mocny bonus może być decydującym czynnikiem zakupu. Gary Halbert mówił: ``Jeśli klient może zatrzymać bonus nawet po zwrocie produktu --- nie ma nic do stracenia.''
+Czasem jeden mocny bonus może być decydującym czynnikiem zakupu. Gary Halbert mówił: „Jeśli klient może zatrzymać bonus nawet po zwrocie produktu --- nie ma nic do stracenia.”
 \end{wskazowka}
 ```
 
@@ -345,7 +366,7 @@ Czasem jeden mocny bonus może być decydującym czynnikiem zakupu. Gary Halbert
 \decoline
 ```
 
-## Gwarancja: Odwrócenie ryzyka
+## Gwarancja: odwrócenie ryzyka
 
 Każdy zakup to ryzyko. Gwarancja przenosi ryzyko z klienta na sprzedawcę.
 
@@ -363,7 +384,7 @@ Każdy zakup to ryzyko. Gwarancja przenosi ryzyko z klienta na sprzedawcę.
 
 ```{=latex}
 \begin{przyklad}{Silna gwarancja}
-\textbf{Gwarancja 100\% Satysfakcji --- 30 dni bez ryzyka}
+\textbf{Gwarancja 100\% satysfakcji --- 30 dni bez ryzyka}
 
 Kup kurs, przejdź przez wszystkie moduły, zastosuj techniki. Jeśli w ciągu 30 dni uznasz, że to nie dla Ciebie --- napisz email, a zwrócę Ci każdą złotówkę. Bez pytań, bez problemów, bez urazy.
 
@@ -377,7 +398,7 @@ Całe ryzyko biorę na siebie. Bo wiem, że ten kurs działa.
 \decoline
 ```
 
-## Obiekcje: Zbij wątpliwości zanim się pojawią
+## Obiekcje: zbij wątpliwości zanim się pojawią
 
 Klient zawsze ma powody, żeby **nie** kupić. Twoja sales page musi je przewidzieć i rozwiać.
 
@@ -385,10 +406,10 @@ Klient zawsze ma powody, żeby **nie** kupić. Twoja sales page musi je przewidz
 
 | Obiekcja | Jak odpowiedzieć |
 |----------|------------------|
-| „Za drogo" | Pokaż wartość, ROI, koszt NIEROBIENIA nic |
-| „Nie mam czasu" | Pokaż, jak mało czasu wymaga, lub ile zaoszczędzi |
+| „Za drogo" | Pokaż wartość, ROI, koszt NIEROBIENIA niczego |
+| „Nie mam czasu" | Pokaż, jak mało czasu wymaga lub ile zaoszczędzi |
 | „Nie wiem, czy to dla mnie" | Sekcja „Dla kogo to jest / nie jest" |
-| „Nie ufam Ci" | Testimoniale, gwarancja, dowody |
+| „Nie ufam Ci" | Rekomendacje, gwarancja, dowody |
 | „Mogę znaleźć za darmo" | Pokaż unikalność, kompleksowość, wsparcie |
 | „Muszę pomyśleć" | Pilność, ograniczenie czasowe |
 
@@ -404,11 +425,11 @@ Tak! Zaczynamy od absolutnych podstaw. Jeśli nigdy nie napisałeś tekstu sprze
 
 \textbf{Ile czasu zajmuje przejście kursu?}
 
-Kurs ma 50h materiału wideo, ale nie musisz oglądać wszystkiego od razu. Większość uczestników przechodzi 2-3 moduły tygodniowo. W 2 miesiące opanujesz całość --- w swoim tempie.
+Kurs obejmuje 50 godz. materiału wideo, ale nie musisz oglądać wszystkiego od razu. Większość uczestników przechodzi 2-3 moduły tygodniowo. W 2 miesiące opanujesz całość --- w swoim tempie.
 
-\textbf{Co jeśli kurs mi nie pomoże?}
+\textbf{Co, jeśli kurs mi nie pomoże?}
 
-Masz 30-dniową gwarancję zwrotu pieniędzy. Jeśli nie zobaczysz wartości --- oddaję pieniądze bez pytań. Ryzykujesz 5 minut na napisanie emaila, nie 997 zł.
+Masz 30-dniową gwarancję zwrotu pieniędzy. Jeśli nie zobaczysz wartości, oddaję pieniądze bez pytań. Ryzykujesz 5 minut na napisanie emaila, nie 997 zł.
 \end{przyklad}
 ```
 
@@ -416,7 +437,7 @@ Masz 30-dniową gwarancję zwrotu pieniędzy. Jeśli nie zobaczysz wartości ---
 \decoline
 ```
 
-## CTA: Wielokrotne wezwania do działania
+## CTA: wielokrotne wezwania do działania
 
 W długiej formie CTA pojawia się **wielokrotnie** --- nie tylko na końcu.
 
@@ -440,7 +461,7 @@ W długiej formie CTA pojawia się **wielokrotnie** --- nie tylko na końcu.
 \decoline
 ```
 
-## PS: Ostatnia szansa
+## PS: ostatnia szansa
 
 PS (Post Scriptum) to jeden z **najczęściej czytanych** elementów sales page. Wielu czytelników scrolluje na dół i czyta PS przed przeczytaniem całości.
 
@@ -469,26 +490,132 @@ Długi tekst wymaga przemyślanego formatowania, żeby pozostał czytelny.
 
 **Zasady:**
 
-- **Subheadlines co 2-3 akapity** --- dla scannerów
-- **Krótkie akapity** --- 2-4 zdania max
-- **Bullet points** (fascinations) --- dla korzyści i cech
-- **Wyróżnienia** (bold, highlighty) --- dla kluczowych fraz
+- **Nagłówki co 2-3 akapity** --- dla wzrokowego skanowania tekstu
+- **Krótkie akapity** --- 2-4 zdania maks.
+- **Wypunktowania** (fascinations) --- dla korzyści i cech
+- **Wyróżnienia** (kolorowanie, pogrubianie, pochylanie czcionki itp.) --- dla kluczowych fraz
 - **Obrazy i grafiki** --- przerywają monotonię tekstu
-- **Testimoniale z twarzami** --- budują zaufanie
+- **Rekomendacje z twarzami** --- budują zaufanie
 - **Białe przestrzenie** --- dają oczom odpocząć
 - **Kolory dla CTA** --- wyróżniające się przyciski
 
 ```{=latex}
 \begin{wazne}
-Subheadlines powinny opowiadać historię same w sobie. Jeśli ktoś przeczyta TYLKO nagłówki --- powinien zrozumieć główny przekaz i ofertę.
+Nagłówki powinny opowiadać historię same w sobie. Jeśli ktoś przeczyta TYLKO nagłówki --- powinien zrozumieć główny przekaz i ofertę.
 \end{wazne}
 ```
+
+```{=latex}
+\begin{przyklad}{Kompletna sales page --- wszystkie elementy w akcji}
+
+\begin{center}
+{\Large\textbf{Jak pisać teksty, które sprzedają\\--- nawet jeśli nigdy wcześniej tego nie robiłeś}}
+
+\medskip
+{\small Sprawdzony system, dzięki któremu 847 osób zaczęło zarabiać na copywritingu}
+\end{center}
+
+\bigskip
+\textbf{[LEAD --- Problem Lead]}
+
+Siedzisz nad pustym dokumentem. Kursor miga. Minęła godzina, a Ty masz jedno zdanie --- i nawet ono Ci się nie podoba.
+
+Wiesz, że musisz napisać tekst na stronę. Albo ofertę dla klienta. Albo opis produktu, który w końcu zacznie sprzedawać.
+
+Ale słowa nie przychodzą. A te, które przychodzą, brzmią jak instrukcja obsługi pralki.
+
+Znajdujesz się w takiej sytuacji?
+
+\bigskip
+\textbf{[PROBLEM + AGITACJA]}
+
+Większość przedsiębiorców i freelancerów zmaga się z tym samym: wiedzą, że tekst ma znaczenie, ale nie wiedzą, jak pisać tak, żeby ludzie kupowali.
+
+Efekt? Strona, która wygląda profesjonalnie, ale nie generuje zapytań. Oferty, które klienci ignorują. Posty w social media, które zbierają 3 lajki od znajomych.
+
+Każdy dzień bez skutecznych tekstów to utracone przychody. Klienci, którzy trafili na Twoją stronę --- i wyszli. Oferty, które wylądowały w koszu. Pieniądze, które zarobił ktoś inny, bo jego tekst przekonywał lepiej.
+
+\bigskip
+\textbf{[ROZWIĄZANIE]}
+
+Dlatego stworzyłem \textbf{Copywriting 360°} --- kompletny system pisania tekstów sprzedażowych, który prowadzi Cię krok po kroku od pustej strony do gotowego tekstu, który konwertuje.
+
+Nie potrzebujesz talentu literackiego. Nie potrzebujesz lat doświadczenia. Potrzebujesz sprawdzonych formuł, konkretnych przykładów i kogoś, kto pokaże Ci dokładnie, co i jak pisać.
+
+\bigskip
+\textbf{[WYPUNKTOWANIA]}
+
+Oto fragment tego, czego się nauczysz:
+
+\begin{itemize}
+  \item Formuła nagłówka, która zwiększyła konwersję jednego z moich klientów o 127\% --- wystarczy zmienić 4 słowa (moduł 3)
+  \item Dlaczego 90\% opisów produktów odstrasza klientów zamiast sprzedawać --- i jedna prosta zmiana, która to odwraca
+  \item Sekret „otwartej pętli", który sprawia, że czytelnik nie może przestać czytać --- technika znana scenarzystom Netflixa i najlepszym copywriterom świata
+  \item 7-krokowy system pisania ofert, dzięki któremu nawet początkujący tworzy teksty lepsze niż 80\% agencji (moduł 9)
+  \item Jak jedno zdanie w PS potrafi uratować sprzedaż, którą reszta tekstu przegrała --- i jak je napisać w 60 sekund
+  \item Największy błąd w CTA, który popełnia 95\% stron internetowych --- prawdopodobnie Twoja też (moduł 12)
+\end{itemize}
+
+\bigskip
+\textbf{[DOWODY --- rekomendacje]}
+
+\textit{„Przed kursem bałam się wysyłać oferty. Teraz piszę je w 2 godziny i 6 na 10 kończy się zleceniem. W pierwszym miesiącu zarobiłam więcej niż przez poprzedni kwartał."}
+
+--- Anna Nowak, copywriterka freelance, Wrocław
+
+\medskip
+\textit{„Zmieniłem nagłówek i opis na stronie produktu --- dokładnie według formuł z modułu 5. Konwersja skoczyła z 1,2\% na 3,8\% w ciągu dwóch tygodni."}
+
+--- Tomasz Wiśniewski, właściciel sklepu e-commerce, Poznań
+
+\bigskip
+\textbf{[OFERTA --- stack]}
+
+\textbf{Co otrzymujesz:}
+
+\begin{tabular}{@{}p{0.75\textwidth}r@{}}
+Kurs Copywriting 360° (50 godz. wideo + ćwiczenia) & 2997 zł \\
+Biblioteka 100 nagłówków z analizą & 297 zł \\
+Pakiet 25 szablonów sales page & 397 zł \\
+Sesja Q\&A na żywo z autorem & 497 zł \\
+Dostęp do zamkniętej społeczności absolwentów & 297 zł \\[6pt]
+\hline\\[-6pt]
+\textbf{Łączna wartość:} & \textbf{4485 zł} \\[6pt]
+\end{tabular}
+
+\begin{center}
+\Large\textbf{Twoja inwestycja dziś: 997 zł}\\[2pt]
+\normalsize(lub 3 wygodne raty po 397 zł)
+\end{center}
+
+\bigskip
+\textbf{[GWARANCJA]}
+
+\textbf{Gwarancja 100\% satysfakcji --- 30 dni bez ryzyka.} Przejdź przez kurs, zastosuj techniki, napisz swoje pierwsze teksty. Jeśli w ciągu 30 dni uznasz, że to nie dla Ciebie --- oddaję pieniądze bez pytań. Zatrzymujesz wszystkie bonusy. Całe ryzyko jest po mojej stronie.
+
+\bigskip
+\textbf{[CTA]}
+
+\begin{center}
+\textbf{→ DOŁĄCZ DO COPYWRITING 360° ←}\\[2pt]
+{\small Dołącz do 847 osób, które już piszą teksty sprzedające.}
+\end{center}
+
+\bigskip
+\textbf{[PS]}
+
+\textbf{PS:} Za miesiąc albo dalej będziesz siedzieć nad pustym dokumentem --- albo będziesz pisać teksty, które przynoszą klientów. Różnica to jedna decyzja. 30 dni gwarancji oznacza, że nie ryzykujesz niczego poza 5 minutami na założenie konta.
+
+\textbf{PPS:} Bonus \#3 (sesja Q\&A na żywo) znika w piątek o 23:59. Po tym terminie zostaje tylko kurs bez sesji. Jeśli chcesz zadać mi pytania na żywo, dołącz teraz.
+\end{przyklad}
+```
+
 
 ```{=latex}
 \decoline
 ```
 
-## Checklist długiej formy sprzedażowej
+## Podsumowanie długiej formy sprzedażowej
 
 **Przed pisaniem:**
 
@@ -496,7 +623,7 @@ Subheadlines powinny opowiadać historię same w sobie. Jeśli ktoś przeczyta T
 - [ ] Research produktu (cechy, korzyści, unikalna wartość)
 - [ ] Research konkurencji (co obiecują, jak komunikują)
 - [ ] Lista obiekcji do zbicia
-- [ ] Wybrana struktura/framework
+- [ ] Wybrana struktura
 
 **Elementy strony:**
 
@@ -504,8 +631,8 @@ Subheadlines powinny opowiadać historię same w sobie. Jeśli ktoś przeczyta T
 - [ ] Lead wciągający czytelnika
 - [ ] Problem jasno nazwany i pogłębiony
 - [ ] Rozwiązanie przedstawione jako odpowiedź
-- [ ] Minimum 10-15 fascinations (bullet points)
-- [ ] Dowody: testimoniale, case studies, liczby
+- [ ] Minimum 10-15 wypunktowań
+- [ ] Dowody: rekomendacje, case studies, liczby
 - [ ] Oferta jasno przedstawiona
 - [ ] Bonusy z realną wartością
 - [ ] Gwarancja redukująca ryzyko
@@ -515,7 +642,7 @@ Subheadlines powinny opowiadać historię same w sobie. Jeśli ktoś przeczyta T
 
 **Formatowanie:**
 
-- [ ] Subheadlines co 2-3 akapity
+- [ ] Nagłówki co 2-3 akapity
 - [ ] Krótkie akapity
 - [ ] Wyróżnienia kluczowych fraz
 - [ ] Obrazy/grafiki
@@ -526,8 +653,8 @@ Subheadlines powinny opowiadać historię same w sobie. Jeśli ktoś przeczyta T
 ```
 
 ```{=latex}
-\begin{cwiczenie}{Napisz sekcję fascinations}
-Wybierz produkt (swój lub fikcyjny) i napisz 15 fascinations (bullet points).
+\begin{cwiczenie}{Napisz sekcję wypunktowań}
+Wybierz produkt (swój lub fikcyjny) i napisz 15 wypunktowań.
 
 \textbf{Część 1: Przygotowanie (10 min)}
 
@@ -538,27 +665,27 @@ Wypisz:
   \item 5 problemów, które produkt rozwiązuje
 \end{itemize}
 
-\textbf{Część 2: Pisanie fascinations (20 min)}
+\textbf{Część 2: Pisanie wypunktowań (20 min)}
 
 Zamień każdy punkt w fascination używając formuł:
 \begin{enumerate}
-  \item How to + korzyść (5 bulletów)
-  \item Sekret/Tajemnica (3 bullety)
-  \item Dlaczego + Kontrast (3 bullety)
-  \item Liczba + obietnica (2 bullety)
-  \item Błąd/Ostrzeżenie (2 bullety)
+  \item Jak? + korzyść (5 punktów)
+  \item Sekret/Tajemnica (3 punkty)
+  \item Dlaczego + Kontrast (3 punkty)
+  \item Liczba + obietnica (2 punkty)
+  \item Błąd/Ostrzeżenie (2 punkty)
 \end{enumerate}
 
 \textbf{Część 3: Wybór najlepszych (5 min)}
 
-Przeczytaj wszystkie fascinations. Wybierz 10 najsilniejszych --- tych, które sam chciałbyś poznać.
+Przeczytaj wszystkie stworzone punkty. Wybierz 10 najsilniejszych --- tych, które sam chciałbyś poznać.
 
 \textbf{Czas:} 35 minut
 \end{cwiczenie}
 ```
 
 ```{=latex}
-\takeaway{Długa forma sprzedażowa to kompletny proces sprzedaży na piśmie. Struktura: nagłówek → lead → problem → agitacja → rozwiązanie → korzyści (fascinations) → dowody → oferta → bonusy → gwarancja → obiekcje → CTA → PS. Fascinations (bullet points) to jeden z najpotężniejszych elementów --- łączą korzyść z ciekawością. Zbijaj obiekcje, zanim się pojawią. Używaj gwarancji do odwrócenia ryzyka. Powtarzaj CTA wielokrotnie. PS jest często najczęściej czytanym elementem. Formatuj dla czytelności --- subheadlines co 2-3 akapity, krótkie paragrafy, wyróżnienia. Pamiętaj: długość sama nie sprzedaje. Sprzedaje fascynująca, przekonująca treść, która odpowiada na potrzeby klienta.}
+\takeaway{Długa forma sprzedażowa to kompletny proces sprzedaży na piśmie. Struktura: nagłówek → lead → problem → agitacja → rozwiązanie → korzyści (wypunktowania) → dowody → oferta → bonusy → gwarancja → obiekcje → CTA → PS. Wypunktowania to jeden z najpotężniejszych elementów --- łączą korzyść z ciekawością. Zbijaj obiekcje, zanim się pojawią. Używaj gwarancji do odwrócenia ryzyka. Powtarzaj CTA wielokrotnie. PS jest często najczęściej czytanym elementem. Formatuj dla czytelności --- nagłówki co 2-3 akapity, krótkie paragrafy, wyróżnienia. Pamiętaj: długość sama nie sprzedaje. Sprzedaje fascynująca, przekonująca treść, która odpowiada na potrzeby klienta.}
 ```
 
 W następnych rozdziałach zajmiemy się **specjalizacjami copywritingu** --- od pisania dla e-commerce, przez B2B, po copywriting dla usług profesjonalnych.

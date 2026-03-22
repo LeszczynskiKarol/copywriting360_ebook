@@ -7,9 +7,9 @@ subtitle: "Jak wykorzystać sztuczną inteligencję w codziennej pracy"
 \chapteropener{AI nie zastąpi copywriterów. Zastąpi copywriterów, którzy nie używają AI.\\--- Powiedzenie branżowe, 2024}
 ```
 
-Sztuczna inteligencja zmieniła copywriting szybciej niż jakakolwiek technologia w historii tej branży. ChatGPT, Claude, Jasper i dziesiątki innych narzędzi potrafią generować tekst w sekundy. Pytanie nie brzmi już ``czy używać AI?'' --- brzmi ``jak używać AI mądrze?''
+Sztuczna inteligencja zmieniła copywriting szybciej niż jakakolwiek technologia w historii tej branży. ChatGPT, Claude, Jasper i dziesiątki innych narzędzi potrafią generować tekst w sekundy. Pytanie nie brzmi już „Czy używać AI?” --- brzmi „Jak używać AI mądrze?”
 
-W tym rozdziale pokażę Ci praktyczne podejście do pracy z AI. Nie chodzi o zastąpienie Twoich umiejętności, ale o ich wzmocnienie. Poznasz metodologię ``kanapki AI'', konkretne prompty do różnych zadań i workflow, który łączy ludzką kreatywność z mocą algorytmów.
+W tym rozdziale pokażę Ci praktyczne podejście do pracy z AI. Nie chodzi o zastąpienie Twoich umiejętności, ale o ich wzmocnienie. Poznasz metodologię „kanapki AI”, konkretne prompty do różnych zadań i model, który łączy ludzką kreatywność z mocą algorytmów.
 
 ## Metoda kanapki AI (Human-AI-Human)
 
@@ -20,8 +20,8 @@ Najskuteczniejszy sposób pracy z AI to metoda **kanapki** --- człowiek na pocz
 \textbf{Kanapka AI:}
 \begin{enumerate}
   \item \textbf{CZŁOWIEK (góra):} Strategia, brief, kontekst, głos marki, cele
-  \item \textbf{AI (środek):} Generowanie draftu, warianty, research, brainstorming
-  \item \textbf{CZŁOWIEK (dół):} Edycja, weryfikacja faktów, dopracowanie głosu, finalizacja
+  \item \textbf{AI (środek):} Generowanie szkicu, warianty, wyszukiwanie informacji, wymyślanie nowych pomysłów
+  \item \textbf{CZŁOWIEK (dół):} Edycja, weryfikacja faktów, dopracowanie komunikacji, finalizacja
 \end{enumerate}
 \end{wazne}
 ```
@@ -30,10 +30,10 @@ Najskuteczniejszy sposób pracy z AI to metoda **kanapki** --- człowiek na pocz
 
 **AI jest świetne w:**
 
-- Szybkim generowaniu draftu
+- Szybkim generowaniu wstępnych szkiców
 - Tworzeniu wielu wariantów do testowania
 - Syntezie dużych ilości informacji
-- Brainstormingu i generowaniu pomysłów
+- Generowaniu pomysłów
 - Powtarzalnych zadaniach (meta descriptions, warianty produktów)
 - Sprawdzaniu gramatyki i stylu
 
@@ -43,7 +43,7 @@ Najskuteczniejszy sposób pracy z AI to metoda **kanapki** --- człowiek na pocz
 - Oryginalności (generuje na podstawie istniejących wzorców)
 - Głębokim researchu opartym na rozmowach z ludźmi
 - Utrzymaniu spójnego głosu marki przez dłuższy tekst
-- Weryfikacji faktów (AI ``halucynuje'' --- wymyśla)
+- Weryfikacji faktów (AI „halucynuje” --- wymyśla)
 - Zrozumieniu kontekstu kulturowego i niuansów
 
 ### Praktyczny przykład kanapki
@@ -57,8 +57,8 @@ Przed użyciem AI przygotowujesz:
 - Brief: kto jest odbiorcą (zapracowani profesjonaliści 30-45)
 - USP: medytacje 5-minutowe dopasowane do kalendarza
 - Ton: spokojny, ale konkretny, bez ezoteryki
-- Obiekcje: ``nie mam czasu'', ``to nie dla mnie''
-- CTA: 7-dniowy trial
+- Obiekcje: „nie mam czasu”, „to nie dla mnie”
+- CTA: 7-dniowy okres próbny
 
 **Krok 2: AI (środek)**
 
@@ -66,21 +66,21 @@ Przekazujesz AI kontekst i prosisz o draft nagłówków, strukturę strony, wari
 
 **Krok 3: Człowiek (dół)**
 
-- Wybierasz najlepsze elementy z outputu AI
-- Przepisujesz w głosie marki
+- Wybierasz najlepsze elementy z odpowiedzi AI
+- Przepisujesz w tonie marki
 - Weryfikujesz, czy odpowiada na rzeczywiste obiekcje klientów
 - Dodajesz prawdziwe historie i dowody społeczne
-- Dopracowujesz flow tekstu
+- Dopracowujesz brzmienie tekstu
 
 ```{=latex}
-\begin{przyklad}{Porównanie: AI raw vs. po ludzkim dopracowaniu}
+\begin{przyklad}{Porównanie: surowego tekstu AI vs. po ludzkim dopracowaniu}
 \textbf{AI raw:}
-``Odkryj spokój w codziennym chaosie. Nasza aplikacja oferuje krótkie medytacje, które pomogą Ci zredukować stres i zwiększyć produktywność.''
+Odkryj spokój w codziennym chaosie. Nasza aplikacja oferuje krótkie medytacje, które pomogą Ci zredukować stres i zwiększyć produktywność.
 
 \textbf{Po ludzkim dopracowaniu:}
-``5 minut między spotkaniami. Tyle wystarczy, żeby odzyskać spokój. Medytacje dopasowane do Twojego kalendarza --- włącz, oddychaj, wróć do pracy z czystą głową.''
+5 minut między spotkaniami. Tyle wystarczy, żeby odzyskać spokój. Medytacje dopasowane do Twojego kalendarza --- włącz, oddychaj, wróć do pracy z czystą głową.
 
-Różnica: konkret zamiast ogólników, głos dopasowany do zapracowanego odbiorcy, eliminacja marketingowego żargonu.
+Różnica: konkret zamiast ogólników, komunikacja dopasowana do zapracowanego odbiorcy, eliminacja marketingowego żargonu.
 \end{przyklad}
 ```
 
@@ -90,7 +90,7 @@ Różnica: konkret zamiast ogólników, głos dopasowany do zapracowanego odbior
 
 ## Anatomia dobrego prompta
 
-Jakość outputu AI zależy bezpośrednio od jakości Twojego prompta. Słaby prompt = słaby wynik.
+Jakość odpowiedzi AI zależy bezpośrednio od jakości Twojego prompta. Słaby prompt = słaby wynik.
 
 ### Formuła skutecznego prompta: RCE
 
@@ -109,14 +109,14 @@ Określ dokładnie, czego oczekujesz: format, długość, ton, struktura.
 ```{=latex}
 \begin{przyklad}{Słaby vs. dobry prompt}
 \textbf{Słaby prompt:}
-``Napisz mi email sprzedażowy.''
+Napisz mi email sprzedażowy.
 
 \textbf{Dobry prompt (RCE):}
-``Jesteś doświadczonym copywriterem specjalizującym się w email marketingu B2B.
+Jesteś doświadczonym copywriterem specjalizującym się w email marketingu B2B.
 
-\textbf{Kontekst:} Piszemy dla firmy SaaS oferującej narzędzie do zarządzania projektami. Odbiorca: menedżerowie IT w średnich firmach (50-200 pracowników). Główna korzyść: oszczędność 5h tygodniowo na raportowaniu. Obiekcja: `już mamy narzędzia'.
+\textbf{Kontekst:} Piszemy dla firmy SaaS oferującej narzędzie do zarządzania projektami. Odbiorca: menedżerowie IT w średnich firmach (50-200 pracowników). Główna korzyść: oszczędność 5h tygodniowo na raportowaniu. Obiekcja: „już mamy narzędzia”.
 
-\textbf{Oczekiwanie:} Napisz email follow-up po webinarze. Długość: max 150 słów. Ton: profesjonalny, ale nie korporacyjny. Zakończ konkretnym CTA (umów demo). Użyj formuły PAS.''
+\textbf{Oczekiwanie:} Napisz email follow-up po webinarze. Długość: maks. 150 słów. Ton: profesjonalny, ale nie korporacyjny. Zakończ konkretnym CTA (umów demo). Użyj formuły PAS.
 \end{przyklad}
 ```
 
@@ -134,16 +134,16 @@ Oto przykłady naszego głosu marki:
 Napisz 3 nagłówki w tym stylu dla naszej nowej funkcji automatycznych przypomnień.
 ```
 
-**2. Chain of thought (Myślenie krok po kroku)**
+**2. Myślenie krok po kroku (Chain of thought)**
 
 Poproś AI o rozumowanie:
 
 ```
 Zanim napiszesz copy, najpierw:
-1. Zidentyfikuj główny ból klienta
+1. Zidentyfikuj główny problem klienta
 2. Określ, jak nasz produkt go rozwiązuje
-3. Wymyśl 3 możliwe kąty podejścia
-4. Wybierz najsilniejszy i napisz na jego podstawie
+3. Wymyśl 3 możliwe podejścia
+4. Wybierz najlepsze i napisz na jego podstawie
 ```
 
 **3. Iteracja przez dialog**
@@ -151,9 +151,9 @@ Zanim napiszesz copy, najpierw:
 Nie oczekuj perfekcji za pierwszym razem. Prowadź rozmowę:
 
 ```
-- "To dobry start, ale za ogólnikowe. Dodaj konkretne liczby."
-- "Ton jest za formalny. Przepisz bardziej swobodnie."
-- "Nagłówek 2 jest najlepszy. Rozwiń go i daj mi 5 wariantów."
+- To dobry start, ale za ogólnikowe. Dodaj konkretne liczby.
+- Ton jest za formalny. Przepisz bardziej swobodnie.
+- Nagłówek 2 jest najlepszy. Rozwiń go i daj mi 5 wariantów.
 ```
 
 **4. Prośba o alternatywy**
@@ -161,14 +161,14 @@ Nie oczekuj perfekcji za pierwszym razem. Prowadź rozmowę:
 ```
 Daj mi 10 wariantów tego nagłówka:
 - 3 skupione na korzyści
-- 3 skupione na bólu
+- 3 skupione na problemie
 - 2 z liczbą
 - 2 z pytaniem
 ```
 
 ```{=latex}
 \begin{wskazowka}
-Traktuj AI jak młodszego copywritera, który potrzebuje szczegółowego briefu. Im więcej kontekstu i wskazówek dasz, tym lepszy output otrzymasz. Nigdy nie kopiuj-wklejaj pierwszego wyniku jako finalny produkt.
+Traktuj AI jak młodszego copywritera, który potrzebuje szczegółowego briefu. Im więcej kontekstu i wskazówek dasz, tym lepszą odpowiedź otrzymasz. Nigdy nie kopiuj-wklejaj pierwszego wyniku jako finalny produkt.
 \end{wskazowka}
 ```
 
@@ -191,8 +191,8 @@ Grupa docelowa: [opis]
 Główna korzyść: [korzyść]
 
 Wygeneruj 15 nagłówków:
-- 5 opartych na korzyści (co zyska klient)
-- 5 opartych na bólu (czego uniknie)
+- 5 bazujących na korzyści (co zyska klient)
+- 5 bazujących na problemie (czego uniknie)
 - 3 z konkretną liczbą
 - 2 jako pytania prowokujące
 
@@ -208,9 +208,9 @@ Cel emaila: [np. zachęcenie do demo, powrót do koszyka]
 Etap lejka: [cold, warm, hot]
 
 Napisz email według struktury:
-1. Temat (max 50 znaków, bez caps lock i wykrzykników)
+1. Temat (maks. 50 znaków, bez caps lock i wykrzykników)
 2. Preheader (40-90 znaków)
-3. Treść (max 150 słów)
+3. Treść (maks. 150 słów)
 4. CTA (jeden, konkretny)
 
 Ton: [opisz]
@@ -241,7 +241,7 @@ Zaproponuj strukturę landing page:
 Dla każdej sekcji podaj konkretny copy.
 ```
 
-### Analiza Voice of Customer
+### Analiza opinii klientów
 
 ```
 Przeanalizuj poniższe opinie klientów i zidentyfikuj:
@@ -270,7 +270,7 @@ Odbiorca: [kto kupuje]
 Konkurencja: [czym się wyróżniamy]
 
 Napisz opis produktu:
-1. Nagłówek (max 10 słów, korzyść nie cecha)
+1. Nagłówek (maks. 10 słów, korzyść nie cecha)
 2. Lead (2-3 zdania, dlaczego warto)
 3. Korzyści (5 bulletów, format: [ikona emoji] Korzyść + krótkie wyjaśnienie)
 4. Specyfikacja (tylko kluczowe parametry)
@@ -298,17 +298,17 @@ Unikaj: ogólników, powtarzania specyfikacji jako korzyści
 **Słabe strony:**
 
 - Może być powtarzalny w stylu
-- Czasem zbyt ``kwiecisty'' język
+- Czasem zbyt „kwiecisty” język
 - Wymaga dobrego promptingu
 
-**Najlepsze do:** Brainstormingu, pierwszych draftów, researchu, wariantów A/B.
+**Najlepsze do:** wymyślania pomysłów, pierwszych szkiców, wyszukiwania informacji, sprawdzania wariantów A/B.
 
 ### Claude (Anthropic)
 
 **Mocne strony:**
 
-- Naturalniejszy, mniej ``AI-owy'' styl pisania
-- Lepsze utrzymanie głosu marki
+- Naturalniejszy, mniej „AI-owy” styl pisania
+- Lepsze utrzymanie tonu marki
 - Świetne do dłuższych tekstów
 - Mniejsza skłonność do halucynacji
 
@@ -317,7 +317,7 @@ Unikaj: ogólników, powtarzania specyfikacji jako korzyści
 - Mniejsza baza wiedzy niż ChatGPT
 - Brak natywnego web search (w podstawowej wersji)
 
-**Najlepsze do:** Długich tekstów, utrzymania tonu marki, edycji i przepisywania.
+**Najlepsze do:** długich tekstów, utrzymania tonu marki, edycji i przepisywania.
 
 ### Jasper
 
@@ -325,7 +325,7 @@ Unikaj: ogólników, powtarzania specyfikacji jako korzyści
 
 - Zaprojektowany specjalnie dla marketingu
 - Wbudowane szablony copywriterskie
-- Brand Voice training
+- Dostosowania do komunikacji marki
 - Integracja z SEO
 
 **Słabe strony:**
@@ -333,7 +333,7 @@ Unikaj: ogólników, powtarzania specyfikacji jako korzyści
 - Płatny (brak darmowej wersji)
 - Mniej elastyczny niż ChatGPT/Claude
 
-**Najlepsze do:** Zespołów marketingowych, skalowania contentu, utrzymania spójności marki.
+**Najlepsze do:** zespołów marketingowych, skalowania treści, utrzymania spójności marki.
 
 ### Inne narzędzia warte uwagi
 
@@ -359,68 +359,68 @@ Nie musisz płacić za wszystkie narzędzia. Na start wystarczy darmowa wersja C
 
 Jak wygląda typowy dzień pracy copywritera korzystającego z AI?
 
-### Workflow 1: Napisanie artykułu blogowego
+### Workflow 1. Napisanie artykułu blogowego
 
-**Krok 1: Research (20 min)**
+**Krok 1. Wyszukiwanie informacji (20 min)**
 
 - Zbierasz materiały źródłowe
-- Używasz AI do syntezy: ``Przeczytaj te artykuły i wyciągnij kluczowe punkty''
+- Używasz AI do syntezy: „Przeczytaj te artykuły i wyciągnij kluczowe punkty”
 - Weryfikujesz fakty i statystyki
 
-**Krok 2: Outline (10 min)**
+**Krok 2. Struktura (10 min)**
 
 - Prosisz AI o 3 propozycje struktury
 - Wybierasz najlepszą, modyfikujesz
 - Definiujesz, co chcesz powiedzieć w każdej sekcji
 
-**Krok 3: Draft (30 min)**
+**Krok 3. Szkic (30 min)**
 
-- AI generuje draft poszczególnych sekcji
+- AI generuje szkice poszczególnych sekcji
 - Ty dodajesz własne przemyślenia, przykłady, głos
-- Iterujesz: ``Przepisz to mniej formalnie''
+- Iterujesz: „Przepisz to mniej formalnie”
 
-**Krok 4: Edycja (20 min)**
+**Krok 4. Edycja (20 min)**
 
 - Czytasz całość na głos
-- Poprawiasz flow i spójność
+- Poprawiasz brzmienie i spójność
 - Dodajesz wprowadzenie i zakończenie (sam!)
 - Sprawdzasz fakty
 
 **Razem:** 80 min zamiast 3-4 godzin
 
-### Workflow 2: Kampania emailowa (5 maili)
+### Workflow 2. Kampania emailowa (5 maili)
 
-**Krok 1: Strategia (15 min)**
+**Krok 1. Strategia (15 min)**
 
 - Definiujesz cel sekwencji
 - Określasz, co ma być w każdym mailu
 - Przygotowujesz brief dla AI
 
-**Krok 2: Generowanie (20 min)**
+**Krok 2. Generowanie (20 min)**
 
-- AI generuje drafty wszystkich 5 maili
+- AI generuje szkice wszystkich 5 maili
 - Prosisz o alternatywne tematy (10 wariantów)
 
-**Krok 3: Selekcja i edycja (30 min)**
+**Krok 3. Selekcja i edycja (30 min)**
 
 - Wybierasz najlepsze elementy
-- Przepisujesz w głosie marki
+- Przepisujesz w tonie marki
 - Dodajesz personalizację
 
-**Krok 4: Warianty A/B (10 min)**
+**Krok 4. Warianty A/B (10 min)**
 
 - AI generuje warianty tematów do testów
 - Wybierasz 2-3 do przetestowania
 
 **Razem:** 75 min zamiast 4-5 godzin
 
-### Workflow 3: Audyt istniejącego copy
+### Workflow 3. Audyt istniejącego copy
 
 ```
 Przeanalizuj poniższy tekst pod kątem:
 
 1. Jasności przekazu (czy od razu wiadomo, o co chodzi?)
-2. Skupienia na kliencie vs. na firmie (policz "my/nasze" vs "ty/twoje")
+2. Skupienia na kliencie vs. na firmie (policz „my/nasze” vs „ty/twoje”)
 3. Konkretności (czy są liczby, przykłady?)
 4. Call to action (czy jest jasny i przekonujący?)
 5. Czytelności (czy tekst jest łatwy do skanowania?)
@@ -445,28 +445,27 @@ AI output to draft, nie finał. Zawsze edytuj.
 
 ### 2. Nie polegaj na faktach od AI
 
-AI ``halucynuje'' --- wymyśla statystyki, cytaty, źródła. **Zawsze weryfikuj** każdą liczbę i fakt.
+AI „halucynuje” --- wymyśla statystyki, cytaty, źródła. **Zawsze weryfikuj** każdą liczbę i fakt.
 
-### 3. Nie pozwól AI definiować głosu marki
+### 3. Nie pozwól AI definiować tonu komunikacji marki
 
-AI może naśladować styl, ale nie może go stworzyć. Głos marki definiujesz Ty, AI tylko pomaga go utrzymać.
+AI może naśladować styl, ale nie powinno go tworzyć od zera. Ton komunikacji marki definiujesz Ty, AI tylko pomaga go utrzymać.
 
 ### 4. Nie używaj AI do:
 
 - Pisania o wydarzeniach po dacie odcięcia wiedzy (bez web search)
-- Tworzenia treści wymagających empatii (np. kondolencje, przeprosiny)
 - Generowania treści prawnych lub medycznych bez weryfikacji eksperta
 - Pisania jako konkretna osoba (problem etyczny)
 
 ### 5. Nie ukrywaj użycia AI (gdy to nieetyczne)
 
-Jeśli klient płaci za ``Twoje'' teksty, bądź transparentny co do roli AI w procesie. Większość klientów akceptuje AI jako narzędzie, ale nie akceptuje oszustwa.
+Jeśli klient płaci za „Twoje” teksty, bądź transparentny co do roli AI w procesie. Większość klientów akceptuje AI jako narzędzie, ale nie akceptuje oszustwa.
 
 ```{=latex}
 \begin{wazne}
-\textbf{Test jakości AI output:}
+\textbf{Test jakości odpowiedzi AI:}
 
-Przed wysłaniem tekstu klientowi zadaj sobie pytanie: ``Czy podpisałbym się pod tym tekstem, gdyby był w całości mój?''
+Przed wysłaniem tekstu klientowi zadaj sobie pytanie: „Czy podpisałbym się pod tym tekstem, gdyby był w całości mój?”
 
 Jeśli nie --- edytuj dalej.
 \end{wazne}
@@ -493,10 +492,9 @@ Branża copywritingu przechodzi transformację. Ale to nie koniec pracy dla copy
 
 - Strategia komunikacji
 - Głęboki research i wywiady z klientami
-- Storytelling oparty na prawdziwych historiach
+- Storytelling bazujący na prawdziwych historiach
 - Koncepcje kreatywne
-- Brand voice development
-- Konwersja i direct response
+- Konwersja i bezpośrednie odpowiedzi
 - Edukacja i szkolenie zespołów
 
 ### Jak się przygotować?
@@ -517,7 +515,7 @@ Branża copywritingu przechodzi transformację. Ale to nie koniec pracy dla copy
 \decoline
 ```
 
-## Checklist pracy z AI
+## Praca z AI --- podsumowanie
 
 **Przed użyciem AI:**
 
@@ -531,15 +529,15 @@ Branża copywritingu przechodzi transformację. Ale to nie koniec pracy dla copy
 - [ ] Używam formuły RCE (Rola, Kontekst, Oczekiwanie)
 - [ ] Daję przykłady pożądanego stylu
 - [ ] Iteruję i prowadzę dialog
-- [ ] Proszę o warianty, nie tylko jeden output
+- [ ] Proszę o warianty, nie tylko jedną odpowiedź
 
-**Po otrzymaniu outputu:**
+**Po otrzymaniu odpowiedzi:**
 
 - [ ] Weryfikuję wszystkie fakty i liczby
 - [ ] Edytuję w głosie marki
 - [ ] Dodaję własne przemyślenia i przykłady
-- [ ] Czytam na głos, sprawdzam flow
-- [ ] Zadaję pytanie: ``Czy podpisałbym się pod tym?''
+- [ ] Czytam na głos, sprawdzam brzmienie
+- [ ] Zadaję pytanie: „Czy podpisałbym się pod tym?”
 
 ```{=latex}
 \decoline
@@ -564,17 +562,17 @@ Przećwicz metodę kanapki AI na realnym zadaniu.
 \begin{enumerate}
   \item Użyj ChatGPT lub Claude
   \item Przekaż kontekst z Kroku 1
-  \item Poproś o draft emaila + 5 wariantów tematu
+  \item Poproś o szkic emaila + 5 wariantów tematu
   \item Poproś o alternatywną wersję w innym tonie
 \end{enumerate}
 
 \textbf{Krok 3: Człowiek (15 min)}
 \begin{enumerate}
-  \item Wybierz najlepsze elementy z outputów AI
-  \item Przepisz email w swoim głosie
+  \item Wybierz najlepsze elementy z odpowiedzi AI
+  \item Przepisz email w swoim tonie
   \item Dodaj osobiste elementy (historia, anegdota)
-  \item Przeczytaj na głos, popraw flow
-  \item Porównaj z oryginalnym outputem AI
+  \item Przeczytaj na głos, popraw brzmienie
+  \item Porównaj z oryginalną odpowiedzią AI
 \end{enumerate}
 
 \textbf{Refleksja:} Co AI zrobiło dobrze? Co musiałeś znacząco zmienić? Ile czasu zaoszczędziłeś vs. pisanie od zera?
